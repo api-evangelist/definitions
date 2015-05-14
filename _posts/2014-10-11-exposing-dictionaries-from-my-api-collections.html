@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Exposing Dictionaries From My API Collections'
+url: http://design.apievangelist.com/2014/10/11/exposing-dictionaries-from-my-api-collections/
+source: http://design.apievangelist.com/2014/10/11/exposing-dictionaries-from-my-api-collections/
+domain: design.apievangelist.com
+image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dictionary.png
+---
+
+<p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dictionary.png" alt="" width="150" align="right" /></p>
+<p>I&rsquo;m playing around with different ways to compose, and examine collections of APIs. I have a database of over 2500 API that I keep an eye on, and for some of them I&rsquo;ve been generating Swagger specs, and using <a href="http://apisjson.org">APIs.json</a> to compose them into collections. I did this with 1<a href="http://apievangelist.com/2014/10/10/exploring-the-possibilities-of-being-an-api-broker/">0 APIs I'm calling my utility stack</a>, because they are some of the fundamental utility style resources I depend on to make the API Evangelist network function.</p>
+<p>I generated Swagger specs for the 10 following APIs:</p>
+<ul class="mainlist">
+<li>bitly Data API Search</li>
+<li>FullContact Name API</li>
+<li>FullContact Location Normalization API</li>
+<li>Pinboard All Posts API</li>
+<li>AngelList Startup API</li>
+<li>Wordnik WordList API</li>
+<li>AlchemyAPI Keyword and Term Extraction</li>
+<li>AlchemyAPI Text Extraction API</li>
+<li>AlchemyAPI Author Extraction API</li>
+</ul>
+<p>Then using these Swagger definitions, I outputted any parameters that are used for endpoints, as well as the fields for all of the APIs underlying data model. I grouped all of these fields together and created a sort of dictionary for my utility stack API collection. By doing this I&rsquo;m learning a lot about the vocabulary that each of these API providers are using, as well as beginning to see patterns across similar APIs, like text extraction APIs, and URL shortener APIs.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/utility-stack-dictionary.png" alt="" width="550" /></p>
+<p>In a perfect world, APIs would use commonly established vocabularies like <a href="http://schema.org">schema.org</a>, but in the imperfect API world we are given, I&rsquo;m enjoying taking a look at the sort of API slang that has emerged across the various types of popular APIs we are adopting.  API definition formats like Swagger give me a great way to define the surface are of APIs, and these exercises allow me to push forwards tools and approaches to understanding this new landscape.</p>
+<p>The more APIs I generate Swagger definitions for, and the more tools I develop to analyze the landscape, the better I will get at communicating the interesting patterns I&rsquo;m seeing across the API space, and hopefully extract some blueprints that I can follow in my own API design work.</p>

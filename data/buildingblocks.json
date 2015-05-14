@@ -1,0 +1,247 @@
+{
+	"buildingblocks": [
+		{
+			"id": "560",
+			"name": "Definition",
+			"summary": "A central, machine readable definition of an API interface, authentication and potentially data model, in XML, JSON or Markdown. (Examples: API Blueprint, RAML, Swagger)",
+			"details": "A central, machine readable definition of an API interface, authentication and potentially data model, in XML, JSON or Markdown. (Examples: API Blueprint, RAML, Swagger)",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-api-a.png",
+			"width": "0",
+			"tags": "",
+			"category": "Definition",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "562",
+			"name": "Parser",
+			"summary": "An API definition parser, available potentially in multiple languages and open up the programmatic generation of other API building blocks.",
+			"details": "An API definition parser, available potentially in multiple languages and open up the programmatic generation of other API building blocks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-gears.png",
+			"width": "0",
+			"tags": "",
+			"category": "Parser",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "563",
+			"name": "Design Tools",
+			"summary": "User interface tools, allowing for the building of central API definitions, either in a code view or GUI view.",
+			"details": "User interface tools, allowing for the building of central API definitions, either in a code view or GUI view.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-design.png",
+			"width": "0",
+			"tags": "",
+			"category": "Design Tools",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "564",
+			"name": "Versioning",
+			"summary": "Systems allowing for the versioning of API definition, keeping track of all changes, allowing for rolling back of changes to previous versions.",
+			"details": "Systems allowing for the versioning of API definition, keeping track of all changes, allowing for rolling back of changes to previous versions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-app-icon.jpg",
+			"width": "0",
+			"tags": "",
+			"category": "Versioning",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "565",
+			"name": "Forkable",
+			"summary": "The ability to fork an existing API definition, and create a new branch, that can live separately from the API definition it originates from.",
+			"details": "The ability to fork an existing API definition, and create a new branch, that can live separately from the API definition it originates from.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-fork.png",
+			"width": "0",
+			"tags": "",
+			"category": "Forkable",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "566",
+			"name": "Sharing",
+			"summary": "Allowing for the sharing of API definitions and other API design building blocks with other users, employing common social sharing features of preferred networks.",
+			"details": "Allowing for the sharing of API definitions and other API design building blocks with other users, employing common social sharing features of preferred networks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-sharing.jpeg",
+			"width": "0",
+			"tags": "",
+			"category": "Sharing",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "567",
+			"name": "Collaboration",
+			"summary": "Features that allow for collaboration between users, with discussion around all API design building blocks.",
+			"details": "Features that allow for collaboration between users, with discussion around all API design building blocks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-collaboration.png",
+			"width": "0",
+			"tags": "",
+			"category": "Collaboration",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "568",
+			"name": "Mock Interfaces",
+			"summary": "Ability to deploy mock API interfaces generated from API definitions, allowing developers to play with API versions as they are designed.",
+			"details": "Ability to deploy mock API interfaces generated from API definitions, allowing developers to play with API versions as they are designed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-mock-interface.png",
+			"width": "0",
+			"tags": "",
+			"category": "Mock Interfaces",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "569",
+			"name": "Interactive Documentation / Console",
+			"summary": "Automatically generated API documentation which allows developers to make calls against APIs as they are learning about the interface, turning API education into a hands on experience.",
+			"details": "Automatically generated API documentation which allows developers to make calls against APIs as they are learning about the interface, turning API education into a hands on experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation-interactive.png",
+			"width": "0",
+			"tags": "",
+			"category": "Interactive Documentation / Console",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "570",
+			"name": "Notebook / Directory",
+			"summary": "A local, or cloud based storage repository, providing a single place to create and manage API definitions, and execute other API design building blocks.",
+			"details": "A local, or cloud based storage repository, providing a single place to create and manage API definitions, and execute other API design building blocks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-notebook.png",
+			"width": "0",
+			"tags": "",
+			"category": "Notebook / Directory",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "571",
+			"name": "Testing",
+			"summary": "Manual, automated and scheduled testing of API interfaces using their API definition as a blueprint, allowing developers to test all APIs to make sure they comply to API definition.",
+			"details": "Manual, automated and scheduled testing of API interfaces using their API definition as a blueprint, allowing developers to test all APIs to make sure they comply to API definition.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-testing.png",
+			"width": "0",
+			"tags": "",
+			"category": "Testing",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "572",
+			"name": "Debugging",
+			"summary": "Manual, automated and scheduled debugging of API interfaces, providing detailed look inside of API calls, allowing developers to understand problems with API integrations.",
+			"details": "Manual, automated and scheduled debugging of API interfaces, providing detailed look inside of API calls, allowing developers to understand problems with API integrations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-debug.png",
+			"width": "0",
+			"tags": "",
+			"category": "Debugging",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "573",
+			"name": "Traffic Inspection",
+			"summary": "Logging and analysis of API traffic from testing, debugging and all other API usage during the API design process.",
+			"details": "Logging and analysis of API traffic from testing, debugging and all other API usage during the API design process.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-traffic-light.png",
+			"width": "0",
+			"tags": "",
+			"category": "Traffic Inspection",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "574",
+			"name": "Validator",
+			"summary": "Tools for validating API calls, enabling developers to determine which types of calls will be valid, using central API definition.",
+			"details": "Tools for validating API calls, enabling developers to determine which types of calls will be valid, using central API definition.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-validation.png",
+			"width": "0",
+			"tags": "",
+			"category": "Validator",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "575",
+			"name": "Server Code Generators",
+			"summary": "Tooling that generates server side implementations using API definitions in a variety of languages.",
+			"details": "Tooling that generates server side implementations using API definitions in a variety of languages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-code-server.png",
+			"width": "0",
+			"tags": "",
+			"category": "Server Code Generators",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "576",
+			"name": "Client Side Code Generator",
+			"summary": "Tooling that generates client side API code libraries in a variety of languages.",
+			"details": "Tooling that generates client side API code libraries in a variety of languages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-code.png",
+			"width": "0",
+			"tags": "",
+			"category": "Client Side Code Generator",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "577",
+			"name": "Github Sync",
+			"summary": "The ability to store and sync API definitions with Github, providing a central public or private repository for the definition of an API resource.",
+			"details": "The ability to store and sync API definitions with Github, providing a central public or private repository for the definition of an API resource.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg",
+			"width": "0",
+			"tags": "",
+			"category": "Github Sync",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "578",
+			"name": "Command Line",
+			"summary": "Command line tooling for execution of all API building blocks.",
+			"details": "Command line tooling for execution of all API building blocks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png",
+			"width": "0",
+			"tags": "",
+			"category": "Command Line",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "579",
+			"name": "Websockets",
+			"summary": "Providing tools for API communication via websockets using API definition as a guide.",
+			"details": "Providing tools for API communication via websockets using API definition as a guide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-websockets.png",
+			"width": "0",
+			"tags": "",
+			"category": "Websockets",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "580",
+			"name": "Translator",
+			"summary": "Tools for translating between various API definitions, allowing the transformation from RAML to Swagger, and between each API definition format.",
+			"details": "Tools for translating between various API definitions, allowing the transformation from RAML to Swagger, and between each API definition format.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-translation.png",
+			"width": "0",
+			"tags": "",
+			"category": "Translator",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "581",
+			"name": "Annotation",
+			"summary": "Tools and interfaces for allowing the annotation of API definitions, providing a communication platform centered around the API design process.",
+			"details": "Tools and interfaces for allowing the annotation of API definitions, providing a communication platform centered around the API design process.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-annotate.png",
+			"width": "0",
+			"tags": "",
+			"category": "Annotation",
+			"categoryslug": "api-design"
+		},
+		{
+			"id": "582",
+			"name": "Syntax Highlight",
+			"summary": "Tools and interfaces for the highlighting of API definitions, providing IDE-like functionally for API designers.",
+			"details": "Tools and interfaces for the highlighting of API definitions, providing IDE-like functionally for API designers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-highlighter.png",
+			"width": "0",
+			"tags": "",
+			"category": "Syntax Highlight",
+			"categoryslug": "api-design"
+		}
+	],
+	"published": "01/06/2015"
+}

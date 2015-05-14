@@ -1,0 +1,85 @@
+---
+layout: page
+title: Tools
+---
+<!-- Begin List API Design companies--->
+{% raw  %}
+<script id="toolListingTemplate" type="text/template">       
+    <tr>
+        <td align="left" valign="top">
+            <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="175" align="left" style="padding: 15px;" /></a>
+            <a href="" id="home-name-link-{{id}}" style="color: #000;"><strong>{{name}}</strong></a><p>{{summary}}</p>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">   
+        	           
+	        <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
+	
+	        <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
+	   
+	        <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" style="display: inline; margin: 10px; width: 36px;" /></a>
+	   
+	        <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" style="display: inline; margin: 10px; width: 45px;" /></a>
+	
+	        <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" style="display: inline; margin: 10px; width: 50px;" /></a>            
+			<hr />
+		</td>
+	</tr> 
+</script>
+{% endraw %}
+
+<ul class="toolbar">
+    <li>{"<a href="/data/tools.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
+</ul>
+<h1>API Design Tools</h1>
+<p>These are some of the tools I'm tracking on in the API design space. I try to focus on open source tools and formats when aggregating tools across the space.</p>
+
+<table id="toolListing" style="" width="100%" cellpadding="1" cellspacing="1" border="0"></table>
+
+<script type="text/javascript">
+function listTools()
+    {
+    $.getJSON('data/tools.json', function(data) {
+        toggle = 0;
+         $.each(data['tools'], function(key, val) {
+         	
+            var template = $('#toolListingTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#toolListing').append(html);
+            
+            thisid = val['id'];            
+            id = val['id'];
+            website = val['website'];
+            //alert(website);
+            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
+            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
+            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
+                
+            if(val['blog'])
+            	{                    
+            	blog = val['blog'];
+            	if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
+                }
+            if(val['blogrss'])
+            	{                              
+           	 blogrss = val['blogrss'];
+            	if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
+                }
+            if(val['twitter'])
+            	{             
+            	twitter = val['twitter'];
+            	if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
+                }
+            if(val['github'])
+            	{             
+           	 	github = val['github'];
+           	 	if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
+                }                                   
+            });
+        });
+    } 
+listTools();
+</script>
+<!-- End List API Design companies--->

@@ -1,0 +1,80 @@
+{
+	"company": [
+		{
+			"id": "19",
+			"name": "Apiary",
+			"summary": "Apiary.io is a hosted suite of tools that help companies build web APIs quickly, test &amp; monitor them easily and document them effortlessly. It provides API owners with necessary infrastructure and helps them build relationship with their users. Core of the self-service solution is API Blueprint, an efficient format for describing an API, aspiring to define new gold standard for REST API develo",
+			"details": "Apiary.io is a hosted suite of tools that help companies build web APIs quickly, test &amp; monitor them easily and document them effortlessly. It provides API owners with necessary infrastructure and helps them build relationship with their users. Core of the self-service solution is API Blueprint, an efficient format for describing an API, aspiring to define new gold standard for REST API development. The product uses this Blueprint to streamline adoption of new services and simplify integration to other systems.",
+			"website": "https://apiary.io",
+			"twitter": "https://twitter.com/apiaryio",
+			"github": "https://github.com/apiaryio",
+			"blog": "http://blog.apiary.io/",
+			"blogrss": "http://blog.apiary.io/feed.xml",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiary-io-logo.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/apiary-screenshot.png",
+			"tags": "API Design"
+		},
+		{
+			"id": "1",
+			"name": "Mashery",
+			"summary": "Mashery&rsquo;s API management tools and strategic services help companies connect with customers and partners in a changing digital world by extending reach across devices, markets and the Web. Mashery leads the industry with a holistic approach for API initiatives &ndash; from setting platform strategy and measuring business objectives to the heavy lifting of providing and managing infrastructur",
+			"details": "Mashery&rsquo;s API management tools and strategic services help companies connect with customers and partners in a changing digital world by extending reach across devices, markets and the Web. Mashery leads the industry with a holistic approach for API initiatives &ndash; from setting platform strategy and measuring business objectives to the heavy lifting of providing and managing infrastructure to facilitating relationships with our 150,000 strong network of Web and mobile application developers. Having worked with over 100 leading brands to power more than 40,000 apps, Mashery&rsquo;s knowledge, experience and proven strategies enable companies to focus on their core business while driving sales, building new revenue channels and realizing faster time-to-market for innovative applications.",
+			"website": "http://mashery.com",
+			"twitter": "https://twitter.com/masherydev",
+			"github": "https://github.com/mashery",
+			"blog": "http://www.mashery.com/blog",
+			"blogrss": "http://feeds.feedburner.com/MasheryBlog",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashery-logo.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/Mashery-Screenshot.png",
+			"tags": "API Design,API Discovery,API Management"
+		},
+		{
+			"id": "1684",
+			"name": "Swagger",
+			"summary": "Swagger UI is part of Swagger project. The Swagger project allows you to produce, visualize and consume your OWN RESTful services. No proxy or 3rd party services required. Do it your own way. Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API. Because Swagger UI has no dependencie",
+			"details": "Swagger UI is part of Swagger project. The Swagger project allows you to produce, visualize and consume your OWN RESTful services. No proxy or 3rd party services required. Do it your own way. Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API. Because Swagger UI has no dependencies, you can host it in any server environment, or on your local machine.",
+			"website": "http://swagger.wordnik.com/",
+			"twitter": "",
+			"github": "https://github.com/Swagger",
+			"blog": "",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Swagger-Logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Design"
+		},
+		{
+			"id": "2245",
+			"name": "MuleSoft",
+			"summary": "MuleSoft provides the most widely used integration platform for connecting SaaS and enterprise applications in the cloud and on-premise. With the rise of cloud and mobile, enterprises face a choice: get overwhelmed by the resulting explosion of end points or seize the opportunity to gain competitive advantage. Founded on the idea that connecting applications should not be hard, MuleSoft lets organ",
+			"details": "MuleSoft provides the most widely used integration platform for connecting SaaS and enterprise applications in the cloud and on-premise. With the rise of cloud and mobile, enterprises face a choice: get overwhelmed by the resulting explosion of end points or seize the opportunity to gain competitive advantage. Founded on the idea that connecting applications should not be hard, MuleSoft lets organizations harness the power of their applications through integration. MuleSoft&rsquo;s Anypoint&trade; technology eliminates costly, time-intensive point-to-point integration, enabling business agility. Delivered as a packaged integration experience, CloudHub&trade; and Mule ESB&trade; (Enterprise Service Bus) are built on proven open source technology for the fastest, most reliable on-premise and cloud integration without vendor lock-in.",
+			"website": "http://www.mulesoft.com/",
+			"twitter": "https://twitter.com/MuleSoft",
+			"github": "",
+			"blog": "http://blogs.mulesoft.org/",
+			"blogrss": "http://feeds.feedburner.com/muleblog",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mulesoft-logo.jpeg",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Design,API Management,API-Deployment"
+		},
+		{
+			"id": "10327",
+			"name": "Stateless",
+			"summary": "At Stateless we employ our specialist experience, design processes and tools to ensure our clients realise the most value from their APIs. We're making the world of APIs beautiful.We work with you to surface the business goals for the API. We decide on the metrics to measure and track. These will help in understanding whether we are achieving our goals. We create developer personas to represent th",
+			"details": "At Stateless we employ our specialist experience, design processes and tools to ensure our clients realise the most value from their APIs. We're making the world of APIs beautiful.We work with you to surface the business goals for the API. We decide on the metrics to measure and track. These will help in understanding whether we are achieving our goals. We create developer personas to represent the various types of consumer, and a roadmap to deliver features tailored to them. We offer engineering and product management resources delivered using the best modern processes and tools. We employ Lean practice by tracking important metrics and constantly feeding that insight back into the live roadmap. We provide technical writers, and use the latest tools and techniques to interlace your test suite and your documentation.",
+			"website": "http://stateless.co/",
+			"twitter": "",
+			"github": "",
+			"blog": "",
+			"blogrss": "",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stateless-api-consulting.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Design,API-Agency"
+		}
+	],
+	"published": "11/13/2014"
+}

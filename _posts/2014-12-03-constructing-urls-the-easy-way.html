@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'Constructing URLs the easy way'
+url: http://www.bizcoder.com:80/constructing-urls-the-easy-way
+source: http://www.bizcoder.com:80/constructing-urls-the-easy-way
+domain: www.bizcoder.com
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-bizcoder-com:80constructing-urls-the-easy-way.png
+---
+
+<p>When building client applications that need to connect to a HTTP API, sooner or later you are going to get involved in constructing a URL based on a API Root and some parameters.  Often enough when looking at client libraries I see lots of ugly string concatenation and conditional logic to account for empty parameter values and trailing slashes.  And there there is the issue of encoding.  Several years ago a IETF specification (RFC 6570) was released that described a templating system for URLs and I created a library that implements the specification.  Here is how you can use it to make constructing even the most crazy URLs as easy as pie.</p>
+

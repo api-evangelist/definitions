@@ -1,0 +1,77 @@
+---
+layout: page
+title: Building Blocks
+---
+<style>
+
+    .buildingblocklistingcontainer{
+        padding-left: 10px; 
+        padding-right: 10px; 
+        width:550px;
+    }
+    .buildingblockcategorylistingul{
+        padding-left: 30px;
+    }  
+    .buildingblockcategorylistingul li{
+        list-style: none; 
+        padding: 10px 10px 20px 10px;
+        border: 0px solid #000;
+        font-size: 18px;
+        font-weight: bold;
+    }  
+    .buildingblocklistingul{
+        padding-left: 30px;
+    }  
+    .buildingblocklistingul li{
+        padding: 20px; 
+        border: 0px solid #000;
+        font-size: 14px;
+        font-weight: normal;
+    } 
+</style>
+
+<ul class="toolbar">
+    <li>{"<a href="http://design.apievangelist.com/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
+</ul>
+
+<h1 class="title">Building Blocks</h1>
+
+<p>These are some of the building blocks of the API design space I've been seeing evolve out of open API design tools and companies. It can be tough to generalize what the building blocks are across the space, and identify how it overlaps with other areas I'm tracking, but this is my best attempt to date.</p>
+
+<!--BaaS Full Listing Template--->
+{% raw  %}
+<script id="buildingblockTemplate" type="text/template">
+    <tr>       
+        <td width="60" align="center" valign="middle"><img src="{{image}}" width="75" align="left" style="padding: 15px;" /></td>
+        <td align="left" valign="middle"><strong>{{name}}</strong> - {{summary}}</td>
+    </tr>                                                                                           
+</script>
+{% endraw %}
+
+<!--Full Listing Container--->
+<div class="buildingblocklistingcontainter">
+     <table id="buildingblockListing" class="buildingblocklistingul" style="width: 90%; padding-left: 25px;"></table>
+</div>  
+
+<!--BaaS Full Listing JavaScript--->
+<script type="text/javascript">
+    
+function listbuidingblocks()
+    {
+    $.getJSON('data/buildingblocks.json', function(data) {
+         $.each(data['buildingblocks'], function(key, val) {
+            var template = $('#buildingblockTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#buildingblockListing').append(html);   
+            });                                   
+        });        
+    }    
+</script>
+
+<!--Trigger BaaS Full Listing JavaScript onLoad-->
+<script type="text/javascript">
+listbuidingblocks();
+</script>
+
+<p>If there are any features you depend on when designing your APIs, please let me know <a href="https://twitter.com/kinlane/">@kinlane</a>. I'm not trying to create a complete list, just get an idea for what is available across the providers, and where the gaps are potentially.</p>
