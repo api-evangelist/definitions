@@ -1,5 +1,5 @@
 title:        API Definitions
-url:          http://api-definitions.apievangelist.com
+url:          http://definitions.apievangelist.com
 version:      1.1.1
 author:
   name:       'Kin Lane'
@@ -14,9 +14,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 50
 paginate_path: "/news/page:num"
 
-production_url : http://api-definitions.apievangelist.com
+production_url : http://definitions.apievangelist.com
 
-BASE_PATH : http://api-definitions.apievangelist.com
+BASE_PATH : http://definitions.apievangelist.com
 
 categories_path : /categories.html
 tags_path : /tags.html
