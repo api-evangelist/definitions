@@ -30,6 +30,21 @@
 		"tags": "Advertising,Advertising-Stack,Analytics-Stack,API Definitions,API Deployment,API Deployment,Database,Document-Stack,Geo-Stack,Geo-Stack-Location,Geo-Stack-Mapping,Images-Stack,Machine-Learning-Stack,Mapping,Network-Stack,Orange-Report-Transportation,PaaS,Payment-API,Payments,Photo-Stack,Platform-Stack,Real-Time,Search,Social,Spreadsheets,Task-Stack,Transit,Translation-Stack,Utility-Stack,Website-Stack"
 	},
 	{
+		"id": "1",
+		"name": "Mashery",
+		"summary": "Masherys API management tools and strategic services help companies connect with customers and partners in a changing digital world by extending reach across devices markets and the Web Mashery leads the industry with a holistic approach for API initiatives ndash from setting platform strategy and measuring business objectives to the heavy lifting of providing and managing infrastructure to facili",
+		"details": "Masherys API management tools and strategic services help companies connect with customers and partners in a changing digital world by extending reach across devices markets and the Web Mashery leads the industry with a holistic approach for API initiatives ndash from setting platform strategy and measuring business objectives to the heavy lifting of providing and managing infrastructure to facilitating relationships with our 150000 strong network of Web and mobile application developers",
+		"website": "http://mashery.com",
+		"twitter": "https://twitter.com/masherydev",
+		"github": "https://github.com/mashery",
+		"blog": "http://www.mashery.com/blog",
+		"blogrss": "http://feeds.feedburner.com/MasheryBlog",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/mashery-logo.png",
+		"logo_width": "200",
+		"screenshot": "http://pbs.twimg.com/profile_images/491345315388092416/ruEA12Qs_normal.jpeg",
+		"tags": "API Definitions,API Design,API Discovery,API Management"
+	},
+	{
 		"id": "1917",
 		"name": "RESTful API Modeling Language",
 		"summary": "RESTful API Modeling Language RAML is a simple and succinct way of describing practicallyRESTful APIs It encourages reuse enables discovery and patternsharing and aims for meritbased emergence of best practices The goal is to help our current API ecosystem by solving immediate problems and then encourage everbetter API patterns RAML is built on broadlyused standards such as YAML and JSON and is a ",
