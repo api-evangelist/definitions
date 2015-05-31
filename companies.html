@@ -1,76 +1,35 @@
 ---
 layout: page
-title: Companies
+title: 'Companies'
 ---
-
-<ul class="toolbar">
-    <li>{"<a href="http://design.apievangelist.com/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
-    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
-</ul>
-
-<h1 class="title">Companies</h1>
-<p>These are the companies I am keeping an eye on when it comes to API definitions. As I see patterns emerge across providers, I will start to breaking companies into smaller groups, but for now I will list them all, with any supporting details for each provider.</p>
-<p><br /></p>
-{% raw  %}
-<script id="companyListingTemplate" type="text/template">       
-    <tr>
-        <td align="left" valign="top">
-            <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="{{logo_width}}" align="left" style="padding: 15px;" /></a>
-            <a href="" id="home-name-link-{{id}}" style="color: #000;"><strong>{{name}}</strong></a><p>{{details}}</p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" valign="top">   
-        	           
-	        <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	   
-	        <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" style="display: inline; margin: 10px; width: 36px;" /></a>
-	   
-	        <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" style="display: inline; margin: 10px; width: 45px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" style="display: inline; margin: 10px; width: 50px;" /></a>            
-			<hr />
-		</td>
-	</tr>                                                                                                  
-</script>
-{% endraw %}
-
-<table id="companyListing" style="" width="100%" cellpadding="1" cellspacing="1" border="0"></table>
-
-<script type="text/javascript">
-function listCompanies()
-    {
-    $.getJSON('/data/companies.json', function(data) {
-        toggle = 0;
-         $.each(data['company'], function(key, val) {
-            var template = $('#companyListingTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);     
-                        
-            id = val['id'];
-            website = val['website'];
-            //alert(website);
-            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
-            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
-            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
-                                    
-            blog = val['blog'];
-            if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
-                            
-            blogrss = val['blogrss'];
-            if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
-            
-            twitter = val['twitter'];
-            if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
-            
-            github = val['github'];
-            if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
-                        
-                                 
-            });
-        });
-    } 
-listCompanies();
-</script>
+<p>These are the organizations I am tracking on as part of my API research in this area.</p>
+<table width="100%" border="0"><tr>
+<td>
+<hr>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<a href="https://apiblueprint.org/" id="home-logo-link-18737"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiblueprint-logo-2.png" width="150" align="left" style="padding: 15px;" /></a>
+<a href="https://apiblueprint.org/" id="home-name-link-18737" style="color: #000;"><strong>API Blueprint</strong></a><p style="font-size: 14px;">API Blueprint is a documentationoriented API description language A couple of semantic assumptions over the plain Markdown API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration It is easy to learn and even easier to read ndash after all it is just a form of plain text</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<center>
+<table>
+<tr>
+<td width="50"><a href="https://apiblueprint.org/" target="_blank" title="Website" id="home-icon-18737"><img id="home-icon-img-18737" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" align="center" /></a></td>
+<td width="50"><a href="https://twitter.com/apiblueprint" target="_blank" title="Twitter" id="twitter-icon-18737"><img id="twitter-icon-img-18737" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" align="center" /></a></td>
+<td width="50"><a href="https://github.com/apiaryio/api-blueprint" target="_blank" title="Githube" id="github-icon-18737"><img id="github-icon-img-18737" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" align="center" /></a></td>
+</tr>
+</table>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<hr>
+</td>
+</tr>
+</table>
