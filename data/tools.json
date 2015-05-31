@@ -10,7 +10,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png",
 		"forks": "629",
 		"followers": "2155",
 		"watchers": "2155"
@@ -26,7 +26,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/sublime-dark-icon.png",
 		"forks": "6",
 		"followers": "72",
 		"watchers": "72"
@@ -42,7 +42,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/apiary-io-logo.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/api-blueprint.png",
 		"forks": 0,
 		"followers": 0,
 		"watchers": 0
@@ -58,7 +58,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/apiary-io-logo.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/api-blueprint.png",
 		"forks": 0,
 		"followers": 0,
 		"watchers": 0
@@ -74,7 +74,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/dredd-head.png",
 		"forks": "36",
 		"followers": "476",
 		"watchers": "476"
@@ -90,7 +90,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/io-docs-logo.jpg",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/io-docs-logo.jpg",
 		"forks": 0,
 		"followers": 0,
 		"watchers": 0
@@ -106,7 +106,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/apiary-icon.png",
 		"forks": "3",
 		"followers": "11",
 		"watchers": "11"
@@ -122,7 +122,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png",
 		"forks": "1",
 		"followers": "10",
 		"watchers": "10"
@@ -154,7 +154,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png",
 		"forks": "42",
 		"followers": "265",
 		"watchers": "265"
@@ -186,7 +186,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
 		"forks": "408",
 		"followers": "718",
 		"watchers": "718"
@@ -202,7 +202,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
 		"forks": "837",
 		"followers": "2501",
 		"watchers": "2501"
@@ -218,7 +218,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
 		"forks": "121",
 		"followers": "311",
 		"watchers": "311"
@@ -250,7 +250,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
 		"forks": "3",
 		"followers": "6",
 		"watchers": "6"
@@ -266,7 +266,7 @@
 		"blog_rss_url": "",
 		"twitter_url": "",
 		"github_url": "",
-		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
 		"forks": "182",
 		"followers": "320",
 		"watchers": "320"
