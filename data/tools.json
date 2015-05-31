@@ -3,7 +3,7 @@
 		"tool_id": "727",
 		"name": "api-blueprint",
 		"user": "apiaryio",
-		"details": "API Blueprint",
+		"details": "API Blueprint is a documentationoriented API description language A couple of semantic assumptions over the plain Markdown API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration It is easy to learn and even easier to read ndash after all it is just a form of plain text API Blueprint its parser and most of its tools are completely open sourced so you dont have to worry about vendor lockin This also means you can freely integrate API Blueprint into any type of product commercial or not",
 		"post_date": "2015-05-14 12:42:22",
 		"url": "https://github.com/apiaryio/api-blueprint/",
 		"glog_url": "",
