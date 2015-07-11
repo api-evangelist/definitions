@@ -77,50 +77,6 @@
 		"sort_order": "6"
 	},
 	{
-		"building_block_id": "1007",
-		"building_block_category_id": "165",
-		"name": "Mock",
-		"about": "<p>Generating a mock interface for an API based upon the definition provided, allowing for testing, and playing with a copy of the API that is not for production.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-mock-interface.png",
-		"image_width": "100",
-		"sort_order": "7"
-	},
-	{
-		"building_block_id": "992",
-		"building_block_category_id": "165",
-		"name": "Server",
-		"about": "<p>The auto generation of server side code from a machine readable API definition.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-code.png",
-		"image_width": "100",
-		"sort_order": "8"
-	},
-	{
-		"building_block_id": "993",
-		"building_block_category_id": "165",
-		"name": "Client",
-		"about": "<p>The auto generation of client side code from a machine readable API definition format.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-code.png",
-		"image_width": "100",
-		"sort_order": "9"
-	},
-	{
-		"building_block_id": "1006",
-		"building_block_category_id": "165",
-		"name": "Single Page Application",
-		"about": "<p>Generating a single page applicaiton in a specific framework, derieved from an API definition, either as documentation for API, or as functional app interactive with API itself.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-single-page-apps.png",
-		"image_width": "100",
-		"sort_order": "12"
-	},
-	{
 		"building_block_id": "994",
 		"building_block_category_id": "165",
 		"name": "Command-Line",
@@ -141,39 +97,6 @@
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png",
 		"image_width": "100",
 		"sort_order": "15"
-	},
-	{
-		"building_block_id": "998",
-		"building_block_category_id": "165",
-		"name": "Testing",
-		"about": "<p>Generating, providing, and configuring API testing using machine readable API definition formats.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-authentication-test.png",
-		"image_width": "100",
-		"sort_order": "17"
-	},
-	{
-		"building_block_id": "1009",
-		"building_block_category_id": "165",
-		"name": "Monitoring",
-		"about": "<p>Setting up of API monitors to keep track of API operations over scheduled period of time using an API definition format.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-heart-monitor.png",
-		"image_width": "100",
-		"sort_order": "18"
-	},
-	{
-		"building_block_id": "996",
-		"building_block_category_id": "165",
-		"name": "Proxy",
-		"about": "<p>Generation and configuration of a proxy from a machine readable API definition.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy.png",
-		"image_width": "100",
-		"sort_order": "20"
 	},
 	{
 		"building_block_id": "997",
@@ -198,17 +121,6 @@
 		"sort_order": "22"
 	},
 	{
-		"building_block_id": "1003",
-		"building_block_category_id": "165",
-		"name": "Documentation",
-		"about": "<p>Generation of static, or JavaScript interactive documentation from the API definition, helping developers understand what an API does.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation-interactive.png",
-		"image_width": "100",
-		"sort_order": "23"
-	},
-	{
 		"building_block_id": "1004",
 		"building_block_category_id": "165",
 		"name": "Forms",
@@ -218,27 +130,5 @@
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png",
 		"image_width": "100",
 		"sort_order": "24"
-	},
-	{
-		"building_block_id": "1005",
-		"building_block_category_id": "165",
-		"name": "Real-Time",
-		"about": "<p>Establishing a connection with real-time functionality derived from an API definition format, allowing APIs to be connected with other real-time protocols.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-clock-gear.png",
-		"image_width": "100",
-		"sort_order": "30"
-	},
-	{
-		"building_block_id": "999",
-		"building_block_category_id": "165",
-		"name": "Visualization",
-		"about": "<p>Generating a visualization from the meta data, or resources made available via a machine readable API definition.</p>",
-		"category_id": "165",
-		"category": "API Definition",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-visualization.png",
-		"image_width": "100",
-		"sort_order": "40"
 	}
 ]
