@@ -32,22 +32,6 @@
 		"watchers": "2155"
 	},
 	{
-		"tool_id": "88",
-		"name": "Apiary API Blueprint",
-		"user": "",
-		"details": null,
-		"post_date": "2013-06-12 18:45:41",
-		"url": "https://github.com/apiaryio/api-blueprint",
-		"blog_url": "https://github.com/apiaryio/api-blueprint",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/api-blueprint.png",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	},
-	{
 		"tool_id": "87",
 		"name": "Apiary Blueprint Parser",
 		"user": "",
