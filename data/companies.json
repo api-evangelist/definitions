@@ -60,6 +60,21 @@
 		"tags": null
 	},
 	{
+		"id": "18860",
+		"name": "Schema.org",
+		"summary": "Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond. Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. n",
+		"details": "Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond. Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. n",
+		"website": "http://schema.org",
+		"twitter": null,
+		"github": null,
+		"blog": null,
+		"blogrss": null,
+		"logo": null,
+		"logo_width": null,
+		"screenshot": null,
+		"tags": null
+	},
+	{
 		"id": "1684",
 		"name": "Swagger",
 		"summary": "Swagger is a machine readable API definition format that has built a number of tools around the specification, including an open source API design editor that allows you to design, import, and export APIs in JSON and YAML, then also generate server, and client side code, as well as interactive documentation.",
