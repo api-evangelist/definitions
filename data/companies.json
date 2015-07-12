@@ -17,8 +17,8 @@
 	{
 		"id": "137",
 		"name": "Google",
-		"summary": "You can use the Google API Discovery Service to build client libraries, IDE plugins, and other tools that interact with Google APIs. It provides a lightweight, JSON-based API that exposes machine-readable metadata about Google APIs.",
-		"details": "You can use the Google API Discovery Service to build client libraries, IDE plugins, and other tools that interact with Google APIs. It provides a lightweight, JSON-based API that exposes machine-readable metadata about Google APIs.",
+		"summary": "You can use the Google API Discovery Service to build client libraries, IDE plugins, and other tools that interact with Google APIs. It provides a lightweight, JSON-based API that exposes machine-readable metadata about Google APIs, but could also be used to describe other APIs.",
+		"details": "You can use the Google API Discovery Service to build client libraries, IDE plugins, and other tools that interact with Google APIs. It provides a lightweight, JSON-based API that exposes machine-readable metadata about Google APIs, but could also be used to describe other APIs.",
 		"website": "https://developers.google.com/discovery/",
 		"twitter": "",
 		"github": "https://github.com/google",
@@ -32,8 +32,8 @@
 	{
 		"id": "1",
 		"name": "Mashery",
-		"summary": "You want to make it fast and easy for developers to start building with your API. Mashery I/O Docs let you achieve that with a clean, powerful interface for executing live API calls right from your API documentation. With Mashery I/O Docs, your developers spend less time toggling, cutting, and pastingu2014and more time coding great apps.",
-		"details": "You want to make it fast and easy for developers to start building with your API. Mashery I/O Docs let you achieve that with a clean, powerful interface for executing live API calls right from your API documentation. With Mashery I/O Docs, your developers spend less time toggling, cutting, and pastingu2014and more time coding great apps.",
+		"summary": "You want to make it fast and easy for developers to start building with your API. Mashery I/O Docs let you achieve that with a clean, powerful interface for executing live API calls right from your API documentation. With Mashery I/O Docs, your developers spend less time toggling, cutting, and pasting and more time coding great apps.",
+		"details": "You want to make it fast and easy for developers to start building with your API. Mashery I/O Docs let you achieve that with a clean, powerful interface for executing live API calls right from your API documentation. With Mashery I/O Docs, your developers spend less time toggling, cutting, and pasting and more time coding great apps.",
 		"website": "http://www.mashery.com/product/io-docs",
 		"twitter": "https://twitter.com/Mashery",
 		"github": "https://github.com/mashery",
