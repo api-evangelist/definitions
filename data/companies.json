@@ -1,5 +1,20 @@
 [
 	{
+		"id": "18900",
+		"name": "Apache Avro",
+		"summary": "Apache Avro is a data serialization system. Avro relies on schemas. When Avro data is read, the schema used when writing it is always present. This permits each datum to be written with no per-value overheads, making serialization both fast and small. This also facilitates use with dynamic, scripting languages, since data, together with its schema, is fully self-describing.",
+		"details": "Apache Avro is a data serialization system. Avro relies on schemas. When Avro data is read, the schema used when writing it is always present. This permits each datum to be written with no per-value overheads, making serialization both fast and small. This also facilitates use with dynamic, scripting languages, since data, together with its schema, is fully self-describing.",
+		"website": null,
+		"twitter": null,
+		"github": null,
+		"blog": null,
+		"blogrss": null,
+		"logo": null,
+		"logo_width": null,
+		"screenshot": null,
+		"tags": null
+	},
+	{
 		"id": "18737",
 		"name": "API Blueprint",
 		"summary": "API Blueprint is a documentation-oriented API description language. A couple of semantic assumptions over the plain Markdown. API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration. It is easy to learn and even easier to read u2013 after all it is just a form of plain text.",
@@ -45,6 +60,21 @@
 		"tags": null
 	},
 	{
+		"id": "18899",
+		"name": "Open Data Protocol (OData)",
+		"summary": "OData (Open Data Protocol) is an OASIS standard that defines the best practice for building and consuming RESTful APIs. OData helps you focus on your business logic while building RESTful APIs without having to worry about the approaches to define request and response headers, status codes, HTTP methods, URL conventions, media types, payload formats and query options etc.",
+		"details": "OData (Open Data Protocol) is an OASIS standard that defines the best practice for building and consuming RESTful APIs. OData helps you focus on your business logic while building RESTful APIs without having to worry about the approaches to define request and response headers, status codes, HTTP methods, URL conventions, media types, payload formats and query options etc.",
+		"website": "http://www.odata.org/",
+		"twitter": "https://twitter.com/odataorg",
+		"github": "https://github.com/odata",
+		"blog": "http://www.odata.org/blog/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/odata-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/odata-logo.png",
+		"tags": null
+	},
+	{
 		"id": "1917",
 		"name": "RAML",
 		"summary": "RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices. The goal is to help our current API ecosystem by solving immediate problems and then encourage ever-better API patterns. RAML is built on broadly-used standards such as YAML and JS",
@@ -57,6 +87,21 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/raml-logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/raml-logo.jpg",
+		"tags": null
+	},
+	{
+		"id": "18897",
+		"name": "RESTdesc",
+		"summary": "Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture the functionality of hypermedia APIs, so automated agents can use them. Despite their powerful capabilities, RESTdesc descriptions are easy to master. Description is not a goal in itself: you want your API to be used. See how RESTdesc opens up your API for discovery, based on its functional characteristics.",
+		"details": "Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture the functionality of hypermedia APIs, so automated agents can use them. Despite their powerful capabilities, RESTdesc descriptions are easy to master. Description is not a goal in itself: you want your API to be used. See how RESTdesc opens up your API for discovery, based on its functional characteristics.",
+		"website": null,
+		"twitter": null,
+		"github": null,
+		"blog": null,
+		"blogrss": null,
+		"logo": null,
+		"logo_width": null,
+		"screenshot": null,
 		"tags": null
 	},
 	{
