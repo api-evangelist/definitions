@@ -239,7 +239,7 @@ a:focus {
     font-size: 64px;
   }
   .colophon {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -486,7 +486,7 @@ a:focus {
 }
 
 .sharebuttons{
-	text-align: center;	
+	text-align: center;
 }
 .sharebuttons li{
 	text-align: center;
@@ -497,8 +497,8 @@ a:focus {
 
 
 .toolbar{
-    float:right; 
-    padding-top: 10px;  
+    float:right;
+    padding-top: 10px;
 }
 .toolbar li{
     display: inline;
@@ -511,4 +511,4 @@ a:focus {
 .toolbar li a{
     color:#000;
     font-size: 14px;
-} 
+}
