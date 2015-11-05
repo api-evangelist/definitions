@@ -1,9 +1,9 @@
 [
 	{
-		"building_block_id": "1000",
-		"building_block_category_id": "165",
+		"building_block_id": "Yytfi3HdXVzI123CJIFS47KiqEo2Naw8XGhjr9vF156M7loyoyle8dGC9n65BrRIUu7bEB1TRS1H5A1s123mbLBIdg117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Specification",
-		"about": "<p>The root specification for the API definition format, providing a base set of rules for all services and tools that employ the spec.</p>",
+		"about": "The root specification for the API definition format, providing a base set of rules for all services and tools that employ the spec.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png",
@@ -11,10 +11,10 @@
 		"sort_order": "1"
 	},
 	{
-		"building_block_id": "988",
-		"building_block_category_id": "165",
+		"building_block_id": "57HV116iq5QcpvDvv42quus1hd2exnWtgIYKn7AQBodcWfuij0tIZUCdizMiaWufdsVc9hzptXAQzOWpY1v4123Ilg117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Generator",
-		"about": "<p>Generating an API definition format from an existing system or platform.</p>",
+		"about": "Generating an API definition format from an existing system or platform, outputting the portable machine readable format.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-generate.png",
@@ -22,10 +22,10 @@
 		"sort_order": "2"
 	},
 	{
-		"building_block_id": "989",
-		"building_block_category_id": "165",
+		"building_block_id": "3xx123cLfdf1yNMX0KbjkbqDJUjX5FdaB33eJUMKw44f3PiHPhf50iZDuqzM8ylCKASimVFogz7aSzlvlWSJCfjg117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Parser",
-		"about": "<p>Parses a machine readable API definition and makes ready for use in specific language, structure, or platform.</p>",
+		"about": "Parses a machine readable API definition and makes ready for use in specific language, structure, or platform.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-parse.png",
@@ -33,10 +33,10 @@
 		"sort_order": "2"
 	},
 	{
-		"building_block_id": "991",
-		"building_block_category_id": "165",
+		"building_block_id": "vr9t2fo123el14fAgfSurl2vYKXUPKo8MDrG4R2ptTknOCFUDBvtL47I1xEv5cTusU2apls123upNKWpWrbfciHvbw117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Validator",
-		"about": "<p>Validates an API definition against its formal specification and schema, producing a valid or invalid response, with as much detail as possible.</p>",
+		"about": "Validates an API definition against its formal specification and schema, producing a valid or invalid response, with as much detail as possible.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-valid.png",
@@ -44,10 +44,10 @@
 		"sort_order": "3"
 	},
 	{
-		"building_block_id": "990",
-		"building_block_category_id": "165",
+		"building_block_id": "N8ZSIq9S9KEb116MDTiyZinGlbxI2d3vpOWUqPDNxSHFDesyzyu0k1Mi8v8A0IOzqBHzU3123Hz3XEOpz123m3Oc1yJw117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Schema",
-		"about": "<p>Produces a specific schema, from an existing template, in a particular API definition format.</p>",
+		"about": "Produces a specific schema, from an existing template, in a particular API definition format.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png",
@@ -55,10 +55,10 @@
 		"sort_order": "4"
 	},
 	{
-		"building_block_id": "987",
-		"building_block_category_id": "165",
+		"building_block_id": "yDnEI5WFGpbBaXnjDYqSHVfhF1164iVybcdD1230fvcNgjXh7SSFNnpU7qpDaUwhiqi1239e116TQ1MoBo5Dd98LjQoYBg117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Converter",
-		"about": "<p>The conversion of an API definition from one format into another.</p>",
+		"about": "The conversion of an API definition from one format into another, allowing designers to share API definitions in any format.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-conversion.png",
@@ -66,10 +66,10 @@
 		"sort_order": "5"
 	},
 	{
-		"building_block_id": "1008",
-		"building_block_category_id": "165",
+		"building_block_id": "q07aUN5Rgl6O4VqppSXzpc2HtKNSv4vGwjhwkj02VrQG123MkvbxW7DgcXHb1alkKoPtFvEYeZQKcaNoedPlu7AQ117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Database",
-		"about": "<p>Tooling that generates an API definition format from a database connection, allowing for API integration with common database formats.</p>",
+		"about": "Tooling that generates an API definition format from a database connection, allowing for API integration with common database formats",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-database-new.png",
@@ -77,10 +77,10 @@
 		"sort_order": "6"
 	},
 	{
-		"building_block_id": "994",
-		"building_block_category_id": "165",
+		"building_block_id": "iyzAW8fRdSgyrkOnXP4IZJkEVDxGHbRk123hjd6123K7yglL123XKljG1Sjp1KxrgNod5LNIrpAkJnq3vKQQPt8VeeOg117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Command-Line",
-		"about": "<p>The usage of machine readable API definitions at the command line.</p>",
+		"about": "The usage of machine readable API definitions at the command line.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png",
@@ -88,10 +88,10 @@
 		"sort_order": "14"
 	},
 	{
-		"building_block_id": "995",
-		"building_block_category_id": "165",
+		"building_block_id": "Eatiz123rvFuCohRp6p0756nBpcANRwvmmHAmUA7ayRkRiqATPIHFmqFMtAvsGoy123BgL116GlcmsFl4zjXKM0DCBkg117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Powershell",
-		"about": "<p>The usage of machine readable API definitions via the powershell interface.</p>",
+		"about": "The usage of machine readable API definitions via the powershell interface.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png",
@@ -99,10 +99,10 @@
 		"sort_order": "15"
 	},
 	{
-		"building_block_id": "997",
-		"building_block_category_id": "165",
+		"building_block_id": "1116KOWbX9Z8yEwdTM0pxMwWq2dDg0ndUCNUQ4rJm123wzag2bM73AWs76pOGqpPlteqPVp4Ih7TaFqtehrmikJ02A117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Aggregator",
-		"about": "<p>Aggregation of APIs using a machine readable API definition format.</p>",
+		"about": "Aggregation of APIs using a machine readable API definition format.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-arrow-aggregate.png",
@@ -110,10 +110,10 @@
 		"sort_order": "21"
 	},
 	{
-		"building_block_id": "1001",
-		"building_block_category_id": "165",
+		"building_block_id": "6pDUGnSSL2aEr123Clc6a0kbB07eZcRmk8U1232scze92yWfSLtEts7VVFhS37Ty0mSBlqmlmYhyjtmOrj123od14CNQ117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Editors",
-		"about": "<p>API definition editor, allowing for the creation, import, and export of API definition formats, providing a simple, IDE like API editing experience.</p>",
+		"about": "API definition editor, allowing for the creation, import, and export of API definition formats, providing a simple, IDE like API editing experience.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png",
@@ -121,10 +121,10 @@
 		"sort_order": "22"
 	},
 	{
-		"building_block_id": "1004",
-		"building_block_category_id": "165",
+		"building_block_id": "lGMPG0y9zfk7GgAj9IvDiAkAvLFY99AEJxYakJOxLAwpDsuUzADdesJfkji9zb9qOlMfmFA04vh123KTRd5116RxIA117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
 		"name": "Forms",
-		"about": "<p>Dynamically generating an HTML form from an API definition, allow for the structure, and handling to be driven by an API definition.</p>",
+		"about": "Dynamically generating an HTML form from an API definition, allow for the structure, and handling to be driven by an API definition.",
 		"category_id": "165",
 		"category": "API Definition",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png",
