@@ -124,10 +124,10 @@ blockquote p {
   text-indent: -0.4em;
 }
 blockquote p:before {
-  content: '\201C';
+  contentlane: '\201C';
 }
 blockquote p:after {
-  content: '\201D';
+  contentlane: '\201D';
 }
 
 img {
@@ -250,13 +250,13 @@ a:focus {
  * with a 25%-wide `.masthead`.
  */
 
-.content {
+.contentlane {
   padding: 20px 20px;
 }
 
 /* Center container in available real estate */
 @media (min-width: 990px) {
-  .content {
+  .contentlane {
     padding: 40px 0;
   }
   .containerlane {
