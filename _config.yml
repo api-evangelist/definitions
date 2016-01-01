@@ -31,3 +31,8 @@ feature_title: API Design Providers Guide
 feature_link: http://apis.how/xzca4kr2wb
 feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-api-design.png
 feature_image_width: 45
+
+# Project
+
+project_image: https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-icon.png
+project_summary: Keeping an eye on API definitions, from formats like API Blueprint, OADF, and RAML, to APIs.json.
