@@ -35,7 +35,7 @@ feature_image_width: 45
 # Project
 
 project_image: https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-icon.png
-project_summary: Working to keep track of established, and emerging ways of defining APIs like Swagger, API Blueprint, and RAML. I also work to include information about media types, shemas, and other ways to define the value APIs deliver.
+project_summary: Working to keep track of established, and emerging ways of defining APIs like Swagger, API Blueprint, and RAML. I also work to include information about media types, shemas, and other ways to define the value APIs deliver. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling available.
 
 # Navigation
 navigation:
