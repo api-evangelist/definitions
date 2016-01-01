@@ -11,7 +11,7 @@ title: API Definitions
 <center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
 <div class="row" style="border: 1px solid #000; vertical-align: top;" align="center">
 
-  <div class="span3" align="left" style="border: 1px solid #000; float: none; margin: 0 auto; display: inline-block; height: 100%;">
+  <div class="span3" align="left" style="border: 1px solid #000; float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
     <ul class="featurelist">
@@ -23,17 +23,17 @@ title: API Definitions
     </ul>
 
   </div>
-  <div class="span3" align="left" style="border: 1px solid #000; float: none; margin: 0 auto; display: inline-block; height: 100%;">
+  <div class="span3" align="left" style="border: 1px solid #000; float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong></p>
     <ul class="newslist">
-      {% for post in site.posts limit:2 %}
+      {% for post in site.posts limit:3 %}
         <li><a href="{{ post.source }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
 
   </div>
-  <div class="span3" align="left" style="border: 1px solid #000; float: none; margin: 0 auto; display: inline-block; height: 100%;">
+  <div class="span3" align="left" style="border: 1px solid #000; float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
     <script type="text/javascript">
       $url = 'http://apievangelist.com/blog.xml';
@@ -43,7 +43,7 @@ title: API Definitions
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<2){
+              if($listcount<3){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
