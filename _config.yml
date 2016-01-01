@@ -41,7 +41,7 @@ project_summary: Research project to keep track of established, and emerging way
 navigation:
   - label1: Home
     link1: /index.html
-    size1: 60
+    size1: 70
     extend: 0
     label2:
     link2:
@@ -50,7 +50,7 @@ navigation:
     decorate: 0
   - label1: News
     link1: /news/
-    size1: 60
+    size1: 70
     extend: 1
     label2: RSS
     link2: /blog.xml
@@ -59,7 +59,7 @@ navigation:
     decorate: 0
   - label1: Organizations
     link1: /companies.html
-    size1: 60
+    size1: 70
     extend: 1
     label2: JSON
     link2: /data/companies.json
@@ -68,7 +68,7 @@ navigation:
     decorate: 0
   - label1: Building Blocks
     link1: /building-blocks.html
-    size1: 60
+    size1: 70
     extend: 1
     label2: JSON
     link2: /data/buildingblocks.json
@@ -77,7 +77,7 @@ navigation:
     decorate: 0
   - label1: Tools
     link1: /tools.html
-    size1: 60
+    size1: 70
     extend: 1
     label2: JSON
     link2: /data/tools.json
@@ -95,7 +95,7 @@ navigation:
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
-    size1: 60
+    size1: 70
     extend: 0
     label2:
     link2:
