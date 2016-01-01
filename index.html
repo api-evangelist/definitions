@@ -3,8 +3,10 @@ layout: page
 title: API Definitions
 ---
 <div class="row">
-  <div class="span7"><span style="font-size: 12px;">{{ site.project_summary }}</span></div>
-  <div class="span2"><center><img src="{{ site.project_image }}" align="center" width="200" /></center></div>
+  <div class="span9">
+    <span style="font-size: 12px;">{{ site.project_summary }}</span>
+    <img src="{{ site.project_image }}" align="right" width="200" style="padding: 10px;" /></center>
+  </div>
 </div>
 <br />
 <div class="row">
@@ -20,10 +22,11 @@ title: API Definitions
   </div>
   <div class="span3">
 
-    <p><strong>Latest on API Evangelist</strong></p>
+    <p><strong>Latest on API Definitions</strong></p>
     <ul class="newslist">
-      <li><a href="">Here Are The Top API Stacks I Will Be Working To Define in 2016</a></li>
-      <li><a href="">Do You Have What It Takes To Be On The API Academy Team?</a></li>
+      {% for post in site.posts limit:2 %}
+        <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+      {% endfor %}
     </ul>
 
   </div>
@@ -41,12 +44,13 @@ title: API Definitions
 <div class="row">
   <div class="span4">
 
-    <center><p><strong>Some Actions?</strong></p></center>
+    <center><p><a href="http://bit.ly/1ISZ1I9" target="_blank"><strong>View the PDF of This Research</strong></a></p></center>
 
   </div>
   <div class="span4">
 
-    <center><p><strong>Some Actions?</strong></p></center>
+    <center><p><a href="http://design.apievangelist.com" target="_blank"><strong>Visit API Design Research</strong></a></p></center>
+    <center><p><a href="http://hypermedia.apievangelist.com" target="_blank"><strong>Visit Hypermedia Research</strong></a></p></center>
 
   </div>
 </div>
