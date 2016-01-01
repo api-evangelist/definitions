@@ -81,7 +81,7 @@ navigation:
     padding: 0
   - label1: (View as PDF Guide)
     link1: http://bit.ly/1ISZ1I9
-    size1: 14
+    size1: 12
     extend: 0
     label2:
     link2:
