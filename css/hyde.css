@@ -244,14 +244,13 @@ a:focus {
  */
 
 .content {
-  padding: 20px 5px;
+  padding: 20px 10px;
 }
 
 /* Center container in available real estate */
 @media (min-width: 990px) {
   .content {
     padding: 40px 0;
-    border: 1px solid #000;
   }
   .container {
     width: 60%;
