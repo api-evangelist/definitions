@@ -38,18 +38,18 @@ title: API Definitions
     $.get($url, function (data) {
         $(data).find("item").each(function () { // or "item" or whatever suits your feed
             var el = $(this);
-            console.log("------------------------");
-            console.log("title      : " + el.find("title").text());
-            console.log("author     : " + el.find("link").text());
+            $title = el.find("title").text());
+            $link = el.find("link").text());
+
+            $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+            $('#rssNews').append($listitem);
+
         });
     });
     </script>
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong></p>
-    <ul class="newslist">
-      <li><a href="">Here Are The Top API Stacks I Will Be Working To Define in 2016</a></li>
-      <li><a href="">Do You Have What It Takes To Be On The API Academy Team?</a></li>
-    </ul>
+    <ul class="newslist" id="rssNews"></ul>
 
   </div>
 </div>
