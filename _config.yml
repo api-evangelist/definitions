@@ -23,7 +23,7 @@ tags_path : /tags.html
 
 # Masthead title
 masthead_link: http://apis.how/xzca4kr2wb
-masthead_font_size: 20
+masthead_font_size: 18
 masthead_title: '{"API Definitions"}'
 
 # Feature
