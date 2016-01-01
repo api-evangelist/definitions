@@ -91,3 +91,4 @@ navigation:
 
 # sponsors
 sponsors_padding_top: 10
+sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json

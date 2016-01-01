@@ -26,7 +26,7 @@
           </ul>
         </div>
 
-        <!-- Primary Sponsor -->
+        <!-- Sponsorship -->
         <script id="parterListingTemplate" type="text/template">
             {% raw  %}
             <a href="{{url}}" target="_blank" title="{{title}}">
@@ -36,7 +36,7 @@
         </script>
         <script type="text/javascript">
         function listSponsors(){
-            $.getJSON('https://s3.amazonaws.com/kinlane-productions/json/sponsors.json', function(data) {
+            $.getJSON('{{ site.sponsors_json_url }}', function(data) {
                 $.each(data['sponsors'], function(key, val) {
                 var template = $('#parterListingTemplate').html();
                 var html = Mustache.to_html(template, val);
@@ -47,7 +47,7 @@
         </script>
         <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: 5px; padding-top: {{ site.sponsors_padding_top }}px; width: 60%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 2px;"></div>
         <script type="text/javascript">listSponsors();</script>
-        <!-- Primary Sponsor -->
+        <!-- Sponsorship -->
 
       </div>
     </header>
