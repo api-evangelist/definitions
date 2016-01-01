@@ -42,7 +42,7 @@ title: API Definitions
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<3){
+              if($listcount<2){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
@@ -52,7 +52,7 @@ title: API Definitions
     </script>
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong></p>
     <ul class="newslist" id="rssNews"></ul>
-    
+
   </div>
 </div>
 <center><hr style="padding: 5px; margin: 5px; width: 85%;" /></center>
