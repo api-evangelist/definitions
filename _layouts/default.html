@@ -13,31 +13,16 @@
 
         <!-- Feature -->
         <a href="{{ site.feature_link }}" target="_blank">
-          <img src="{{ site.feature_image_source }}" width="{{ site.feature_image_width }}%" style="border: 1px solid #FFF;" title="{{ site.feature_title }}" /></a>
+          <img src="{{ site.feature_image_source }}" width="{{ site.feature_image_width }}%" style="border: 1px solid #FFF;" title="{{ site.feature_title }}" />
+        </a>
 
         <div class="colophon">
           <ul class="colophon-links">
+            {% for nav in site.navigation %}
             <li>
-              <a href="/index.html">Home</a>
+              <a href="{{ nav.link1 }}">{{ nav.label1 }}</a>{% if nav.label1 != '' %} <span style="font-size: 12px;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>
             </li>
-            <li>
-              <a href="/news/">News</a> <span style="font-size: 12px;">(<a href="/blog.xml">RSS</a>)</span>
-            </li>
-            <li>
-              <a href="/companies.html">Organizations</a> <span style="font-size: 12px;">(<a href="/data/companies.json">JSON</a>)</span>
-            </li>
-            <li>
-              <a href="/building-blocks.html">Building Blocks</a> <span style="font-size: 12px;">(<a href="/data/buildingblocks.json">JSON</a>)</span>
-            </li>
-            <li>
-              <a href="/tools.html">Tools</a> <span style="font-size: 12px;">(<a href="/data/tools.json">JSON</a>)</span>
-            </li>
-            <li>
-              <a href="http://bit.ly/1ISZ1I9" target="_blank" style="font-size: 12px;">(View as PDF Guide)</a>
-            </li>
-            <li style="padding-top: 10px;">
-              <a href="http://apievangelist.com"><< Return to API Evangelist</a>
-            </li>
+            {% endfor %}
           </ul>
         </div>
 
@@ -60,7 +45,7 @@
             });
           }
         </script>
-        <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: 5px; padding-top: 10px; width: 60%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 2px;"></div>
+        <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: 5px; padding-top: {{ site.sponsors_padding_top }}px; width: 60%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 2px;"></div>
         <script type="text/javascript">listSponsors();</script>
         <!-- Primary Sponsor -->
 
