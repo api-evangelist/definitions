@@ -38,8 +38,8 @@ title: API Definitions
     $.get($url, function (data) {
         $(data).find("item").each(function () {
             var el = $(this);
-            $title = el.find("title").text());
-            $link = el.find("link").text());
+            $title = el.find("title").text();
+            $link = el.find("link").text();
             $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
             $('#rssNews').append($listitem);
         });
