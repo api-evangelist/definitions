@@ -124,10 +124,10 @@ blockquote p {
   text-indent: -0.4em;
 }
 blockquote p:before {
-  contentlane: '\201C';
+  content: '\201C';
 }
 blockquote p:after {
-  contentlane: '\201D';
+  content: '\201D';
 }
 
 img {
@@ -244,22 +244,22 @@ a:focus {
 }
 
 
-/* containerlane
+/* Container
  *
- * Align the contentlanes of the site above the proper threshold with some margin-fu
+ * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.masthead`.
  */
 
-.contentlane {
+.content {
   padding: 20px 20px;
 }
 
-/* Center containerlane in available real estate */
+/* Center container in available real estate */
 @media (min-width: 990px) {
-  .contentlane {
+  .content {
     padding: 40px 0;
   }
-  .containerlane {
+  .container {
     width: 55%;
     margin-left: 35%;
     margin-right: 10%;
@@ -366,7 +366,7 @@ a:focus {
     left: auto;
     right: 0;
   }
-  .layout-reverse .containerlane {
+  .layout-reverse .container {
     margin-left: 10%;
     margin-right: 35%;
   }
@@ -386,7 +386,7 @@ a:focus {
 .theme-base-08 .masthead {
   background-color: #ac4142;
 }
-.theme-base-08 .containerlane a,
+.theme-base-08 .container a,
 .theme-base-08 .related-posts li a:hover {
   color: #ac4142;
 }
@@ -395,7 +395,7 @@ a:focus {
 .theme-base-09 .masthead {
   background-color: #d28445;
 }
-.theme-base-09 .containerlane a,
+.theme-base-09 .container a,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
 }
@@ -404,7 +404,7 @@ a:focus {
 .theme-base-0a .masthead {
   background-color: #f4bf75;
 }
-.theme-base-0a .containerlane a,
+.theme-base-0a .container a,
 .theme-base-0a .related-posts li a:hover {
   color: #f4bf75;
 }
@@ -413,7 +413,7 @@ a:focus {
 .theme-base-0b .masthead {
   background-color: #90a959;
 }
-.theme-base-0b .containerlane a,
+.theme-base-0b .container a,
 .theme-base-0b .related-posts li a:hover {
   color: #90a959;
 }
@@ -422,7 +422,7 @@ a:focus {
 .theme-base-0c .masthead {
   background-color: #75b5aa;
 }
-.theme-base-0c .containerlane a,
+.theme-base-0c .container a,
 .theme-base-0c .related-posts li a:hover {
   color: #75b5aa;
 }
@@ -431,7 +431,7 @@ a:focus {
 .theme-base-0d .masthead {
   background-color: #6a9fb5;
 }
-.theme-base-0d .containerlane a,
+.theme-base-0d .container a,
 .theme-base-0d .related-posts li a:hover {
   color: #6a9fb5;
 }
@@ -440,7 +440,7 @@ a:focus {
 .theme-base-0e .masthead {
   background-color: #aa759f;
 }
-.theme-base-0e .containerlane a,
+.theme-base-0e .container a,
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
 }
@@ -449,7 +449,7 @@ a:focus {
 .theme-base-0f .masthead {
   background-color: #8f5536;
 }
-.theme-base-0f .containerlane a,
+.theme-base-0f .container a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
