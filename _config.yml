@@ -23,7 +23,7 @@ tags_path : /tags.html
 
 # Masthead title
 masthead_link: http://apis.how/xzca4kr2wb
-masthead_font_size: 18
+masthead_font_size: 17
 masthead_title: '{"API Definitions"}'
 
 # Feature
@@ -55,7 +55,7 @@ navigation:
     label2: RSS
     link2: /blog.xml
     size2: 10
-    padding: 0
+    padding: 2
     decorate: 0
   - label1: Organizations
     link1: /companies.html
