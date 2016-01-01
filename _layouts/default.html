@@ -8,18 +8,12 @@
     <header class="masthead">
       <div class="masthead-inner" align="center">
 
-        <h2><a href="http://apievangelist.com" style="font-size: 20px;">{"API Definitions"}</a></h2>
+        <!-- Masthead Title -->
+        <h2><a href="{{ site.masthead_link }}" style="font-size: {{ site.masthead_font_size }}px;">{{ site.masthead_title }}</a></h2>
 
-        <!-- Winning in the API Economy
-        <a href="http://bit.ly/1cHBhd5" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-winning-in-api-economy.png" width="42%" style="border: 1px solid #FFF;" title="Winning in the API Economy" /></a>
-        -->
-
-        <!-- API Design -->
-        <a href="http://apis.how/xzca4kr2wb" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-api-design.png" width="45%" style="border: 1px solid #FFF;" title="API Design Providers Guide" /></a>
-
-        <!-- Platform Visiion of Giants
-        <a href=http://bit.ly/1Lcnvg8"" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/Platform-Vision-of-Giants-cover-e1438126737396.png" width="42%" style="border: 1px solid #FFF;" title="The Platform Vision of API Giants" /></a>
-        -->
+        <!-- Feature -->
+        <a href="{{ site.feature_link }}" target="_blank">
+          <img src="{{ site.feature_image_source }}" width="{{ site.feature_image_width }}%" style="border: 1px solid #FFF;" title="{{ site.feature_title }}" /></a>
 
         <div class="colophon">
           <ul class="colophon-links">
@@ -46,6 +40,8 @@
             </li>
           </ul>
         </div>
+
+        <!-- Primary Sponsor -->
         <script id="parterListingTemplate" type="text/template">
             {% raw  %}
             <a href="{{url}}" target="_blank" title="{{title}}">
@@ -53,10 +49,8 @@
             </a>
             {% endraw %}
         </script>
-
         <script type="text/javascript">
-        function listSponsors()
-            {
+        function listSponsors(){
             $.getJSON('https://s3.amazonaws.com/kinlane-productions/json/sponsors.json', function(data) {
                 $.each(data['sponsors'], function(key, val) {
                 var template = $('#parterListingTemplate').html();
@@ -64,21 +58,16 @@
                 $('#partnerListingContainer').append(html);
                 });
             });
-        }
+          }
         </script>
-
-        <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: 5px; padding-top: 10px; width: 60%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 2px;">
-
-		    </div>
-
-        <script type="text/javascript">
-            listSponsors();
-        </script>
+        <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: 5px; padding-top: 10px; width: 60%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 2px;"></div>
+        <script type="text/javascript">listSponsors();</script>
+        <!-- Primary Sponsor -->
 
       </div>
     </header>
 
-    <div class="content container">
+    <div class="contentlane containerlane">
 
       <p align="center">
       	<a href="{{ site.url }}">

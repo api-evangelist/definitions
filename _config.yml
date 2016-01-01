@@ -8,7 +8,7 @@ markdown:     rdiscount
 permalink:    pretty
 pygments:     true
 
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 paginate: 150
@@ -20,3 +20,14 @@ BASE_PATH : http://definitions.apievangelist.com
 
 categories_path : /categories.html
 tags_path : /tags.html
+
+# Masthead title
+masthead_link: http://apis.how/xzca4kr2wb
+masthead_font_size: 20
+masthead_title: '{"API Definitions"}'
+
+# Feature
+feature_title: API Design Providers Guide
+feature_link: http://apis.how/xzca4kr2wb
+feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-api-design.png
+feature_image_width: 45
