@@ -33,6 +33,15 @@ title: API Definitions
 
   </div>
   <div class="span3" align="left">
+    <script type="text/javascript">
+    $url = 'http://apievangelist.com/blog.xml';
+    jQuery.getFeed({
+       url     : $url,
+       success : function (feed) {
+          console.log(feed.title);
+       }
+    });
+    </script>
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong></p>
     <ul class="newslist">
