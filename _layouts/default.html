@@ -20,7 +20,7 @@
           <ul class="colophon-links">
             {% for nav in site.navigation %}
             <li>
-              <a href="{{ nav.link1 }}">{{ nav.label1 }}</a>{% if nav.label1 != '' %} <span style="font-size: 12px;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
+              <a href="{{ nav.link1 }}">{{ nav.label1 }}</a>{% if nav.label1 %} <span style="font-size: 12px;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
             </li>
             {% endfor %}
           </ul>
