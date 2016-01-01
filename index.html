@@ -35,7 +35,7 @@ title: API Definitions
   <div class="span3" align="left">
     <script type="text/javascript">
     $url = 'http://apievangelist.com/blog.xml';
-    $.get(url, function (data) {
+    $.get($url, function (data) {
         $(data).find("entry").each(function () { // or "item" or whatever suits your feed
             var el = $(this);
             console.log("------------------------");
