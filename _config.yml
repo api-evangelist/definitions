@@ -35,7 +35,7 @@ feature_image_width: 45
 # Project
 
 project_image: https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-icon.png
-project_summary: Keeping an eye on API definitions, from formats like API Blueprint, OADF, and RAML, to APIs.json.
+project_summary: Working to keep track of established, and emerging ways of defining APIs like Swagger, API Blueprint, and RAML. I also work to include information about media types, shemas, and other ways to define the value APIs deliver.
 
 # Navigation
 navigation:
