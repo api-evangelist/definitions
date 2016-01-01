@@ -35,7 +35,7 @@ title: API Definitions
   <div class="span3" align="left">
     <script type="text/javascript">
       $url = 'http://apievangelist.com/blog.xml';
-      $listcount = 0;
+      var $listcount = 0;
       $.get($url, function (data) {
           $(data).find("item").each(function () {
               var el = $(this);
@@ -45,7 +45,7 @@ title: API Definitions
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
-              listcount++;
+              $listcount++;
           });
       });
     </script>
