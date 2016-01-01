@@ -24,7 +24,7 @@
                 {% if nav.decorate == 1 %} <span style="font-size: {{ nav.size1 }}">&#8668;</span>{% endif %}
                 {{ nav.label1 }}
               </a>
-              {% if nav.extend == 1 %} <span style="font-size: {{ nav.size2 }}%;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
+              {% if nav.extend == 1 %} <span style="font-size: {{ nav.size2 }}%;">(<a href="{{ nav.link2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
             </li>
             {% endfor %}
           </ul>
