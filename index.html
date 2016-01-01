@@ -36,14 +36,12 @@ title: API Definitions
     <script type="text/javascript">
     $url = 'http://apievangelist.com/blog.xml';
     $.get($url, function (data) {
-        $(data).find("item").each(function () { // or "item" or whatever suits your feed
+        $(data).find("item").each(function () {
             var el = $(this);
             $title = el.find("title").text());
             $link = el.find("link").text());
-
             $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
             $('#rssNews').append($listitem);
-
         });
     });
     </script>
