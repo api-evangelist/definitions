@@ -21,7 +21,7 @@
             {% for nav in site.navigation %}
             <li style="padding-top:{{ nav.padding }}px">
               <a href="{{ nav.link1 }}" style="font-size: {{ nav.size1 }}%;">
-                {% if nav.decorate == 1 %} <span style="font-size: 20px;">&#8668;</span>{% endif %}
+                {% if nav.decorate == 1 %} <span style="font-size: {{ nav.size1 }}">&#8668;</span>{% endif %}
                 {{ nav.label1 }}
               </a>
               {% if nav.extend == 1 %} <span style="font-size: {{ nav.size2 }}%;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
