@@ -34,16 +34,20 @@ title: API Definitions
   </div>
   <div class="span3" align="left">
     <script type="text/javascript">
-    $url = 'http://apievangelist.com/blog.xml';
-    $.get($url, function (data) {
-        $(data).find("item").each(function () {
-            var el = $(this);
-            $title = el.find("title").text();
-            $link = el.find("link").text();
-            $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
-            $('#rssNews').append($listitem);
-        });
-    });
+      $url = 'http://apievangelist.com/blog.xml';
+      $listcount = 0;
+      $.get($url, function (data) {
+          $(data).find("item").each(function () {
+              var el = $(this);
+              $title = el.find("title").text();
+              $link = el.find("link").text();
+              if(listcount<3){
+                $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+                $('#rssNews').append($listitem);
+                }
+              listcount++;
+          });
+      });
     </script>
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong></p>
