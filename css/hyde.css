@@ -244,7 +244,7 @@ a:focus {
  */
 
 .content {
-  padding: 20px 20px;
+  padding: 20px 5px;
 }
 
 /* Center container in available real estate */
@@ -256,7 +256,7 @@ a:focus {
   .container {
     width: 55%;
     margin-left: 30%;
-    margin-right: 5%;
+    margin-right: 0%;
     border: 1px solid #000;
   }
 }
