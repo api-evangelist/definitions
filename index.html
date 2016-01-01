@@ -24,7 +24,7 @@ title: API Definitions
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong></p>
     <ul class="newslist">
-      {% for post in site.posts limit:3 %}
+      {% for post in site.posts limit:2 %}
         <li><a href="{{ post.source }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
@@ -40,7 +40,7 @@ title: API Definitions
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<3){
+              if($listcount<2){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
