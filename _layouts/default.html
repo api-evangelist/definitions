@@ -20,7 +20,7 @@
           <ul class="colophon-links">
             {% for nav in site.navigation %}
             <li style="padding-top:{{ nav.padding }}px">
-              <a href="{{ nav.link1 }}" style="font-size: {{ nav.size1 }}px;">{{ nav.label1 }}</a>{% if nav.extend == 1 %} <span style="font-size: {{ nav.size1 }}px;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
+              <a href="{{ nav.link1 }}" style="font-size: {{ nav.size1 }}px;">{{ nav.label1 }}</a>{% if nav.extend == 1 %} <span style="font-size: {{ nav.size2 }}px;">(<a href="{{ nav.label2 }}">{{ nav.label2 }}</a>)</span>{% endif %}
             </li>
             {% endfor %}
           </ul>
