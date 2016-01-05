@@ -130,5 +130,38 @@
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png",
 		"image_width": "100",
 		"sort_order": "24"
+	},
+	{
+		"building_block_id": "XjMhIAbcJE9fuETmC1I03IEWTJaAYCv7fojzCzxWbim2BKMHgENqUJJBuROkwsmjYSi116s8123lOkwnZ1H6DcMSXQ117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
+		"name": "Attribution",
+		"about": "Where did the API definition originate? Is there a source where all or part of the API design came from? Providing design, or operational attribution, done via one of the API definitions.",
+		"category_id": "165",
+		"category": "API Definition",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "26"
+	},
+	{
+		"building_block_id": "UHiTIf2uqmWo1E4znBIX123SUEXGSsbOocuF1232ok1x2Cby4lNt0HPZuSLw2hDDZce848G8b1Y2123fmP68116nY91i123A117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
+		"name": "Merging",
+		"about": "Tooling or other APIs that provide for the merging of common API definition formats, allowing the granularity of what elements get merged, or do not get merged. Ideally this is an API, as well as simple web-based or desktop tooling for API providers and consumers.",
+		"category_id": "165",
+		"category": "API Definition",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "27"
+	},
+	{
+		"building_block_id": "vV123KEgACSCKjIbfGPdorGMs7b5pIxdU3WdpiagfTmx123sLP7qUew6XQJ0zN15v4Om3yej123MgA6CE7kXF41LK3zQ117117",
+		"building_block_category_id": "CuLGOZFlYmjXl123meGhpK116MCafOFiq45Z6b61jSoUCyhN116poIfi123ZtWk6kx5hPU6123lNcjp6cRhG2hIqdI03OPpA117117",
+		"name": "Diff",
+		"about": "Providing side by side comparison of two API definitions, programmatically and visually helping identify between two API definitions. This allows for API architects, designers, and consumers to understand the completness of two definitions, in relation to each other.",
+		"category_id": "165",
+		"category": "API Definition",
+		"image": "",
+		"image_width": "100",
+		"sort_order": "28"
 	}
 ]
