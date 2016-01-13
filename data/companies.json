@@ -30,6 +30,21 @@
 		"tags": null
 	},
 	{
+		"id": "qxzzmrtfc2v9gHZpnKjQdsBLu0I116D1fkB5lrYB77jRMF7o1H5o123aKBrUq2zYvWVZJyXTFM71bhLgk123t6Jt5VuQ117117",
+		"name": "Elastic Path",
+		"summary": "Elastic Path built Helix because existing API modeling languages, such as RAML, Swagger, and API Blueprint, while good for describing standard APIs, are not well suited to designing hypermedia APIs. Elastic Path Cortex, our patented API technology, utilizes Helix definitions and a Helix-compatible implementation, allowing our partners and customers to extend existing APIs and quickly create new on",
+		"details": "Elastic Path built Helix because existing API modeling languages, such as RAML, Swagger, and API Blueprint, while good for describing standard APIs, are not well suited to designing hypermedia APIs. Elastic Path Cortex, our patented API technology, utilizes Helix definitions and a Helix-compatible implementation, allowing our partners and customers to extend existing APIs and quickly create new ones.",
+		"website": "https://developers.elasticpath.com/labs-helix",
+		"twitter": "https://twitter.com/elasticpath",
+		"github": "https://github.com/elasticpath",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/elastic-path.jpeg",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/elastic-path.jpeg",
+		"tags": null
+	},
+	{
 		"id": "116LlfH1162es0Q1h5RrxfJuoIJEFaZh123STGyX1vlZn6eQYHaxZ43Rh3OuV80PFuGcTxMYMp3Yxauip7gcnS8fmfkg117117",
 		"name": "Google",
 		"summary": "You can use the Google API Discovery Service to build client libraries, IDE plugins, and other tools that interact with Google APIs. It provides a lightweight, JSON-based API that exposes machine-readable metadata about Google APIs, but could also be used to describe other APIs.",
