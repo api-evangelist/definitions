@@ -31,8 +31,7 @@ title: Building Blocks
 </style>
 
 <ul class="toolbar">
-    <li>{"<a href="https://raw.github.com/kinlane/OpenAPI Spec/gh-pages/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
-    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
+    <li>{"<a href="https://github.com/api-evangelist/definitions/tree/gh-pages/openapi-spec/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
 </ul>
 
 <h1 class="title">Building Blocks of OpenAPI Spec</h1>
@@ -73,7 +72,7 @@ title: Building Blocks
 
 function listbuidingblockcategories()
     {
-    $.getJSON('data/buildingblockcategories.json', function(data) {
+    $.getJSON('/openapi-spec/data/buildingblockcategories.json', function(data) {
          $.each(data['buildingblockcategories'], function(key, val) {
 
             var template = $('#buildingblockcategoryTemplate').html();
@@ -85,7 +84,7 @@ function listbuidingblockcategories()
 
 function listbuidingblocks()
     {
-    $.getJSON('data/buildingblocks.json', function(data) {
+    $.getJSON('/openapi-spec/data/buildingblocks.json', function(data) {
          $.each(data['buildingblocks'], function(key, val) {
             categoryslug = val['categoryslug'];
             var template = $('#buildingblockTemplate').html();
