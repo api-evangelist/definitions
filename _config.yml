@@ -124,3 +124,30 @@ footernavigation:
 sponsors_margin_top: 15
 sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# This drives the /extension listing
+extensions:
+  - title: "x-codegen-settings"
+    name: "APIMATIC"
+    source_url: "https://apimatic.io/blog/post/swagger-2-0-extension-for-code-generation-settings"
+    gist_url: "https://gist.github.com/kinlane/b525ab628f070c84456e.js"
+  - title: "x-a127-services"
+    name: "Apigee"
+    source_url: "https://github.com/apigee-127/volos/tree/master/swagger"
+    gist_url: "https://gist.github.com/kinlane/d0d6db70a67d916461ed.js"
+  - title: "x-swagger-router-controller"
+    name: "Apigee"
+    source_url: "https://github.com/swagger-api/swagger-node/blob/master/docs/swagger-file.md"
+    gist_url: "https://gist.github.com/kinlane/85fb77c897b681eafde9.js"
+  - title: "x-amples"
+    name: "James Earl Douglas"
+    source_url: "https://github.com/earldouglas/swagger-test"
+    gist_url: "https://gist.github.com/kinlane/90b1b48e16d14644e9cb.js"
+  - title: "x-amazon-apigateway-integration"
+    name: "Warner Godfrey"
+    source_url: "https://hub.docker.com/r/warnergodfrey/aws-apigateway-swagger/"
+    gist_url: "https://gist.github.com/kinlane/a4dec9386878c66ded96.js"
+  - title: "x-ms-summary"
+    name: "Microsoft Azure"
+    source_url: "https://azure.microsoft.com/en-us/documentation/articles/app-service-api-optimize-for-logic-apps/"
+    gist_url: "https://gist.github.com/kinlane/9d580c9d75060bb3ecae.js"
