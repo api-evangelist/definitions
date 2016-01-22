@@ -943,16 +943,16 @@
 			"details": "swagger-codegen contains a template-driven engine to generate client code in different languages by parsing your Swagger Resource Declaration.",
 			"website": "https://github.com/swagger-api/swagger-codegen/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Client,Core,Server,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Client,Core,Server,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "175",
-			"name": "swagger-core",
+			"name": "OpenAPI-Spec-Core",
 			"user": "swagger-api",
 			"details": "Examples and server integrations for generating the Swagger API Specification, which enables easy access to your REST API",
-			"website": "https://github.com/swagger-api/swagger-core/",
+			"website": "https://github.com/swagger-api/OpenAPI-Spec-Core/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "215",
@@ -988,7 +988,7 @@
 			"details": "Swagger Editor",
 			"website": "https://github.com/swagger-api/swagger-editor/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Editor,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Editor,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "190",
@@ -1042,7 +1042,7 @@
 			"details": "Javascript library to connect to swagger-enabled APIs via browser or nodejs",
 			"website": "https://github.com/swagger-api/swagger-js/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Client,JavaScript,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Client,JavaScript,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "223",
@@ -1069,7 +1069,7 @@
 			"details": "Swagger module for node.js w/express module",
 			"website": "https://github.com/swagger-api/swagger-node-express/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Client,Node.js,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Client,Node.js,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "186",
@@ -1132,7 +1132,7 @@
 			"details": "Swagger Socket: A REST over WebSocket ",
 			"website": "https://github.com/swagger-api/swagger-socket/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Real-Time,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Real-Time,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "178",
@@ -1141,7 +1141,7 @@
 			"details": "The Swagger Specification Repository",
 			"website": "https://github.com/swagger-api/swagger-spec/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Specification,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Specification,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "201",
@@ -1177,7 +1177,7 @@
 			"details": "Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.",
 			"website": "https://github.com/swagger-api/swagger-ui/",
 			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png",
-			"tags": "Documentation,Swagger,Swagger-Core,Swagger-Github-Search"
+			"tags": "Documentation,Swagger,OpenAPI-Spec-Core,Swagger-Github-Search"
 		},
 		{
 			"id": "222",
