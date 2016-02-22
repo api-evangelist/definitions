@@ -54,7 +54,7 @@
 				"building_block_id": "ekZrUOTRAmYzPQ6KDbH6dy7xzqqsTQS9u2eRGi123B07k117",
 				"building_block_category_id": "zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117",
 				"name": "Schema",
-				"about": "Produces a specific schema, from an existing template, in a particular API definition format.",
+				"about": "A representation of data model, used as part of an API request, or response, usually in JSON, but increasingly YAML, and Markdown are also used. ",
 				"category_id": "309",
 				"category": "Definitions",
 				"category_about": null,
