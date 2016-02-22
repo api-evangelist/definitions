@@ -1,34 +1,24 @@
 ---
 layout: page
-title: 'Building Blocks'
+title: Building Blocks
 ---
-<p>These are some of the common building blocks I have pullled from my research into this layer of the API space.</p>
-<table width="100%" border="0"><tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Tooling</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Specification</strong> - The root specification for the API definition format, providing a base set of rules for all services and tools that employ the spec.</li>
-<li><strong>Generator</strong> - Generating an API definition format from an existing system or platform, outputting the portable machine readable format.</li>
-<li><strong>Parser</strong> - Parses a machine readable API definition and makes ready for use in specific language, structure, or platform.</li>
-<li><strong>Validator</strong> - Validates an API definition against its formal specification and schema, producing a valid or invalid response, with as much detail as possible.</li>
-<li><strong>Schema</strong> - Produces a specific schema, from an existing template, in a particular API definition format.</li>
-<li><strong>Converter</strong> - The conversion of an API definition from one format into another, allowing designers to share API definitions in any format.</li>
-<li><strong>Database</strong> - Tooling that generates an API definition format from a database connection, allowing for API integration with common database formats</li>
-<li><strong>Command-Line</strong> - The usage of machine readable API definitions at the command line.</li>
-<li><strong>Powershell</strong> - The usage of machine readable API definitions via the powershell interface.</li>
-<li><strong>Aggregator</strong> - Aggregation of APIs using a machine readable API definition format.</li>
-<li><strong>Editors</strong> - API definition editor, allowing for the creation, import, and export of API definition formats, providing a simple, IDE like API editing experience.</li>
-<li><strong>IDE Plugin</strong> - Providing integration with existing integrated development environments (IDE), giving developers API discovery, documentation, and integration tooling within the IDE.</li>
-<li><strong>Forms</strong> - Dynamically generating an HTML form from an API definition, allow for the structure, and handling to be driven by an API definition.</li>
-<li><strong>Translator</strong> - Being able to translate an API definition format from one format to another, either manually or automatically.</li>
-<li><strong>Attribution</strong> - Where did the API definition originate? Is there a source where all or part of the API design came from? Providing design, or operational attribution, done via one of the API definitions.</li>
-<li><strong>Merging</strong> - Tooling or other APIs that provide for the merging of common API definition formats, allowing the granularity of what elements get merged, or do not get merged. Ideally this is an API, as well as simple web-based or desktop tooling for API providers and consumers.</li>
-<li><strong>Diff</strong> - Providing side by side comparison of two API definitions, programmatically and visually helping identify between two API definitions. This allows for API architects, designers, and consumers to understand the completness of two definitions, in relation to each other.</li>
-</ul>
-</td>
-</tr>
+<p>These are the common building blocks I have organized as part of this research, organized by category.</p>
+<table width="100%" border="0" cellpadding="2" cellspacing="2">
+  {% for category in site.data.buildingblocks %}
+  <tr>
+    <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+      <h2>{{ category.category_name }}</h2>
+    </td>
+  </tr>
+  {% for buildingblock in category.building_blocks %}
+  <tr>
+    <td align="left" valign="top">
+      <ul style="padding: 2px 10px 2px 10px;">
+        <li><strong>{{ buildingblock.name }}</strong> - {{ buildingblock.about }}</li>
+      </ul>
+    </td>
+  </tr>
+  {% endfor %}
+  {% endfor %}
 </table>
+<p>I am constantly updating, reording, and evolving these building blocks based upon where the space is going.</p>

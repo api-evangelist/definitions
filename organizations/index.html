@@ -7,21 +7,64 @@ title: Organizations
   {% for org in site.data.organizations %}
   <tr>
     <td align="left" width="80%" style="border-top: 1px solid #CCC; padding-top:18px;">
-      <a href="{{ org.website }}" id="home-logo-link-18911"><img src="{{ org.logo }}" width="{{ org.logo_width }}" align="left" style="padding: 15px;" /></a>
-      <a href="{{ org.website }}" id="home-name-link-18911" style="color: #000;"><strong>{{ org.name }}</strong></a>
+      <a href="{{ org.website }}"><img src="{{ org.logo }}" width="{{ org.logo_width }}" align="left" style="padding: 15px;" /></a>
+      <a href="{{ org.website }}" style="color: #000;"><strong>{{ org.name }}</strong></a>
       {{ org.details }}
     </td>
     <td width="50" align="center" style="border-top: 1px solid #CCC;">
-      <a href="{{ org.website }}" target="_blank" title="Website"><img id="home-icon-img-18911" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="28" align="center" /></a>
+      <a href="{{ org.website }}" target="_blank" title="Website">
+        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="28" align="center" />
+    </a>
     </td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;">
-      <a href="{{ org.twitter }}" target="_blank" title="Twitter"><img id="twitter-icon-img-18911" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="33" align="center" /></a>
+    <td width="50" align="center">
+      {% if org.portal_url != empty %}
+        <a href="{{ org.portal_url }}" target="_blank" title="Portal">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal-developers.jpg" width="23" align="center" />
+        </a>
+      {% endif %}
     </td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="50" align="center" style="border-top: 1px solid #CCC;"></td>
-    <td width="150" align="center" style="font-size: 11px;" style="border-top: 1px solid #CCC;"></td>
+    <td width="50" align="center">
+      {% if org.blog != empty %}
+        <a href="{{ org.blog }}" target="_blank" title="Blog">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="18" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.blogrss != empty %}
+        <a href="{{ org.blogrss }}" target="_blank" title="Blog RSS">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="18" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.twitter != empty %}
+        <a href="{{ org.twitter }}" target="_blank" title="Twitter">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="23" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.github != empty %}
+        <a href="{{ org.github }}" target="_blank" title="Github">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.apisjson_url != empty %}
+        <a href="{{ org.apisjson_url }}" target="_blank" title="APIs.json">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.sdksio_url != empty %}
+        <a href="{{ org.sdksio_url }}" target="_blank" title="SDKs.io">
+          <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/sdks-io/sdks-io-icon.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
   </tr>
   {% endfor %}
 </table>

@@ -19,8 +19,8 @@ title: API Definitions
       <li><a href="http://definitions.apievangelist.com/openapi-spec/platform-integrations.html">OpenAPI Spec Platform Integrations</a></li>
       <li><a href="http://definitions.apievangelist.com/openapi-spec/external-integrations.html">OpenAPI Spec External Integrations</a></li>
       <li><a href="http://definitions.apievangelist.com/openapi-spec/interactive-documentation.html">OpenAPI Spec Interactive Documentation</a></li>
-        <li><a href="http://definitions.apievangelist.com/openapi-spec/building-blocks.html">OpenAPI Spec Building Blocks</a></li>
-          <li><a href="http://definitions.apievangelist.com/openapi-spec/tooling.html">OpenAPI Spec Tooling</a></li>
+      <li><a href="http://definitions.apievangelist.com/openapi-spec/building-blocks.html">OpenAPI Spec Building Blocks</a></li>
+      <li><a href="http://definitions.apievangelist.com/openapi-spec/tooling.html">OpenAPI Spec Tooling</a></li>
     </ul>
 
   </div>
@@ -28,8 +28,10 @@ title: API Definitions
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist">
-      {% for post in site.posts limit:2 %}
+      {% for post in site.posts limit:4 %}
+      {% if post.title != null %}
         <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+      {% endif %}
       {% endfor %}
     </ul>
 
