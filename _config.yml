@@ -156,3 +156,8 @@ extensions:
     name: "Any API"
     source_url: "http://any-api.com"
     gist_url: "https://gist.github.com/kinlane/d365d1e1fc61d83ccc22.js"
+  - title: "x-summary and x-description"
+    name: "Apiary"
+    source_url: "https://help.apiary.io/api_101/swagger-extensions/"
+    gist_url: "https://gist.github.com/netmilk/e61bd109dca737f77cf2.js"
+  
