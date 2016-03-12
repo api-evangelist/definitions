@@ -297,7 +297,7 @@
 	},
 	{
 		"tool_id": "JHcQJNL3GhQAYRJpZ308SGFncGm4XCT1tZbR0r9hAxKkVcv4KGITT8D1237KzP4crwds116vtjQBeU1164kLXaWOsj1A117117",
-		"name": "Markdown Syntax for Object Notation (MSON)",
+		"name": "Markdown Syntax for Object Notation",
 		"user": "",
 		"details": "MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML.",
 		"post_date": "2015-07-30 23:40:36",
