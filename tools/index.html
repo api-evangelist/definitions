@@ -1,534 +1,62 @@
 ---
 layout: page
-title: 'Tools'
+title: 'API Design Editors'
 ---
-<p>As I do my regular monitoring of the API space, these are the common " . $tag . " tools that I have identified so far. If there are tools or other resources that you think should be listed, let me know.
-<table width="100%" border="0"><tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>API Blueprint</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/api-blueprint/" id="home-logo-link-727"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/api-blueprint/" id="home-name-link-727" style="color: #000;"><strong>API Blueprint</strong></a><p>API Blueprint is a documentation-oriented API description language. A couple of semantic assumptions over the plain Markdown. API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration. It is easy to learn and even easier to read &ndash; after all it is just a form of plain text. API Blueprint, its parser, and most of its tools are completely open sourced so you dont have to worry about vendor lock-in. This also means you can freely integrate API Blueprint into any type of product, commercial or not.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/blueprint-parser" id="home-logo-link-87"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/blueprint-parser" id="home-name-link-87" style="color: #000;"><strong>Apiary Blueprint Parser</strong></a><p>A JavaScript parser of&nbsp;Apiary API blueprints. Uses Node.js then in browser, include the browser version of the parser in your web page or application using the &lt;script&gt; tag. To parse an API blueprint, just call the parse method and pass the blueprint as a parameter. The method will return an object representing the parsed blueprint or throw an exception if the input is invalid.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/Paw-APIBlueprintGenerator/" id="home-logo-link-752"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/Paw-APIBlueprintGenerator/" id="home-name-link-752" style="color: #000;"><strong>Paw-APIBlueprintGenerator</strong></a><p>Paw extension providing support to export API Blueprint as a code generator.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/snowcrash/" id="home-logo-link-731"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/snowcrash/" id="home-name-link-731" style="color: #000;"><strong>snowcrash</strong></a><p>Snow Crash is the reference&nbsp;API Blueprint&nbsp;parser built on top of the&nbsp;Sundown&nbsp;Markdown parser.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>API Design Editor</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://editor.swagger.wordnik.com/" id="home-logo-link-148"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/swagger-api-editor-screenshot.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://editor.swagger.wordnik.com/" id="home-name-link-148" style="color: #000;"><strong>Swagger Editor</strong></a><p>Swagger Editor lets you edit API specifications in YAML inside your browser and to preview documentations in real time. Valid Swagger JSON descriptions can then be generated and used with the full Swagger tooling (code generation, documentation, etc).</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>API Discovery</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://apisjson.org/" id="home-logo-link-145"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://apisjson.org/" id="home-name-link-145" style="color: #000;"><strong>APIs.json</strong></a><p>APIs are becoming a crucial part of the Web. Unfortunately however, it remains very difficult to determine the location of these APIs on servers around the Web. The only way to discover APIs and their properties is via human driven search through public search engines or in hand curated API Directory listings. While these methods work, neither can scale to the potentially hundreds of thousands and millions of APIs which will be published over the next few years.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Client</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/Paw-APIBlueprintGenerator/" id="home-logo-link-752"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/Paw-APIBlueprintGenerator/" id="home-name-link-752" style="color: #000;"><strong>Paw-APIBlueprintGenerator</strong></a><p>Paw extension providing support to export API Blueprint as a code generator.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Data Specifications</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://jsonapi.org/" id="home-logo-link-815"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-api-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://jsonapi.org/" id="home-name-link-815" style="color: #000;"><strong>JSON API</strong></a><p>If youve ever argued with your team about the way your JSON responses should be formatted, JSON API is your anti-bikeshedding weapon. By following shared conventions, you can increase productivity, take advantage of generalized tooling, and focus on what matters: your application. Clients built around JSON API are able to take advantage of its features around efficiently caching responses, sometimes eliminating network requests entirely.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://json-schema.org/" id="home-logo-link-827"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-schema.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://json-schema.org/" id="home-name-link-827" style="color: #000;"><strong>JSON Schema</strong></a><p>Describes your JSON data format in clear, human- and machine-readable documentation that is complete structural validation, useful for automated testing, and validating client-submitted data.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://www.jsonrpc.org/specification" id="home-logo-link-828"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-rpc.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://www.jsonrpc.org/specification" id="home-name-link-828" style="color: #000;"><strong>JSON-RPC 2.0</strong></a><p>JSON-RPC is a stateless, light-weight remote procedure call (RPC) protocol. Primarily this specification defines several data structures and the rules around their processing. It is transport agnostic in that the concepts can be used within the same process, over sockets, over http, or in many various message passing environments. It uses JSON (RFC 4627) as data format.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Hypermedia</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://amundsen.com/media-types/collection/" id="home-logo-link-155"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/madmen_icon_400x400.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://amundsen.com/media-types/collection/" id="home-name-link-155" style="color: #000;"><strong>Collection+JSON</strong></a><p>Collection+JSON is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://stateless.co/hal_specification.html" id="home-logo-link-153"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://stateless.co/hal_specification.html" id="home-name-link-153" style="color: #000;"><strong>HAL</strong></a><p>HAL is a simple format that gives a consistent and easy way to hyperlink between resources in your API. Adopting HAL will make your API explorable, and its documentation easily discoverable from within the API itself. In short, it will make your API easier to work with and therefore more attractive to client developers. APIs that adopt HAL can be easily served and consumed using open source libraries available for most major programming languages. Its also simple enough that you can just deal with it as you would any other JSON.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://json-ld.org/" id="home-logo-link-167"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/json-ld.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://json-ld.org/" id="home-name-link-167" style="color: #000;"><strong>JSON-LD</strong></a><p>JSON-LD is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data format for programming environments, REST Web services, and unstructured databases such as CouchDB and MongoDB.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/JornWildt/Mason" id="home-logo-link-168"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/jorn-wildt.jpeg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/JornWildt/Mason" id="home-name-link-168" style="color: #000;"><strong>Mason</strong></a><p>Mason is a JSON format for introducing hypermedia elements to classic JSON data representations. With Mason you get hypermedia elements for linking and modifying data, features for communicating to client developers and standardized error handling. Mason is built on JSON, reads JSON, writes JSON and generally fits well into a JSON based eco-system.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://restdesc.org/" id="home-logo-link-829"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/restdesc-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://restdesc.org/" id="home-name-link-829" style="color: #000;"><strong>RESTdesc</strong></a><p>Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture the functionality of hypermedia APIs, so automated agents can use them. Despite their powerful capabilities, RESTdesc descriptions are easy to master. Description is not a goal in itself: you want your API to be used. See how RESTdesc opens up your API for discovery, based on its functional characteristics.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="" id="home-logo-link-166"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/kevin-swiber.jpeg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="" id="home-name-link-166" style="color: #000;"><strong>Siren</strong></a><p>Siren is a hypermedia specification for representing entities. As HTML is used for visually representing documents on a Web site, Siren is a specification for presenting entities via a Web API. Siren offers structures to communicate information about entities, actions for executing state transitions, and links for client navigation.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://rawgit.com/mamund/media-types/master/uber-hypermedia.html" id="home-logo-link-154"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/madmen_icon_400x400.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://rawgit.com/mamund/media-types/master/uber-hypermedia.html" id="home-name-link-154" style="color: #000;"><strong>UBER</strong></a><p>The Uber message format is a minimal read/write hypermedia type designed to support simple state transfers and ad-hoc hypermedia-based transitions. This document describes both the XML and JSON variants of the format and provides guidelines for supporting Uber messages over the HTTP protocol.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Media Type</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://amundsen.com/media-types/collection/" id="home-logo-link-155"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/madmen_icon_400x400.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://amundsen.com/media-types/collection/" id="home-name-link-155" style="color: #000;"><strong>Collection+JSON</strong></a><p>Collection+JSON is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://stateless.co/hal_specification.html" id="home-logo-link-153"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://stateless.co/hal_specification.html" id="home-name-link-153" style="color: #000;"><strong>HAL</strong></a><p>HAL is a simple format that gives a consistent and easy way to hyperlink between resources in your API. Adopting HAL will make your API explorable, and its documentation easily discoverable from within the API itself. In short, it will make your API easier to work with and therefore more attractive to client developers. APIs that adopt HAL can be easily served and consumed using open source libraries available for most major programming languages. Its also simple enough that you can just deal with it as you would any other JSON.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://jsonapi.org/" id="home-logo-link-815"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-api-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://jsonapi.org/" id="home-name-link-815" style="color: #000;"><strong>JSON API</strong></a><p>If youve ever argued with your team about the way your JSON responses should be formatted, JSON API is your anti-bikeshedding weapon. By following shared conventions, you can increase productivity, take advantage of generalized tooling, and focus on what matters: your application. Clients built around JSON API are able to take advantage of its features around efficiently caching responses, sometimes eliminating network requests entirely.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://json-ld.org/" id="home-logo-link-167"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/json-ld.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://json-ld.org/" id="home-name-link-167" style="color: #000;"><strong>JSON-LD</strong></a><p>JSON-LD is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data format for programming environments, REST Web services, and unstructured databases such as CouchDB and MongoDB.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/JornWildt/Mason" id="home-logo-link-168"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/jorn-wildt.jpeg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/JornWildt/Mason" id="home-name-link-168" style="color: #000;"><strong>Mason</strong></a><p>Mason is a JSON format for introducing hypermedia elements to classic JSON data representations. With Mason you get hypermedia elements for linking and modifying data, features for communicating to client developers and standardized error handling. Mason is built on JSON, reads JSON, writes JSON and generally fits well into a JSON based eco-system.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://restdesc.org/" id="home-logo-link-829"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/restdesc-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://restdesc.org/" id="home-name-link-829" style="color: #000;"><strong>RESTdesc</strong></a><p>Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture the functionality of hypermedia APIs, so automated agents can use them. Despite their powerful capabilities, RESTdesc descriptions are easy to master. Description is not a goal in itself: you want your API to be used. See how RESTdesc opens up your API for discovery, based on its functional characteristics.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="" id="home-logo-link-166"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/kevin-swiber.jpeg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="" id="home-name-link-166" style="color: #000;"><strong>Siren</strong></a><p>Siren is a hypermedia specification for representing entities. As HTML is used for visually representing documents on a Web site, Siren is a specification for presenting entities via a Web API. Siren offers structures to communicate information about entities, actions for executing state transitions, and links for client navigation.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Parser</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/blueprint-parser" id="home-logo-link-87"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/blueprint-parser" id="home-name-link-87" style="color: #000;"><strong>Apiary Blueprint Parser</strong></a><p>A JavaScript parser of&nbsp;Apiary API blueprints. Uses Node.js then in browser, include the browser version of the parser in your web page or application using the &lt;script&gt; tag. To parse an API blueprint, just call the parse method and pass the blueprint as a parameter. The method will return an object representing the parsed blueprint or throw an exception if the input is invalid.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/snowcrash/" id="home-logo-link-731"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/snowcrash/" id="home-name-link-731" style="color: #000;"><strong>snowcrash</strong></a><p>Snow Crash is the reference&nbsp;API Blueprint&nbsp;parser built on top of the&nbsp;Sundown&nbsp;Markdown parser.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>RAML</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://raml.org" id="home-logo-link-810"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/raml-logo.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://raml.org" id="home-name-link-810" style="color: #000;"><strong>RAML Specification</strong></a><p>RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices. The goal is to help our current API ecosystem by solving immediate problems and then encourage ever-better API patterns. RAML is built on broadly-used standards such as YAML and JSON and is a non-proprietary, vendor-neutral open spec.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Semantics</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://amundsen.com/hypermedia/profiles/" id="home-logo-link-134"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/alps-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://amundsen.com/hypermedia/profiles/" id="home-name-link-134" style="color: #000;"><strong>ALPS - Application-Level Profile Semantics</strong></a><p>The purpose of Application-Level Profile Semantics (ALPS) is to document the application-level semantics of a particular implementation. This is accomplished by describing elements of response representations for a target media type. For example identifying markup elements returned (i.e. semantic HTML ala Microformats) and state transitions (i.e. HTML.A and HTML.FORM elements) that advance the state of the current application.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://json-ld.org/" id="home-logo-link-167"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/json-ld.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://json-ld.org/" id="home-name-link-167" style="color: #000;"><strong>JSON-LD</strong></a><p>JSON-LD is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale. JSON-LD is an ideal data format for programming environments, REST Web services, and unstructured databases such as CouchDB and MongoDB.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; margin-bottom:15px; background-color: #E0E0E0;">
-<h2>Specification</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/api-blueprint/" id="home-logo-link-727"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/api-blueprint/" id="home-name-link-727" style="color: #000;"><strong>API Blueprint</strong></a><p>API Blueprint is a documentation-oriented API description language. A couple of semantic assumptions over the plain Markdown. API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration. It is easy to learn and even easier to read &ndash; after all it is just a form of plain text. API Blueprint, its parser, and most of its tools are completely open sourced so you dont have to worry about vendor lock-in. This also means you can freely integrate API Blueprint into any type of product, commercial or not.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://barrister.bitmechanic.com/" id="home-logo-link-823"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/barrister-rpc.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://barrister.bitmechanic.com/" id="home-name-link-823" style="color: #000;"><strong>Barrister RPC</strong></a><p>Barrister is a RPC system that uses an external interface definition (IDL) file to describe the interfaces and data structures that a component implements. It is similar to tools like Protocol Buffers, Thrift, Avro, and SOAP.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://tools.ietf.org/html/draft-nottingham-json-home-02" id="home-logo-link-820"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/ietf-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://tools.ietf.org/html/draft-nottingham-json-home-02" id="home-name-link-820" style="color: #000;"><strong>Home Documents for HTTP APIs</strong></a><p>JSON Home Document is an HTTP API definition formated that follows the RFC4627 specification, and has the media type application/json-home.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/seomoz/interpol" id="home-logo-link-824"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/interpol-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/seomoz/interpol" id="home-name-link-824" style="color: #000;"><strong>Interpol</strong></a><p>Interpol is a toolkit for policing your HTTP JSON interface. To use it, define the endpoints of your HTTP API in simple YAML files. Interpol provides multiple tools to work with endpoint definitions.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://jsonapi.org/" id="home-logo-link-815"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-api-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://jsonapi.org/" id="home-name-link-815" style="color: #000;"><strong>JSON API</strong></a><p>If youve ever argued with your team about the way your JSON responses should be formatted, JSON API is your anti-bikeshedding weapon. By following shared conventions, you can increase productivity, take advantage of generalized tooling, and focus on what matters: your application. Clients built around JSON API are able to take advantage of its features around efficiently caching responses, sometimes eliminating network requests entirely.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/apiaryio/mson" id="home-logo-link-825"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/apiaryio/mson" id="home-name-link-825" style="color: #000;"><strong>Markdown Syntax for Object Notation (MSON)</strong></a><p>MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://www.odata.org/" id="home-logo-link-821"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/odata-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://www.odata.org/" id="home-name-link-821" style="color: #000;"><strong>Open Data Protocol (OData)</strong></a><p>OData (Open Data Protocol) is an OASIS standard that defines the best practice for building and consuming RESTful APIs. OData helps you focus on your business logic while building RESTful APIs without having to worry about the approaches to define request and response headers, status codes, HTTP methods, URL conventions, media types, payload formats and query options etc.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://www.getpostman.com/docs/collections" id="home-logo-link-826"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/postman-rest-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://www.getpostman.com/docs/collections" id="home-name-link-826" style="color: #000;"><strong>Postman Collections</strong></a><p>A collection lets you group individual requests together. These requests can be further organized into folders to accurately mirror your API. Requests can also store sample responses when saved in a collection. You can add metadata like name and description too so that all the information that a developer needs to use your API is available easily.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://raml.org" id="home-logo-link-810"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/raml-logo.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://raml.org" id="home-name-link-810" style="color: #000;"><strong>RAML Specification</strong></a><p>RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices. The goal is to help our current API ecosystem by solving immediate problems and then encourage ever-better API patterns. RAML is built on broadly-used standards such as YAML and JSON and is a non-proprietary, vendor-neutral open spec.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/restful-api-description-language/RADL" id="home-logo-link-818"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/radl-logo.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/restful-api-description-language/RADL" id="home-name-link-818" style="color: #000;"><strong>RESTful API Description Language (RADL)</strong></a><p>RESTful API Description Language (RADL) is an XML vocabulary for describing Hypermedia-driven RESTful APIs. Unlike most HTTP API description languages, RADL focuses on defining a truly hypermedia-driven REST API from the clients point of view. Unlike description languages based on JSON or Markdown, RADL makes it easy to integrate documentation written in HTML or XML. The APIs that RADL describes may use any media type, in XML, JSON, HTML, or any other format.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://www.balisage.net/Proceedings/vol10/html/Robie01/BalisageVol10-Robie01.html" id="home-logo-link-822"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/rsdl-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://www.balisage.net/Proceedings/vol10/html/Robie01/BalisageVol10-Robie01.html" id="home-name-link-822" style="color: #000;"><strong>RESTful Service Description Language (RSDL)</strong></a><p>The RESTful Service Description Language (RSDL) is a machine- and human-readable XML description of HTTP-based web applications (typically REST web services).</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/swagger-api/swagger-spec/" id="home-logo-link-178"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-swagger-round.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/swagger-api/swagger-spec/" id="home-name-link-178" style="color: #000;"><strong>Swagger Specification</strong></a><p>Swagger is a simple yet robust representation of a RESTful API, with a large ecosystem of API tooling that includes code generation, interactive documentation, and much more. Currently &nbsp;there are housands of developers supporting Swagger in almost every modern programming language and deployment environment, using the&nbsp;100% open source software and specification.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://wadl.java.net/" id="home-logo-link-817"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/wadl-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://wadl.java.net/" id="home-name-link-817" style="color: #000;"><strong>Web Application Description Language (WADL)</strong></a><p>The Web Application Description Language (WADL) is a machine-readable XML description of HTTP-based web applications (typically REST web services). WADL models the resources provided by a service and the relationships between them. WADL is intended to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. It is platform and language independent and aims to promote reuse of applications beyond the basic use in a web browser.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="http://www.w3.org/TR/wsdl" id="home-logo-link-816"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/wsdl-icon.png" width="150" align="left" style="padding: 15px;" /></a>
-<a href="http://www.w3.org/TR/wsdl" id="home-name-link-816" style="color: #000;"><strong>Web Services Description Language (WSDL)</strong></a><p>WSDL is an XML format for describing network services as a set of endpoints operating on messages containing either document-oriented or procedure-oriented information. The operations and messages are described abstractly, and then bound to a concrete network protocol and message format to define an endpoint. Related concrete endpoints are combined into abstract endpoints (services). WSDL is extensible to allow description of endpoints and their messages regardless of what message formats or network protocols are used to communicate, however, the only bindings described in this document describe how to use WSDL in conjunction with SOAP 1.1, HTTP GET/POST, and MIME.</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
+<p>These are the open source tools I am tracking on as part my API design research, that can be applied during the API design cycle.</p>
+<center>
+<table width="90%" border="0" align="center" cellpadding="5">
+    <tr>
+      <td align="center" valign="middle" height="100" width="25%">
+        <p><a href="definition-formats/"><img src="https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-a.png" width="130" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="data-specification/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-dataset.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="converters/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-converter.png" width="120" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="parsers/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-parser.png" width="100" /></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="definition-formats/"><strong>API Definition Formats</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="data-specification/"><strong>Data Specifications</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="converters/"><strong>Converters</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="parsers/"><strong>Parsers</strong></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="generators/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-generate.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="hypermedia/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="media-type/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-content-type.png" width="100" /></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="generators/"><strong>Generators</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="hypermedia/"><strong>Hypermedia Formats</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="media-type/"><strong>Media Types</strong></a></p>
+      </td>
+    </tr>
 </table>
+</center>
+<br />
+<p>If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/design/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.</p>
+<br />
