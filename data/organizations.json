@@ -1119,22 +1119,5 @@
 		"tags": "Definitions,Schema",
 		"apis": [
 		]
-	},
-	{
-		"id": "3B0zU0H5X3rlkGKc1r5kuYr116mmqw561gzXnXXTwWPKk117",
-		"name": "Swagger",
-		"summary": "Swagger UI is part of Swagger project. The Swagger project allows you to produce, visualize and consume your OWN RESTful services. No proxy or 3rd party services required. Do it your own way. Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API. Because Swagger UI has no dependencie",
-		"details": "Swagger UI is part of Swagger project. The Swagger project allows you to produce, visualize and consume your OWN RESTful services. No proxy or 3rd party services required. Do it your own way. Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API. Because Swagger UI has no dependencies, you can host it in any server environment, or on your local machine.",
-		"website": "http://swagger.io/",
-		"twitter": "https://twitter.com/SwaggerApi",
-		"github": "https://github.com/swagger-api",
-		"blog": "http://swagger.io/blog/",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/swagger-logo-bw.png",
-		"logo_width": "225",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/swagger-logo-bw.png",
-		"tags": "API LIfeycle,Definitions",
-		"apis": [
-		]
 	}
 ]
