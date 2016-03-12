@@ -312,7 +312,7 @@
 		"watchers": 0,
 		"tags": [
 			"Definitions",
-			"Data Specification"
+			"Data Specifications"
 		]
 	},
 	{
@@ -360,7 +360,7 @@
 	},
 	{
 		"tool_id": "SwNxHJWgQiR6e9bt4Xm1WAe9s1JE529AP5tSPMiwa3fQXVBmuxg5pLOmPDU2QCEAKtBQ116SZaj6u3tHCAazP8jw117117",
-		"name": "OpenAPI-Specification",
+		"name": "OpenAPI Specification",
 		"user": "OAI",
 		"details": "The OpenAPI Specification Repository",
 		"post_date": "2016-03-11 23:16:54",
@@ -381,7 +381,7 @@
 	},
 	{
 		"tool_id": "N6dYL123IzqO6tXSyiIOR3hWVKLLmolHANR123fRKn6YEGS5beHHWF5eivoQkzGboPQHwBAxAjJAPXor2BQ64ANlWw117117",
-		"name": "Paw-APIBlueprintGenerator",
+		"name": "Paw API Blueprint Generator",
 		"user": "apiaryio",
 		"details": "Paw extension providing support to export API Blueprint as a code generator.",
 		"post_date": "2015-05-14 12:45:02",
@@ -395,11 +395,9 @@
 		"followers": "10",
 		"watchers": "10",
 		"tags": [
-			"GitHub",
 			"Generator",
 			"Definitions",
 			"Client",
-			"API Blueprint Core",
 			"API Blueprint"
 		]
 	},
