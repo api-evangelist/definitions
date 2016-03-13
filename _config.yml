@@ -73,7 +73,7 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
-  - label1: Tools
+  - label1: Tooling
     link1: /tools/
     size1: 80
     extend: 1
@@ -160,4 +160,3 @@ extensions:
     name: "Apiary"
     source_url: "https://help.apiary.io/api_101/swagger-extensions/"
     gist_url: "https://gist.github.com/netmilk/e61bd109dca737f77cf2.js"
-  
