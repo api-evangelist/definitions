@@ -7,37 +7,46 @@ title: API Definitions
   {{ site.project_summary }}
 </p>
 
-<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
-<div class="row" style="vertical-align: top;" align="center">
+<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 100%;" /></center>
 
-  <div class="span4" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+<div class="row" style="vertical-align: top; padding: 0px; margin: 0px;" align="center">
 
-    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
-    <ul class="featurelist">
-      <li><a href="https://apiblueprint.org/">API Blueprint</a></li>
-      <li><a href="https://github.com/OAI/OpenAPI-Specification">The OpenAPI Specification</a></li>
-      <li><a href="http://definitions.apievangelist.com/openapi-spec/platform-integrations/">OpenAPI Spec Platform Integrations</a></li>
-      <li><a href="http://definitions.apievangelist.com/openapi-spec/external-integrations/">OpenAPI Spec External Integrations</a></li>
-      <li><a href="http://definitions.apievangelist.com/openapi-spec/interactive-documentation/">OpenAPI Spec Interactive Documentation</a></li>
-      <li><a href="http://definitions.apievangelist.com/openapi-spec/building-blocks/">OpenAPI Spec Building Blocks</a></li>
-      <li><a href="http://definitions.apievangelist.com/openapi-spec/tooling/">OpenAPI Spec Tooling</a></li>
-      <li><a href="http://definitions.apievangelist.com/openapi-spec/extensions/">OpenAPI Spec Extensions</a></li>
-    </ul>
+  <div class="span3">
+
+    <center>
+      <p><a href="/guide/" style="font-size: 12px;"><strong>My API Definitions Research Guide</strong></a></p>
+      <p><a href="/guide/"><img src="{{ site.url}}/images/api-evangelist-api-definitions-industry-guide-april-2016-cover.png" width="140" aligin="center" /></a></p>
+    </center>
 
   </div>
-  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
-
+  <div class="span3" style="text-align: left;">
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist">
-      {% for post in site.posts limit:4 %}
-      {% if post.title != null %}
-        <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-      {% endif %}
+      {% assign totalpost = 8 %}
+      {% assign amount = 0 %}
+      {% for post in site.posts limit:150 %}
+        {% if post.title != null %}
+
+            <!--Guess this is only way to do??-->
+            {% if amount == '1' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '2' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '3' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '4' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '5' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% endif %}
+
+            {% capture amount %}{{ amount | plus: '1' }}{% endcapture %}
+
+        {% endif %}
       {% endfor %}
     </ul>
-
   </div>
-  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+  <div class="span4" style="text-align: left;">
 
     <script type="text/javascript">
       $url = 'http://apievangelist.com/blog.xml';
@@ -47,7 +56,7 @@ title: API Definitions
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<2){
+              if($listcount<4){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
@@ -55,19 +64,18 @@ title: API Definitions
           });
       });
     </script>
-    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a><</p>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist" id="rssNews"></ul>
 
   </div>
 </div>
-<center><hr style="padding: 5px; margin: 5px; width: 85%;" /></center>
-
-<div class="row" align="center" style="">
+<center><hr style="padding: 5px; margin: 5px; width: 100%;" /></center>
+<div class="row" align="center" style="padding-bottom: 20px;">
 
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="#"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
+      <li><a href="http://history.apievangelist.com"><strong><span style="font-size: 20px;">&#8666;</span>&nbsp;&nbsp;The History of APis</strong></a></li>
     </ul>
 
   </div>
@@ -75,45 +83,7 @@ title: API Definitions
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://design.apievangelist.com"><strong>Visit API Design Research&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
-    </ul>
-
-  </div>
-
-</div>
-<div class="row" align="center" style="">
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://bit.ly/1ISZ1I9">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pdf.png" width="22" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;&nbsp;View the PDF of This Research</strong></a></li>
-    </ul>
-
-  </div>
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://hypermedia.apievangelist.com"><strong>Visit My Research Around Hypermedia&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
-    </ul>
-
-  </div>
-
-</div>
-<div class="row" align="center" style="">
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="/journey/">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-journey.png" width="25" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;Take a Journey Through Research</strong></a></li>
-    </ul>
-
-  </div>
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://dns.apievangelist.com"><strong>Visit My DNS API Research&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+      <li><a href="http://definitions.apievangelist.com"><strong>Visit My Research On API Definitions&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
     </ul>
 
   </div>

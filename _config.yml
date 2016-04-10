@@ -160,3 +160,13 @@ extensions:
     name: "Apiary"
     source_url: "https://help.apiary.io/api_101/swagger-extensions/"
     gist_url: "https://gist.github.com/netmilk/e61bd109dca737f77cf2.js"
+
+# sponsors
+sponsors_margin_top: 15
+sponsors_padding_top: 3
+sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# support
+support_title: Support My API Definition Research
+support_header: I depend on the support of my partners to fund my work as an independent analysts. I have been monitoring the world of APIs since July of 2010 through the support of my partners, and a handful of writing or consulting projects along the way. If you find what I do valuable, please help support me by purchasing my guides, giving below, or if there are specific aspects of API definitions, or have specific definitions you'd like me to focus on, let me know, and maybe we can find a way to provide you with what you are looking for.
+support_footer: I pay my bills by consulting on API projects, and writing white papers and guides. You can find much of my research freely available across my website(s), but if you want to support my work, and get a single snapshot of it at any point in time, I recommend <a href="/guide/">purchasing my API definition guide</a>. Anyone who gives $250.00 or more a month, will automatically get access to all of my content via a shared Dropbox, Google Drive, or Github repository. Thank you for your support, and feel free to ping me directly if you have more questions.
