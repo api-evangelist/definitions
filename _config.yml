@@ -25,10 +25,10 @@ masthead_font_size: 65
 masthead_title: '{"API Definitions"}'
 
 # Feature
-feature_title: API Design Providers Guide
-feature_link: http://apis.how/xzca4kr2wb
-feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-api-design.png
-feature_image_width: 45
+feature_title: API Guide
+feature_link: http://apievangelist.com
+feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
+feature_image_width: 40
 
 # Project
 
