@@ -108,12 +108,10 @@
     function featureProjects()
         {
         $get_feature_project_url = "http://project.api.kinlane.com/project/feature/";
-        console.log($get_feature_project_url);
         $.ajax({
           url: $get_feature_project_url,
           type:"GET",
           success:function(data) {
-            console.log(data);
               $feature_title = data['feature_title'];
               $feature_image = data['feature_image'];
               $feature_url = data['feature_url'];
