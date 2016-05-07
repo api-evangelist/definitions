@@ -15,7 +15,7 @@ title: API Definitions
 
     <center>
       <p><a href="/guide/" style="font-size: 12px;"><strong>My API Definitions Research Guide</strong></a></p>
-      <p><a href="/guide/"><img src="{{ site.url}}/images/api-evangelist-api-definitions-industry-guide-april-2016-cover.png" width="140" aligin="center" /></a></p>
+      <p><a href="/guide/"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/definitions/definition.jpeg" width="140" aligin="center" /></a></p>
     </center>
 
   </div>
@@ -25,17 +25,19 @@ title: API Definitions
       {% assign totalpost = 8 %}
       {% assign amount = 0 %}
       {% for post in site.posts limit:150 %}
-        {% if post.title != null %}
+        {% if post.title | truncatewords: 10 != null %}
 
             <!--Guess this is only way to do??-->
             {% if amount == '1' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
             {% elsif amount == '2' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
             {% elsif amount == '3' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
             {% elsif amount == '4' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
+              {% elsif amount == '5' %}
+                <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
             {% endif %}
 
             {% capture amount %}{{ amount | plus: '1' }}{% endcapture %}
