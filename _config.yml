@@ -64,15 +64,6 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
-  - label1: Building Blocks
-    link1: /building-blocks/
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/buildingblocks.json
-    size2: 60
-    padding: 0
-    decorate: 0
   - label1: Tooling
     link1: /tools/
     size1: 80
