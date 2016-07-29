@@ -151,6 +151,10 @@ extensions:
     name: "Apiary"
     source_url: "https://help.apiary.io/api_101/swagger-extensions/"
     gist_url: "https://gist.github.com/netmilk/e61bd109dca737f77cf2.js"
+  - title: "x-example"
+    name: "Apiary"
+    source_url: "https://help.apiary.io/api_101/swagger-extensions/"
+    gist_url: "https://gist.github.com/honzajavorek/12b536f8ba0c9977f5e2605aecb4607b.js"
 
 # sponsors
 sponsors_margin_top: 15
