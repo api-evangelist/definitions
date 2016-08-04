@@ -19,7 +19,7 @@
         <div class="colophon">
           <ul class="colophon-links">
             {% for nav in site.navigation %}
-            <li style="padding-top:{{ nav.padding }}px">
+            <li style="padding:{{ nav.padding }}px">
               <a href="{{ nav.link1 }}" style="font-size: {{ nav.size1 }}%;">
                 {% if nav.decorate == 1 %} <span style="font-size: {{ nav.size1 }}">&#8668;</span>{% endif %}
                 {{ nav.label1 }}
@@ -30,37 +30,19 @@
           </ul>
         </div>
 
-        <!-- Sponsorship -->
         <script id="parterListingTemplate" type="text/template">
             {% raw  %}
             <a href="{{url}}" target="_blank" title="{{title}}">
-           		<img src="{{logo}}" width="{{width}}" style="padding: 2px;" />
+           		<img src="{{logo}}" width="{{width}}" style="padding: 1px 1px {{paddingbottom}}px 1px;" />
             </a>
             {% endraw %}
         </script>
-        <script type="text/javascript">
-        function listSponsors(){
-            $.getJSON('{{ site.sponsors_json_url }}', function(data) {
-                $.each(data['sponsors'], function(key, val) {
-                var template = $('#parterListingTemplate').html();
-                var html = Mustache.to_html(template, val);
-                $('#partnerListingContainer').append(html);
-                });
-            });
-          }
-        </script>
-        <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: {{ site.sponsors_margin_top }}px; padding: 15px; width: 50%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 2px;"></div>
-        <script type="text/javascript">listSponsors();</script>
-        <!-- Sponsorship -->
+        <div id="partnerListingContainer" align="center" style="background-color:#FFF; margin-top: 20px; padding: 10px 10px 10px 10px; width: 60%; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 3px solid #FFFFFF; margin-bottom: 15px;">
 
       </div>
     </header>
 
     <div class="content container">
-
-      <div class="ribbon">
-        <a href="/support/">Support This Project</a>
-      </div>
 
       <p align="center"><a href="{{ site.url }}"><img src="{{ site.logo }}" align="center" width="{{ site.logo_width }}%" style="padding-bottom: {{ site.logo_bottom_padding }}px;" /></a></p>
 
@@ -94,48 +76,62 @@
 	</script>
 
   <script type="text/javascript">
-    // project view log
-  	$url = "http://project.api.kinlane.com/project/view/";
-  	$vlog = $.post($url, function() {});
 
-    // Feature Projects
-    function featureProjects()
-        {
-        $get_feature_project_url = "http://project.api.kinlane.com/project/feature/";
-        $.ajax({
-          url: $get_feature_project_url,
-          type:"GET",
-          success:function(data) {
-              $feature_title = data['feature_title'];
-              $feature_image = data['feature_image'];
-              $feature_url = data['feature_url'];
-              $("#feature_project_link").attr("href", $feature_url);
-              $("#feature_project_image").attr("src", $feature_image);
-              $("#feature_project_image").attr("title", $feature_title);
-            }
-        });
-        }
-    featureProjects();
+      // project view log
+     $url = "http://project.api.kinlane.com/project/view/";
+     $vlog = $.post($url, function() {});
 
-    // Footer Projects
-    function footerProjects()
-        {
-        $get_footer_project_url = "http://project.api.kinlane.com/project/footer/";
-
-        $.ajax({
-          url: $get_footer_project_url,
-          type:"GET",
-          success:function(data) {
-              $footer_title = data['footer_title'];
-              $footer_image = data['footer_image'];
-              $footer_url = data['footer_url'];
-              $("#footer_project_link").attr("href", $footer_url);
-              $("#footer_project_image").attr("src", $footer_image);
-              $("#footer_project_image").attr("title", $footer_title);
-            }
+      // List Sponsors
+      function listSponsors()
+          {
+          $.getJSON('https://s3.amazonaws.com/kinlane-productions/json/sponsors.json', function(data) {
+              $.each(data['sponsors'], function(key, val) {
+              var template = $('#parterListingTemplate').html();
+              var html = Mustache.to_html(template, val);
+              $('#partnerListingContainer').append(html);
+              });
           });
         }
-    footerProjects();
+      listSponsors();
+
+      // Feature Projects
+      function featureProjects()
+          {
+          $get_feature_project_url = "http://project.api.kinlane.com/project/feature/";
+          $.ajax({
+            url: $get_feature_project_url,
+            type:"GET",
+            success:function(data) {
+                $feature_title = data['feature_title'];
+                $feature_image = data['feature_image'];
+                $feature_url = data['feature_url'];
+                $("#feature_project_link").attr("href", $feature_url);
+                $("#feature_project_image").attr("src", $feature_image);
+                $("#feature_project_image").attr("title", $feature_title);
+              }
+          });
+          }
+      featureProjects();
+
+      // Footer Projects
+      function footerProjects()
+          {
+          $get_footer_project_url = "http://project.api.kinlane.com/project/footer/";
+
+          $.ajax({
+            url: $get_footer_project_url,
+            type:"GET",
+            success:function(data) {
+                $footer_title = data['footer_title'];
+                $footer_image = data['footer_image'];
+                $footer_url = data['footer_url'];
+                $("#footer_project_link").attr("href", $footer_url);
+                $("#footer_project_image").attr("src", $footer_image);
+                $("#footer_project_image").attr("title", $footer_title);
+              }
+            });
+          }
+      footerProjects();
 
   </script>
 

@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<p align="center"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png" align="center" width="65%" style="padding-bottom: 10px;" /></p>
-
 <div class="post">
   <h1>{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
@@ -32,7 +30,7 @@ layout: default
 			<a href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/google-plus.png" width="25" /></a>				
 		</td>	
 		<td align="center">
-			<a href="https://www.tumblr.com/share/link?url={{ site.production_url }}{{ page.url }}&name={{ site.production_url }}{{ page.title }}&description={{ page.content | strip_html | truncatewords: 150 }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/tumblr.png" width="25" /></a>				
+			<a href="http://www.tumblr.com/share?v=3&u={{ site.production_url }}{{ page.url }}&t={{ site.production_url }}{{ page.title }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/tumblr.png" width="25" /></a>				
 		</td>
 		<td align="center">
 			<a href="http://www.reddit.com/submit?url={{ site.production_url }}{{ page.url }}&title={{ site.production_url }}{{ page.title }}" target="_bank"><img src="https://s3.amazonaws.com/kinlane-productions/icons/reddit.png" width="25" /></a>				
@@ -43,6 +41,7 @@ layout: default
 	</tr>
 </table>
 
+<!-- Pagination links -->
 <div class="pagination">
 	{% if page.previous %}
 	   	<a href="{{ site.production_url }}{{ page.previous.url }}" class="older">Older</a>
@@ -62,7 +61,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ post.sourceurl }}">
+          <a href="/{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
