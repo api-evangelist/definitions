@@ -23,7 +23,7 @@
 		"tool_id": "123KEubtan6h5rv5VY116MP123123PiGxuZKxil2E076G123Fy8aG2zUkWekjk8YWSgaakJlHMruIMfRdSRcJZYGvMVjg3ng117117",
 		"name": "API Blueprint",
 		"user": "apiaryio",
-		"details": "API Blueprint is a documentation-oriented API description language. A couple of semantic assumptions over the plain Markdown. API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration. It is easy to learn and even easier to read &ndash; after all it is just a form of plain text. API Blueprint, its parser, and most of its tools are completely open sourced so you dont have to worry about vendor lock-in. This also means you can freely integrate API Blueprint into any type of product, commercial or not.",
+		"details": "API Blueprint is a documentation-oriented API description language. A couple of semantic assumptions over the plain Markdown. API Blueprint is perfect for designing your Web API and its comprehensive documentation but also for quick prototyping and collaboration. It is easy to learn and even easier to read; after all,u200b it is just a form of plain text.",
 		"post_date": "2015-05-14 12:42:22",
 		"url": "https://github.com/apiaryio/api-blueprint/",
 		"blog_url": "",
@@ -43,10 +43,51 @@
 		]
 	},
 	{
+		"tool_id": "a54123nEtP1Fi3r7ExRo7zRP0WOZWp7h7123mBl3iNgIygnKN7MttWHc7D83NJGpq116uHqAXPHXWhtx116JkoZh69eQxg117117",
+		"name": "api-blueprint",
+		"user": "apiaryio",
+		"details": "API Blueprint",
+		"post_date": "2016-07-17 15:21:42",
+		"url": "https://api.github.com/repos/apiaryio/api-blueprint",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "1114",
+		"followers": "3974",
+		"watchers": "3974",
+		"tags": [
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
+		"tool_id": "dYp2qGQeaipw96cI9UsZcfr0DKhZX43sVhdJ44123tFtFgkjo8j0KXXfH2EC0oPwYQN4K3f58zOx6JPwSmddqVcA117117",
+		"name": "api-spec-converter",
+		"user": "stoplightio",
+		"details": "This package helps to convert between different API specifications (Postman, Swagger, RAML, StopLigh",
+		"post_date": "2016-07-17 22:51:09",
+		"url": "https://api.github.com/repos/stoplightio/api-spec-converter",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "3",
+		"followers": "14",
+		"watchers": "14",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Converter"
+		]
+	},
+	{
 		"tool_id": "DYbI4KEKr5Nx0E5SNLPBCCz9P74XahwWGu5VyoLq8k11677AsjKOe9d116oZL1IfPZv70Zb0duHxbfd1rZb5z4Rz8Q117117",
 		"name": "Apiary Blueprint Parser",
 		"user": "",
-		"details": "A JavaScript parser of&nbsp;Apiary API blueprints. Uses Node.js then in browser, include the browser version of the parser in your web page or application using the &lt;script&gt; tag. To parse an API blueprint, just call the parse method and pass the blueprint as a parameter. The method will return an object representing the parsed blueprint or throw an exception if the input is invalid.",
+		"details": "A JavaScript parser of Apiary API blueprints. Uses Node.js then in browser, include the browser version of the parser in your web page or application using the script tag. To parse an API blueprint, just call the parse method and pass the blueprint as a parameter. The method will return an object representing the parsed blueprint or throw an exception if the input is invalid.",
 		"post_date": "2013-06-12 18:42:12",
 		"url": "https://github.com/apiaryio/blueprint-parser",
 		"blog_url": "",
@@ -105,6 +146,48 @@
 		]
 	},
 	{
+		"tool_id": "XjeWKXuMj4hbu7LCp1TXcPt1UTlQK6VvS8R116zGK1qV9wHc57Bzt6E98CKQNVro4Rwwq0Zl3pYgTYEYmsExm9Qg117117",
+		"name": "certificate-transparency-rfcs",
+		"user": "google",
+		"details": "Certificate Transparency RFC",
+		"post_date": "2016-07-17 23:23:45",
+		"url": "https://api.github.com/repos/google/certificate-transparency-rfcs",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "19",
+		"followers": "41",
+		"watchers": "41",
+		"tags": [
+			"GitHub",
+			"Encryption",
+			"Definitions"
+		]
+	},
+	{
+		"tool_id": "cdJFKZiWDZMDeIqF7sJp2T2Rvjuqy123fSxHPkGrLBObtiPCgUq06XJj123AltAockqaWfCGAMUyT6xHHIicdGGecw117117",
+		"name": "chef-server-schema",
+		"user": "chef",
+		"details": "SQL Schema for the Open Source Chef Server",
+		"post_date": "2016-07-17 22:39:38",
+		"url": "https://api.github.com/repos/chef/chef-server-schema",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "1",
+		"watchers": "1",
+		"tags": [
+			"Schema",
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
 		"tool_id": "123wJlc116jjvqsV3SHE6DBcci52uyXGlFJ737MSvSINji6IU2O7VSH3OkR81wla3Ga1qeMOx4NgnORQV5szoF9116wg117117",
 		"name": "Collection+JSON",
 		"user": "",
@@ -124,6 +207,27 @@
 			"Hypermedia",
 			"Design",
 			"Definitions"
+		]
+	},
+	{
+		"tool_id": "AKkyeii4dkxVRMWV4uKifYUs78MbhXb9n6q123NYuZH6PSJlHOd09MWQwT3mDDT123Cp5HHygBontbbOog2eISSaNg117117",
+		"name": "Docson",
+		"user": "lbovet",
+		"details": "Documentation for your JSON types",
+		"post_date": "2016-07-11 19:58:33",
+		"url": "https://github.com/lbovet/docson",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "42",
+		"followers": "250",
+		"watchers": "250",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Data Specifications"
 		]
 	},
 	{
@@ -211,10 +315,30 @@
 		]
 	},
 	{
+		"tool_id": "srMhDgJIL116imrWM9haaChZSQovzYVaNv7fuDZo8hWLypJ0xzS123eZStURZ6SZNnkTbDY4t1MifSNw87w5uer01Q117117",
+		"name": "interpol",
+		"user": "seomoz",
+		"details": "A toolkit for working with API endpoint definition files, giving you a stub app, a schema validation",
+		"post_date": "2016-07-25 23:21:44",
+		"url": "https://api.github.com/repos/seomoz/interpol",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "13",
+		"followers": "187",
+		"watchers": "187",
+		"tags": [
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
 		"tool_id": "12jXk6ZDKDfZka9wOWD19SzCRtJdoatHS8sOjWhGMqLVIkQ30obdpMCgp116Zgge3RxO123FF2C123EUMarJcJFzPU6Q117117",
 		"name": "JSON API",
 		"user": "",
-		"details": "If youve ever argued with your team about the way your JSON responses should be formatted, JSON API is your anti-bikeshedding weapon. By following shared conventions, you can increase productivity, take advantage of generalized tooling, and focus on what matters: your application. Clients built around JSON API are able to take advantage of its features around efficiently caching responses, sometimes eliminating network requests entirely.",
+		"details": "If youveu200b ever argued with your team about the way your JSON responses should be formatted, JSON API is your anti-bikeshedding weapon. By following shared conventions, you can increase productivity, take advantage of generalized tooling, and focus on what matters: your application. Clients built around JSON API are able to take advantage of its features around efficiently caching responses, sometimes eliminating network requests entirely.",
 		"post_date": "2015-07-10 18:54:07",
 		"url": "http://jsonapi.org/",
 		"blog_url": "",
@@ -226,7 +350,6 @@
 		"followers": 0,
 		"watchers": 0,
 		"tags": [
-			"Specification",
 			"Media Type",
 			"Design",
 			"Definitions"
@@ -296,8 +419,28 @@
 		]
 	},
 	{
+		"tool_id": "3q1QoAmIUvPJX2F6QLLE1x729shI123esSy8D772d0O0NudPHKqCQ123vG5H5XFQhf4s0OpF3PTzGUFT10Sq6IqD3g117117",
+		"name": "loopback-connector-swagger",
+		"user": "strongloop",
+		"details": "Connect Loopback to a Swagger-compliant API",
+		"post_date": "2016-07-17 22:31:38",
+		"url": "https://api.github.com/repos/strongloop/loopback-connector-swagger",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "1",
+		"watchers": "1",
+		"tags": [
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
 		"tool_id": "JHcQJNL3GhQAYRJpZ308SGFncGm4XCT1tZbR0r9hAxKkVcv4KGITT8D1237KzP4crwds116vtjQBeU1164kLXaWOsj1A117117",
-		"name": "Markdown Syntax for Object Notation",
+		"name": "Markdown Syntax for Object Notation (MSON)",
 		"user": "",
 		"details": "MSON is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML.",
 		"post_date": "2015-07-30 23:40:36",
@@ -319,7 +462,7 @@
 		"tool_id": "WAfIg8637yn8mZXAMqCYg25BvkMqbXzdClCqd1w116agA2M5N9Lu2OyhqjWzqvcfHB6aLwmq123rTrozY5p4RMI8TQ117117",
 		"name": "Mason",
 		"user": "",
-		"details": "Mason is a JSON format for introducing hypermedia elements to classic JSON data representations. With Mason you get hypermedia elements for linking and modifying data, features for communicating to client developers and standardized error handling. Mason is built on JSON, reads JSON, writes JSON and generally fits well into a JSON based eco-system.",
+		"details": "Mason is a JSON format for introducing hypermedia elements to classic JSON data representations. With Mason, you get hypermedia elements for linking and modifying data, features for communicating to client developers and standardized error handling. Mason is built on JSON, reads JSON, writes JSON and generally fits well into a JSON based eco-system.",
 		"post_date": "2014-12-19 10:59:17",
 		"url": "https://github.com/JornWildt/Mason",
 		"blog_url": "",
@@ -334,6 +477,26 @@
 			"Media Type",
 			"Hypermedia",
 			"Design",
+			"Definitions"
+		]
+	},
+	{
+		"tool_id": "UG133tiBhLOG4B3WjEnXIF116ZrJEbJ9b85FN94123CJ17I0PxgMPKnoYsYpvrYWAS558K7e116mfLdaCfoSZBLEdwSg117117",
+		"name": "ODataSamples",
+		"user": "odata",
+		"details": "Samples: For ODataLib, OData Web API, RESTier, etc.",
+		"post_date": "2016-07-17 20:07:30",
+		"url": "https://api.github.com/repos/OData/ODataSamples",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "76",
+		"followers": "68",
+		"watchers": "68",
+		"tags": [
+			"GitHub",
 			"Definitions"
 		]
 	},
@@ -362,7 +525,7 @@
 		"tool_id": "SwNxHJWgQiR6e9bt4Xm1WAe9s1JE529AP5tSPMiwa3fQXVBmuxg5pLOmPDU2QCEAKtBQ116SZaj6u3tHCAazP8jw117117",
 		"name": "OpenAPI Specification",
 		"user": "OAI",
-		"details": "The OpenAPI Specification Repository",
+		"details": "The goal of The OpenAPI Specification is to define a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined via OpenAPI, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. Similar to what interfaces have done for lower-level programming, OpenAPI removes the guesswork in calling the service.",
 		"post_date": "2016-03-11 23:16:54",
 		"url": "https://github.com/OAI/OpenAPI-Specification",
 		"blog_url": "",
@@ -374,6 +537,7 @@
 		"followers": "3107",
 		"watchers": "3107",
 		"tags": [
+			"Specification",
 			"GitHub",
 			"Design",
 			"Definitions"
@@ -383,7 +547,7 @@
 		"tool_id": "N6dYL123IzqO6tXSyiIOR3hWVKLLmolHANR123fRKn6YEGS5beHHWF5eivoQkzGboPQHwBAxAjJAPXor2BQ64ANlWw117117",
 		"name": "Paw API Blueprint Generator",
 		"user": "apiaryio",
-		"details": "Paw extension providing support to export API Blueprint as a code generator.",
+		"details": "Paw extension providing support to export API Blueprint as a code generator, allowing for you to publish API definitions from the web API client tooling.",
 		"post_date": "2015-05-14 12:45:02",
 		"url": "https://github.com/apiaryio/Paw-APIBlueprintGenerator/",
 		"blog_url": "",
@@ -397,8 +561,71 @@
 		"tags": [
 			"Generator",
 			"Definitions",
-			"Client",
+			"Clients",
 			"API Blueprint"
+		]
+	},
+	{
+		"tool_id": "Xv33ykMkcKnpnCje82i0buRuEn3uOOE123HdSCM3MjcrkAoL4GaHguofzmtlDJHote55jMdJOSyxK021FME7iLgw117117",
+		"name": "Paw-PostmanEnvironmentImporter",
+		"user": "luckymarmot",
+		"details": "A Paw Extension to import Postman Environments.",
+		"post_date": "2016-07-17 22:46:27",
+		"url": "https://api.github.com/repos/luckymarmot/Paw-PostmanEnvironmentImporter",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "5",
+		"watchers": "5",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Clients"
+		]
+	},
+	{
+		"tool_id": "lvnLDDg7rZL7vzjpkI116ZatSgnIoauOt0dr1Wu12348ksR59TYJZYqw6Sj1163xhDFaTeFA31Bp3vGhR1rnix2ebFIQ117117",
+		"name": "Paw-PostmanImporter",
+		"user": "luckymarmot",
+		"details": "A Paw Extension to import Postman Collections.",
+		"post_date": "2016-07-17 22:46:42",
+		"url": "https://api.github.com/repos/luckymarmot/Paw-PostmanImporter",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "5",
+		"watchers": "5",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Clients"
+		]
+	},
+	{
+		"tool_id": "J116aMGr6i5PdZ4123dslOGduDKbLZxKKkC4hLuZmPctJpbloOVKXjIRZkZe6lARi5IchRWfpwVyPfHv1nR3vOjKqQ117117",
+		"name": "Paw-WADLImporter",
+		"user": "luckymarmot",
+		"details": "WADL Importer for Paw",
+		"post_date": "2016-07-17 22:46:04",
+		"url": "https://api.github.com/repos/luckymarmot/Paw-WADLImporter",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "0",
+		"watchers": "0",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Clients"
 		]
 	},
 	{
@@ -418,6 +645,27 @@
 		"watchers": 0,
 		"tags": [
 			"Specification",
+			"Definitions"
+		]
+	},
+	{
+		"tool_id": "F6lz5S116Q0M5GLZa123HJme1bcx8IBHqZPlW116HjzeafL1236gwpmJiCRjRba5huuAtav0hFL38CYVeeH2116pIMWJoaEw117117",
+		"name": "prism",
+		"user": "stoplightio",
+		"details": "Turn any OAS (Swagger 2) file into an API server with mocking, transformations, validations, and mor",
+		"post_date": "2016-07-17 22:50:49",
+		"url": "https://api.github.com/repos/stoplightio/prism",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "3",
+		"followers": "7",
+		"watchers": "7",
+		"tags": [
+			"Proxy",
+			"GitHub",
 			"Definitions"
 		]
 	},
@@ -444,10 +692,32 @@
 		]
 	},
 	{
+		"tool_id": "HSDjVts1IVhdAcM1qSS4KkseodhPPro8RS3jEo2p7hGbEbZ0bdmOtkUwcUp8yFlN80mmP1jpFeMwuvIInFT8GQ117117",
+		"name": "raml2postman",
+		"user": "postmanlabs",
+		"details": "Coverts RAML specs to Postman Collections (v1 of the collection format)",
+		"post_date": "2016-07-17 22:48:54",
+		"url": "https://api.github.com/repos/postmanlabs/raml2postman",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "2",
+		"followers": "12",
+		"watchers": "12",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Conversion",
+			"Clients"
+		]
+	},
+	{
 		"tool_id": "OeiX4a2gxt2K12gimiOfETcpsTI03QSaCj9tfMzyDlb7436CzzlG3116TmoYu4dp9Md1WubwPAA123yMFmwBaPPd6g117117",
 		"name": "RESTdesc",
 		"user": "",
-		"details": "Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture the functionality of hypermedia APIs, so automated agents can use them. Despite their powerful capabilities, RESTdesc descriptions are easy to master. Description is not a goal in itself: you want your API to be used. See how RESTdesc opens up your API for discovery, based on its functional characteristics.",
+		"details": "Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture the functionality of hypermedia APIs, so automated agents can use them. Despite their powerful capabilities, RESTdesc descriptions are easy to master. The description is not a goal in itself: you want your API to be used. See how RESTdesc opens up your API for discovery, based on its functional characteristics.",
 		"post_date": "2015-07-31 00:00:13",
 		"url": "http://restdesc.org/",
 		"blog_url": "",
@@ -568,6 +838,27 @@
 		]
 	},
 	{
+		"tool_id": "d7ryWD2GRy0pve5Kga2LGF64izlVEc3oZlecYLUHQ4ffORmxBfL6tdBErZ4uz5ybaFVJFpUW0H33FPwTH0tzAQ117117",
+		"name": "schemas",
+		"user": "postmanlabs",
+		"details": "Repository of all schemas for JSON structures compatible with Postman (such as the Postman Collectio",
+		"post_date": "2016-07-17 22:49:13",
+		"url": "https://api.github.com/repos/postmanlabs/schemas",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "8",
+		"followers": "4",
+		"watchers": "4",
+		"tags": [
+			"Schemas",
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
 		"tool_id": "eYiK3pS7TRL6116EdvrvG116ZSrhfv2dzHvZGU5KUWHToVDrS123YqtY9hJVPenjiKln07eBxh1skz84da40qoqeRTfA117117",
 		"name": "Siren",
 		"user": "",
@@ -590,10 +881,31 @@
 		]
 	},
 	{
+		"tool_id": "1lfA123hQxgQ5pSeyQOks4M3qgUEX2koLYAUp1ibs0Tu2dIqx3cA8toJq7Hw0mPq9Ev7NADLIJ1GUxZRaCdTlv123Q117117",
+		"name": "skinfer",
+		"user": "scrapinghub",
+		"details": "Skinfer is a tool for inferring and merging JSON schemas",
+		"post_date": "2016-07-26 00:06:44",
+		"url": "https://api.github.com/repos/scrapinghub/skinfer",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "6",
+		"followers": "48",
+		"watchers": "48",
+		"tags": [
+			"Merging",
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
 		"tool_id": "IOgNZxaFF116sgf123fwlamR4Vg7Vvz7u5116I3knrjGxconiR116XRgl00EleMV88ZkdipsUcempj116NEFy700D81ECUMg117117",
-		"name": "snowcrash",
+		"name": "Snowcrash",
 		"user": "apiaryio",
-		"details": "Snow Crash is the reference&nbsp;API Blueprint&nbsp;parser built on top of the&nbsp;Sundown&nbsp;Markdown parser.",
+		"details": "Snow Crash is the reference API Blueprint parser built on top of the Sundown Markdown parser.",
 		"post_date": "2015-05-14 12:42:39",
 		"url": "https://github.com/apiaryio/snowcrash/",
 		"blog_url": "",
@@ -613,10 +925,74 @@
 		]
 	},
 	{
+		"tool_id": "vCLAJz123H18XEKDq92qp116VyfOJpIuXZvB116sQnfYm116xDL03G116O1KT116nGzGJ4LvN8UScZOITp9LuK4SzX7Hcbs0ow117117",
+		"name": "swagger-editor",
+		"user": "swagger-hub",
+		"details": "Swagger Editor",
+		"post_date": "2016-07-17 22:51:45",
+		"url": "https://api.github.com/repos/swagger-hub/swagger-editor",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "0",
+		"watchers": "0",
+		"tags": [
+			"IDE",
+			"GitHub",
+			"Definitions"
+		]
+	},
+	{
+		"tool_id": "1Wv6F8116LcvnQ42hfwFo76GLg1sc2o3JT2fH9rw4hDH17QYe4q1HBgcK3NQQS6KgbVlBg5UGYD123WTOE123p123fm4tw117117",
+		"name": "swagger-ui",
+		"user": "swagger-hub",
+		"details": "Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically gene",
+		"post_date": "2016-07-17 22:52:03",
+		"url": "https://api.github.com/repos/swagger-hub/swagger-ui",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "0",
+		"followers": "0",
+		"watchers": "0",
+		"tags": [
+			"GitHub",
+			"Documentation",
+			"Definitions"
+		]
+	},
+	{
+		"tool_id": "7IEuTTPAXEV3bz0eJih0OybyBV9y0gtFrx0KF1Tekb1j252Djj4nu1fruSvOQjjEr2Iy2MR0vt9TCsHU2XH3Uw117117",
+		"name": "swagger2-to-postman",
+		"user": "postmanlabs",
+		"details": "Converter for swagger 2.0 JSON to Postman Collection",
+		"post_date": "2016-07-17 22:49:47",
+		"url": "https://api.github.com/repos/postmanlabs/swagger2-to-postman",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "12",
+		"followers": "21",
+		"watchers": "21",
+		"tags": [
+			"GitHub",
+			"Definitions",
+			"Conversion",
+			"Clients"
+		]
+	},
+	{
 		"tool_id": "rs2Cy1116nW6S4m1237FFZqnlL3aJtNmnSo123Nbpf6eKb4N116tt6jAnjHrOiQS51qgU123gkUbK4SYeJPyW2v1ZD7a5SJg117117",
 		"name": "Swagger2RAML",
 		"user": "",
-		"details": "A utility to generate RAML documentation from Swagger JSON.",
+		"details": "A utility to generate RAML documentation from OpenAPI Specification.",
 		"post_date": "2014-06-15 13:09:11",
 		"url": "https://github.com/8x8Cloud/swagger2raml",
 		"blog_url": "",
@@ -631,6 +1007,26 @@
 			"Swagger",
 			"Definitions",
 			"Converter"
+		]
+	},
+	{
+		"tool_id": "s123sxFL0QA123mi0cXVAwgWTrEsxsOKdnMfuWH123uRMS6AcjFsjsSKQiXTTsHxVQmQTIuGAB3123NKLtDIrELODaMOSw117117",
+		"name": "tyk-swagger-definitions",
+		"user": "TykTechnologies",
+		"details": "Tyk swagger (OpenAPI) definition files",
+		"post_date": "2016-07-17 22:35:09",
+		"url": "https://api.github.com/repos/TykTechnologies/tyk-swagger-definitions",
+		"blog_url": "",
+		"blog_rss_url": "",
+		"twitter_url": "",
+		"github_url": "",
+		"logo": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png",
+		"forks": "2",
+		"followers": "0",
+		"watchers": "0",
+		"tags": [
+			"GitHub",
+			"Definitions"
 		]
 	},
 	{
