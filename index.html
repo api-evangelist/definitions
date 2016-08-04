@@ -20,29 +20,10 @@ title: API Definitions
 
   </div>
   <div class="span3" style="text-align: left;">
-    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/news.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist">
-      {% assign totalpost = 8 %}
-      {% assign amount = 0 %}
-      {% for post in site.posts limit:150 %}
-        {% if post.title | truncatewords: 10 != null %}
-
-            <!--Guess this is only way to do??-->
-            {% if amount == '1' %}
-              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
-            {% elsif amount == '2' %}
-              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
-            {% elsif amount == '3' %}
-              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
-            {% elsif amount == '4' %}
-              <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
-              {% elsif amount == '5' %}
-                <li><a href="{{ post.source }}">{{ post.title | truncatewords: 10 }}</a></li>
-            {% endif %}
-
-            {% capture amount %}{{ amount | plus: '1' }}{% endcapture %}
-
-        {% endif %}
+      {% for curated in site.data.curated  limit:5 %}
+        <li><a href="{{ curated.url }}">{{ curated.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
