@@ -21,7 +21,7 @@ tags_path : /tags.html
 
 # Masthead title
 masthead_link: http://apis.how/xzca4kr2wb
-masthead_font_size: 65
+masthead_font_size: 75
 masthead_title: '{"API Definitions"}'
 
 # Feature
@@ -38,7 +38,7 @@ project_summary: Research project to keep track of established, and emerging way
 # Navigation
 navigation:
   - label1: Home
-    link1: /index.html
+    link1: /
     size1: 80
     extend: 0
     label2:
@@ -46,14 +46,23 @@ navigation:
     size2: 0
     padding: 0
     decorate: 0
-  - label1: News
-    link1: /news/
+  - label1: Blog
+    link1: /blog/
     size1: 80
     extend: 1
     label2: RSS
     link2: /blog.xml
     size2: 60
-    padding: 2
+    padding: 0
+    decorate: 0
+  - label1: News
+    link1: /news/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /news.xml
+    size2: 60
+    padding: 0
     decorate: 0
   - label1: Organizations
     link1: /organizations/
@@ -80,7 +89,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 8
+    padding: 0
     decorate: 1
 
 # Footer Navigation
