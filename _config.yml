@@ -182,10 +182,10 @@ footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empower
 footer_image_width: 60
 
 # curated
-curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API design--these are the links I am including in my research.
+curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API definitions--these are the links I am including in my research.
 
 # organizations
-org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API design. These are the organizations I'm currently including in my API design research.
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API definitions. These are the organizations I'm currently including in my API definitions research.
 
 # tools
 tools_desc:
