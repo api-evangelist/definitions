@@ -1,5 +1,189 @@
 [
 	{
+		"curated_id": "yrPmUrVYvG116DALodPD2S2nofntuK2PC0Y8YVGBUGP7IpAlrwU02knEDLh116am23ZFywSez7nRgydVODfepXi9fg117117",
+		"item_date": "2016-09-23 00:00:00",
+		"title": "Usage of Swagger 20 in Spring Boot Applications to document APIs",
+		"url": "https://dzone.com/articles/usage-of-swagger-20-in-spring-boot-applications-to",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bsLIgUQ36pb2hakkZYZGgjcUy475W9WodBlTTEJ1a52Pg2IW6PKsXuUrxJu123ChirUBGq3KIw116davrSTCRP59ng117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Atlassian joins Open API Initiative open sources RADAR doc generator",
+		"url": "https://developer.atlassian.com/blog/2016/05/open-api-initiative/",
+		"domain": "developer.atlassian.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PT3JlWR2AZVJIAj116I9hLuukEQaGHPCDZskJTx4rNyhAQYJoPFHvGxwPnYECr4UIRsTbysi9ksmQ0JaE4e8Y116qA117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "How Defining Some API Standards and Best Practices Might Benefit Enterprises",
+		"url": "http://www.programmableweb.com/news/how-defining-some-api-standards-and-best-practices-might-benefit-enterprises/analysis/2016/09/21",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mNwfKhaUzdN0fPBR7vGga4z6Q814MH1232gBnvbJnHcdknkqhdepzZur5RG6b52e3sj1166jK1169iOcej0zgAUHGnWA117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "Generating Swagger OpenAPI specification from your LoopBack Application",
+		"url": "https://strongloop.com/strongblog/generating-swagger-openapi-specification-from-your-loopback-application/",
+		"domain": "strongloop.com",
+		"image": ""
+	},
+	{
+		"curated_id": "nsxP4v8toLgWlK8mmVpSpI1116a2w8v116zwn1JkDr6uKAsiq123XbACkyLt2HylJUwxEOOBr5dUA9uZN2lYHZTkCIOQ117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "AWS CloudFormation Update  YAML CrossStack References Simplified Substitution",
+		"url": "https://aws.amazon.com/blogs/aws/aws-cloudformation-update-yaml-cross-stack-references-simplified-substitution/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "nwQ3uPM123YRQISgqdU4v8PdqLqq0I4TZk9oiGhQf8Ci0vAZbE1165zlhSXA6x6WvUGpSk7Wb9123kMtaqGz2NZHccYw117117",
+		"item_date": "2016-09-12 00:00:00",
+		"title": "New Developer Resource Abstraction Layers Schemas and State Management  oh my",
+		"url": "https://www.apteligent.com/developer-resources/abstraction-layers-schemas-and-state-management-oh-my/",
+		"domain": "www.apteligent.com",
+		"image": ""
+	},
+	{
+		"curated_id": "V7K9HiAMkAxMEcGoRN123wc7qvPPo41dgaD0g9LNFISoef8wJ0kNH1co1234uydn5KiNcJhN6HuoqT6dPTCiqX17Nw117117",
+		"item_date": "2016-09-10 20:35:41",
+		"title": "Stage Intelligence Adds Support for the GBFS Open Data Standard into its BICO Distribution Solution",
+		"url": "http://insidebigdata.com/2016/09/08/stage-intelligence-adds-support-for-the-gbfs-open-data-standard-into-its-bico-distribution-solution/",
+		"domain": "insidebigdata.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XG5cb4GS0LYbS5teap165kkJh3hRA2OTew1AJMmoPuA5TLVoGWLs8imzj0Fybt3Ch8JAMcoj3sak8ZraG2WG116g117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "ASPNET Core APIs in the Fast Lane With Swagger and Autorest",
+		"url": "https://dzone.com/articles/aspnet-core-apis-in-the-fast-lane-with-swagger-and",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "aXZiXF123qk31BV80o6QHscLNx5IkM2prEHAIThFwl5L116PUhda6IujxuRLscWFJvcGWlM1167YNMWzmqKwEb1166OODg117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "Introducing API Templates With Reusable System and Process APIs",
+		"url": "http://blogs.mulesoft.com/dev/anypoint-platform-dev/api-templates-reusable-system-process-apis/",
+		"domain": "blogs.mulesoft.com",
+		"image": ""
+	},
+	{
+		"curated_id": "r4mInYoYVIjOANDHyJT116WcCyWRqDycKToXx5rWagGdVesx0H9BnLhoGYpaJLNe76n8aOvWaAdVlsy2NFfgmUTg117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Boxs developer platform revamped with new content types UI tools",
+		"url": "http://www.pcworld.com/article/3118310/boxs-developer-platform-revamped-with-new-content-types-ui-tools.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2Gty12IkCi3endqM1235hGrvf0jEMGYo81Hxj5oCk2Dxua8obrTmxweQM63lYd8IkcRsNqoJsfPopDkw8gCzcinw117117",
+		"item_date": "2016-09-03 09:26:52",
+		"title": "Specref",
+		"url": "http://www.specref.org/",
+		"domain": "www.specref.org",
+		"image": ""
+	},
+	{
+		"curated_id": "w1o116Stk7w116Jsmpfs116ST3123DDj41165AyiXMxFCcUgDuX1qpDMwKPQOl65LWlEc2Qf9ICMfit19jwXRVPkOau123qbNg117117",
+		"item_date": "2016-09-03 10:44:51",
+		"title": "JSON Version of Web Concepts",
+		"url": "http://webconcepts.info/update/2016/09/02/json-concepts.html",
+		"domain": "webconcepts.info",
+		"image": ""
+	},
+	{
+		"curated_id": "BmkZASH5lT8aIjPY68zoiSoAW123MOPpIPwfJ0I123v116VTfnz123Q3GrVUHxxQfi1UEc6wm2rwRJn8rJMwHP2PSWn9sQ117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "Why Consistency Matters Across the Media Types Offered by an API",
+		"url": "http://www.programmableweb.com/news/why-consistency-matters-across-media-types-offered-api/analysis/2016/08/30",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "nM0bZx5YedMcXKuJ123Xyh7i0Xt123JUxcjlvz123agkpLcgS8ReRv21tT0Ff6UX2nux3ROgSXmURfSYjtgXrDH6RAIw117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Using Templates to Transform Web Service Results into Markup",
+		"url": "https://www.infoq.com/articles/templates-with-http-rpc-java",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "iOZz2nRGggfPAErz2mVz17fPU8wmHJTGlPColijY052HcxwJjuYgDHl7tZy7zAEla4qs90pe5IoVlNz09cBfRw117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Poll results top reason for using SwaggerRAML",
+		"url": "http://restlet.com/blog/2016/09/01/poll-results-top-reason-for-using-swaggerraml/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dJm1Ty9xVrX8oWOgdcsMlOZnqJjxUGEBbVPiEY123ElLmrNPX62cr2TQYq123we123doN123UGhmjaueLklby7nnzL6t8Q117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "ASPNET Web API Documentation using Swagger",
+		"url": "http://www.codeproject.com/Articles/1121151/ASP-NET-Web-API-Documentation-using-Swagger",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PCSjBEo7gEmdTUscT9PFk4bAbCcuJv0yN29N5j7S8C0VbNYDfRsd2LNfjP1123X123zW3Nz44mrEP729JkZs9t8WIw117117",
+		"item_date": "2016-08-16 09:38:00",
+		"title": "What is the Difference Between API Documentation Specification and Definition",
+		"url": "http://nordicapis.com/difference-api-documentation-specification-definition/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NoeUhIdIJDJVFRVq2DapXYMgtLzxToxzv59q1E8jfaHn8xLCJOSe1167iKaSNIpn6WXOTgdMpIxI123UHcSWeK7fMQ117117",
+		"item_date": "2016-08-15 11:18:09",
+		"title": "Planet Platform Postman Collection by kjbrazil",
+		"url": "https://kjbrazil.github.io/planet-platform-postman-collection/",
+		"domain": "kjbrazil.github.io",
+		"image": ""
+	},
+	{
+		"curated_id": "Y4QO0RCG1NIBVT123o3TxxH9116S1cp1m123Sx0krvlYEDDbm116NNrYjvd451164Dw75aLLdxTGwFyVgPEM2IuD5LmyEuKw117117",
+		"item_date": "2016-08-14 00:00:00",
+		"title": "Implement Swagger Documentation for REST APIs",
+		"url": "https://dzone.com/articles/implement-swagger-documentation-for-rest-apis",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8Dywbl7uxZ0Ex12394oM3rZVNzCWaZR7h1blGsR457TcDlRTvWTBRMLG2DgjFYAS3SSk2oh5hBp2W3FYgVOKrl123g117117",
+		"item_date": "2016-08-02 00:00:00",
+		"title": "Tyk joins the Open API Initiative",
+		"url": "https://tyk.io/2016/08/02/tyk-open-api-members/",
+		"domain": "tyk.io",
+		"image": ""
+	},
+	{
+		"curated_id": "kAP3XjuXmwTD1236dV123S2PQQ4iyxTTwkTWHFUl116D116JDxLZWD7Q1bxFYgL8TzH470116eQRro7SxpnI3b116AAEYEYZfg117117",
+		"item_date": "2016-08-01 12:39:00",
+		"title": "Tweet Introducing ghost our online schema migration tool for MySQL by ShlomiNoach httpstcoBbpelcRkrq httpstcoyRK3v8vhc1",
+		"url": "https://twitter.com/github/statuses/760198164741709824",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dI123Cpup2pguC0fK4iEoKzyrHmALPg4UdaFO116hWcJM9tYlcVI2WC2FmSf6bIpBFK2CzPProc5DbncNrVovmHjgw117117",
+		"item_date": "2016-08-03 00:00:00",
+		"title": "Uri Sarid on RAML 10 Release and Latest MuleSoft API News",
+		"url": "https://www.infoq.com/news/2016/08/raml-1.0-mulesoft",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cmXFE9jZJvZtfW123g4CbkLLaLv3Gg123c4TORoQEGyU7m1Fr8Ppq6Nb7DHHeHisJJ116DH9skvle2W116FVANHZ123TRJaQ117117",
+		"item_date": "2016-08-02 00:00:00",
+		"title": "Writing OpenAPI Swagger Specification Tutorial  Part 8  Splitting specification file",
+		"url": "http://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-8-splitting-specification-file/",
+		"domain": "apihandyman.io",
+		"image": ""
+	},
+	{
 		"curated_id": "eKsNbIpc5iyC5XM1238HczJ31239116dhyLEyxp9ukr3oCIbFVbJPmucx123gwIULaro48o116wG0bnd116Rz86BpX3T62nMSw117117",
 		"item_date": "2016-07-29 20:07:35",
 		"title": "Media Types for Hypertext Sensor Markup",
