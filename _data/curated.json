@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "55Rh5F2mgMpUPd3PJmPoTssoiP982UcrUb8Cooe40116wtzR116ae343Huf1Maho75UraFLE0ZtavbNvsw0cFV7OYg117117",
+		"item_date": "2016-10-01 16:08:45",
+		"title": "Metaphors of Big Data",
+		"url": "http://dismagazine.com/discussion/73298/sara-m-watson-metaphors-of-big-data/",
+		"domain": "dismagazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "N5MXdjjBPRkjO1167SH8qxcbvCgS8sBYnJMCJ89wXddvRSI2O85YOth2oASTC2RSa9QJRcQJK5bPrEvzguPgr2yg117117",
+		"item_date": "2016-09-30 09:26:44",
+		"title": "An Open API Initiative Update",
+		"url": "https://www.infoq.com/articles/open-api-initiative-update",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
 		"curated_id": "yrPmUrVYvG116DALodPD2S2nofntuK2PC0Y8YVGBUGP7IpAlrwU02knEDLh116am23ZFywSez7nRgydVODfepXi9fg117117",
 		"item_date": "2016-09-23 00:00:00",
 		"title": "Usage of Swagger 20 in Spring Boot Applications to document APIs",
