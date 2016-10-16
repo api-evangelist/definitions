@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "90hdcluYnz6w3BSVwuiWUx5zQdhIu3UQ5FqMUGVOupVEoODSQn123yoOJBKz41WodeGcDH1Ud8NDnIwjBYcdWCHg117117",
+		"item_date": "2016-10-14 00:00:00",
+		"title": "Virtual Panel Document and Description Formats for Web APIs",
+		"url": "https://www.infoq.com/articles/document-description-formats-web-apis",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QSktZUlQtBi0nA69qs0OgRzOFQ803v289xCVy8123Ljpthm7Ra9CzJwnVdTGOqr5ZTQnl9E42qK4pbhBNu3tzXRQ117117",
+		"item_date": "2016-10-12 11:24:29",
+		"title": "How To Create a Trusted Web API Spec",
+		"url": "https://medium.com/springworks-engineering/how-to-create-a-trusted-web-api-spec-79e396f0d39a#.sby6ckxh9",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CL1166z0fL123dPC7Wwic16x2GVlscQPesrKL6To123RLmk1lhI4DUAS1162HnE2pBt7sG8R0hUVu7HYcqTFbUdVHKNgjw117117",
+		"item_date": "2016-10-11 15:55:16",
+		"title": "OPML to JSON converter",
+		"url": "http://dev.opml.org/json/",
+		"domain": "dev.opml.org",
+		"image": ""
+	},
+	{
 		"curated_id": "jxfcv1945123j87L0Jvv7VQbss1Tra74YlLhF1K51szmqlHUHUHdrN2uUAQaHBnkuC5VfmR116kd4mgPt8re123Q6hDg117117",
 		"item_date": "2016-10-03 00:00:00",
 		"title": "Web API Return List of Custom Type JSON",
