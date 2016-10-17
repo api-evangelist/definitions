@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "ETMaNBjfStCZdlv5yWcSg0LkC80qJ7NxYeI3GurRIaP123UNy2047Xlhy123gKtgCULhxEhD4ElVUYZM4ptI9I123Wsg117117",
+		"item_date": "2016-10-16 00:00:00",
+		"title": "The Need for Open Standards in Predictive Analytics",
+		"url": "https://dzone.com/articles/the-need-for-open-standards-in-predictive-analytic",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "90hdcluYnz6w3BSVwuiWUx5zQdhIu3UQ5FqMUGVOupVEoODSQn123yoOJBKz41WodeGcDH1Ud8NDnIwjBYcdWCHg117117",
 		"item_date": "2016-10-14 00:00:00",
 		"title": "Virtual Panel Document and Description Formats for Web APIs",
@@ -21,6 +29,22 @@
 		"title": "OPML to JSON converter",
 		"url": "http://dev.opml.org/json/",
 		"domain": "dev.opml.org",
+		"image": ""
+	},
+	{
+		"curated_id": "yeE116VNBLQEeHgFHIVX7TqV46YwRWmAI8Q4PAd3A3HEOBFE123iVi96HfLtmDhvWMMnZuSU9ISkwWEZcTcTerGtqQ117117",
+		"item_date": "2016-10-10 09:40:26",
+		"title": "swaggergistio  Saving and Versioning Swagger definitions",
+		"url": "https://jordwalsh.com/2016/10/10/swagger-gist-io-saving-and-versioning-swagger-definitions/",
+		"domain": "jordwalsh.com",
+		"image": ""
+	},
+	{
+		"curated_id": "t116UgX5SV5oZRvEBcU116dLqaPeRipqAnLamcQBCrqDCdCwkTYVXrSLx92mPcK1ma3QXi116mOqZy0LCIlLX7cHIAcA117117",
+		"item_date": "2016-10-10 09:41:48",
+		"title": "Why machine readable documentation is key to your APIs success",
+		"url": "https://medium.com/m/global-identity",
+		"domain": "medium.com",
 		"image": ""
 	},
 	{
