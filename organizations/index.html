@@ -35,6 +35,9 @@ title: API Design Orgs
       {% assign website_url = '' %}
 
       {% for common in apisjson.x-common %}
+        {% if common.type == 'x-website' %}
+          {% assign website_url = common.url %}
+        {% endif %}
         {% if common.type == 'x-blog' %}
           {% assign blog_url = common.url %}
         {% endif %}
