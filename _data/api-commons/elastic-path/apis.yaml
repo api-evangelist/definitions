@@ -1,9 +1,10 @@
 name: Elastic Path
-description: Elastic Path builds commerce software that powers the next generation
-  of digital experiences, helping businesses generate more revenue from their goods,
-  services, and content. Our products, including Commerce Engine, Cortex, and Subscriptions,
-  enable companies to unite discovery, buying, and consumption into outstanding customer
-  experiences that drive more engagement and conversion.
+description: Elastic Path built Helix because existing API modeling languages, such
+  as RAML, Swagger, and API Blueprint, while good for describing standard APIs, are
+  not well suited to designing hypermedia APIs. Elastic Path Cortex, our patented
+  API technology, utilizes Helix definitions and a Helix-compatible implementation,
+  allowing our partners and customers to extend existing APIs and quickly create new
+  ones.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/elastic-path.jpeg
 tags:
 - Definitions
