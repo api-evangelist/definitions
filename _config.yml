@@ -188,12 +188,14 @@ footer_image_width: 60
 curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API definitions--these are the links I am including in my research.
 
 # organizations
-org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API definitions. These are the organizations I'm currently including in my API definitions research.
+org_title: Some Organizations To Watch
+org_desc: These are the companies, and organizations who are doing interesting things when it comes to defining APIs. If they have an API, I'm working to profile, and provide machine readable indexes of each one below. If they do not have an API, I will just provide a brief profile of their operations.
+org_footer: If there is an organization you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.
 
 # tools
 tools_title: API Definition Tooling
 tools_desc: These are the open source tools I am tracking on as part my API definitions research, that can be applied during the API design cycle.
-tools_footer: If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/design/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.
+tools_footer: If there is an open source tool that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.
 
 # building blocks
 building_block_title: API Definition Building Blocks
