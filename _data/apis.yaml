@@ -7,7 +7,6 @@ specificationVersion: "0.14"
 apis: []
 tags:
 - Definitions
-- Definitions
 include:
 - name: Apache Avro
   url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/apache-avro/apis.yaml
