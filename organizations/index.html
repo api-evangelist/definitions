@@ -91,6 +91,13 @@ title: API Design Orgs
                       </a>
                     </li>
                   {% endif %}
+                  {% if website_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ website_url }}" target="_blank" title="Website">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="30" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
                   {% if blog_url != '' %}
                     <li style="display: inline; padding-left: 15px; padding-right: 15px;">
                       <a href="{{ blog_url }}" target="_blank" title="Blog">
