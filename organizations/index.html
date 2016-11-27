@@ -58,12 +58,11 @@ title: API Design Orgs
         {% endif %}
       {% endfor %}
 
-      {% if apisjson.humanURL == null %}
+      {% if portal_url != '' %}
         {% assign website_url = portal_url %}
-      {% else %}
-        {% if website_url == '' %}
-          {% assign website_url = apisjson.humanURL %}
-        {% endif %}
+      {% endif %}
+      {% if apisjson.humanURL != '' %}
+        {% assign website_url = apisjson.humanURL %}
       {% endif %}
 
       <tr>
