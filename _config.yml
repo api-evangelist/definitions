@@ -193,7 +193,9 @@ org_desc: As I keep track on the world of APIs and read through the information 
 # tools
 tools_title: API Definition Tooling
 tools_desc: These are the open source tools I am tracking on as part my API definitions research, that can be applied during the API design cycle.
+tools_footer: If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/design/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.
 
 # building blocks
 building_block_title: API Definition Building Blocks
 building_block_desc: As I monitor the API space I am always on the hunt for the common building blocks that make up any area of my work--these are some of the common elements I have aggregated from across the world of API definitions.
+building_block_footer: I am always adding to, and shifting my lists of the common building blocks as I evolve my understand of the space, and who is doing interesting things with API definitions.
