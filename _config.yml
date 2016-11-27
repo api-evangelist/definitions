@@ -191,4 +191,9 @@ curated_desc: As I keep track on the world of APIs I curate news, blog posts, ar
 org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API definitions. These are the organizations I'm currently including in my API definitions research.
 
 # tools
-tools_desc:
+tools_title: API Definition Tooling
+tools_desc: These are the open source tools I am tracking on as part my API definitions research, that can be applied during the API design cycle.
+
+# building blocks
+building_block_title: API Definition Building Blocks
+building_block_desc: As I monitor the API space I am always on the hunt for the common building blocks that make up any area of my work--these are some of the common elements I have aggregated from across the world of API definitions.
