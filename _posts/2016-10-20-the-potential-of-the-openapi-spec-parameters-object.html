@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'The Potential Of The OpenAPI Spec Parameters Object'
+source: http://definitions.apievangelist.com/2016/10/20/the-potential-of-the-openapi-spec-parameters-object/
+domain: definitions.apievangelist.com
+image: http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_9.04.05_pm.png
+atomdate: 2016-10-20T17:00:00-07:00
+---
+<p><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_9.04.43_pm.png" alt="" width="20%" align="right" /></p>
+<p>I enjoy learning from the OpenAPI Specs of the API providers I track on. Just having an OpenAPI Spec present tells a lot about an API provider in my book, but the level of detail some providers put into their API definitions adds another level to this for me. While reviewing <a href="https://developer.oxforddictionaries.com/swagger/spec/public_doc_guest.json">the OpenAPI Spec for the Oxford Dictionaries API</a>, I noticed their robust usage of the OpenAPI Spec parameters definitions collection, which provides an interesting overview of the surface area of the API, augmenting the benefits brought to the table by the definitions collection of an APIs underlying data schema.</p>
+<p>When you are defining each path for an API you can either define the parameters using each paths parameters, or you can add them to the overall parameters definition object, allowing them to be reused across all paths. This object provided me with a centralized place to learn about the parameters used when making calls to the Oxford Dictionary API, and I'm assuming it helped them be more organized in how they defined the surface area of their APIs.</p>
+<p><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/screen_shot_2016_10_19_at_9.04.05_pm.png" alt="" width="20%" align="right" /></p>
+<p>I can see how the processing of defining each path's parameters, and centrally organizing them for reuse can be a healthy thing. The more you lift yourself out of the individual&nbsp;definition&nbsp;of each path&nbsp;and consider the parameter patterns that have been used for other paths, the chances you will have a better view of the landscape will increase. I am optimistic about this OpenAPI Spec object, and curious about how it can be evolved as part of other conversation around GraphQL--something I'll work to understand better in the future.</p>
