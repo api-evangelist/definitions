@@ -1,13 +1,13 @@
 ---
 layout: page
-title: API Design Orgs
+title: API Definition Orgs
 ---
 
 {% assign apisjson_url = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/apis.yaml' %}
 <p><a href="{{ apisjson_url }}" target="_blank" title="The APIs.json for {{ site.title }}">
     <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="50" align="right" />
 </a></p>
-
+<h1>Some Organizations To Watch</h1>
 <p>These are the companies, and organizations who are doing interesting things with design of APIs. If they have an API, I'm working to profile, and provide machine readable indexes of each one below.</p>
 
 <table cellpadding="3" cellspacing="2" width="90%" border="0" style="margin-top: 10px;">
@@ -71,7 +71,7 @@ title: API Design Orgs
           <table cellpading="10" cellspacing="10" width="100%" class="card" border="0">
             <tr>
               <td colspan="2" style="padding: 15px;">
-                {{ website_url }}
+                --{{ website_url }}--
                 {% if apisjson.image != null %}
                   <a href="{{ website_url }}">
                     <img src="{{ apisjson.image }}" align="left" style="padding: 10px;" width="125" />
