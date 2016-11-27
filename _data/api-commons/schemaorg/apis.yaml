@@ -1,8 +1,5 @@
 name: Schema.org
-description: Schema.org is a collaborative, community activity with a mission to create,
-  maintain, and promote schemas for structured data on the Internet, on web pages,
-  in email messages, and beyond. Schema.org vocabulary can be used with many different
-  encodings, including RDFa, Microdata and JSON-LD.&nbsp;
+description: http://schema.org
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schema-org-logo.jpeg
 tags:
 - Definitions
