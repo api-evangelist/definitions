@@ -3,10 +3,10 @@ layout: page
 title: 'API Definition Formats'
 ---
 <h1>API Definition Formats</h1>
-<p>These are the open source API definition formats that I am tracking on as part of my research, and can be used across the API life cycle.</p>
+<p>These are the open source API definition formats that I am tracking on as part of my research, and can be used as part of the API design process.</p>
 <table width="100%" border="0">
   {% for tool in site.data.tools %}
-    {% if tool.tags contains 'Specification' %}
+    {% if tool.tags contains 'Definitions' %}
     <tr>
       <td align="center" valign="middle" width="160">
         <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="150" align="left" style="padding: 15px;" /></a>
@@ -23,8 +23,12 @@ title: 'API Definition Formats'
           </a>
       </td>
     </tr>
+    <tr>
+      <td colspan="3">
+        <hr>
+      </td>
+    </tr>
     {% endif %}
   {% endfor %}
 </table>
 <p>If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/design/issues">submit as a Github Issue, and I will consider adding</a>.</p>
-<p align="center"><a href="../index.html"><strong>Return To Main Tooling Page</strong></a></p>

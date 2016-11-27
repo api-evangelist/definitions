@@ -1,0 +1,18 @@
+---
+layout: page
+title: 'API Monitoring Building Blocks'
+---
+
+<p>{{ site.building_block_desc }}</p>
+<ul style="padding: 0px 25px 0px 25px;">
+{% for block in site.data.buildingblocks %}
+	<li>
+		<span style="font-size: 18px; font-weight: bold;">{{ block.category_name }}</span>
+		<ul>
+			{% for building_block in block.building_blocks %}
+				<li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+			{% endfor %}
+		</ul>
+	</li>
+{% endfor %}
+</ul>

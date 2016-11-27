@@ -1,0 +1,11 @@
+---
+layout: none
+---
+<opml version="1.0">
+<head>
+<title>API Monitoring Blog OPML</title>
+</head>
+<body>
+  {% for org in site.data.organizations %}{% if org.blogrss != '' %}<outline title="{{ org.name }}" text="{{ org.name }} Blog" type="rss" version="RSS" xmlUrl="{{ org.blogrss }} " htmlUrl="{{ org.blog }}"/>{% endif %}{% endfor %}
+</body>
+</opml>

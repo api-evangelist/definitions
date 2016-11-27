@@ -1,0 +1,18 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  {% for news in site.curated limit:25 %}{% if forloop.first == true %}{% assign updated = news.item_date %}<updated>{{ updated | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>{% endif %}{% endfor %}
+  <link rel="self" href="{{ site.url }}/data/news-atom.xml"/>
+  <author><name>Kin Lane</name></author>
+  <id>{{ site.url }}/atom.xml</id>
+	{% for news in site.curated limit:25 %}<entry>
+    <title>{{ news.title }}</title>
+    <link href="{{ news.url }}"/>
+    <updated>{{ news.item_date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+    <content></content>
+    <id>{{ news.url }}</id>
+  </entry>{% endfor %}
+</feed>

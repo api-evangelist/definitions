@@ -1,0 +1,102 @@
+---
+layout: page
+title: 'By Tag'
+---
+
+<script type="text/jscript">
+
+var $apiurl = "";
+
+function loadAPIsJSONBrowser($apisjsonURL)
+  {
+$apiHumanURL = "";
+
+var jqxhr = $.getJSON($apisjsonURL, function(apisJSON) {
+
+  $masterName = apisJSON['name'];
+
+  $masterDesc = apisJSON['description'];
+  $masterLogo = apisJSON['image'];
+  $masterURL = apisJSON['url'];
+
+    $masterTags = apisJSON['tags'];
+    $masterIncludes = apisJSON['include'];
+
+     $.each($masterIncludes, function(masterKey, masterValue) {
+
+       $includeName = masterValue['name'];
+       $includeRootUrl = masterValue['url'];
+
+     var jqxhr2 = $.getJSON($includeRootUrl, function(apisJSON) {
+
+      $singleName = apisJSON['name'];
+
+      $singleDesc = apisJSON['description'];
+      $singleLogo = apisJSON['image'];
+      $singleURL = apisJSON['url'];
+
+        $singleTags = apisJSON['tags'];
+        $singleAPIs = apisJSON['apis'];
+
+        $.each($singleAPIs, function(apiKey, apiVal) {
+
+        $apiName = apiVal['name'];
+
+        $apiDesc = apiVal['description'];
+        $apiLogo = apiVal['image'];
+        $apiHumanURL = apiVal['humanURL'];
+        $apiBaseURL = apiVal['baseURL'];
+
+        $apiProperties = apiVal['properties'];
+
+            $.each($apiProperties, function(propertyKey, propertyValue) {
+
+                $type = propertyValue['type'];
+                $url = propertyValue['url'];
+
+                if($type=='x-oadf')
+                  {
+                  var jqxhr3 = $.getJSON($url, function($oadf) {
+
+                    $paths = $oadf['paths'];
+                    $title = $oadf['info']['title'];
+
+              $apiSlug = $title.replace(/ /g,"-");
+              $apiSlug = $apiSlug.toLowerCase();
+
+              $html = '<p><strong>' + $title + '</strong> (<a href="' + $url + '">oadf</a>)</p><ul id="' + $apiSlug + '"></ul>';
+              $('#jsonBrowser').append($html);
+
+                    $.each($paths, function(pathKey, pathValue) {
+
+                      $path_name = pathKey;
+
+                      $.each(pathValue, function(methodKey, methodValue) {
+
+                        $method = methodKey;
+                        $method_summary = methodValue['summary'];
+
+                  $li = "<li><strong>" + $method_summary + '</strong> - (' + $method.toUpperCase() + ') - ' + $path_name + "</li>"
+                  $('#' + $apiSlug).append($li);
+
+                        });
+                      });
+                    });
+                  }
+              });
+        });
+      });
+    });
+
+  });
+
+
+  }
+
+$apisjsonURL = "{{ site.url}}/apis.json";
+
+loadAPIsJSONBrowser($apisjsonURL)
+
+</script>
+<p>This is a listing of API resources available in <a href="/apis.json">this projects APIs.json</a>, organized by collection.</p>
+<div id="jsonBrowser"></div>
