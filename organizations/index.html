@@ -12,7 +12,6 @@ title: API Design Orgs
 
 <table cellpadding="3" cellspacing="2" width="90%" border="0" style="margin-top: 10px;">
 {% assign api = site.data.apis %}
---{{ api }}--
 {% for include in api.include %}
 
   {% assign removeurl = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/api-commons/' %}
