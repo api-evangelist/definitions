@@ -31,7 +31,7 @@ x-common:
 - type: x-github
   url: https://github.com/google
 - type: x-website
-  url: https://www.google.com/
+  url: https://developers.google.com/discovery/
 - type: x-webinars
   url: https://www.google.com/
 include: []
