@@ -1,5 +1,8 @@
 name: Google
-description: https://developers.google.com/discovery/
+description: You can use the Google API Discovery Service to build client libraries,
+  IDE plugins, and other tools that interact with Google APIs. It provides a lightweight,
+  JSON-based API that exposes machine-readable metadata about Google APIs, but could
+  also be used to describe other APIs.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg
 tags:
 - Definitions
