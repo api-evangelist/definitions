@@ -61,7 +61,7 @@ title: API Design Orgs
       {% if apisjson.humanURL == null %}
         {% assign website_url = portal_url %}
       {% else %}
-        {% if website_url == null %}
+        {% if website_url == '' %}
           {% assign website_url = apisjson.humanURL %}
         {% endif %}
       {% endif %}
@@ -72,6 +72,7 @@ title: API Design Orgs
           <table cellpading="10" cellspacing="10" width="100%" class="card" border="0">
             <tr>
               <td colspan="2" style="padding: 15px;">
+                {{ website_url }}
                 {% if apisjson.image != null %}
                   <a href="{{ website_url }}">
                     <img src="{{ apisjson.image }}" align="left" style="padding: 10px;" width="125" />
@@ -90,7 +91,7 @@ title: API Design Orgs
                         <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="30" align="center" />
                       </a>
                     </li>
-                  {% endif %}                  
+                  {% endif %}
                   {% if portal_url != '' %}
                     <li style="display: inline; padding-left: 15px; padding-right: 15px;">
                       <a href="{{ portal_url }}" target="_blank" title="Portal">
