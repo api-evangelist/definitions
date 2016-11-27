@@ -1,63 +1,29 @@
 ---
 layout: page
-title: 'API Design Editors'
+title: 'API Definition Tooling'
 ---
-<h3>API Design Tooling</h3>
-<p>These are the open source tools I am tracking on as part my API design research, that can be applied during the API design cycle.</p>
-<center>
-<table width="90%" border="0" align="center" cellpadding="5">
+<h1>{{ site.title }} Tooling</h1>
+<p>{{ site.tools_desc }}</p>
+<table width="100%" border="0">
+  {% for tool in site.data.tools %}
+    {% if tool.tags contains 'Definitions' %}
     <tr>
-      <td align="center" valign="middle" height="100" width="25%">
-        <p><a href="definition-formats/"><img src="https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-a.png" width="130" /></a></p>
+      <td align="center" valign="middle" width="60">
+        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="100" align="left" style="padding: 15px;" /></a>
       </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="design-guides/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-design-guide.png" width="100" /></a></p>
+      <td align="left" width="75%">
+        <a href="{{ tool.url }}" style="color: #000;">
+          <strong>{{ tool.name }}</strong>
+        </a>
+        <p style="font-size: 11px;">{{ tool.details }}</p>
       </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="design-editors/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-ide-api.png" width="120" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="design-notebooks/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-notebook.png" width="100" /></a></p>
+      <td width="75" align="center" valign="middle">
+          <a href="{{ tool.url }}" target="_blank" title="Website">
+            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="25" />
+          </a>
       </td>
     </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="definition-formats/"><strong>API Definition Formats</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="design-guides/"><strong>API Design Guides</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="design-editors/"><strong>API Design Editors</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="design-notebooks/"><strong>API Design Notebooks</strong></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="ide-plugins/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-puzzle-round.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="hypermedia/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-hypermedia.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="media-type/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-content-type.png" width="100" /></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="ide-plugins/"><strong>IDE Plugins</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="hypermedia/"><strong>Hypermedia Formats</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="media-type/"><strong>Media Types</strong></a></p>
-      </td>
-    </tr>
+    {% endif %}
+  {% endfor %}
 </table>
-</center>
-<br />
-<p>If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/design/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.</p>
-<br />
+<p>If there is an "open source tool" that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>.</p>
