@@ -1,5 +1,9 @@
 name: API Blueprint
-description: https://apiblueprint.org/
+description: "API Blueprint is a documentation-oriented API description language.
+  A couple of semantic assumptions over the plain Markdown. API Blueprint is perfect
+  for designing your Web API and its comprehensive documentation but also for quick
+  prototyping and collaboration. It is easy to learn and even easier to read \u2013
+  after all it is just a form of plain text."
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiblueprint-logo-2.png
 tags:
 - Definitions
