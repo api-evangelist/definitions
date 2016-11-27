@@ -19,6 +19,9 @@ paginate_path: "/blog/page:num"
 categories_path : /categories.html
 tags_path : /tags.html
 
+org: api-evangelist
+repo: definitions
+
 # Masthead title
 masthead_link: http://apis.how/xzca4kr2wb
 masthead_font_size: 75
