@@ -1,0 +1,35 @@
+name: Definitions
+image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+created: "2016-11-27"
+modified: "2016-11-27"
+url: http://definitions.apievangelist.com/apis.json
+specificationVersion: "0.14"
+apis: []
+tags:
+- Definitions
+- Definitions
+include:
+- name: Apache Avro
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/apache-avro/apis.yaml
+- name: API Blueprint
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/api-blueprint/apis.yaml
+- name: API Transformer
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/api-transformer/apis.yaml
+- name: Elastic Path
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/elastic-path/apis.yaml
+- name: Google
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/google/apis.yaml
+- name: Mashery
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/mashery/apis.yaml
+- name: OData.org
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/odataorg/apis.yaml
+- name: OpenAPI Spec
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/openapi-spec/apis.yaml
+- name: RAML
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/raml/apis.yaml
+- name: RESTdesc
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/restdesc/apis.yaml
+- name: Schema.org
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/schemaorg/apis.yaml
+- name: U.S. Data Federation
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/us-data-federation/apis.yaml
