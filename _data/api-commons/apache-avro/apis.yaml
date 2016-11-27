@@ -15,6 +15,8 @@ apis: []
 x-common:
 - type: x-website
   url: https://avro.apache.org/docs/current/
+- type: x-base-url-for-portal
+  url: https://avro.apache.org/docs/current/
 include: []
 maintainers:
 - FN: Kin Lane
