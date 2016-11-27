@@ -1,5 +1,26 @@
 - category_name: Formats
   building_blocks:
+  - building_block_id: 6dm4uWJcayeSeCUgXpeFjLO5XfWt9Jv97RXhTz8XH123I117
+    building_block_category_id: zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117
+    name: Web Concepts
+    about: APIs are built on the web, and there are numerous web concepts in play
+      that should be considered as part of the API design process.
+    category_id: "309"
+    category: Formats
+    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
+      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
+      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
+      descriptions, and a variety of media types for common definitions.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
   - building_block_id: qH9CXkpGtblHgfUWAMu8doYUZBHT116GJofe76TUZfrUk117
     building_block_category_id: zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117
     name: Media Types
@@ -17,7 +38,7 @@
     category_hex: ~
     image: ""
     image_width: "100"
-    sort_order: "1"
+    sort_order: "2"
     organizations: []
     apis: []
     links: []
@@ -38,7 +59,7 @@
     category_hex: ~
     image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
     image_width: "1"
-    sort_order: "2"
+    sort_order: "3"
     organizations: []
     apis: []
     links: []
@@ -59,7 +80,7 @@
     category_hex: ~
     image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
     image_width: "100"
-    sort_order: "3"
+    sort_order: "4"
     organizations: []
     apis: []
     links: []
@@ -328,6 +349,25 @@
     links: []
     tools: []
     questions: []
+  - building_block_id: kBD0UNMWyohC6En9ArxELcMalVY4S3GESaF2IWedDc0117
+    building_block_category_id: HE6nQvsU03WEAqm4lVLVDGqEKsK0oBisEUZQt8s32Vk117
+    name: GIthub
+    about: Allowing for the import, publishing, and syncing of API definitions and
+      schemas to Github for forking, and management using the social coding platform.
+    category_id: "310"
+    category: Environment
+    category_about: The environment where API definitions are worked with, whether
+      existing IDEs, cloud services, or possibly no environment at all in text editors.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "4"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
 - category_name: Backend
   building_blocks:
   - building_block_id: 6dLFbFWJW0nmg116iiq123aCpT4EeVvOC724VwW2B116FmmIY117
@@ -350,7 +390,27 @@
     links: []
     tools: []
     questions: []
-- category_name: Linking
+  - building_block_id: 3z65p7jUa1DPhQ7y1xdLBx0D7EVXCg3eAiqrVAxE9QE117
+    building_block_category_id: dz4dXzUXlzZAfBR116fbvcvwEiLf5V9YLrC5CEdtx7iIg117
+    name: Files
+    about: Mount file stores and generate API definitions and schemas from the file
+      store structure.
+    category_id: "311"
+    category: Backend
+    category_about: The behind the scenes infrastructure that is often used to define
+      how APIs will be designed by providing auto-generation features using popular
+      API definition formats.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Other
   building_blocks:
   - building_block_id: ee116m123OIku5fSCYZsPk9uHmedSNaZg116vskSia116yBhpdU117
     building_block_category_id: rB116ZEVdIJTrfXmw116irtBbgEDRMcKouiKXd1PnVGGlSQ117
@@ -359,7 +419,7 @@
       part of the API design came from? Providing design, or operational attribution,
       done via one of the API definitions.
     category_id: "312"
-    category: Linking
+    category: Other
     category_about: The linking available within API definition files, allowing for
       the referencing of key elements of the API lifecycle.
     category_image: ~
@@ -367,6 +427,45 @@
     image: ""
     image_width: "100"
     sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: g3iVl4CUL8VYyez7Ome9ofd123rPPUmhgMj411623EzvyWM117
+    building_block_category_id: rB116ZEVdIJTrfXmw116irtBbgEDRMcKouiKXd1PnVGGlSQ117
+    name: Annotation
+    about: Allowing for the annotation of API definitions, schemas, as part of the
+      API life cycle.
+    category_id: "312"
+    category: Other
+    category_about: The linking available within API definition files, allowing for
+      the referencing of key elements of the API lifecycle.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: 1kkLkdXdllZvebYAR116123Rs01ebu57AuLj116XkzadeHf6Q117
+    building_block_category_id: rB116ZEVdIJTrfXmw116irtBbgEDRMcKouiKXd1PnVGGlSQ117
+    name: Proxy
+    about: Allowing for the proxying of API requests and responses using tools like
+      Charles Proxy, or Prism from Stoplight, and generating of API definitions and
+      schemas from the traffic.
+    category_id: "312"
+    category: Other
+    category_about: The linking available within API definition files, allowing for
+      the referencing of key elements of the API lifecycle.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "3"
     organizations: []
     apis: []
     links: []
