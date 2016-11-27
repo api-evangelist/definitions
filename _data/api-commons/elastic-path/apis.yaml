@@ -15,7 +15,7 @@ specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-website
-  url: http://www.elasticpath.com
+  url: https://developers.elasticpath.com/labs-helix
 include: []
 maintainers:
 - FN: Kin Lane
