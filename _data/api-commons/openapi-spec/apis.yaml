@@ -1,0 +1,23 @@
+name: OpenAPI Spec
+description: The Open API Initiative (OAI) was created by a consortium of forward-looking
+  industry experts who recognize the immense value of standardizing on how REST APIs
+  are described. As an open governance structure under the Linux Foundation, the OAI
+  is focused on creating, evolving and promoting a vendor neutral description format.
+  SmartBear Software is donating the Swagger Specification directly to the OAI as
+  the basis of this Open Specification. &nbsp;
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oai-logo.png
+tags:
+- Definitions
+created: "2016-11-27"
+modified: "2016-11-27"
+url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/openapi-spec/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: https://openapis.org/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
