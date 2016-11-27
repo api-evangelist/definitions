@@ -7,9 +7,8 @@ title: API Definition Orgs
 <p><a href="{{ apisjson_url }}" target="_blank" title="The APIs.json for {{ site.title }}">
     <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="50" align="right" />
 </a></p>
-<h1>Some Organizations To Watch</h1>
-<p>These are the companies, and organizations who are doing interesting things with design of APIs. If they have an API, I'm working to profile, and provide machine readable indexes of each one below.</p>
-
+<h3>{{ site.org_title }}</h3>
+<p>{{ site.org_desc }}</p>
 <table cellpadding="3" cellspacing="2" width="90%" border="0" style="margin-top: 10px;">
 {% assign api = site.data.apis %}
 {% for include in api.include %}
@@ -282,4 +281,4 @@ title: API Definition Orgs
   {% endfor %}
 {% endfor %}
 </table>
-<p>If there is an organization you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.</p>
+<p>{{ site.org_footer }}</p>
