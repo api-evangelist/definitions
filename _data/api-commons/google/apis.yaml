@@ -1,9 +1,5 @@
 name: Google
-description: Google Inc. is an American multinational corporation specializing in
-  Internet-related services and products. These include search, cloud computing, software
-  and online advertising technologies. Google provides search and advertising services,
-  which together aim to organize and monetize the world&rsquo;s information. In addition
-  to its dominant search engine, it offers a plethora of online tools and platforms.
+description: https://developers.google.com/discovery/
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-logo.jpg
 tags:
 - Definitions
