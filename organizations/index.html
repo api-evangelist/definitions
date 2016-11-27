@@ -37,6 +37,7 @@ title: API Definition Orgs
       {% for common in apisjson.x-common %}
         {% if common.type == 'x-website' %}
           {% assign website_url = common.url %}
+          {{ common.url }}<br />
         {% endif %}
         {% if common.type == 'x-blog' %}
           {% assign blog_url = common.url %}
