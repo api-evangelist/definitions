@@ -2,28 +2,84 @@
 layout: page
 title: 'API Definition Tooling'
 ---
-<h1>{{ site.title }} Tooling</h1>
-<p>{{ site.tools_desc }}</p>
-<table width="100%" border="0">
-  {% for tool in site.data.tools %}
-    {% if tool.tags contains 'Definitions' %}
+<h3>API Definition Tooling</h3>
+<p>These are the open source tools I am tracking on as part my API definitions research, that can be applied during the API design cycle.</p>
+<center>
+<table width="90%" border="0" align="center" cellpadding="5">
     <tr>
-      <td align="center" valign="middle" width="60">
-        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="100" align="left" style="padding: 15px;" /></a>
+      <td align="center" valign="middle" height="100" width="25%">
+        <p><a href="specifications/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-specification.png" width="130" /></a></p>
       </td>
-      <td align="left" width="75%">
-        <a href="{{ tool.url }}" style="color: #000;">
-          <strong>{{ tool.name }}</strong>
-        </a>
-        <p style="font-size: 11px;">{{ tool.details }}</p>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="data-specifications/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-data-specification.png" width="100" /></a></p>
       </td>
-      <td width="75" align="center" valign="middle">
-          <a href="{{ tool.url }}" target="_blank" title="Website">
-            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="25" />
-          </a>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="media-types/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-content-type.png" width="120" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="generators/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-general-gear.png" width="100" /></a></p>
       </td>
     </tr>
-    {% endif %}
-  {% endfor %}
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="definition-formats/"><strong>Specifications</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="design-guides/"><strong>Data Specifications</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="design-editors/"><strong>Media Type</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="design-notebooks/"><strong>Generator</strong></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="parsers/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-parser.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="converters/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-converter.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="semantics/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-semantics.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="discovery/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png" width="100" /></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="ide-plugins/"><strong>Parser</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="hypermedia/"><strong>Converter</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="media-type/"><strong>Semantics</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="media-type/"><strong>Discovery</strong></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="merging/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-merge.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%"></td>
+      <td align="center" valign="middle" width="25%"></td>
+      <td align="center" valign="middle" width="25%">  </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="ide-plugins/"><strong>Merging</strong></a></p>
+      </td>
+      <td align="center" valign="top"></td>
+      <td align="center" valign="top"></td>
+      <td align="center" valign="top"></td>
+    </tr>
 </table>
-<p>If there is an "open source tool" that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>.</p>
+</center>
+<br />
+<p>If there is an open source tool that should be listed here, <a href="https://github.com/api-evangelist/design/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.</p>
+<br />
