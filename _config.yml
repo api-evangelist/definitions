@@ -201,3 +201,8 @@ tools_footer: If there is an open source tool that should be listed here, <a hre
 building_block_title: API Definition Building Blocks
 building_block_desc: As I monitor the API space I am always on the hunt for the common building blocks that make up any area of my work--these are some of the common elements I have aggregated from across the world of API definitions.
 building_block_footer: I am always adding to, and shifting my lists of the common building blocks as I evolve my understand of the space, and who is doing interesting things with API definitions.
+
+# patents
+patent_title: API Definition Patents
+patent_desc: I have been tracking on API related patents for some years, trying to understand how APIs are being referenced in patents, and in some cases the focus of the patent. Here are the patents I've tagged as being DNS related from the companies who are doing interesting things with DNS APIs.
+patent_footer: I tend to process the new patent filings and publications every couple of weeks. When ready I try to publish them along with my research.
