@@ -16,6 +16,22 @@
 		"image": ""
 	},
 	{
+		"curated_id": "z41rRl2JK7bnSmlORXs0bRxf116gzdg4UbwbDQ5QrPgOs2VpKx2pKdPGzSOVGhuAAp2RORqUnQ4T5Cy0S9jF9BbA117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Emerging FHIR standard doesnt solve semantic interoperability",
+		"url": "http://www.healthdatamanagement.com/news/emerging-fhir-standard-doesnt-solve-semantic-interoperability",
+		"domain": "www.healthdatamanagement.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MiMZIGpjUBQVH123Fjt5pn1167urWo1vWaqyIL1238JE1eEUVPb7uQueIU8rxmZ1XZgc4Q77dB2116Bf0EaRhRYa5aPkpA117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Defining Syslog Daemons Message Formats and Protocols",
+		"url": "https://dzone.com/articles/what-is-syslog-daemons-message-formats-and-protoco",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "116DSSjyxvqmEfLaovwUc123TptfXmeUYMmp6wHUWMJQC8Vgzrne5zvJ5JKaiGHUR116InRkdIVUyZoCZq3b7C116P0PiQ117117",
 		"item_date": "2017-01-20 00:00:00",
 		"title": "JSON to XML Transformation Using DataWeave",
