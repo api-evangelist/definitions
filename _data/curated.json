@@ -1,10 +1,18 @@
 [
 	{
+		"curated_id": "jGUEP6d7dT7ofwQ123sycTOkfCB0L4A6GmBgn1z28Nr09Y7isVIvpTLgVR02l123e3DHpGmK37V8oFkdsrfhOzinyQ117117",
+		"item_date": "2017-02-16 00:00:00",
+		"title": "CommonWell First to Use Argonaut Project FHIR Specifications",
+		"url": "https://ehrintelligence.com/news/commonwell-first-to-use-argonaut-project-fhir-specifications",
+		"domain": "ehrintelligence.com",
+		"image": ""
+	},
+	{
 		"curated_id": "x5C3aH4uOL4zQ9BNH6SnVKuXMwaD7nbG978k8PrDd6NKthNtjjaI0y3ywK75f4FHVgY7Ff9hix2Iq4lM6zbt8w117117",
 		"item_date": "2017-02-16 00:00:00",
 		"title": "A Guide to JSONLD for Beginners",
-		"url": "http://feedproxy.google.com/~r/MozBlog/~3/uLshWx25KYs/json-ld-for-beginners",
-		"domain": "feedproxy.google.com",
+		"url": "https://moz.com/blog/json-ld-for-beginners",
+		"domain": "moz.com",
 		"image": ""
 	},
 	{
