@@ -1,10 +1,42 @@
 [
 	{
+		"curated_id": "fAqsMuffDphMemM7mIEirpfSHVP4qqhtByC0jPYb62116OZM3LSdmzfmlbPaOb9QGeBhzUVme8ctiN116EG5o2GVUA117117",
+		"item_date": "2017-02-25 09:15:55",
+		"title": "W3C Begins Standards Work on Web of Things to Reduce IoT Fragmentation",
+		"url": "https://www.w3.org/blog/news/archives/6163",
+		"domain": "www.w3.org",
+		"image": ""
+	},
+	{
+		"curated_id": "QN06B7kpp2CIiIBXbISSIn9IABW1s8Gd8hNXy0xsCRzkOCl1uI6d6VKEA1p1iG63LnHxnspg6FaGC7jmh3LJdw117117",
+		"item_date": "2017-02-15 08:00:59",
+		"title": "Tweet Docs are up  httpstcoCO7p6JsTWy Your API could be covered by spec driven contract tests today  no excuses httpstcoC0U9knvkUf",
+		"url": "https://twitter.com/stoplightio/statuses/831896096389623808",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "GooRVXisvcqXqldSeCIcoBMiqoJonKhgL8nnCCASBxp0FBRN5CFtUZnN7g116NsWiJycPidDdhItZ5CSAkqEXs1g117117",
+		"item_date": "2017-02-16 15:22:24",
+		"title": "AWS Config Rules Adds AWS CloudFormation Templates and a Test Mode for Rule Authoring",
+		"url": "https://aws.amazon.com/about-aws/whats-new/2017/02/aws-config-rules-adds-aws-cloudformation-templates-and-a-test-mode-for-rule-authoring/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
 		"curated_id": "XnfixkK8R123B9X1aKFbw5emk4rcCfAZlSgddPTka19EpQHThdF116epVz2hgwhklk64G5qyiqlA2owKGX9PVeOWnQ117117",
 		"item_date": "2017-02-23 00:00:00",
 		"title": "My Understanding of ArcNet Protocol",
 		"url": "https://www.codeproject.com/Articles/1172598/My-Understanding-of-ArcNet-Protocol",
 		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "M6CuMUQGfTtZUdFgWzcBNgYYhfJqMRo4kx116Do0sm4jNzf9x3ts4OcCneLEnLAxQZtZBd6TQCMJTAg2og6A90LA117117",
+		"item_date": "2017-02-19 00:00:00",
+		"title": "Writing OpenAPI Swagger Specification Tutorial  Part 9  Extending the OpenAPI specification",
+		"url": "https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-9-extending-the-openapi-specification/",
+		"domain": "apihandyman.io",
 		"image": ""
 	},
 	{
@@ -29,6 +61,14 @@
 		"title": "A Guide to JSONLD for Beginners",
 		"url": "https://moz.com/blog/json-ld-for-beginners",
 		"domain": "moz.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FCyB2dBBPUAaLm4z02OMTdn6Y5D46aBv7au5zCTzVv21fOITbeCCqh7SadTydND1jc00JDESrL9tvGR0C23DFg117117",
+		"item_date": "2017-02-13 00:00:00",
+		"title": "Rest Api Modeling Language",
+		"url": "https://www.follownews.com/hashtag/rest-api-modeling-language",
+		"domain": "www.follownews.com",
 		"image": ""
 	},
 	{
