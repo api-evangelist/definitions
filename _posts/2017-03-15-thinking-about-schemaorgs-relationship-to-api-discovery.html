@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Thinking About Schema.org&#039;s Relationship To API Discovery'
+source: http://definitions.apievangelist.com/2017/03/15/thinking-about-schemaorgs-relationship-to-api-discovery/
+domain: definitions.apievangelist.com
+image: https://s3.amazonaws.com/kinlane-productions/schema-org/schema-org.png
+atomdate: 2017-03-15T10:30:00-07:00
+---
+<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/schema-org/schema-org.png" alt="" width="30%" align="right" /></p>
+<p>I was following <a href="https://github.com/schemaorg/schemaorg/pull/1445">the discussion around adding a&nbsp;WebAPI class</a> to Schema.org's core vocabulary, and it got me to think more about the role Schema.org has to play with not just our API definitions, but also significantly influencing API discovery. Meaning that we should be using Schema.org as part of our OpenAPI definitions, providing us with a common vocabulary for communicating around our APIs, but also empowering the discovery of APIs.&nbsp;</p>
+<p>When I describe the relationship between Schema.org to API discovery, I'm talking about using <a href="http://pending.webschemas.org/WebAPI">the pending WebAPI class</a>, but I'm also talking about using common Schema.org org within API definitions--something that will open the definitions to discovery because it employs a common schema. I am also talking about how do we leverage this vocabulary in our HTML pages, <a href="https://developers.google.com/search/docs/guides/intro-structured-data">helping search engines like Google understand there is an API service available</a>:</p>
+<script src="https://gist.github.com/kinlane/4fd35c3a5ab20881f86283bc001137ab.js"></script>
+<p>I&nbsp;will also be exploring how I can better leverage Schema.org in <a href="http://apisjson.org">my APIs.json&nbsp;format</a>, better leveraging a common vocabulary describing API operations, not just an individual API. I'm looking to expand the opportunities for discovering, not limit them. I would love all APIs to take a page from the hypermedia playbook, and have a machine readable index for each API, with a set of links present with each response, but I also want folks to learn about APIs through Google, ensuring they are indexed in a way that search engines can comprehend.</p>
+<p>When it comes to <a href="http://discovery.apievangelist.com">API discovery</a> I am primarily invested in APIs.json (because it's my baby) describing API operations, and <a href="https://www.openapis.org/">OpenAPI</a> to describe the surface area of an API, but I also want this to map to the very SEO driven world we operate in right now. I will keep investing time in helping folks use Schema.org in their API definitions (APIs.json&nbsp;&amp; OpenAPI), but I will also start investing in folks employing JSON+LD and Schema.org as part of their search engine strategies (like above), making our APIs more discoverable to humans as well as other systems.</p>
