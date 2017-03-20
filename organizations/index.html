@@ -14,6 +14,7 @@ title: API Definition Orgs
 {% for include in api.include %}
 
   {% assign removeurl = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/api-commons/' %}
+  removeurl: {{ removeurl }}<br />
   {% assign thisurl = include.url | replace: removeurl %}
   {% assign thisurl = thisurl | replace: '/apis.yaml' %}
 
