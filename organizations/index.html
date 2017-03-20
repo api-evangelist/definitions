@@ -20,7 +20,7 @@ title: API Definition Orgs
   {% for org in site.data.api-commons %}
 
     {% assign index = org %}
-
+    {{ thisurl }} == {{ index[0] }}<br />
     {% if thisurl == index[0] %}
 
       {% assign apisjson = index[1].apis %}
