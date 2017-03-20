@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'API Definitions Covering Both REST and gRPC APIs'
+source: http://definitions.apievangelist.com/2017/03/10/api-definitions-covering-both-rest-and-grpc-apis/
+domain: definitions.apievangelist.com
+image: http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/managing_grpc_apis_with_google_cloud_endpoints_3_638.jpg
+atomdate: 2017-03-10T09:00:00-08:00
+---
+<p><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/managing_grpc_apis_with_google_cloud_endpoints_3_638.jpg" alt="" width="40%" align="right" /></p>
+<p>I have been learning more about the way Google designs and defines their APIs after <a href="http://apievangelist.com/2017/03/03/google-shares-their-api-design-guide/">their release of their API design guide</a>. When I research a company's APIs I always spend time looking through their Github repositories for anything interesting, and while poking around in Google's I found a repository of "<a href="https://github.com/googleapis/googleapis">interface definitions for a small (but growing) set of Google APIs</a>". I keep track of any Github repo I find containing API definitions, but Google's repo stood out because it contained a set of API definitions that covered both APIs that support both REST and gRPC.</p>
+<p>Straight from the Github repo, they support two ways of access APIs: <em>"Google APIs use&nbsp;<a href="https://github.com/google/protobuf">Protocol Buffers</a>&nbsp;version 3 (proto3) as their Interface Definition Language (IDL) to define the API interface and the structure of the payload messages. The same interface definition is used for both REST and RPC versions of the API, which can be accessed over different wire protocols."</em></p>
+<ol>
+<li>
+<p><em>JSON over HTTP: You can access Google APIs directly using JSON over HTTP, using&nbsp;<a href="https://developers.google.com/api-client-libraries">Google API client libraries&nbsp;</a>or third-party API client libraries.</em></p>
+</li>
+<li>
+<p><em>Protocol Buffers over gRPC: You can access Google APIs published in this repository through&nbsp;<a href="https://github.com/grpc">GRPC</a>, which is a high-performance binary RPC protocol over HTTP/2. It offers many useful features, including request/response multiplex and full-duplex streaming.</em></p>
+</li>
+</ol>
+<p>This is the first example of this I've seen in the wild, and it feels like we are shifting from an HTTP to an HTTP/2&nbsp;API world. I don't think regular old REST or web APIs are going anywhere, I think they'll continue to be a staple, but it looks like Google is laying the groundwork for two-speed APIs, that are defined using a common API definition--you pick the speed you need. I've been hearing tales of gRPC usage for a while and seeing more APIs defined using protocol buffers, but Google's approach signals a wider more significant shift for me.</p>
+<p>I'm still learning about gRPC, so I can't quite visualize the overlap between&nbsp;gRPC and REST quite yet. I'm going through their API definitions because they provide an interesting snapshot of the surface area of these hybrid APIs. As I spend my week in San Francisco for Google Next, I'm eager to learn more about their evolving approach to designing and defining APIs--something that I think will be setting the tone for API design at scale in the near future.</p>
