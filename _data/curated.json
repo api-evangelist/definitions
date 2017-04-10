@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "LmGAOnN9orh116LW123LGLTJxD3dPs1238yS123qM0umuIlIwKCCraTj6Maj23116Cm51HnTLCYcF2Qhp2LoIaPYsfenlH4Q117117",
+		"item_date": "2017-04-08 08:37:27",
+		"title": "Swagger the REST Kryptonite",
+		"url": "https://jimmybogard.com/swagger-the-rest-kryptonite/",
+		"domain": "jimmybogard.com",
+		"image": ""
+	},
+	{
 		"curated_id": "orHE2kB7gRZX1ePvZ9116zzjnj7TAu11613gtMVn1vYsl9zdnCZIE5BtbmhOTKRnU123p0xAsMDa3jKArr2wImUqKGpA117117",
 		"item_date": "2017-04-06 16:10:19",
 		"title": "CloudFormation Designer now supports YAML",
@@ -34,7 +42,7 @@
 	{
 		"curated_id": "8kMhk50cXTG9UESYSxXXR482lw5EXLqTlpm0azY656WWNvAZT2gkQSqNA84SeFcw00mSnCJDE7r9ZUwzFoMb3A117117",
 		"item_date": "2017-04-03 00:00:00",
-		"title": "Schemaorg Just Released New Restaurant Menu Markup mdash Heres How to Get Started",
+		"title": "Schemaorg Just Released New Restaurant Menu Markup",
 		"url": "https://moz.com/blog/schema-new-restaurant-menu-markup",
 		"domain": "moz.com",
 		"image": ""
@@ -2600,6 +2608,14 @@
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
 	},
 	{
+		"curated_id": "LmGAOnN9orh116LW123LGLTJxD3dPs1238yS123qM0umuIlIwKCCraTj6Maj23116Cm51HnTLCYcF2Qhp2LoIaPYsfenlH4Q117117",
+		"item_date": "2017-04-08 08:37:27",
+		"title": "Swagger the REST Kryptonite",
+		"url": "https://jimmybogard.com/swagger-the-rest-kryptonite/",
+		"domain": "jimmybogard.com",
+		"image": ""
+	},
+	{
 		"curated_id": "orHE2kB7gRZX1ePvZ9116zzjnj7TAu11613gtMVn1vYsl9zdnCZIE5BtbmhOTKRnU123p0xAsMDa3jKArr2wImUqKGpA117117",
 		"item_date": "2017-04-06 16:10:19",
 		"title": "CloudFormation Designer now supports YAML",
@@ -2634,7 +2650,7 @@
 	{
 		"curated_id": "8kMhk50cXTG9UESYSxXXR482lw5EXLqTlpm0azY656WWNvAZT2gkQSqNA84SeFcw00mSnCJDE7r9ZUwzFoMb3A117117",
 		"item_date": "2017-04-03 00:00:00",
-		"title": "Schemaorg Just Released New Restaurant Menu Markup mdash Heres How to Get Started",
+		"title": "Schemaorg Just Released New Restaurant Menu Markup",
 		"url": "https://moz.com/blog/schema-new-restaurant-menu-markup",
 		"domain": "moz.com",
 		"image": ""
