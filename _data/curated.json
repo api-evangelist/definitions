@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "a116RAgzWB116y123ROGLlpC1169cNDneFUwcHvJZ3ijiHS1WZjhGTX34Skh2Dv0EdgWbABgbB3aCpa2hKIa8qtBd2oi4Q117117",
+		"item_date": "2017-04-14 00:00:00",
+		"title": "Whats New in OpenAPI 30",
+		"url": "http://nordicapis.com/whats-new-in-openapi-3-0/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dQABj84JsOJAH2jN4QvFHvEjONLmtXSbTYzyOX6qSulmTJSGImquWRG0IymZQkHEMXWG6sbqUtKjRcimSFStBQ117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "Restlet Studio Supports RAML 10 API Specification",
+		"url": "https://www.programmableweb.com/news/restlet-studio-supports-raml-10-api-specification/announcement/2017/04/12",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SMJ2ky867dwyyTl8VJLkiXiQsOKa1CbxWjRZSLL1qNHhsYJ3JzBjCdk4cbqwHL5mLaEPK1EKXRQZATj8Lg4123RA117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "What sets RAML 10 apart from OAS 20",
+		"url": "http://restlet.com/blog/2017/04/12/raml-1-0-a-few-things-that-set-it-apart-from-oas-2/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
 		"curated_id": "LmGAOnN9orh116LW123LGLTJxD3dPs1238yS123qM0umuIlIwKCCraTj6Maj23116Cm51HnTLCYcF2Qhp2LoIaPYsfenlH4Q117117",
 		"item_date": "2017-04-08 08:37:27",
 		"title": "Swagger the REST Kryptonite",
@@ -2606,6 +2630,30 @@
 		"url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
 		"domain": "blog.apiary.io",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+	},
+	{
+		"curated_id": "a116RAgzWB116y123ROGLlpC1169cNDneFUwcHvJZ3ijiHS1WZjhGTX34Skh2Dv0EdgWbABgbB3aCpa2hKIa8qtBd2oi4Q117117",
+		"item_date": "2017-04-14 00:00:00",
+		"title": "Whats New in OpenAPI 30",
+		"url": "http://nordicapis.com/whats-new-in-openapi-3-0/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dQABj84JsOJAH2jN4QvFHvEjONLmtXSbTYzyOX6qSulmTJSGImquWRG0IymZQkHEMXWG6sbqUtKjRcimSFStBQ117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "Restlet Studio Supports RAML 10 API Specification",
+		"url": "https://www.programmableweb.com/news/restlet-studio-supports-raml-10-api-specification/announcement/2017/04/12",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SMJ2ky867dwyyTl8VJLkiXiQsOKa1CbxWjRZSLL1qNHhsYJ3JzBjCdk4cbqwHL5mLaEPK1EKXRQZATj8Lg4123RA117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "What sets RAML 10 apart from OAS 20",
+		"url": "http://restlet.com/blog/2017/04/12/raml-1-0-a-few-things-that-set-it-apart-from-oas-2/",
+		"domain": "restlet.com",
+		"image": ""
 	},
 	{
 		"curated_id": "LmGAOnN9orh116LW123LGLTJxD3dPs1238yS123qM0umuIlIwKCCraTj6Maj23116Cm51HnTLCYcF2Qhp2LoIaPYsfenlH4Q117117",
