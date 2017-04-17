@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "ft0B55hc47QNZHtxB97qkTdOyabVUux3vgea0cKexl0ZtsSvQvrY8Y3PQe3tctD26We123g2vv123XMEKHd9N1169r8A117117",
+		"item_date": "2017-04-15 00:00:00",
+		"title": "Payload Transformation JSON to Object",
+		"url": "https://dzone.com/articles/payload-transformation-json-to-object?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "i7mJCBegpVUM9A1233qAdQfqxF3OMGxL4yuPXyvQk2oxv61tgRD5nDE4OIak5loUoAqdhj3r22PU6s22InPErNhQ117117",
+		"item_date": "2017-04-14 19:09:26",
+		"title": "Why Your API Needs MachineReadable Descriptions",
+		"url": "https://apimatic.io/blog/post/why-your-api-needs-machine-readable-descriptions",
+		"domain": "apimatic.io",
+		"image": ""
+	},
+	{
 		"curated_id": "a116RAgzWB116y123ROGLlpC1169cNDneFUwcHvJZ3ijiHS1WZjhGTX34Skh2Dv0EdgWbABgbB3aCpa2hKIa8qtBd2oi4Q117117",
 		"item_date": "2017-04-14 00:00:00",
 		"title": "Whats New in OpenAPI 30",
@@ -2630,6 +2646,22 @@
 		"url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
 		"domain": "blog.apiary.io",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+	},
+	{
+		"curated_id": "ft0B55hc47QNZHtxB97qkTdOyabVUux3vgea0cKexl0ZtsSvQvrY8Y3PQe3tctD26We123g2vv123XMEKHd9N1169r8A117117",
+		"item_date": "2017-04-15 00:00:00",
+		"title": "Payload Transformation JSON to Object",
+		"url": "https://dzone.com/articles/payload-transformation-json-to-object?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "i7mJCBegpVUM9A1233qAdQfqxF3OMGxL4yuPXyvQk2oxv61tgRD5nDE4OIak5loUoAqdhj3r22PU6s22InPErNhQ117117",
+		"item_date": "2017-04-14 19:09:26",
+		"title": "Why Your API Needs MachineReadable Descriptions",
+		"url": "https://apimatic.io/blog/post/why-your-api-needs-machine-readable-descriptions",
+		"domain": "apimatic.io",
+		"image": ""
 	},
 	{
 		"curated_id": "a116RAgzWB116y123ROGLlpC1169cNDneFUwcHvJZ3ijiHS1WZjhGTX34Skh2Dv0EdgWbABgbB3aCpa2hKIa8qtBd2oi4Q117117",
