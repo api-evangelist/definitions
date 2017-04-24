@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "3h50BN32hR7pYc4hLFA8mZmC7s4pWec59wIsY5BPGWycPE4JQXWTCYjW123om116qrpRHrkFBX1jYdqxTj9chQ7Tzg117117",
+		"item_date": "2017-04-21 00:00:00",
+		"title": "MuleSoft Joins the OpenAPI Initiative The End of the API Spec Wars",
+		"url": "http://swagger.io/mulesoft-joins-the-openapi-initiative/",
+		"domain": "swagger.io",
+		"image": ""
+	},
+	{
 		"curated_id": "ft0B55hc47QNZHtxB97qkTdOyabVUux3vgea0cKexl0ZtsSvQvrY8Y3PQe3tctD26We123g2vv123XMEKHd9N1169r8A117117",
 		"item_date": "2017-04-15 00:00:00",
 		"title": "Payload Transformation JSON to Object",
@@ -2646,6 +2654,14 @@
 		"url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
 		"domain": "blog.apiary.io",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+	},
+	{
+		"curated_id": "3h50BN32hR7pYc4hLFA8mZmC7s4pWec59wIsY5BPGWycPE4JQXWTCYjW123om116qrpRHrkFBX1jYdqxTj9chQ7Tzg117117",
+		"item_date": "2017-04-21 00:00:00",
+		"title": "MuleSoft Joins the OpenAPI Initiative The End of the API Spec Wars",
+		"url": "http://swagger.io/mulesoft-joins-the-openapi-initiative/",
+		"domain": "swagger.io",
+		"image": ""
 	},
 	{
 		"curated_id": "ft0B55hc47QNZHtxB97qkTdOyabVUux3vgea0cKexl0ZtsSvQvrY8Y3PQe3tctD26We123g2vv123XMEKHd9N1169r8A117117",
