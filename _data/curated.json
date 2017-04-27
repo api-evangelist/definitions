@@ -1,10 +1,26 @@
 [
 	{
+		"curated_id": "mJ0CPNAifOOEAU1cqfL2rphranV116iVSuNYLHwswTTPE123N0wAqJJLduNcHS2UhpXSr21GKERyXRKwyBfswqRT9Q117117",
+		"item_date": "2017-04-19 00:00:00",
+		"title": "Microservices APIs and Swagger How They Fit Together",
+		"url": "https://dzone.com/articles/microservices-apis-and-swagger-how-they-fit-togeth",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "3h50BN32hR7pYc4hLFA8mZmC7s4pWec59wIsY5BPGWycPE4JQXWTCYjW123om116qrpRHrkFBX1jYdqxTj9chQ7Tzg117117",
 		"item_date": "2017-04-21 00:00:00",
 		"title": "MuleSoft Joins the OpenAPI Initiative The End of the API Spec Wars",
 		"url": "http://swagger.io/mulesoft-joins-the-openapi-initiative/",
 		"domain": "swagger.io",
+		"image": ""
+	},
+	{
+		"curated_id": "S116sTi6eqfrd3myqufVnLYZ26QlhZkKDcA3Ai1JdavdFBTpl4xxcG0ivn4ZLDiWoQjQD1hA6XLfEzeuoSR116rRcg117117",
+		"item_date": "2017-04-19 00:00:00",
+		"title": "Microservices APIs and Swagger How They Fit Together  Quantix",
+		"url": "https://quantixcap.wordpress.com/2017/04/19/microservices-apis-and-swagger-how-they-fit-together/",
+		"domain": "quantixcap.wordpress.com",
 		"image": ""
 	},
 	{
@@ -2664,11 +2680,27 @@
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
 	},
 	{
+		"curated_id": "mJ0CPNAifOOEAU1cqfL2rphranV116iVSuNYLHwswTTPE123N0wAqJJLduNcHS2UhpXSr21GKERyXRKwyBfswqRT9Q117117",
+		"item_date": "2017-04-19 00:00:00",
+		"title": "Microservices APIs and Swagger How They Fit Together",
+		"url": "https://dzone.com/articles/microservices-apis-and-swagger-how-they-fit-togeth",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "3h50BN32hR7pYc4hLFA8mZmC7s4pWec59wIsY5BPGWycPE4JQXWTCYjW123om116qrpRHrkFBX1jYdqxTj9chQ7Tzg117117",
 		"item_date": "2017-04-21 00:00:00",
 		"title": "MuleSoft Joins the OpenAPI Initiative The End of the API Spec Wars",
 		"url": "http://swagger.io/mulesoft-joins-the-openapi-initiative/",
 		"domain": "swagger.io",
+		"image": ""
+	},
+	{
+		"curated_id": "S116sTi6eqfrd3myqufVnLYZ26QlhZkKDcA3Ai1JdavdFBTpl4xxcG0ivn4ZLDiWoQjQD1hA6XLfEzeuoSR116rRcg117117",
+		"item_date": "2017-04-19 00:00:00",
+		"title": "Microservices APIs and Swagger How They Fit Together  Quantix",
+		"url": "https://quantixcap.wordpress.com/2017/04/19/microservices-apis-and-swagger-how-they-fit-together/",
+		"domain": "quantixcap.wordpress.com",
 		"image": ""
 	},
 	{
