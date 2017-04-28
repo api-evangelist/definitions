@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "lEvFyazFhX9123UqSzUTJFm6toNVLM123aS38WKSaxMogeFRnNmh5Qq1PDHj6hv1k7WXidxKCq123WgIAoxnnC1238U116Zw117117",
+		"item_date": "2017-04-18 00:00:00",
+		"title": "Payload Transformation JSON to XML",
+		"url": "https://dzone.com/articles/payload-transformation-json-to-xml",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123Rh9iCg9HyOTZUNfX4J3ffa2vpXXXABNlGznEpmKr2VaxD8rdvmz8AKXhP0Xu123pjcyUj5yrZPH8VNA1H5h116mwg117117",
+		"item_date": "2017-04-18 00:00:00",
+		"title": "Cinchoo  Using JSON format configuration values",
+		"url": "https://www.codeproject.com/Articles/1019595/Cinchoo-Using-JSON-format-configuration-values",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
 		"curated_id": "mJ0CPNAifOOEAU1cqfL2rphranV116iVSuNYLHwswTTPE123N0wAqJJLduNcHS2UhpXSr21GKERyXRKwyBfswqRT9Q117117",
 		"item_date": "2017-04-19 00:00:00",
 		"title": "Microservices APIs and Swagger How They Fit Together",
@@ -2678,6 +2694,22 @@
 		"url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
 		"domain": "blog.apiary.io",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+	},
+	{
+		"curated_id": "lEvFyazFhX9123UqSzUTJFm6toNVLM123aS38WKSaxMogeFRnNmh5Qq1PDHj6hv1k7WXidxKCq123WgIAoxnnC1238U116Zw117117",
+		"item_date": "2017-04-18 00:00:00",
+		"title": "Payload Transformation JSON to XML",
+		"url": "https://dzone.com/articles/payload-transformation-json-to-xml",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123Rh9iCg9HyOTZUNfX4J3ffa2vpXXXABNlGznEpmKr2VaxD8rdvmz8AKXhP0Xu123pjcyUj5yrZPH8VNA1H5h116mwg117117",
+		"item_date": "2017-04-18 00:00:00",
+		"title": "Cinchoo  Using JSON format configuration values",
+		"url": "https://www.codeproject.com/Articles/1019595/Cinchoo-Using-JSON-format-configuration-values",
+		"domain": "www.codeproject.com",
+		"image": ""
 	},
 	{
 		"curated_id": "mJ0CPNAifOOEAU1cqfL2rphranV116iVSuNYLHwswTTPE123N0wAqJJLduNcHS2UhpXSr21GKERyXRKwyBfswqRT9Q117117",
