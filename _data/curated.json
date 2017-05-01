@@ -1,5 +1,77 @@
 [
 	{
+		"curated_id": "DpUzljTCmDvYUXjGUyyZVDhJtU2KGh9XJSaWfELJesTfhMLso9uVqYs13zJmxuD5RAxBpL116EXX2DE1looECjVA117117",
+		"item_date": "2017-04-27 16:37:31",
+		"title": "Tweet 5 Ways the OpenAPI Specification Spurs API Agility",
+		"url": "http://nordicapis.com/5-ways-openapi-spurs-api-agility/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2QIpuqFwfVoPp8BEV51gpSY116dtWO329e11PeRmJ123XWq6Zy123L1z2Pj8WLYbkBqHT2siovX7ftyKkJMMR56w6iNQ117117",
+		"item_date": "2017-04-24 09:45:38",
+		"title": "Tweet Share your Postman Collections with your team over the cloud View our tutorial on collaborating using Postman httpstcoEvLyo6UfJ7",
+		"url": "https://twitter.com/postmanclient/statuses/856549704712245250",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Og123IfZeBembTDVok123eDu8mWNvgV5fJUEkPkEK36a7P1I1fgoTVm9sWq5JXLbhrCrL4Dv6dnbLd7EWSqA21237xGg117117",
+		"item_date": "2017-04-29 00:00:00",
+		"title": "Payload Transformation XML to Object",
+		"url": "https://dzone.com/articles/payload-transformation-xml-to-object",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "gphuM9l5UbYK1b7t123rH2lMf44HmPNa8RjsnrNHi0oVGuXuGSRCpU116qwLMkzccxYNwhupkDMF2XpCKzxXk123i5Jw117117",
+		"item_date": "2017-04-26 00:00:00",
+		"title": "A Short History of OAI and API Specifications",
+		"url": "https://restlet.com/company/blog/2017/04/26/a-short-history-of-oai-and-api-specifications/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7g6m116H116I2aYxgmg2GE3JA38116VYD8HfZ7qxw9FWYI7ntg4gVGGI116noQzmyfIq5123LohNWeyfp116CQyojDpiHGCbIg117117",
+		"item_date": "2017-04-28 00:00:00",
+		"title": "Open API and RAML Better Together",
+		"url": "https://www.programmableweb.com/news/open-api-and-raml-better-together/sponsored-content/2017/04/28",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "78DHtZudVHawtSZuQdcf6Rs55yvH7jTaAXRD9qoW116p116appNRhlKtMWeqtTHlZYFoxuVm0xx0voHG0M123zua3jCw117117",
+		"item_date": "2017-04-28 11:27:48",
+		"title": "Release OAS 300rc1 Released  OAIOpenAPISpecification  GitHub",
+		"url": "https://github.com/OAI/OpenAPI-Specification/releases/tag/3.0.0-rc1",
+		"domain": "github.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3Brw4nSnCv4wTepPdvPcnBr0kRLyms0j116L3Dvgfsn116J8ArROuUyutKGEdn4SKPofUqTj5z2AQBtlFVHP123DESUQ117117",
+		"item_date": "2017-04-28 00:00:06",
+		"title": "GeoJSON Text Sequences",
+		"url": "http://webconcepts.info/specs/IETF/RFC/8142",
+		"domain": "webconcepts.info",
+		"image": ""
+	},
+	{
+		"curated_id": "KwgUm8CvwsLzurT7BIYHa116mcvmmKnud7Qoaf116D8c8ejmEAopbQgGlcg116VTo116QwjE4o3EClqdHnGMNB8IKerwbA117117",
+		"item_date": "2017-04-27 09:34:40",
+		"title": "A Short History of OAI and API Specification",
+		"url": "http://restlet.com/company/blog/2017/04/26/a-short-history-of-oai-and-api-specifications/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dSrfS11631t7iOwEDG116amvxxyrxKMlwLrnvpLYBP3jRt7e5UHb7ZWUW116i31162fQONJgq58Td5Ea116OjjjnZiPR41dw117117",
+		"item_date": "2017-04-25 16:37:37",
+		"title": "Release v300  whitlockjcjsonrefs  GitHub",
+		"url": "https://github.com/whitlockjc/json-refs/releases/tag/v3.0.0",
+		"domain": "github.com",
+		"image": ""
+	},
+	{
 		"curated_id": "lEvFyazFhX9123UqSzUTJFm6toNVLM123aS38WKSaxMogeFRnNmh5Qq1PDHj6hv1k7WXidxKCq123WgIAoxnnC1238U116Zw117117",
 		"item_date": "2017-04-18 00:00:00",
 		"title": "Payload Transformation JSON to XML",
@@ -2694,6 +2766,78 @@
 		"url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
 		"domain": "blog.apiary.io",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+	},
+	{
+		"curated_id": "DpUzljTCmDvYUXjGUyyZVDhJtU2KGh9XJSaWfELJesTfhMLso9uVqYs13zJmxuD5RAxBpL116EXX2DE1looECjVA117117",
+		"item_date": "2017-04-27 16:37:31",
+		"title": "Tweet 5 Ways the OpenAPI Specification Spurs API Agility",
+		"url": "http://nordicapis.com/5-ways-openapi-spurs-api-agility/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2QIpuqFwfVoPp8BEV51gpSY116dtWO329e11PeRmJ123XWq6Zy123L1z2Pj8WLYbkBqHT2siovX7ftyKkJMMR56w6iNQ117117",
+		"item_date": "2017-04-24 09:45:38",
+		"title": "Tweet Share your Postman Collections with your team over the cloud View our tutorial on collaborating using Postman httpstcoEvLyo6UfJ7",
+		"url": "https://twitter.com/postmanclient/statuses/856549704712245250",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Og123IfZeBembTDVok123eDu8mWNvgV5fJUEkPkEK36a7P1I1fgoTVm9sWq5JXLbhrCrL4Dv6dnbLd7EWSqA21237xGg117117",
+		"item_date": "2017-04-29 00:00:00",
+		"title": "Payload Transformation XML to Object",
+		"url": "https://dzone.com/articles/payload-transformation-xml-to-object",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "gphuM9l5UbYK1b7t123rH2lMf44HmPNa8RjsnrNHi0oVGuXuGSRCpU116qwLMkzccxYNwhupkDMF2XpCKzxXk123i5Jw117117",
+		"item_date": "2017-04-26 00:00:00",
+		"title": "A Short History of OAI and API Specifications",
+		"url": "https://restlet.com/company/blog/2017/04/26/a-short-history-of-oai-and-api-specifications/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7g6m116H116I2aYxgmg2GE3JA38116VYD8HfZ7qxw9FWYI7ntg4gVGGI116noQzmyfIq5123LohNWeyfp116CQyojDpiHGCbIg117117",
+		"item_date": "2017-04-28 00:00:00",
+		"title": "Open API and RAML Better Together",
+		"url": "https://www.programmableweb.com/news/open-api-and-raml-better-together/sponsored-content/2017/04/28",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "78DHtZudVHawtSZuQdcf6Rs55yvH7jTaAXRD9qoW116p116appNRhlKtMWeqtTHlZYFoxuVm0xx0voHG0M123zua3jCw117117",
+		"item_date": "2017-04-28 11:27:48",
+		"title": "Release OAS 300rc1 Released  OAIOpenAPISpecification  GitHub",
+		"url": "https://github.com/OAI/OpenAPI-Specification/releases/tag/3.0.0-rc1",
+		"domain": "github.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3Brw4nSnCv4wTepPdvPcnBr0kRLyms0j116L3Dvgfsn116J8ArROuUyutKGEdn4SKPofUqTj5z2AQBtlFVHP123DESUQ117117",
+		"item_date": "2017-04-28 00:00:06",
+		"title": "GeoJSON Text Sequences",
+		"url": "http://webconcepts.info/specs/IETF/RFC/8142",
+		"domain": "webconcepts.info",
+		"image": ""
+	},
+	{
+		"curated_id": "KwgUm8CvwsLzurT7BIYHa116mcvmmKnud7Qoaf116D8c8ejmEAopbQgGlcg116VTo116QwjE4o3EClqdHnGMNB8IKerwbA117117",
+		"item_date": "2017-04-27 09:34:40",
+		"title": "A Short History of OAI and API Specification",
+		"url": "http://restlet.com/company/blog/2017/04/26/a-short-history-of-oai-and-api-specifications/",
+		"domain": "restlet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dSrfS11631t7iOwEDG116amvxxyrxKMlwLrnvpLYBP3jRt7e5UHb7ZWUW116i31162fQONJgq58Td5Ea116OjjjnZiPR41dw117117",
+		"item_date": "2017-04-25 16:37:37",
+		"title": "Release v300  whitlockjcjsonrefs  GitHub",
+		"url": "https://github.com/whitlockjc/json-refs/releases/tag/v3.0.0",
+		"domain": "github.com",
+		"image": ""
 	},
 	{
 		"curated_id": "lEvFyazFhX9123UqSzUTJFm6toNVLM123aS38WKSaxMogeFRnNmh5Qq1PDHj6hv1k7WXidxKCq123WgIAoxnnC1238U116Zw117117",
