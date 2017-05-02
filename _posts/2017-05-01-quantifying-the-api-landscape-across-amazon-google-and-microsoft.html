@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'Quantifying The API Landscape Across Amazon, Google, and Microsoft'
+source: http://definitions.apievangelist.com/2017/05/01/quantifying-the-api-landscape-across-amazon-google-and-microsoft/
+domain: definitions.apievangelist.com
+image: http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/microsoft_graph_api_surface.png
+atomdate: 2017-05-01T09:00:00-07:00
+---
+<p><a href="http://microsoft.stack.network/"><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/microsoft_graph_api_surface.png" alt="" width="45%" align="right" /></a></p>
+<p>I work to develop OpenAPI definitions for 3rd party APIs because it helps me understand what is being offered by a company. Even when I'm able to autogenerate an OpenAPI for an API, or come across an existing one, I still spend time going through the finer details of what an API does, or doesn't do. I find the process to be one of the best ways to learn about an API, stopping short of actually integrating with it.</p>
+<p>Over the last couple of months, I've aggregated, generated, and crafted <a href="http://openapis.org">OpenAPI</a> and <a href="http://apisjson.org">APIs.json</a> definitions for the top three cloud API providers out there. I wanted to be able to easily see the surface area for as many of the APIs as I could find for these three companies:</p>
+<ul>
+<li><strong><a href="http://amazon.web.services.stack.network/">Amazon</a></strong> - 2222 paths (or methods) across&nbsp;65 of the Amazon Web Services - <a href="https://github.com/api-stack/amazon-web-services/tree/master/_data">you can find the APIs.json, and OpenAPI behind in the Github repository</a>.</li>
+<li><strong><a href="http://google.stack.network/">Google</a></strong> - 2089 paths across&nbsp;75 of the Google services I'm profiling&nbsp;- you can find <a href="https://github.com/api-stack/google/tree/master/_data">the APIs.json, and OpenAPI behind in the Github repository</a>.</li>
+<li><strong><a href="http://microsoft.stack.network/">Microsoft</a></strong> - 2109 paths across&nbsp;41 of the Microsoft and Azure services.&nbsp;- you can <a href="https://github.com/api-stack/microsoft/tree/master/_data">find the APIs.json, and OpenAPI behind in the Github repository</a>.</li>
+</ul>
+<p>I learned a lot about all three providers in the process. I filled my notebook with stories about their approaches. I also ended up with three separate Github repositories with APIs.json&nbsp;indexed OpenAPI definitions for as many of their APIs as I could process. They are far from complete, but I feel like they paint a pretty interesting picture of the API landscape across these three tech giants.</p>
+<p>So far there are 6,420 paths across&nbsp;181 individual services. I'm still working on the summary and tags for each path, which are the two most important elements for me. I think the list of 6,420 actions you can take via an API across three of the biggest cloud providers gives us a lot of insight into what these companies are up to. There are a lot of valuable resources in there, ranging from cloud to machine learning. These three projects are an going part of my <a href="http://theapistack.com">API stack</a> research, and I will be adding to them as I have time. I'm looking to keep developing simple JavaScript and Liquid tooling on top of the repos, and YAML data behind--further helping me make sense of Amazon, Google, and Microsoft APIs.&nbsp;</p>
