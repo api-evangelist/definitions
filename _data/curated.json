@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "nlKA1SvOuJ4eV0DbmqJB9lV116tULadPMN116PTixvnzHFEFrGmXMdTU3fiQZYYcDXH7GpQiZVGaFgzlDjOQOp6RCQ117117",
+		"item_date": "2017-05-06 00:00:00",
+		"title": "The HTTP API Space Is Consolidating Around OAS",
+		"url": "https://www.infoq.com/news/2017/05/api-raml-oas",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
 		"curated_id": "DpUzljTCmDvYUXjGUyyZVDhJtU2KGh9XJSaWfELJesTfhMLso9uVqYs13zJmxuD5RAxBpL116EXX2DE1looECjVA117117",
 		"item_date": "2017-04-27 16:37:31",
 		"title": "Tweet 5 Ways the OpenAPI Specification Spurs API Agility",
@@ -2766,6 +2774,14 @@
 		"url": "https://blog.apiary.io/2015/02/17/Utilising-API-Blueprint-in-API-Clients",
 		"domain": "blog.apiary.io",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-apiary-io20150217utilising-api-blueprint-in-api-clients.png"
+	},
+	{
+		"curated_id": "nlKA1SvOuJ4eV0DbmqJB9lV116tULadPMN116PTixvnzHFEFrGmXMdTU3fiQZYYcDXH7GpQiZVGaFgzlDjOQOp6RCQ117117",
+		"item_date": "2017-05-06 00:00:00",
+		"title": "The HTTP API Space Is Consolidating Around OAS",
+		"url": "https://www.infoq.com/news/2017/05/api-raml-oas",
+		"domain": "www.infoq.com",
+		"image": ""
 	},
 	{
 		"curated_id": "DpUzljTCmDvYUXjGUyyZVDhJtU2KGh9XJSaWfELJesTfhMLso9uVqYs13zJmxuD5RAxBpL116EXX2DE1looECjVA117117",
