@@ -16,6 +16,22 @@
 		"image": ""
 	},
 	{
+		"curated_id": "t77L116ScrmlEaW0fg3247EHkCZtxU12nxzq2XFtGr3YnDdV2gsNxxu6k93V00sU2fnebNiSKaI116sBHDd66Lr8yQ117117",
+		"item_date": "2017-05-10 16:40:38",
+		"title": "Automatic discovery of Web API Specifications an exampledriven approach",
+		"url": "http://modeling-languages.com/automatic-discovery-web-api-specifications/",
+		"domain": "modeling-languages.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Do123G76vmAvPW3jfsHPS90Ha0eQBIwQIk79T0RG2aTv9eCF2giK0UMudTITC0vdh4vwa9yd2vmfD9C0X9F116oPRw117117",
+		"item_date": "2017-05-09 10:37:03",
+		"title": "APIMATIC Blog  APIMatic Turns 3 Announcing Support of OAS 30",
+		"url": "https://apimatic.io/blog/post/api-matic-turns-3-announcing-support-of-oas-3-0",
+		"domain": "apimatic.io",
+		"image": ""
+	},
+	{
 		"curated_id": "nlKA1SvOuJ4eV0DbmqJB9lV116tULadPMN116PTixvnzHFEFrGmXMdTU3fiQZYYcDXH7GpQiZVGaFgzlDjOQOp6RCQ117117",
 		"item_date": "2017-05-06 00:00:00",
 		"title": "The HTTP API Space Is Consolidating Around OAS",
@@ -2813,6 +2829,22 @@
 		"title": "Concepts to Integration  Standardization",
 		"url": "http://blog.scribesoft.com/concepts-to-integration-standardization/",
 		"domain": "blog.scribesoft.com",
+		"image": ""
+	},
+	{
+		"curated_id": "t77L116ScrmlEaW0fg3247EHkCZtxU12nxzq2XFtGr3YnDdV2gsNxxu6k93V00sU2fnebNiSKaI116sBHDd66Lr8yQ117117",
+		"item_date": "2017-05-10 16:40:38",
+		"title": "Automatic discovery of Web API Specifications an exampledriven approach",
+		"url": "http://modeling-languages.com/automatic-discovery-web-api-specifications/",
+		"domain": "modeling-languages.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Do123G76vmAvPW3jfsHPS90Ha0eQBIwQIk79T0RG2aTv9eCF2giK0UMudTITC0vdh4vwa9yd2vmfD9C0X9F116oPRw117117",
+		"item_date": "2017-05-09 10:37:03",
+		"title": "APIMATIC Blog  APIMatic Turns 3 Announcing Support of OAS 30",
+		"url": "https://apimatic.io/blog/post/api-matic-turns-3-announcing-support-of-oas-3-0",
+		"domain": "apimatic.io",
 		"image": ""
 	},
 	{
