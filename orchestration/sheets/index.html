@@ -63,7 +63,7 @@ title: Update Spreadsheet
             }
 
           $count++;
-          console.log($count + ' == ' + $total_count);
+          //console.log($count + ' == ' + $total_count);
           if($count==$total_count)
             {
             $yaml_dump = jsyaml.dump($products);
@@ -83,7 +83,7 @@ title: Update Spreadsheet
                 $writepath = '_data/' + $resource + '/index.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
-                //console.log($path + ' == ' + $writepath);
+                console.log($path + ' == ' + $writepath);
                 if($path==$writepath)
                   {
                   repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
