@@ -9,7 +9,7 @@ title: 'API Definition News'
 {% for curated in site.data.curated.index %}
 	<li>
 		<a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a>
-		<span style="color:#000; font-size: 12px;">(&nbsp;<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;"><i>{{ curated.item_date | date_to_string }}&nbsp;{% if curated.domain != null %}on&nbsp;{{ curated.domain }}{% endif %}</i></a>)</span>
+		<span style="color:#000; font-size: 12px;">(&nbsp;<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;"><i>{{ curated.item_date }}&nbsp;{% if curated.domain != null %}on&nbsp;{{ curated.domain }}{% endif %}</i></a>)</span>
 	</li>
 {% endfor %}
 </ul>
