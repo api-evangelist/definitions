@@ -76,7 +76,7 @@ title: Update Spreadsheet
             var github = new Github({token: $oAuthToken,auth: "oauth"});
             var repo = github.getRepo($org,$repo);
 
-            repo.getTree('master?recursive=true', function(err, tree) {
+            repo.getTree('{{ site.github_branch }}?recursive=true', function(err, tree) {
 
               $.each(tree, function(treeKey, treeValue) {
 

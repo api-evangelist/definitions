@@ -22,6 +22,7 @@ paginate_path: "/blog/page:num"
 
 github_user: api-evangelist
 github_repo: definitions
+github_branch: gh-pages
 
 # spreadsheet store
 contactinfo_spreadsheet_key: 1bNUVKpKl1-9k_5YNt0ix4eFKTP4t2L5DhnAtCqMAf4o
