@@ -98,25 +98,3 @@ title: API Evangelist - Definitions
 		<p>{{ site.building_block_footer }}</p>
 	</div>
 </section>
-
-
-
-<!-- Section -->
-<section>
-	<header>
-		<h2><h3>{{ site.org_title }}</h3></h2>
-		<p>{{ site.org_desc }}</p>
-	</header>
-	<div class="features">
-		{% assign organizations = site.data.organizations.index %}
-    {% for organization in organizations %}
-			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img src="{{ organization.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
-					<p>{{ organization.description }}</p>
-				</div>
-			</article>
-    {% endfor %}
-	</div>
-</section
