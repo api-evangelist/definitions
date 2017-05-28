@@ -53,11 +53,14 @@ title: Update Spreadsheet
       $.each( tabletop.sheets($resource).all(), function(i, service) {
 
           $p = {};
-          $.each(service, function($key, $value) {
-            //console.log($key + ' == ' + $value);
-            $p[$key] = $value;
-          });
-          $products.push($p);
+          if(service['tags'].includes("{{ site.tag }}") == true)
+            {
+            $.each(service, function($key, $value) {
+              //console.log($key + ' == ' + $value);
+              $p[$key] = $value;
+            });
+            $products.push($p);
+            }
 
           $count++;
           if($count==$total_count)

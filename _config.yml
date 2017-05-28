@@ -2,6 +2,8 @@ title:        API Definitions
 url:          http://definitions.apievangelist.com
 raw_url: http://definitions.apievangelist.com/apis/
 
+tag: Definitions
+
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-api-definitions.png
 logo_width:   80
 logo_bottom_padding: 10
