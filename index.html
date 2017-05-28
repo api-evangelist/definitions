@@ -44,7 +44,7 @@ title: API Evangelist - Definitions
 	<section id="banner">
 		<div class="content">
 			<header>
-				<h2>Latest From Blog: {{ post.title }}</h2>
+				<h2>Latest From Blog on API Definitions: {{ post.title }}</h2>
 				<p><em>{{ post.date | date_to_string }}</em></p>
 			</header>
 			{{ post.content }}
@@ -54,3 +54,25 @@ title: API Evangelist - Definitions
 		</div>
 	</section>
 {% endfor %}
+
+<h4>What I Have Curated On API Definitions</h4>
+<div class="table-wrapper">
+	<table class="alt">
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Date</th>
+				<th>Source</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for curated in site.data.curated %}
+			<tr>
+				<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a></td>
+				<td><span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date_to_string }}</i>)</span></td>
+				<td><span style="color:#000; font-size: 12px;">({% if curated.domain != null %}on&nbsp;{{ curated.domain }}{% endif %}</i></a>)</span></td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</tbale>
+</div>
