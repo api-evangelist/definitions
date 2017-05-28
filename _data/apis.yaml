@@ -1,40 +1,56 @@
-name: Definitions
-image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-created: "2017-03-20"
-modified: "2017-03-20"
-url: http://definitions.apievangelist.com/apis.yaml
-specificationVersion: "0.14"
-apis: []
+name: API Evangelist
+description: These are my APIs for my API industry research, studying over 70 areas along an API life cycle.
+image: http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 tags:
-- Definitions
-- Definition
-- Definitions
-include:
-- name: Apache Avro
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/apache-avro/apis.yaml
-- name: API Blueprint
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/api-blueprint/apis.yaml
-- name: API Transformer
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/api-transformer/apis.yaml
-- name: Elastic Path
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/elastic-path/apis.yaml
-- name: Frictionless Data
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/frictionless-data/apis.yaml
-- name: Google
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/google/apis.yaml
-- name: Google API Discovery Service
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/google-api-discovery-service/apis.yaml
-- name: OData.org
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/odataorg/apis.yaml
-- name: OpenAPI Spec
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/openapi-spec/apis.yaml
-- name: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/postman/apis.yaml
-- name: RAML
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/raml/apis.yaml
-- name: RESTdesc
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/restdesc/apis.yaml
-- name: Schema.org
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/schemaorg/apis.yaml
-- name: U.S. Data Federation
-  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/us-data-federation/apis.yaml
+  - API
+  - Integrations
+created: "2017-05-09"
+modified: "2017-05-09"
+url: https://apievangelist.com/apis.json
+specificationVersion: "0.14"
+apis:
+  - name: Products API
+    description: This is my simple API for managing my products.
+    image: http://apievangelist.com/images/product-square.png
+    humanURL: http://apievangelist.com/
+    baseURL: http://apievangelist.com/
+    tags:
+      - API Evangelist
+      - Products
+    properties:
+      - type: x-openapi
+        url: http://apievangelist.com/apis/products/openapi.json
+  - name: Services API
+    description: This is my simple API for managing my services.
+    image: http://apievangelist.com/images/services-square.png
+    humanURL: http://apievangelist.com/
+    baseURL: http://apievangelist.com/
+    tags:
+      - API Evangelist
+      - Services
+    properties:
+      - type: x-openapi
+        url: http://apievangelist.com/apis/services/openapi.json
+  - name: Partners API
+    description: This is my simple API for managing my partners across the sites.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-partner.png
+    humanURL: http://apievangelist.com/
+    baseURL: http://apievangelist.com/
+    tags:
+      - API Evangelist
+      - Partners
+    properties:
+      - type: x-openapi
+        url: http://apievangelist.com/apis/partners/openapi.json
+x-common:
+  - type: x-support
+    url: https://github.com/kinlane/api-evangelist/issues
+  - type: x-documentation
+    url: http://apievangelist.com/documentation/
+  - type: x-github-repo
+    url: https://github.com/kinlane/api-evangelist
+include: []
+maintainers:
+  - FN: Kin Lane
+    x-twitter: apievangelist
+    email: info@apievangelist.com

@@ -1,4 +1,6 @@
 ---
 layout: none
+title: Tools
+tag: Tools
 ---
-{% assign show_json = site.data.tools | json | replace: '=>', ':' %}{{ show_json }}
+{% assign publish_json = site.data.tools.index | json | replace: '=>', ':' %}{{ publish_json }}

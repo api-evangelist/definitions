@@ -1,72 +1,56 @@
 ---
-layout: page
-title: API Definitions
+layout: default
+title: API Evangelist - Definitions
 ---
-<p style="font-size: 12px; padding:5px;">
-  <img src="{{ site.project_image }}" align="right" width="90" style="padding: 10px;" />
-  {{ site.project_summary }}
-</p>
 
-<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 100%;" /></center>
+<!-- Banner -->
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>I am Kin Lane, the API Evangelist...</h2>
+		</header>
+		<p>This is my online domain where I work to understand the world of the Application Programming Interfaces, also known as APIs. This new way of sharing data using the web is touching almost every aspect of our increasingly digital lives, providing access to the bits and bytes that make our personal and professional worlds go round.</p>
+		<p>API Evangelist is my full time research into how APIs are impacting our worlds (both good and bad), where I work to better understand the technology, business, and politics of the APIs that are driving our websites, mobile, and devices that seem to be everywhere.</p>
+		<p>API Evangelist is a network of data driven projects and APIs which I curate and manage as part of this ongoing research, hoping to provide easy access to the moving parts of my work. Everything you see here runs on Github, making everything forkable, and resuable for both humans and machines.</p>
+	</div>
+	<span class="image object">
+		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
+	</span>
+</section>
 
-<div class="row" style="vertical-align: top; padding: 0px; margin: 0px;" align="center">
+<!-- Section -->
+	<section>
+		<header>
+			<h2>API Evangelist Partners</h2>
+			<p>These are my partners who invest in API Evangelist each month, helping underwrite my research, and making sure I'm able to keep monitoring the API space as I do.</p>
+		</header>
+		<div class="features">
+			{% assign partners = site.data.partners.index | sort: 'view_sort' %}
+	    {% for partner in partners %}
+	      {% if partner.type == 'Sponsor' %}
+				<article>
+					<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
+					<div class="content">
+						<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
+						<p>{{ partner.description }}</p>
+					</div>
+				</article>
+	      {% endif %}
+	    {% endfor %}
+		</div>
+	</section>
 
-  <div class="span3">
-
-    <center>
-      <p><a href="/guide/" style="font-size: 14px;"><strong>API Definitions Research Guide</strong></a></p>
-      <p><a href="/guide/"><img src="http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/api_definitions_2017_03.png" width="175" aligin="center" /></a></p>
-    </center>
-
-  </div>
-  <div class="span3" style="text-align: left;">
-    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/news.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
-    <ul class="newslist">
-      {% for curated in site.data.curated  limit:5 %}
-        <li><a href="{{ curated.url }}">{{ curated.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="span4" style="text-align: left;">
-
-    <script type="text/javascript">
-      $url = 'http://apievangelist.com/blog.xml';
-      var $listcount = 0;
-      $.get($url, function (data) {
-          $(data).find("item").each(function () {
-              var el = $(this);
-              $title = el.find("title").text();
-              $link = el.find("link").text();
-              if($listcount<5){
-                $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
-                $('#rssNews').append($listitem);
-                }
-              $listcount++;
-          });
-      });
-    </script>
-    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
-    <ul class="newslist" id="rssNews"></ul>
-
-  </div>
-</div>
-<center><hr style="padding: 5px; margin: 5px; width: 100%;" /></center>
-<div class="row" align="center" style="padding-bottom: 20px;">
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://hypermedia.apievangelist.com"><strong><span style="font-size: 20px;">&#8666;</span>&nbsp;&nbsp;Visit My Research On Hypermedia</strong></a></li>
-    </ul>
-
-  </div>
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://versioning.apievangelist.com"><strong>Visit My Research On API Versioning&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
-    </ul>
-
-  </div>
-
-</div>
+{% for post in site.posts limit:1 %}
+	<section id="banner">
+		<div class="content">
+			<header>
+				<h2>Latest From Blog: {{ post.title }}</h2>
+				<p><em>{{ post.date | date_to_string }}</em></p>
+			</header>
+			{{ post.content }}
+			<ul class="actions" style="text-align: center;">
+				<li><a href="/blog/" class="button big">Read The Blog</a></li>
+			</ul>
+		</div>
+	</section>
+{% endfor %}

@@ -11,167 +11,30 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
 paginate: 25
 paginate_path: "/blog/page:num"
 
-categories_path : /categories.html
-tags_path : /tags.html
-
 org: api-evangelist
 repo: definitions
 
-# Masthead title
-masthead_link: http://apis.how/xzca4kr2wb
-masthead_font_size: 75
-masthead_title: '{"API Definitions"}'
+github_user: kinlane
+github_repo: api-evangelist
 
-# Feature
-feature_title: API Guide
-feature_link: http://apievangelist.com
-feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 40
+# spreadsheet store
+contactinfo_spreadsheet_key: 1bNUVKpKl1-9k_5YNt0ix4eFKTP4t2L5DhnAtCqMAf4o
+project_spreadsheet_key: 1LtOUKwV80ybYXJ1nyoQJXiAEcCfc0AoborRkYSbiLE4
+service_spreadsheet_key: 1m0vghHqpTV_2zdK9dCZjioH337BdxFVCZZgOi0_e3zg
+product_spreadsheet_key: 1K5GTYo3McA4WNYcvv_WPRKxp5Q8emkyKlaXKATGhQFM
+partner_spreadsheet_key: 1V6zSIZPjtIWWjvipAGiA4pl5xDN4ATumfNl_UQwQakg
+tool_spreadsheet_key: 1Lk0zQMV36Xn17d6-2s2CihprafXiYnwrAL6I9OBxhEs
 
-# Project
-
-project_image: https://s3.amazonaws.com/kinlane-productions/api-commons/api-commons-icon.png
-project_summary: Research project to keep track of established, and emerging ways of defining APIs such as Swagger, API Blueprint, and RAML. I am also working to include information about media types, schemas, and other ways to define the value APIs bring to table. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research repo.
-
-# Navigation
-navigation:
-  - label1: Home
-    link1: /
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 0
-    padding: 0
-    decorate: 0
-  - label1: Blog
-    link1: /blog/
-    size1: 80
-    extend: 1
-    label2: RSS
-    link2: /blog.xml
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: News
-    link1: /news/
-    size1: 80
-    extend: 1
-    label2: RSS
-    link2: /news.xml
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Organizations
-    link1: /organizations/
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/companies.json
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Tooling
-    link1: /tools/
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/tools.json
-    size2: 60
-    padding: 0
-    decorate: 0
-  - label1: Return to API Evangelist
-    link1: http://apievangelist.com
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 10
-    padding: 0
-    decorate: 1
-
-# Footer Navigation
-footernavigation:
-  - label: API 100K View
-    link: http://apievangelist.com
-  - label: News
-    link: /news/
-  - label: Partners
-    link: http://apievangelist.com/partners/
-  - label: APIs.json
-    link: http://apisjson.org
-  - label: About Kin Lane
-    link: http://kinlane.com
-  - label: Branding Guidelines
-    link: http://apievangelist.com/branding-guidelines.html
-  - label: Contact
-    link: http://kinlane.com/contacts/
-
-# sponsors
-sponsors_margin_top: 15
-sponsors_padding_top: 3
-sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
-
-# This drives the /extension listing
-extensions:
-  - title: "x-codegen-settings"
-    name: "APIMATIC"
-    source_url: "https://apimatic.io/blog/post/swagger-2-0-extension-for-code-generation-settings"
-    gist_url: "https://gist.github.com/kinlane/b525ab628f070c84456e.js"
-  - title: "x-a127-services"
-    name: "Apigee"
-    source_url: "https://github.com/apigee-127/volos/tree/master/swagger"
-    gist_url: "https://gist.github.com/kinlane/d0d6db70a67d916461ed.js"
-  - title: "x-swagger-router-controller"
-    name: "Apigee"
-    source_url: "https://github.com/swagger-api/swagger-node/blob/master/docs/swagger-file.md"
-    gist_url: "https://gist.github.com/kinlane/85fb77c897b681eafde9.js"
-  - title: "x-amples"
-    name: "James Earl Douglas"
-    source_url: "https://github.com/earldouglas/swagger-test"
-    gist_url: "https://gist.github.com/kinlane/90b1b48e16d14644e9cb.js"
-  - title: "x-amazon-apigateway-integration"
-    name: "Warner Godfrey"
-    source_url: "https://hub.docker.com/r/warnergodfrey/aws-apigateway-swagger/"
-    gist_url: "https://gist.github.com/kinlane/a4dec9386878c66ded96.js"
-  - title: "x-ms-summary"
-    name: "Microsoft Azure"
-    source_url: "https://azure.microsoft.com/en-us/documentation/articles/app-service-api-optimize-for-logic-apps/"
-    gist_url: "https://gist.github.com/kinlane/9d580c9d75060bb3ecae.js"
-  - title: "x-logo"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/63de641a3d33374a916c.js"
-  - title: "x-origin"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/c29b89aca1fbe72fb563.js"
-  - title: "x-providerName"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/f234e506548c29c1fe97.js"
-  - title: "x-unofficialSpec"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/d365d1e1fc61d83ccc22.js"
-  - title: "x-summary and x-description"
-    name: "Apiary"
-    source_url: "https://help.apiary.io/api_101/swagger-extensions/"
-    gist_url: "https://gist.github.com/netmilk/e61bd109dca737f77cf2.js"
-  - title: "x-example"
-    name: "Apiary"
-    source_url: "https://help.apiary.io/api_101/swagger-extensions/"
-    gist_url: "https://gist.github.com/honzajavorek/12b536f8ba0c9977f5e2605aecb4607b.js"
-
-# sponsors
-sponsors_margin_top: 15
-sponsors_padding_top: 3
-sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
 
 # support
 support_title: Support My API Definition Research

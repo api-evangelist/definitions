@@ -1,0 +1,44 @@
+---
+layout: page
+title: Pull Schedule
+---
+test 1234567
+<script type="text/javascript">
+
+    var $oAuth_Token = getUrlVar('token');
+    var $masterFeed = [];
+
+    $feedurls = 'https://kinlane.github.io/content/schedule.json';
+
+    var allFeeds = $.get($feedurls, function ($feeds) {
+      console.log($feeds);
+      $.each($feeds, function(feedKey, feedEntry) {
+
+        $title = feedEntry['title'];
+        console.log($title);
+        $url = feedEntry['url'];
+
+        //http://apievangelist.com/2017/05/12/api-integration-service-providers.html
+
+        $new_url = $url.replace("/", "-");
+        $new_url = $new_url.replace("http:--apievangelist.com-", "https://github.com/kinlane/content/blob/master/_posts/");
+        console.log($new_url);
+        $updated = feedEntry['updated'];
+        $image = feedEntry['image'];
+        $github_user = feedEntry['github_user'];
+        $github_repo = feedEntry['github_repo'];
+
+        });
+      })
+      .done(function() {
+          console.log("SUCESS");
+        })
+      .fail(function() {
+        console.log("NO GO AT ALL!");
+      });
+
+</script>
+
+<h3>Pull Feeds</h3>
+<p>This pulls the feeds from any urls listed in the <a href="">_data/feed-urls.json</a> file, which contains all the target RSS locations we are looking to aggregate.</p>
+<ul id="process-feeds"></ul>
