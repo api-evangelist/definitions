@@ -1,0 +1,23 @@
+---
+layout: page
+title: Contact
+---
+
+<h2>Contact API Evangelist</h2>
+<p>Please contact me with any specific questions through then channels below, but with each channel I would also like to offer you some advice to help you make sure your messages are received, and get the response you are looking for.</p>
+<section>
+  <div class="features">
+    {% assign contactinfo = site.data.contactinfo.index | sort: 'view_sort' %}
+    {% for info in contactinfo %}
+        <article>
+          <p><a href="{{ info.url }}" target="_blank"><img src="{{ info.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
+          <div class="content">
+            <h3><a href="{{ info.url }}" target="_blank">{{ info.name }}</a></h3>
+            <p>{{ info.description }}</p>
+          </div>
+        </article>
+    {% endfor %}
+  </div>
+</section>
+<p>As a one person operation, I do my best to keep up with the channels listed above, but there are some weeks where I'm focused on research, coding, and writing, and may not always be available.</p>
+<p>I appreciate your interest, and looking forward to talking more about APIs.</p>

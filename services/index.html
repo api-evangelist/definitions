@@ -1,0 +1,25 @@
+---
+layout: page
+title: API Evangelist Services
+---
+
+<h2>API Evangelist Services</h2>
+<p>These are just a few  of the services I offer to my clients as part of my work as the API Evangelist. These service are developed over the last seven years operating in the API space and working with a variety of companies doing APIs in a specific industry, as well as selling services to the API sector.</p>
+<p>If you need help with any stop along the 70+ areas of the API lifecycle I track on, let me know how I can help. I'm a one person shop, but I depend on about 50% of my time spent on consulting to pay the bills, as well as procure a steady stream of stories, and real life best practices when it comes to APIs.</p>
+<p><img src="http://kinlane-productions.s3.amazonaws.com/api_evangelist_site/blog/drone_control_sunset.png" width="25%" align="right" style="padding: 15px;" /></p>
+{% assign services = site.data.services.index | sort: 'view_sort' %}
+{% assign service_references = site.data.services.references | sort: 'view_sort' %}
+{% for service in services %}
+<h3>{{ service.name }}</h3>
+<p>{{ service.description }}.</p>
+<ul>
+  {% for service_reference in service_references %}
+    {% if service_reference.service == service.name %}
+      <li><a href="{{ service_reference.link }}" style="font-size: 14px; font-weight: normal; font-style: italic;">{{ service_reference.title }} <span style="font-size: 20px;">&#8667;</span></a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
+<p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist-site/blog/kin-lane-drone-catch.png" width="25%" align="right" style="padding: 15px;" /></p>
+<p>These are the common areas I work with companies, organizations, institutions, and government agencies when it comes to APIs. Over the last seven years I've developed a unique set of skills that have helped people better understand the API sector, and how it applies to their specific organizational or even individual goals.</p>
+<p>Let me know how I can help you, I'm open to discussions about how I can help you better understand and play an active role in the API sector. I work with many organizations in a one time engagement, as well as have regular conversations with a variety of API providers, and service provides in the space. Drop me an email at <a href="mailto:info@apievangelist.com">info@apievangelist.com</a>, ping me on Twitter @kinlane, or submit a Github Issue on of of my specific projects, and I'm happy to explore what I can do for you.</p>

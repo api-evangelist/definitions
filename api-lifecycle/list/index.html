@@ -1,0 +1,19 @@
+.index---
+layout: page
+title: API Lifecycle Research
+---
+
+<h2>API Lifecycle Research</h2>
+<p>I spend most of my time studying how API providers are approaching the technology, business, and politics of their API operations. This work began understanding mostly the technology and business of API management in 2010, but after seven years it has spread to over 70 areas of what I see as the API lifecycle.</p>
+<p>This research reflects what API providers should be considering, but is extracted from the best (and worst) practices of the leading API providers out there. Because this is APIs, most of the services I cover as part of my API life cycle research also have APIs, allowing API infrastructure to be managed using APIs, adding an entirely new dimension to the conversation.</p>
+<section>
+  <div class="features">
+    {% assign projects = site.data.projects.index | sort: 'view_sort' %}
+    {% for project in projects %}
+      {% if project.category == 'Core Research' %}
+        {{ project.name }}<br />
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<p>Each of these projects exists on Github, and can be forked, or integrated with directly via the YAML and JSON data stores that drive each area of my research.</p>

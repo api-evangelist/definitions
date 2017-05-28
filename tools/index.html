@@ -1,82 +1,24 @@
 ---
 layout: page
+title: API Evangelist Tools
 ---
-<h3>{{ site.tools_title }}</h3>
-<p>{{ site.tools_desc }}</p>
-<center>
-<table width="90%" border="0" align="center" cellpadding="5">
-    <tr>
-      <td align="center" valign="middle" height="100" width="25%">
-        <p><a href="specifications/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-specification.png" width="130" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="data-specifications/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-data-specification.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="media-types/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-content-type.png" width="120" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="generators/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-general-gear.png" width="100" /></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="specifications/"><strong>Specifications</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="data-specifications/"><strong>Data Specifications</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="media-types/"><strong>Media Type</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="generators/"><strong>Generator</strong></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="parsers/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-parser.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="converters/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-converter.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="semantics/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-semantics.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="discovery/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-discovery.png" width="100" /></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="parsers/"><strong>Parser</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="converters/"><strong>Converter</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="semantics/"><strong>Semantics</strong></a></p>
-      </td>
-      <td align="center" valign="top">
-        <p><a href="discovery/"><strong>Discovery</strong></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle" width="25%">
-        <p><a href="merging/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-merge.png" width="100" /></a></p>
-      </td>
-      <td align="center" valign="middle" width="25%"></td>
-      <td align="center" valign="middle" width="25%"></td>
-      <td align="center" valign="middle" width="25%">  </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <p><a href="merging/"><strong>Merging</strong></a></p>
-      </td>
-      <td align="center" valign="top"></td>
-      <td align="center" valign="top"></td>
-      <td align="center" valign="top"></td>
-    </tr>
-</table>
-</center>
-<p>{{ site.tools_footer }}</p>
+
+<h2>API Evangelist Tools</h2>
+<p>I am a programmer. I have over 30 years of experience programming. Even though I do not currently own any toolion environment, or technology tools, beyond operating my own infrastructure, I still can't help myselft when it comes to developing micro apps. I really enjoy developing simple, usually standalone JavaScript applications that run 100% on Github using Jekyll, and accomplish some specific goal in the API space.</p>
+<p>While not all my tools are ready for prime time, I try to keep them each in their own Github Repo, with as much of the backstory, code, data, and other definitions needed to understand what is going on. When I feel a tool is relevant, or maybe publish a story about it, I will usually add it to this list of API Evangelist tools, and share as part of my regular research, and even sometimes to operate my business.</p>
+<section id="banner">
+  <div class="features">
+    {% assign tools = site.data.tools.index | sort: 'view_sort' %}
+    {% for tool in tools %}
+        <article>
+          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
+          <div class="content">
+            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
+            <p>{{ tool.description }}</p>
+          </div>
+        </article>
+    {% endfor %}
+  </div>
+</section>
+<p>I am working to update these regularly, and add new ones for other areas of my research, and running API Evangelist when I can. While many of my tools are functional, and I actively use them in my work, you should check with me before ever puttting them into a production environment.</p>
+<p>If there is a specific area you'd like to see a tool for, feel free to let me know. I'm happy to priotize a specific stop along the API lifecycle, as well as take on paid work to develop micro tooling, when it contributes to the API community.</p>

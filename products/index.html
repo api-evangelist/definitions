@@ -1,0 +1,25 @@
+---
+layout: page
+title: API Evangelist Products
+---
+
+<h2>API Evangelist Products</h2>
+<p>I support my research in part by selling guides to the fast moving world of APIs. I try to keep my guides affordable, and updated regularly. Here is a list of the ones I currently have available.</p>
+<p>I am slowly working to develop other products beyond just content. I have a variety of templates and toolkits I'd like to develop, as well as training, curriculum, and other video or audio content that compliments my regular short form and long form storytelling.</p>
+<section id="banner">
+  <div class="features">
+    {% assign products = site.data.products.index | sort: 'view_sort' %}
+    {% for product in products %}
+        <article>
+          <p><a href="{{ product.url }}" target="_blank"><img src="{{ product.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
+          <div class="content">
+            <h3><a href="{{ product.url }}" target="_blank">{{ product.name }}</a></h3>
+            <p>{{ product.description }}</p>
+          </div>
+        </article>
+    {% endfor %}
+  </div>
+</section>
+<p>I am working to update these regularly, and add new ones for other areas of my research as I can. While much of this content is available across my sites, each guide is an unique aggregation of my research, with additional analysis when I can.</p>
+<p>If there is a specific area of my research you'd like to see a guide for, feel free to let me know. I'm happy to priotize a specific stop along the API lifecycle, as well as accept the underwriting of my research, writing, and curriculum development.</p>
+<p>Thank you for your interest and support of my research - Kin Lane.</p>

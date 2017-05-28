@@ -1,0 +1,19 @@
+---
+layout: page
+title: API Stack Research
+---
+
+<h2>API Stack Research</h2>
+<p>I have looked at thousands of APIs conducting my API lifecycle research over the last seven years. Many of these APIs aren't worth noting, but the ones that are get included in my API Stack research, where I dive deeper into understanding the common building blocks of their operations, and spend more time profiling their APIs, and supporting operations.</p>
+<p>You will find that I tend to study and research APIs I find interesting, or are beneficial to the world of technology. I tend to give equal time understanding organizational, instutions, government agencies, as well as the startups, SMB, SME, and enterprises that seem to dominate the conversation. While I do invest considerable resources in API definitions and discovery, and provide a rich catalog, I'm more interested in this work feeding my wider research and storytelling over actually being an API search engine or directory.</p>
+<section>
+  <div class="features">
+    {% assign projects = site.data.projects.index | sort: 'view_sort' %}
+    {% for project in projects %}
+      {% if project.category == 'Stack Network' %}
+        {{ project.name }}<br />
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<p>Each of these projects exists on Github, and can be forked, or integrated with directly via the YAML and JSON data stores that drive each area of my research.</p>
