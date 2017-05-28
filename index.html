@@ -82,6 +82,8 @@ title: API Evangelist - Definitions
 {% assign categorylist = '' %}
 {% for block in building_blocks %}
 	{% assign category = block.category %}
+	category: {{ category}}<br />
+	categorylist: {{ categorylist}}<br />
 	{% if categorylist contains tag %}
 	{% else %}
 		{% if taglist contains tag %}
