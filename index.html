@@ -76,3 +76,160 @@ title: API Evangelist - Definitions
 		</tbody>
 	</tbale>
 </div>
+
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>{{ site.building_block_title }}</h2>
+			<p>{{ {{ site.building_block_desc }}}}</p>
+		</header>
+		<ul style="padding: 0px 25px 0px 25px;">
+		{% for block in site.data.buildingblocks %}
+			<li>
+				<span style="font-size: 18px; font-weight: bold;">{{ block.category_name }}</span>
+				<ul>
+					{% for building_block in block.building_blocks %}
+						<li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+					{% endfor %}
+				</ul>
+			</li>
+		{% endfor %}
+		</ul>
+		<p>{{ site.building_block_footer }}</p>
+	</div>
+</section>
+
+
+
+<!-- Section -->
+<section>
+	<header>
+		<h2><h3>{{ site.org_title }}</h3></h2>
+		<p>{{ site.org_desc }}</p>
+	</header>
+	<div class="features">
+		{% assign api = site.data.apis %}
+    {% for partner in partners %}
+      {% if partner.type == 'Sponsor' %}
+			<article>
+				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
+				<div class="content">
+					<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
+					<p>{{ partner.description }}</p>
+				</div>
+			</article>
+      {% endif %}
+    {% endfor %}
+	</div>
+</section>
+
+<table cellpadding="3" cellspacing="2" width="90%" border="0" style="margin-top: 10px;">
+{% assign api = site.data.apis %}
+{% for include in api.include %}
+
+  {% for org in site.data.api-commons %}
+
+    {% assign index = org %}
+
+    {% if thisurl == index[0] %}
+
+      {% assign apisjson = index[1].apis %}
+      {% assign common_api_action_url = '' %}
+
+      {% assign blog_url = '' %}
+      {% assign blogrss_url = '' %}
+      {% assign portal_url = '' %}
+      {% assign gitub_url = '' %}
+      {% assign twitter_url = '' %}
+      {% assign website_url = '' %}
+
+      {% for common in apisjson.x-common %}
+        {% if common.type == 'x-website' %}
+          {% assign website_url = common.url %}
+        {% endif %}
+        {% if common.type == 'x-blog' %}
+          {% assign blog_url = common.url %}
+        {% endif %}
+        {% if common.type == 'x-blog-rss-feed' %}
+          {% assign blogrss_url = common.url %}
+        {% endif %}
+        {% if common.type == 'x-portal' %}
+          {% assign portal_url = common.url %}
+        {% endif %}
+        {% if common.type == 'x-github' %}
+          {% assign gitub_url = common.url %}
+        {% endif %}
+        {% if common.type == 'x-twitter' %}
+          {% assign twitter_url = common.url %}
+        {% endif %}
+        {% if common.type == 'x-api-actions' %}
+          {% assign common_api_action_url = common.url %}
+        {% endif %}
+      {% endfor %}
+
+      {% if apisjson.image != null %}
+        {{ apisjson.image }}
+      {% endif %}
+
+			{{ apisjson.name }}
+
+      {{ apisjson.description }}
+
+                  {% if website_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ website_url }}" target="_blank" title="Website">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="30" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
+                  {% if portal_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ portal_url }}" target="_blank" title="Portal">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal-developers.jpg" width="30" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
+                  {% if blog_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ blog_url }}" target="_blank" title="Blog">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="26" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
+
+                  {% if blogrss_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ blogrss_url }}" target="_blank" title="Blog RSS">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="26" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
+
+                  {% if twitter_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ twitter_url }}" target="_blank" title="Twitter">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="36" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
+
+                  {% if gitub_url != '' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ gitub_url }}" target="_blank" title="Github">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="45" align="center" />
+                      </a>
+                    </li>
+                  {% endif %}
+
+                  {% assign apisjson_url = 'https://raw.githubusercontent.com/' | append: site.org | append: '/' | append: site.repo | append: '/gh-pages/_data/api-commons/' | append: thisurl | append: '/apis.yaml' %}
+                    <li style="display: inline; padding-left: 15px; padding-right: 15px;">
+                      <a href="{{ apisjson_url }}" target="_blank" title="The APIs.json for {{ apisjson.name }}">
+                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="45" align="center" />
+                      </a>
+                    </li>
+
+
+
+    {% endif %}
+  {% endfor %}
+{% endfor %}
