@@ -91,12 +91,12 @@ title: API Evangelist - Definitions
 	{% endif %}
 {% endfor %}
 
-{{ categorylist }}
+categorylist: {{ categorylist }}
 <section id="banner">
 	<div class="content">
 		<header>
 			<h2>{{ site.building_block_title }}</h2>
-			<p>{{ {{ site.building_block_desc }}}}</p>
+			<p>{{ site.building_block_desc }}</p>
 		</header>
 		<ul style="padding: 0px 25px 0px 25px;">
 		{% for block in building_blocks %}
