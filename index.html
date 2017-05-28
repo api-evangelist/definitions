@@ -82,18 +82,15 @@ title: API Evangelist - Definitions
 {% assign categorylist = '' %}
 {% for block in building_blocks %}
 	{% assign category = block.category %}
-	category: {{ category}}<br />
-	categorylist: {{ categorylist}}<br />
 	{% if categorylist contains tag %}
 	{% else %}
 		{% if taglist contains tag %}
 			{% assign categorylist = categorylist | append:',' %}
 		{% endif %}
-		{% assign categorylist = categorylist | category:tag %}
+		{% assign categorylist = categorylist | append: category %}
 	{% endif %}
 {% endfor %}
-
-categorylist: {{ categorylist }}
+categorylist: {{ categorylist }}<br />
 <section id="banner">
 	<div class="content">
 		<header>
