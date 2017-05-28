@@ -63,6 +63,7 @@ title: Update Spreadsheet
             }
 
           $count++;
+          console.log($count + ' == ' + $total_count);
           if($count==$total_count)
             {
             $yaml_dump = jsyaml.dump($products);
