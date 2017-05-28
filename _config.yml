@@ -1,5 +1,7 @@
 title:        API Definitions
 url:          http://definitions.apievangelist.com
+raw_url: http://definitions.apievangelist.com/apis/
+
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-api-definitions.png
 logo_width:   80
 logo_bottom_padding: 10
@@ -16,11 +18,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 paginate: 25
 paginate_path: "/blog/page:num"
 
-org: api-evangelist
-repo: definitions
-
-github_user: kinlane
-github_repo: api-evangelist
+github_user: api-evangelist
+github_repo: definitions
 
 # spreadsheet store
 contactinfo_spreadsheet_key: 1bNUVKpKl1-9k_5YNt0ix4eFKTP4t2L5DhnAtCqMAf4o
