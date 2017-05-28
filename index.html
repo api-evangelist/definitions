@@ -77,6 +77,21 @@ title: API Evangelist - Definitions
 	</tbale>
 </div>
 
+
+{% assign building_blocks = site.data.buildingblocks.index %}
+{% assign categorylist = '' %}
+{% for block in building_blocks %}
+	{% assign category = block.category %}
+	{% if categorylist contains tag %}
+	{% else %}
+		{% if taglist contains tag %}
+			{% assign categorylist = categorylist | append:',' %}
+		{% endif %}
+		{% assign categorylist = categorylist | category:tag %}
+	{% endif %}
+{% endfor %}
+
+{{ categorylist }}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -84,12 +99,14 @@ title: API Evangelist - Definitions
 			<p>{{ {{ site.building_block_desc }}}}</p>
 		</header>
 		<ul style="padding: 0px 25px 0px 25px;">
-		{% for block in site.data.buildingblocks %}
+		{% for block in building_blocks %}
 			<li>
 				<span style="font-size: 18px; font-weight: bold;">{{ block.category_name }}</span>
 				<ul>
 					{% for building_block in block.building_blocks %}
-						<li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+						{% if building_block.type == block %}
+						<	li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+						{% endif %}
 					{% endfor %}
 				</ul>
 			</li>
