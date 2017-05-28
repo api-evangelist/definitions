@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Update Projects Spreadsheet
+title: Update Spreadsheet
 ---
 <h1>Update</h1>
 <script type="text/javascript">
@@ -8,35 +8,33 @@ title: Update Projects Spreadsheet
     // Reset the cookie manually
     //Cookies.expire('token');
 
+    var $key = getUrlVar('key');
+    var $resource = getUrlVar('worksheet');
     var $oAuthToken = getUrlVar('token');
-    var $yaml_store = "";
 
-    // When you fork, make sure ad add your org / user and repo name to _config.yml
+    var $yaml_store = "";
     var $org = '{{ site.github_user }}';
     var $repo = '{{ site.github_repo }}';
 
     if($oAuthToken !='')
       {
-
       // Setting a cookie value
       Cookies.set('token', $oAuthToken);
-
       // Set with expiration
       // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
-
       }
 
     // Grab the token from cookie
     $oAuthToken = Cookies.get('token');
 
-    key = "{{ site.service_spreadsheet_key }}";
-
     $(document).ready( function() {
-      Tabletop.init( { key: key,
+      Tabletop.init( { key: $key,
                        callback: showInfo,
-                       wanted: [ "services" ],
+                       wanted: [ $resource ],
                        debug: true } )
     })
+
+    console.log($resource);
 
     function showInfo(data, tabletop) {
 
@@ -48,46 +46,22 @@ title: Update Projects Spreadsheet
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
       });
 
-      $product = tabletop.sheets("services").all();
+      $product = tabletop.sheets($resource).all();
 
       $count = 0;
       $total_count = $product.length;
-      $.each( tabletop.sheets("services").all(), function(i, service) {
-
-          // Make this dynamic from schema
-
-          $view_sort = service['view_sort'];
-          $name = service['name'];
-          $identifier = service['identifier'];
-          $url = service['url'];
-          $description = service['description'];
-          $description = String($description.trim());
-          $description = $description.replace(/[^\x00-\xFF]/g, "");
-          $image = service['image'];
-          $imagewidth = service['imagewidth'];
-          $category = service['category'];
-          $brand = service['brand'];
+      $.each( tabletop.sheets($resource).all(), function(i, service) {
 
           $p = {};
-          $p['view_sort'] = $view_sort;
-          $p['name'] = $name;
-          $p['identifier'] = $identifier;
-          $p['url'] = $url;
-          $p['description'] = $description;
-          $p['image'] = $image;
-          $p['imagewidth'] = $imagewidth;
-          $p['category'] = $category;
-          $p['brand'] = $brand;
-
+          $.each(service, function($key, $value) {
+            //console.log($key + ' == ' + $value);
+            $p[$key] = $value;
+          });
           $products.push($p);
-          //beautify(jsonStr);
 
           $count++;
           if($count==$total_count)
             {
-            //$products_json = JSON.stringify($products);
-            //$products_json = JSON.stringify(JSON.parse($products_json),null,2);
-
             $yaml_dump = jsyaml.dump($products);
 
             document.getElementById('source').value = $yaml_dump;
@@ -102,10 +76,10 @@ title: Update Projects Spreadsheet
 
               $.each(tree, function(treeKey, treeValue) {
 
-                $writepath = '_data/services.yaml';
+                $writepath = '_data/' + $resource + '/index.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
-              //  console.log($path + ' == ' + $writepath);
+                //console.log($path + ' == ' + $writepath);
                 if($path==$writepath)
                   {
                   repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
@@ -116,7 +90,7 @@ title: Update Projects Spreadsheet
               });
 
             }
-      })
+      });
 
     }
 
