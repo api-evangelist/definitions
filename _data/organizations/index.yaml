@@ -1,0 +1,16 @@
+- view_sort: A
+  name: 3Scale
+  identifier: 3scale
+  url: 'http://apis.how/ake3nxbapm'
+  description: >-
+    3scale makes it easy to open, secure, distribute, control and monetize APIs.
+    Powerful, secure and Web scalable, 3scale is the API Management Platform
+    built with performance, customer control and excellent time-to-value in
+    mind. Powering more than 700 customer APIs, 3scale enables distribution of
+    company data, content or services to multiple devices or mobile/Web
+    applications; and makes it easy to productize APIs.
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/partners/3scale-red-hat-logo.png
+  type: Sponsor
+  banner_url: >-
+    https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png
