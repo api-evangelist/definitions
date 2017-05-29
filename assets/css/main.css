@@ -3130,7 +3130,6 @@
 			}
 
 			.features article .icon {
-				flex-shrink: 0;
 				display: block;
 				height: 3em;
 				line-height: 3em;
@@ -3138,13 +3137,6 @@
 				text-align: center;
 				width: 3em;
 			}
-
-				.features article .icon:before {
-					color: #000;
-					font-size: 2.75rem;
-					position: relative;
-					top: 0.05em;
-				}
 
 			.features article .content {
 				-moz-flex-grow: 1;
