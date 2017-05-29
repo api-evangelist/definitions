@@ -1,5 +1,5 @@
 - slug: alps--applicationlevel-profile-semantics
-  name: ALPS - Application-Level Profile Semantics
+  name: Application-Level Profile Semantics (ALPS)
   description: >-
     The purpose of Application-Level Profile Semantics (ALPS) is to document the
     application-level semantics of a particular implementation. This is
@@ -71,7 +71,7 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png
   tags: 'Definitions,Discovery'
 - slug: apispecconverter
-  name: api-spec-converter
+  name: API Spec Converter
   description: >-
     Convert API descriptions between popular formats such as OpenAPI(fka
     Swagger), RAML, API Blueprint, WADL, etc.
@@ -84,7 +84,7 @@
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,Converters'
 - slug: apispecconverter
-  name: api-spec-converter
+  name: API Spec Converter
   description: >-
     This package helps to convert between different API specifications (Postman,
     Swagger, RAML, StopLigh
@@ -130,9 +130,9 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/barrister-rpc.png
   tags: 'Definitions,API Specification,Design'
 - slug: certificatetransparencyrfcs
-  name: certificate-transparency-rfcs
+  name: Google Certificate Transparency
   description: Certificate Transparency RFC
-  url: 'https://api.github.com/repos/google/certificate-transparency-rfcs'
+  url: 'https://s3.amazonaws.com/kinlane-productions/tools/ct_home_security.png'
   short_url: ''
   twitter: ''
   blog: ''
@@ -231,14 +231,14 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
   tags: 'Definitions,Data,Schema'
 - slug: datapackagist
-  name: datapackagist
+  name: Data Packagist
   description: 'A web app for creating, editing and validating Data Packages.'
-  url: 'https://api.github.com/repos/frictionlessdata/datapackagist'
+  url: 'http://datapackagist.openknowledge.io/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
-  github: ''
+  github: 'https://github.com/frictionlessdata/datapackagist'
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,Data'
 - slug: docson
@@ -311,7 +311,7 @@
     Shot 2016-12-01 at 11.40.25 AM.png
   tags: 'Definitions,Data Policy'
 - slug: goswagger
-  name: go-swagger
+  name: Go Swagger
   description: Swagger 2.0 implementation for go
   url: 'https://github.com/go-swagger/go-swagger'
   short_url: ''
@@ -473,27 +473,18 @@
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,JSON,Schema'
 - slug: jsonviewer
-  name: json-viewer
-  description: It is a Chrome extension for printing JSON and JSONP.
+  name: JSON Viewer
+  description: >-
+    The most beautiful and customizable JSON/JSONP highlighter that your eyes
+    have ever seen. It is a Chrome extension for printing JSON and JSONP.
   url: 'https://github.com/tulios/json-viewer'
-  short_url: ''
+  short_url: 'https://s3.amazonaws.com/kinlane-productions/tools/tulios-json-viewer.png'
   twitter: ''
   blog: ''
-  blog_rss: ''
+  blog_rss: 'https://github.com/tulios/json-viewer/commits/master.atom'
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions, Viewers'
-- slug: loopbackconnectorswagger
-  name: loopback-connector-swagger
-  description: Connect Loopback to a Swagger-compliant API
-  url: 'https://api.github.com/repos/strongloop/loopback-connector-swagger'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Connectors'
 - slug: markdown-syntax-for-object-notation-mson
   name: Markdown Syntax for Object Notation (MSON)
   description: >-
@@ -557,7 +548,15 @@
   tags: 'Definitions,Design,Data Specification'
 - slug: openapi-specification
   name: OpenAPI-Specification
-  description: The OpenAPI Specification Repository
+  description: >-
+    The goal of The OpenAPI Specification is to define a standard,
+    language-agnostic interface to REST APIs which allows both humans and
+    computers to discover and understand the capabilities of the service without
+    access to source code, documentation, or through network traffic inspection.
+    When properly defined via OpenAPI, a consumer can understand and interact
+    with the remote service with a minimal amount of implementation logic.
+    Similar to what interfaces have done for lower-level programming, OpenAPI
+    removes the guesswork in calling the servi
   url: 'https://github.com/OAI/OpenAPI-Specification'
   short_url: ''
   twitter: ''
@@ -582,7 +581,7 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
   tags: 'Clients,API Blueprint,Definitions,Generator'
 - slug: pawpostmanenvironmentimporter
-  name: Paw-PostmanEnvironmentImporter
+  name: Paw to Postman Environment Importer
   description: A Paw Extension to import Postman Environments.
   url: 'https://api.github.com/repos/luckymarmot/Paw-PostmanEnvironmentImporter'
   short_url: ''
@@ -593,7 +592,7 @@
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Clients,Definitions'
 - slug: pawpostmanimporter
-  name: Paw-PostmanImporter
+  name: Paw Postman Importer
   description: A Paw Extension to import Postman Collections.
   url: 'https://api.github.com/repos/luckymarmot/Paw-PostmanImporter'
   short_url: ''
@@ -604,9 +603,9 @@
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,Clients'
 - slug: pawwadlimporter
-  name: Paw-WADLImporter
-  description: WADL Importer for Paw
-  url: 'https://api.github.com/repos/luckymarmot/Paw-WADLImporter'
+  name: Paw WADL Importer
+  description: Paw Extension to import WADL definitions.
+  url: 'https://paw.cloud/extensions/WADLImporter'
   short_url: ''
   twitter: ''
   blog: ''
@@ -650,20 +649,20 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/white-house-logo-2.jpeg
   tags: 'Definitions,Data Policy'
 - slug: prism
-  name: prism
+  name: Prism
   description: >-
     Turn any OAS (Swagger 2) file into an API server with mocking,
     transformations, validations, and mor
-  url: 'https://api.github.com/repos/stoplightio/prism'
+  url: 'https://stoplight.io/platform/prism/'
   short_url: ''
   twitter: ''
   blog: ''
-  blog_rss: ''
-  github: ''
+  blog_rss: 'view-source:https://github.com/stoplightio/prism/commits/master.atom'
+  github: 'https://github.com/stoplightio/prism'
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,Proxy'
 - slug: public_api_specs
-  name: public_api_specs
+  name: Public API Specs
   description: >-
     The API Specs (in OpenAPI/Swagger) for the APIs available from
     developer.nytimes.com
