@@ -10,13 +10,13 @@ layout: default
     <h2>{{ blog_content.title }}</h2>
   </header>
 
-	<ul class="icons">
-		<li style="width: 100px;"><span class="icon fa-rss"><span class="label">Blog</span></li>
-		<li style="width: 100px;"><a href="/atom.xml" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+	<ul class="icons" style="text-align: right;">
+		<li><span class="icon fa-rss" style="width: 100px;"><span class="label">Blog</span></li>
+		<li><a href="/atom.xml" class="icon fa-rss-square" style="width: 100px;"><span class="label">RSS</span></a></li>
 	</ul>
 
   <p>{{ blog_content.header }}</p>
-	
+
 	{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% for post in paginator.posts %}
 	 	{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
