@@ -59,7 +59,7 @@ title: API Evangelist - Definitions
 {% assign news = site.data.curated.index %}
 <h2>{{ news_content.title }}</h2>
 <p>{{ news_content.header }}</p>
-<div class="table-wrapper">
+<div class="table-wrapper" style="height: 500px; overflow: auto;">
 	<table class="alt">
 		<thead>
 			<tr>
@@ -77,7 +77,7 @@ title: API Evangelist - Definitions
 			</tr>
 			{% endfor %}
 		</tbody>
-	</tbale>
+	</table>
 </div>
 <p>{{ news_content.footer }}</p>
 
