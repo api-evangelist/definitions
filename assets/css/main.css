@@ -3161,12 +3161,12 @@
 					border: solid 2px rgba(210, 215, 217, 0.75);
 					content: '';
 					display: block;
-					height: 7em;
+					height: 5em;
 					left: 50%;
 					margin: -3.5em 0 0 -3.5em;
 					position: absolute;
 					top: 50%;
-					width: 7em;
+					width: 5em;
 				}
 
 			.features article .content {
