@@ -130,7 +130,7 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/barrister-rpc.png
   tags: 'Definitions,API Specification,Design'
 - slug: chefserverschema
-  name: chef-server-schema
+  name: Chef Server Shcema
   description: SQL Schema for the Open Source Chef Server
   url: 'https://api.github.com/repos/chef/chef-server-schema'
   short_url: ''
@@ -177,7 +177,7 @@
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,Implementations, OpenAPI'
 - slug: couchdbapiblueprint
-  name: couchdb-api-blueprint
+  name: Couch DB API Blueprint
   description: apiaryio API Blueprint of Apache CouchDBs API
   url: 'https://github.com/BigBlueHat/couchdb-api-blueprint/'
   short_url: ''
@@ -463,17 +463,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-rpc.png
   tags: 'Definitions,Data Specification'
-- slug: jsontableschemajs
-  name: jsontableschema-js
-  description: A utility library for working with JSON Table Schema in Javascript.
-  url: 'https://api.github.com/repos/frictionlessdata/jsontableschema-js'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions,JSON,Schema'
 - slug: markdown-syntax-for-object-notation-mson
   name: Markdown Syntax for Object Notation (MSON)
   description: >-
