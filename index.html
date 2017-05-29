@@ -126,6 +126,10 @@ title: API Evangelist - Definitions
 			{% endfor %}
 		{% endfor %}
 		{% assign tagArray = tagslist | split: "," %}
+
+		{% for tag in tagArray %}
+			{{ tag }}<br />
+		{% endfor %}
 		{% for tag in tagArray %}
 			<h3>{{ tag }}</h3>
 			<div class="features">
