@@ -77,7 +77,7 @@ title: API Evangelist - Definitions
 	</tbale>
 </div>
 
-{% assign building_block_content = site.data.building_block_content.index %}
+{% assign building_block_content = site.data.building_block_content.index[0] %}
 {% assign building_blocks = site.data.building_blocks.index %}
 {% assign categorylist = '' %}
 {% for block in building_blocks %}
@@ -116,7 +116,7 @@ title: API Evangelist - Definitions
 </section>
 
 <!-- Section -->
-{% assign organization_content = site.data.organization_content.index %}
+{% assign organization_content = site.data.organization_content.index[0] %}
 <section>
 	<header>
 		<h2><h3>{{ organization_content.title }}</h3></h2>
