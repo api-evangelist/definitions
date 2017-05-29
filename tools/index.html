@@ -3,30 +3,64 @@ layout: page
 title: API Evangelist Tools
 ---
 
-<!-- Tools -->
+{% assign approved_tags = 'API Specification,Data Specifications,Semantics,Schema,Hypermedia, Discovery,Data Policy,Encryption,Viewers,Connectors,Clients,Proxy' %}
+{% assign tool_content = site.data.tool_content.index[0] %}
 <section>
-  <header class="main">
-    <h2>{{ tool_content.title }}</h2>
-  </header>
+	<header>
+		<h2>{{ tool_content.title }}</h2>
+		<p>{{ tool_content.header }}</p>
+	</header>
+		{% assign tools = site.data.tools.index %}
+		{% assign tagslist = '' %}
+		{% for tool in tools %}
+			{% assign tags = tool.tags %}
+			{% assign tagArray = tags | split: "," %}
+			{% for tag in tagArray %}
+				{% assign tag = tag | strip %}
+				{% if approved_tags contains tag %}
+					{% if tagslist contains tag %}
+					{% else %}
+						{% if tagslist != '' %}
+							{% assign tagslist = tagslist | append:',' %}
+						{% endif %}
+						{% assign tagslist = tagslist | append: tag %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		{% assign tagArray = tagslist | split: "," %}
+		{% assign tagArray = tagArray | sort: %}
 
-  <span class="image main"><img src="{{ tool_content.image }}" alt="" /></span>
-
-  <p>{{ tool_content.header }}</p>
-
-  <section id="banner">
-    <div class="features">
-      {% assign tools = site.data.tools.index | sort: 'view_sort' %}
-      {% for tool in tools %}
-          <article>
-            <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
-            <div class="content">
-              <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
-              <p>{{ tool.description }}</p>
-            </div>
-          </article>
-      {% endfor %}
-    </div>
-  </section>
-
-  <p>{{ tool_content.header }}</p>
+		{% for tag in tagArray %}
+			<h3>{{ tag }} Tooling</h3>
+			<div class="features">
+				{% for tool in tools %}
+					{% if tool.tags contains tag %}
+		        <article>
+		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" valign="top" /></a></p>
+		          <div class="content">
+		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
+		            <p>{{ tool.description }}</p>
+								<ul class="icons">
+									<li><a href="{{ tool.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+									{% if tool.twitter != '' %}
+									<li><a href="{{ tool.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									{% endif %}
+									{% if tool.blog != '' %}
+									<li><a href="{{ tool.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
+									{% endif %}
+									{% if tool.blog_rss != '' %}
+									<li><a href="{{ tool.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+									{% endif %}
+									{% if tool.github != '' %}
+									<li><a href="{{ tool.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+									{% endif %}
+								</ul>
+		          </div>
+		        </article>
+					{% endif %}
+		    {% endfor %}
+			</div>
+		{% endfor %}
+		<p>{{ tool_content.footer }}</p>
 </section>
