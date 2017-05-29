@@ -97,6 +97,12 @@ title: API Evangelist - Definitions
 					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
 					<p>{{ organization.description }}</p>
 				</div>
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon fa-rss"><span class="label">RSS</span></a></li>
+				</ul>
 			</article>
     {% endfor %}
 		<p>{{ organization_content.footer }}</p>
@@ -131,9 +137,7 @@ title: API Evangelist - Definitions
 		{% endfor %}
 		{% assign tagArray = tagslist | split: "," %}
 		{% assign tagArray = tagArray | sort: %}
-		{% for tag in tagArray %}
-			{{ tag }}<br />
-		{% endfor %}
+
 		{% for tag in tagArray %}
 			<h3>{{ tag }}</h3>
 			<div class="features">
