@@ -32,7 +32,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
-  tags: 'API Specification,Definitions'
+  tags: 'API Specification, Definitions'
 - slug: apiary-blueprint-parser
   name: Apiary Blueprint Parser
   description: >-
@@ -86,7 +86,8 @@
 - slug: apispecconverter
   name: api-spec-converter
   description: >-
-    This package helps to convert between different API specifications.
+    This package helps to convert between different API specifications (Postman,
+    Swagger, RAML, StopLigh
   url: 'https://api.github.com/repos/stoplightio/api-spec-converter'
   short_url: ''
   twitter: ''
@@ -673,7 +674,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions,Implementations,Discovery'
+  tags: 'Definitions,Implementations,OpenAPI'
 - slug: raml-specification
   name: RAML Specification
   description: >-
