@@ -110,19 +110,39 @@ title: API Evangelist - Definitions
 		<h2><h3>{{ tool_content.title }}</h3></h2>
 		<p>{{ tool_content.header }}</p>
 	</header>
-	<div class="features">
 		{% assign tools = site.data.tools.index %}
+		{% assign tagslist = '' %}
 		{% for tool in tools %}
-        <article>
-          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
-          <div class="content">
-            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
-            <p>{{ tool.description }}</p>
-          </div>
-        </article>
-    {% endfor %}
+			{% assign tags = tool.tags %}
+			{% assign tagArray = tags | split: "," %}
+			{% for tag in tagArray %}
+				{% if tagslist contains tag %}
+				{% else %}
+					{% if tagslist != '' %}
+						{% assign tagslist = tagslist | append:',' %}
+					{% endif %}
+					{% assign tagslist = tagslist | append: tag %}
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		{% assign tagArray = tagslist | split: "," %}
+		{% for tag in tagArray %}
+			<h3>{{ tag }}</h3>
+			<div class="features">
+				{% for tool in tools %}
+					{% if tool.tags contains tag %}
+		        <article>
+		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
+		          <div class="content">
+		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
+		            <p>{{ tool.description }}</p>
+		          </div>
+		        </article>
+					{% endif %}
+		    {% endfor %}
+			</div>
+		{% endfor %}
 		<p>{{ tool_content.footer }}</p>
-	</div>
 </section>
 
 <!-- Building Blocks -->
