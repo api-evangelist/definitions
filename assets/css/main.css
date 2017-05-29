@@ -3139,11 +3139,11 @@
 				-ms-flex-shrink: 0;
 				flex-shrink: 0;
 				display: block;
-				height: 10em;
+				height: 5em;
 				line-height: 10em;
 				margin: 0 2em 0 0;
 				text-align: center;
-				width: 10em;
+				width: 5em;
 			}
 
 				.features article .icon:before {
