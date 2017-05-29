@@ -2,9 +2,9 @@
   <p align="center">
     {% assign partners = site.data.partners.index %}
     {% assign partners = partners | sample %}
-    {{ partners }}<br /><br />
-    --{{ partner.banner_url }}--
-    <img src="{{ partner.banner_url }}" width="75%" />
+    <a href="{{ partners.banner_url }}" target="_blank">
+      <img src="{{ partners.banner_url }}" width="75%" />
+    </a>
   </p>
   <p align="center">
     all of my work:
