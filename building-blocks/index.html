@@ -20,6 +20,7 @@ layout: page
   <header class="main">
     <h2>{{ building_block_content.title }}</h2>
   </header>
+	<p><img style="padding: 15px;" src="{{ building_block_content.image }}" align="right" width="35%" /></p>
   <p>{{ building_block_content.header }}</p>
 	<ul style="padding: 0px 25px 0px 25px;">
 		{% assign categoryArray = categorylist | split: "," %}
@@ -35,9 +36,6 @@ layout: page
 				</ul>
 			</li>
 		{% endfor %}
-	</ul>
-	<ul class="actions" style="text-align: center;">
-		<li><a href="/building-blocks/" class="button big">See The Building Blocks</a></li>
 	</ul>
 	<p>{{ building_block_content.footer }}</p>
 </div>

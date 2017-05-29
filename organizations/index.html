@@ -8,8 +8,8 @@ title: API Definition Organizations
   <header class="main">
     <h2>{{ organization_content.title }}</h2>
   </header>
+<p><img style="padding: 15px;" src="{{ organization_content.image }}" align="right" width="35%" /></p>  
   <p>{{ organization_content.header }}</p>
-
   <div class="features">
 		{% assign organizations = site.data.organizations.index %}
     {% for organization in organizations %}
