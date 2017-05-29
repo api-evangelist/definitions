@@ -2530,6 +2530,7 @@
 	}
 
 		.icon:before {
+
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
@@ -3139,7 +3140,7 @@
 				display: block;
 				height: 2em;
 				line-height: 10em;
-				margin: 0 1em 0 0;
+				margin: 0 2em 0 0;
 				text-align: center;
 				width: 2em;
 			}
@@ -3148,7 +3149,7 @@
 					color: #000;
 					font-size: 2.75rem;
 					position: relative;
-					top: 0.02em;
+					top: 0.05em;
 				}
 
 				.features article .icon:after {
@@ -3160,12 +3161,12 @@
 					border: solid 2px rgba(210, 215, 217, 0.75);
 					content: '';
 					display: block;
-					height: 2em;
+					height: 7em;
 					left: 50%;
 					margin: -3.5em 0 0 -3.5em;
 					position: absolute;
 					top: 50%;
-					width: 2em;
+					width: 7em;
 				}
 
 			.features article .content {
