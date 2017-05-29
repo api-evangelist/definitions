@@ -117,6 +117,7 @@ title: API Evangelist - Definitions
 			{% assign tags = tool.tags %}
 			{% assign tagArray = tags | split: "," %}
 			{% for tag in tagArray %}
+				{% assign tag = tag | strip %}
 				{% if approved_tags contains tag %}
 					{% if tagslist contains tag %}
 					{% else %}
