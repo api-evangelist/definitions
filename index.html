@@ -94,7 +94,7 @@ title: API Evangelist - Definitions
 	<div class="content">
 		<header>
 			<h2>{{ building_block_content.title }}</h2>
-			<p>{{ site.building_block_desc }}</p>
+			<p>{{ building_block_content.header }}</p>
 		</header>
 		<ul style="padding: 0px 25px 0px 25px;">
 			{% assign categoryArray = categorylist | split: "," %}
@@ -111,15 +111,16 @@ title: API Evangelist - Definitions
 				</li>
 			{% endfor %}
 		</ul>
-		<p>{{ site.building_block_footer }}</p>
+		<p>{{ building_block_content.footer }}</p>
 	</div>
 </section>
 
 <!-- Section -->
+{% assign organization_content = site.data.organization_content.index %}
 <section>
 	<header>
-		<h2><h3>{{ site.org_title }}</h3></h2>
-		<p>{{ site.org_desc }}</p>
+		<h2><h3>{{ organization_content.title }}</h3></h2>
+		<p>{{ organization_content.header }}</p>
 	</header>
 	<div class="features">
 		{% assign organizations = site.data.organizations.index %}
@@ -132,5 +133,6 @@ title: API Evangelist - Definitions
 				</div>
 			</article>
     {% endfor %}
+		<p>{{ organization_content.footer }}</p>
 	</div>
 </section>
