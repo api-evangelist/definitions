@@ -73,7 +73,7 @@ title: API Evangelist - Definitions
 			<tr>
 				<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a></td>
 				<td><span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
-				<td><span style="color:#000; font-size: 12px;">({% if curated.domain != null %}on&nbsp;{{ curated.domain }}{% endif %}</i></a>)</span></td>
+				<td><span style="color:#000; font-size: 12px;">{% if curated.domain != null %}{{ curated.domain }}{% endif %}</i></a></span></td>
 			</tr>
 			{% endfor %}
 		</tbody>
