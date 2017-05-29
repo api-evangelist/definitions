@@ -116,8 +116,6 @@ categorylist: {{ categorylist }}<br />
 	</div>
 </section>
 
-
-
 <!-- Section -->
 <section>
 	<header>
@@ -128,7 +126,7 @@ categorylist: {{ categorylist }}<br />
 		{% assign organizations = site.data.organizations.index %}
     {% for organization in organizations %}
 			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img src="{{ organization.image }}" width="100" style="padding: 15px;" align="center" /></a></p>
+				<p><a href="{{ organization.url }}" target="_blank"><img src="{{ organization.image }}" width="175" style="padding: 15px;" align="center" /></a></p>
 				<div class="content">
 					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
 					<p>{{ organization.description }}</p>
