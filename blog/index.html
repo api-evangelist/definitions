@@ -16,6 +16,7 @@ layout: default
 	</ul>
 
   <p>{{ blog_content.header }}</p>
+	
 	{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% for post in paginator.posts %}
 	 	{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
