@@ -589,7 +589,8 @@
   blog: ''
   blog_rss: ''
   github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
   tags: 'Clients,Definitions'
 - slug: pawpostmanimporter
   name: Paw Postman Importer
@@ -600,7 +601,8 @@
   blog: ''
   blog_rss: ''
   github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
   tags: 'Definitions,Clients'
 - slug: pawwadlimporter
   name: Paw WADL Importer
@@ -611,7 +613,8 @@
   blog: ''
   blog_rss: ''
   github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
   tags: 'Definitions,Clients'
 - slug: postman-collections
   name: Postman Collections
