@@ -92,12 +92,12 @@ title: API Evangelist - Definitions
 		{% assign organizations = site.data.organizations.index %}
     {% for organization in organizations %}
 			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img src="{{ organization.image }}" width="175" style="padding: 15px;" align="center" /></a></p>
+				<p><a href="{{ organization.url }}" target="_blank"><img style="vertical-align:" src="{{ organization.image }}" width="175" style="padding: 15px;" align="center" /></a></p>
 				<div class="content">
 					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
 					<p>{{ organization.description }}</p>
 					<ul class="icons">
-						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>						
+						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
 						{% if organization.twitter != '' %}
 						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						{% endif %}
