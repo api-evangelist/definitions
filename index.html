@@ -102,7 +102,7 @@ categorylist: {{ categorylist }}<br />
 			{% for category in categoryArray %}
 				<li>
 					<span style="font-size: 18px; font-weight: bold;">{{ category }}</span>
-					<ul>
+					<ul style="margin-top: 10px;">
 						{% for block in building_blocks %}
 							{% if block.category == category %}
 							<li><strong>{{ block.name }}</strong> - {{ block.descripion }}</li>
