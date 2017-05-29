@@ -100,19 +100,16 @@ categorylist: {{ categorylist }}<br />
 		<ul style="padding: 0px 25px 0px 25px;">
 			{% assign categoryArray = categorylist | split: "," %}
 			{% for category in categoryArray %}
-				<li>{{ category }}</li>
-				{% for block in building_blocks %}
-					<li>
-						<span style="font-size: 18px; font-weight: bold;">{{ block.category }}</span>
-						<ul>
-							{% for building_block in block.building_blocks %}
-								{% if building_block.category == block.category %}
-								<li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
-								{% endif %}
-							{% endfor %}
-						</ul>
-					</li>
-				{% endfor %}
+				<li>
+					<span style="font-size: 18px; font-weight: bold;">{{ category }}</span>
+					<ul>
+						{% for block in building_blocks %}
+							{% if block.category == category %}
+							<li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</li>
 			{% endfor %}
 		</ul>
 		<p>{{ site.building_block_footer }}</p>
