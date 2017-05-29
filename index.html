@@ -73,7 +73,7 @@ title: API Evangelist - Definitions
 			<tr>
 				<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
 				<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
-				<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" /></a></td>
+				<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" width="25" /></a></td>
 			</tr>
 			{% endfor %}
 		</tbody>
