@@ -24,50 +24,8 @@ github_user: api-evangelist
 github_repo: definitions
 github_branch: gh-pages
 
-# spreadsheet store
-contactinfo_spreadsheet_key: 1bNUVKpKl1-9k_5YNt0ix4eFKTP4t2L5DhnAtCqMAf4o
-project_spreadsheet_key: 1LtOUKwV80ybYXJ1nyoQJXiAEcCfc0AoborRkYSbiLE4
-service_spreadsheet_key: 1m0vghHqpTV_2zdK9dCZjioH337BdxFVCZZgOi0_e3zg
-product_spreadsheet_key: 1K5GTYo3McA4WNYcvv_WPRKxp5Q8emkyKlaXKATGhQFM
-partner_spreadsheet_key: 1V6zSIZPjtIWWjvipAGiA4pl5xDN4ATumfNl_UQwQakg
-tool_spreadsheet_key: 1Lk0zQMV36Xn17d6-2s2CihprafXiYnwrAL6I9OBxhEs
-
 # Footer
 footer_title: API Evangelist
 footer_link: http://apievangelist.com
 footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
 footer_image_width: 60
-
-# support
-support_title: Support My API Definition Research
-support_header: I depend on the support of my partners to fund my work as an independent analysts. I have been monitoring the world of APIs since July of 2010 through the support of my partners, and a handful of writing or consulting projects along the way. If you find what I do valuable, please help support me by purchasing my guides, giving below, or if there are specific aspects of API definitions, or have specific definitions you'd like me to focus on, let me know, and maybe we can find a way to provide you with what you are looking for.
-support_footer: I pay my bills by consulting on API projects, and writing white papers and guides. You can find much of my research freely available across my website(s), but if you want to support my work, and get a single snapshot of it at any point in time, I recommend <a href="/guide/">purchasing my API definition guide</a>. Anyone who gives $250.00 or more a month, will automatically get access to all of my content via a shared Dropbox, Google Drive, or Github repository. Thank you for your support, and feel free to ping me directly if you have more questions.
-
-# Footer
-footer_title: API Evangelist
-footer_link: http://apievangelist.com
-footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
-footer_image_width: 60
-
-# curated
-curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API definitions--these are the links I am including in my research.
-
-# organizations
-org_title: Some Organizations To Watch
-org_desc: These are the companies, and organizations who are doing interesting things when it comes to defining APIs. If they have an API, I'm working to profile, and provide machine readable indexes of each one below. If they do not have an API, I will just provide a brief profile of their operations.
-org_footer: If there is an organization you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.
-
-# tools
-tools_title: API Definition Tooling
-tools_desc: These are the open source tools I am tracking on as part my API definitions research, that can be applied during the API design cycle.
-tools_footer: If there is an open source tool that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.
-
-# building blocks
-building_block_title: API Definition Building Blocks
-building_block_desc: As I monitor the API space I am always on the hunt for the common building blocks that make up any area of my work--these are some of the common elements I have aggregated from across the world of API definitions.
-building_block_footer: I am always adding to, and shifting my lists of the common building blocks as I evolve my understand of the space, and who is doing interesting things with API definitions.
-
-# patents
-patent_title: API Definition Patents
-patent_desc: I have been tracking on API related patents for some years, trying to understand how APIs are being referenced in patents, and in some cases the focus of the patent. Here are the patents I've tagged as being DNS related from the companies who are doing interesting things with DNS APIs.
-patent_footer: I tend to process the new patent filings and publications every couple of weeks. When ready I try to publish them along with my research.
