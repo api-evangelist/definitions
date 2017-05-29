@@ -1,5 +1,11 @@
 <footer>
   <p align="center">
+    {% assign partners = site.data.partners.index | sample %}
+    {% for partner in partners %}
+      <img src="{{ partner.banner_url }}" width="75%" />
+    {% endfor %}
+  </p>
+  <p align="center">
     all of my work:
     <a href="http://apievangelist.com">apievangelist.com</a> |
     <a href="http://kinlane.com">kinlane.com</a> |
