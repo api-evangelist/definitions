@@ -116,10 +116,9 @@ title: API Evangelist - Definitions
 			{% assign tags = tool.tags %}
 			{% assign tagArray = tags | split: "," %}
 			{% for tag in tagArray %}
-				{% if tagslist contains tag %}
-				{% else %}
-					2 -- {{ tag }}<br />
-					{% if tag == 'Specification' or tag == 'Data Specifications' or tag == 'Semantics' or tag == 'Schema' or tag == 'Hypermedia' or tag == 'Discovery' or tag == 'Data Policy' or tag == 'Data Definitions'  %}
+				{% if tag == 'Specification' or tag == 'Data Specifications' or tag == 'Semantics' or tag == 'Schema' or tag == 'Hypermedia' or tag == 'Discovery' or tag == 'Data Policy' or tag == 'Data Definitions'  %}
+					{% if tagslist contains tag %}
+					{% else %}
 						{% if tagslist != '' %}
 							{% assign tagslist = tagslist | append:',' %}
 						{% endif %}
