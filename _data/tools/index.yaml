@@ -15,7 +15,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/alps-logo.png
-  tags: 'Definitions,Semantics,Data Specifications'
+  tags: 'Definitions,Semantics,Data Specification'
 - slug: api-blueprint
   name: API Blueprint
   description: >-
@@ -32,55 +32,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
-  tags: 'API Blueprint,API Blueprint Core,Definitions,Design,Specification'
-- slug: apiblueprint
-  name: api-blueprint
-  description: API Blueprint
-  url: 'https://api.github.com/repos/apiaryio/api-blueprint'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
-- slug: apimodels
-  name: api-models
-  description: Repository for API models in Swagger 2.0 format
-  url: 'https://github.com/APIs-guru/api-models/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Swagger Definitions,Swagger,OAI'
-- slug: apispecconverter
-  name: api-spec-converter
-  description: >-
-    This package helps to convert between different API specifications (Postman,
-    Swagger, RAML, StopLigh
-  url: 'https://api.github.com/repos/stoplightio/api-spec-converter'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Converter'
-- slug: apispecconverter
-  name: api-spec-converter
-  description: >-
-    Convert API descriptions between popular formats such as OpenAPI(fka
-    Swagger), RAML, API Blueprint, WADL, etc.
-  url: 'https://github.com/lucybot/api-spec-converter'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'API Specification, Definitions'
 - slug: apiary-blueprint-parser
   name: Apiary Blueprint Parser
   description: >-
@@ -98,7 +50,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
-  tags: 'API Blueprint,Definitions,Parser'
+  tags: 'Definitions,Parser'
 - slug: apis.json
   name: APIs.json
   description: >-
@@ -117,7 +69,33 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png
-  tags: 'Discovery,Definitions'
+  tags: 'Discovery, Definitions'
+- slug: apispecconverter
+  name: api-spec-converter
+  description: >-
+    Convert API descriptions between popular formats such as OpenAPI(fka
+    Swagger), RAML, API Blueprint, WADL, etc.
+  url: 'https://github.com/lucybot/api-spec-converter'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Definitions, Converters'
+- slug: apispecconverter
+  name: api-spec-converter
+  description: >-
+    This package helps to convert between different API specifications (Postman,
+    Swagger, RAML, StopLigh
+  url: 'https://api.github.com/repos/stoplightio/api-spec-converter'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Definitions, Converters'
 - slug: asset-description-metadata-schema-adms
   name: Asset Description Metadata Schema (ADMS)
   description: >-
@@ -134,7 +112,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/w3c-logo.png
-  tags: 'Definitions,Data Specifications'
+  tags: 'Definitions,Data Specification'
 - slug: barrister-rpc
   name: Barrister RPC
   description: >-
@@ -150,7 +128,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/barrister-rpc.png
-  tags: 'Definitions,Specification,Design'
+  tags: 'Definitions,API Specification,Design'
 - slug: certificatetransparencyrfcs
   name: certificate-transparency-rfcs
   description: Certificate Transparency RFC
@@ -172,7 +150,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Schema'
+  tags: 'Definitions, Schema'
 - slug: ckan-openapi-spec
   name: CKAN OpenAPI Spec
   description: ''
@@ -183,7 +161,7 @@
   blog_rss: ''
   github: ''
   image: ''
-  tags: 'Definitions,Data,CKAN'
+  tags: 'Definitions, Implementations, OpenAPI'
 - slug: collection+json
   name: Collection+JSON
   description: >-
@@ -197,7 +175,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/madmen_icon_400x400.jpg
-  tags: 'Hypermedia,Media Type,Definitions,Design'
+  tags: 'Hypermedia,Definitions,Design'
 - slug: connectapispecification
   name: connect-api-specification
   description: ''
@@ -208,7 +186,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Implementations,OpenAPI Spec'
+  tags: 'Definitions,Implementations, OpenAPI'
 - slug: couchdbapiblueprint
   name: couchdb-api-blueprint
   description: apiaryio API Blueprint of Apache CouchDBs API
@@ -219,7 +197,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Database,API Blueprint,CouchDB,Definitions'
+  tags: 'Database,API Blueprint,CouchDB,Definitions'
 - slug: csv-dialect-description-format-csvddf
   name: CSV Dialect Description Format (CSVDDF)
   description: >-
@@ -237,7 +215,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
-  tags: 'Data,Schema,Definitions,CSV'
+  tags: 'Data,Schema,Definitions'
 - slug: data-package-identifiers
   name: Data Package Identifiers
   description: >-
@@ -251,7 +229,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
-  tags: 'Definitions,Data,Identifiers,Schema'
+  tags: 'Definitions,Data,Schema'
 - slug: datapackagist
   name: datapackagist
   description: 'A web app for creating, editing and validating Data Packages.'
@@ -262,7 +240,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Data'
+  tags: 'Definitions,Data'
 - slug: docson
   name: Docson
   description: Documentation for your JSON types
@@ -273,7 +251,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Data Specifications'
+  tags: 'Definitions,Data Specification'
 - slug: european-union-psi-directive
   name: European Union PSI Directive
   description: >-
@@ -313,7 +291,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
-  tags: 'Definitions,Data,Data Definitions'
+  tags: 'Definitions,Data Definitions'
 - slug: g8-open-data-charter
   name: G8 Open Data Charter
   description: >-
@@ -335,19 +313,6 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/Screen
     Shot 2016-12-01 at 11.40.25 AM.png
   tags: 'Definitions,Data Policy'
-- slug: gnostic
-  name: gnostic
-  description: >-
-    Compile OpenAPI descriptions into equivalent Protocol Buffer
-    representations. Profit.
-  url: 'https://github.com/googleapis/gnostic'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Design'
 - slug: goswagger
   name: go-swagger
   description: Swagger 2.0 implementation for go
@@ -358,7 +323,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Generator,Parser'
+  tags: 'Definitions,Generator,Parser'
 - slug: hal
   name: HAL
   description: >-
@@ -378,7 +343,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg
-  tags: 'Hypermedia,Definitions,Media Type,Design'
+  tags: 'Hypermedia,Definitions,Design'
 - slug: home-documents-for-http-apis
   name: Home Documents for HTTP APIs
   description: >-
@@ -392,7 +357,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/ietf-logo.png
-  tags: 'Definitions,Specification,Design'
+  tags: 'Definitions,Design, Discovery'
 - slug: i/o-docs
   name: I/O Docs
   description: >-
@@ -409,7 +374,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/io-docs-logo.jpg
-  tags: 'Definitions,Specification'
+  tags: 'Definitions, API Specification'
 - slug: interpol
   name: interpol
   description: >-
@@ -422,7 +387,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'Definitions, Generator, Validator'
 - slug: interpol
   name: Interpol
   description: >-
@@ -437,26 +402,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/interpol-logo.png
-  tags: 'Definitions,Specification,Design'
-- slug: json-api
-  name: JSON API
-  description: >-
-    If you've​ ever argued with your team about the way your JSON responses
-    should be formatted, JSON API is your anti-bikeshedding weapon. By following
-    shared conventions, you can increase productivity, take advantage of
-    generalized tooling, and focus on what matters: your application. Clients
-    built around JSON API are able to take advantage of its features around
-    efficiently caching responses, sometimes eliminating network requests
-    entirely.
-  url: 'http://jsonapi.org/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-api-logo.png
-  tags: 'Definitions,Media Type,Design'
+  tags: 'Definitions, Generator, Validator, Design'
 - slug: json-schema
   name: JSON Schema
   description: >-
@@ -471,7 +417,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-schema.png
-  tags: 'Definitions,Data Specifications'
+  tags: 'Definitions,Data Specification'
 - slug: json-table-schema
   name: JSON Table Schema
   description: >-
@@ -485,18 +431,18 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
-  tags: 'Definitions,Data Definitions,Schema,Data'
+  tags: 'Definitions,Data Specification,Schema'
 - slug: jsonapi
   name: json-api
   description: A specification for building JSON APIs
-  url: 'https://github.com/json-api/json-api'
+  url: 'http://jsonapi.org/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
-  github: ''
+  github: 'https://github.com/json-api/json-api'
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'Definitions, Data Specification'
 - slug: jsonld
   name: JSON-LD
   description: >-
@@ -513,7 +459,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/json-ld.png
-  tags: 'Hypermedia,Definitions,Media Type,Semantics,Design'
+  tags: 'Hypermedia,Definitions,Semantics,Design'
 - slug: jsonrpc-2.0
   name: JSON-RPC 2.0
   description: >-
@@ -530,18 +476,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/json-rpc.png
-  tags: 'Definitions,Data Specifications'
-- slug: jsonviewer
-  name: json-viewer
-  description: It is a Chrome extension for printing JSON and JSONP.
-  url: 'https://github.com/tulios/json-viewer'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'Definitions,Data Specification'
 - slug: jsontableschemajs
   name: jsontableschema-js
   description: A utility library for working with JSON Table Schema in Javascript.
@@ -552,7 +487,18 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,JSON,Schema,Data'
+  tags: 'Definitions,JSON,Schema'
+- slug: jsonviewer
+  name: json-viewer
+  description: It is a Chrome extension for printing JSON and JSONP.
+  url: 'https://github.com/tulios/json-viewer'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Definitions, Viewers'
 - slug: loopbackconnectorswagger
   name: loopback-connector-swagger
   description: Connect Loopback to a Swagger-compliant API
@@ -563,7 +509,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'Definitions, Connectors'
 - slug: markdown-syntax-for-object-notation-mson
   name: Markdown Syntax for Object Notation (MSON)
   description: >-
@@ -578,7 +524,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
-  tags: 'Definitions,Data Specifications'
+  tags: 'Definitions,Data Specification'
 - slug: mason
   name: Mason
   description: >-
@@ -595,7 +541,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/jorn-wildt.jpeg
-  tags: 'Hypermedia,Definitions,Media Type,Design'
+  tags: 'Hypermedia,Definitions, Design'
 - slug: odatasamples
   name: ODataSamples
   description: 'Samples: For ODataLib, OData Web API, RESTier, etc.'
@@ -606,7 +552,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'Definitions, Samples'
 - slug: open-data-protocol-odata
   name: Open Data Protocol (OData)
   description: >-
@@ -624,28 +570,8 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/odata-logo.png
-  tags: 'Definitions,Design,Data Specification,Data Specifications'
+  tags: 'Definitions,Design,Data Specification'
 - slug: openapi-specification
-  name: OpenAPI Specification
-  description: >-
-    The goal of The OpenAPI Specification is to define a standard,
-    language-agnostic interface to REST APIs which allows both humans and
-    computers to discover and understand the capabilities of the service without
-    access to source code, documentation, or through network traffic inspection.
-    When properly defined via OpenAPI, a consumer can understand and interact
-    with the remote service with a minimal amount of implementation logic.
-    Similar to what interfaces have done for lower-level programming, OpenAPI
-    removes the guesswork in calling the service.
-  url: 'https://github.com/OAI/OpenAPI-Specification'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/openapi-spec.png
-  tags: 'GitHub,Design,Definitions,Specification'
-- slug: openapispecification
   name: OpenAPI-Specification
   description: The OpenAPI Specification Repository
   url: 'https://github.com/OAI/OpenAPI-Specification'
@@ -654,8 +580,9 @@
   blog: ''
   blog_rss: ''
   github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/openapi-spec.png
+  tags: 'Design,Definitions, API Specification'
 - slug: paw-api-blueprint-generator
   name: Paw API Blueprint Generator
   description: >-
@@ -680,7 +607,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Clients,Definitions'
+  tags: 'Clients,Definitions'
 - slug: pawpostmanimporter
   name: Paw-PostmanImporter
   description: A Paw Extension to import Postman Collections.
@@ -691,7 +618,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Clients'
+  tags: 'Definitions,Clients'
 - slug: pawwadlimporter
   name: Paw-WADLImporter
   description: WADL Importer for Paw
@@ -702,7 +629,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Clients'
+  tags: 'Definitions,Clients'
 - slug: postman-collections
   name: Postman Collections
   description: >-
@@ -719,7 +646,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/postman-rest-logo.png
-  tags: 'Definitions,Specification'
+  tags: 'Definitions,API Specification'
 - slug: president-obama-executive-order
   name: President Obama Executive Order
   description: >-
@@ -750,7 +677,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Proxy'
+  tags: 'Definitions,Proxy'
 - slug: public_api_specs
   name: public_api_specs
   description: >-
@@ -763,7 +690,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Implementations'
+  tags: 'Definitions,Implementations, Discovery'
 - slug: raml-specification
   name: RAML Specification
   description: >-
@@ -782,7 +709,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/raml-logo.jpg
-  tags: 'Design,Definitions,RAML,Specification'
+  tags: 'Definitions, Design,API Definitions,RAML'
 - slug: raml2postman
   name: raml2postman
   description: Coverts RAML specs to Postman Collections (v1 of the collection format)
@@ -793,18 +720,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions,Conversion,Clients'
-- slug: redoc
-  name: ReDoc
-  description: OpenAPI/Swagger-generated API Reference Documentation
-  url: 'https://github.com/Rebilly/ReDoc'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Definitions'
+  tags: 'Definitions,Conversion,Clients'
 - slug: restdesc
   name: RESTdesc
   description: >-
@@ -822,7 +738,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/restdesc-logo.png
-  tags: 'Hypermedia,Definitions,Media Type,Design'
+  tags: 'Hypermedia,Definitions,Design'
 - slug: restful-api-description-language-radl
   name: RESTful API Description Language (RADL)
   description: >-
@@ -841,7 +757,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/radl-logo.png
-  tags: 'Definitions,Specification,Design'
+  tags: 'Definitions,API Specification,Design'
 - slug: restful-api-modeling-language
   name: RESTful API Modeling Language
   description: >-
@@ -860,7 +776,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/raml-logo.jpg
-  tags: 'Definitions,Specification'
+  tags: 'Definitions,API Specification,Design'
 - slug: restful-service-description-language-rsdl
   name: RESTful Service Description Language (RSDL)
   description: >-
@@ -876,4 +792,4 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/rsdl-icon.png
-  tags: 'Definitions,Specification,Design'
+  tags: 'Definitions,API Specification,Design'

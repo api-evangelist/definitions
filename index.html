@@ -104,6 +104,7 @@ title: API Evangelist - Definitions
 </section>
 
 <!-- Tools -->
+{% assign approved_tags = 'Specification, Data Specifications, Semantics, Schema, Hypermedia, Discovery, Data Policy, Data Definitions,Encryption,Viewers,Connectors,Clients',Proxy %}
 {% assign tool_content = site.data.tool_content.index[0] %}
 <section>
 	<header>
@@ -117,7 +118,7 @@ title: API Evangelist - Definitions
 			{% assign tagArray = tags | split: "," %}
 			{% for tag in tagArray %}
 					1 -- {{ tag }}<br />
-				{% if tag == 'Specification' or tag == 'Data Specifications' or tag == 'Semantics' or tag == 'Schema' or tag == 'Hypermedia' or tag == 'Discovery' or tag == 'Data Policy' or tag == 'Data Definitions'  %}
+				{% if approved_tags contains tag %}
 					2 -- {{ tag }}<br />
 					{% if tagslist contains tag %}
 					{% else %}
