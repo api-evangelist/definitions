@@ -64,16 +64,14 @@ title: API Evangelist - Definitions
 		<thead>
 			<tr>
 				<th>Title</th>
-				<th>Date</th>
 				<th>Source</th>
 			</tr>
 		</thead>
 		<tbody>
 			{% for curated in news %}
 			<tr>
-				<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a></td>
-				<td><span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
-				<td><span style="color:#000; font-size: 12px;">{% if curated.domain != null %}{{ curated.domain }}{% endif %}</i></a></span></td>
+				<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
+				<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
