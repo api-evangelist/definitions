@@ -3130,13 +3130,6 @@
 			}
 
 			.features article .icon {
-				-moz-flex-grow: 0;
-				-webkit-flex-grow: 0;
-				-ms-flex-grow: 0;
-				flex-grow: 0;
-				-moz-flex-shrink: 0;
-				-webkit-flex-shrink: 0;
-				-ms-flex-shrink: 0;
 				flex-shrink: 0;
 				display: block;
 				height: 3em;
@@ -3151,23 +3144,6 @@
 					font-size: 2.75rem;
 					position: relative;
 					top: 0.05em;
-				}
-
-				.features article .icon:after {
-					-moz-transform: rotate(45deg);
-					-webkit-transform: rotate(45deg);
-					-ms-transform: rotate(45deg);
-					transform: rotate(45deg);
-					border-radius: 0.25rem;
-					border: solid 2px rgba(210, 215, 217, 0.75);
-					content: '';
-					display: block;
-					height: 7em;
-					left: 50%;
-					margin: -3.5em 0 0 -3.5em;
-					position: absolute;
-					top: 50%;
-					width: 7em;
 				}
 
 			.features article .content {
