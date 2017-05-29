@@ -1,6 +1,7 @@
 <footer>
   <p align="center">
-    {% assign partners = site.data.partners.index | sample %}
+    {% assign partners = site.data.partners.index %}
+    {% assign partners = partners | sample %}
     {% for partner in partners %}
       <img src="{{ partner.banner_url }}" width="75%" />
     {% endfor %}
