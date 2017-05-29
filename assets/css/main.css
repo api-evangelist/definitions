@@ -3133,7 +3133,7 @@
 				display: block;
 				height: 3em;
 				line-height: 3em;
-				margin: 0 2em 0 0;
+				margin: 0 1em 0 0;
 				text-align: center;
 				width: 3em;
 			}
@@ -3147,6 +3147,7 @@
 				-webkit-flex-shrink: 1;
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
+				vertical-align: top;
 				width: 100%;
 			}
 
