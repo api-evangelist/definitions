@@ -255,18 +255,15 @@
 - slug: european-union-psi-directive
   name: European Union PSI Directive
   description: >-
-    The Directive on the re-use of public sector information (Directive
-    2003/98/EC, known as the 'PSI Directive') entered into force on 31 December
-    2003. It was revised by Directive 2013/37/EU which entered into force on 17
-    July 2013. It focuses on the economic aspects of re-use of information
-    rather than on the access of citizens to information. It encourages the
-    Member States to make as much information available for re-use as possible.
-    It addresses material held by public sector bodies in the Member States, at
-    national, regional and local levels, such as&nbsp;ministries, state
-    agencies, municipalities, as well as organisations funded for the most part
-    by or under the control of public authorities (e.g. meteorological
-    institutes). Since 2013 content held by museums, libraries and archives
-    falls within the scope of application as well.
+    The Directive on the re-use of public sector information entered into force
+    on 31 December 2003. It was revised by Directive 2013/37/EU which entered
+    into force on 17 July 2013. It focuses on the economic aspects of re-use of
+    information rather than on the access of citizens to information. It
+    encourages the Member States to make as much information available for
+    re-use as possible. It addresses material held by public sector bodies in
+    the Member States, at national, regional and local levels, such as
+    ministries, state agencies, municipalities, as well as organisations funded
+    for the most part by or under the control of public authorities.
   url: >-
     https://ec.europa.eu/digital-single-market/legal-rules#revision-of-the-directive
   short_url: ''
@@ -300,8 +297,8 @@
     published openly by default, alongside principles to increase the quality,
     quantity and re-use of the data that is released. G8 members have also
     identified 14 high-value areas &ndash; from education to transport, and from
-    health to crime and justice &ndash; from which they will release data. These
-    will help unlock the economic potential of open data, support innovation and
+    health to crime and justice from which they will release data. These will
+    help unlock the economic potential of open data, support innovation and
     provide greater accountability.
   url: 'https://www.gov.uk/government/publications/open-data-charter'
   short_url: ''
@@ -365,7 +362,7 @@
     defining APIs at the resource, method and parameter levels in a JSON schema,
     I/O Docs will generate a JavaScript client interface. API calls can be
     executed from this interface, which are then proxied through the I/O Docs
-    server with payload data cleanly formatted (pretty-printed if JSON or XML).
+    server with payload data cleanly formatted.
   url: 'https://github.com/mashery/iodocs'
   short_url: ''
   twitter: ''
@@ -375,19 +372,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/io-docs-logo.jpg
   tags: 'Definitions, API Specification'
-- slug: interpol
-  name: interpol
-  description: >-
-    A toolkit for working with API endpoint definition files, giving you a stub
-    app, a schema validation
-  url: 'https://api.github.com/repos/seomoz/interpol'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Generator, Validator'
 - slug: interpol
   name: Interpol
   description: >-
@@ -433,7 +417,7 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
   tags: 'Definitions,Data Specification,Schema'
 - slug: jsonapi
-  name: json-api
+  name: JSON API
   description: A specification for building JSON APIs
   url: 'http://jsonapi.org/'
   short_url: ''
@@ -442,7 +426,7 @@
   blog_rss: ''
   github: 'https://github.com/json-api/json-api'
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Data Specification'
+  tags: 'Definitions, Hypermedia'
 - slug: jsonld
   name: JSON-LD
   description: >-
