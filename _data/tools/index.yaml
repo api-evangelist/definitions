@@ -32,7 +32,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
-  tags: 'API Specification, Definitions'
+  tags: 'API Specification,Definitions'
 - slug: apiary-blueprint-parser
   name: Apiary Blueprint Parser
   description: >-
@@ -51,7 +51,7 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
   tags: 'Definitions,Parser'
-- slug: apis.json
+- slug: API.json
   name: APIs.json
   description: >-
     APIs are becoming a crucial part of the Web. Unfortunately however, it
@@ -69,7 +69,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png
-  tags: 'Discovery, Definitions'
+  tags: 'Definitions,Discovery'
 - slug: apispecconverter
   name: api-spec-converter
   description: >-
@@ -82,12 +82,11 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Converters'
+  tags: 'Definitions,Converters'
 - slug: apispecconverter
   name: api-spec-converter
   description: >-
-    This package helps to convert between different API specifications (Postman,
-    Swagger, RAML, StopLigh
+    This package helps to convert between different API specifications.
   url: 'https://api.github.com/repos/stoplightio/api-spec-converter'
   short_url: ''
   twitter: ''
@@ -354,7 +353,7 @@
   github: ''
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/ietf-logo.png
-  tags: 'Definitions,Design, Discovery'
+  tags: 'Definitions,Design,Discovery'
 - slug: i/o-docs
   name: I/O Docs
   description: >-
@@ -674,7 +673,7 @@
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions,Implementations, Discovery'
+  tags: 'Definitions,Implementations,Discovery'
 - slug: raml-specification
   name: RAML Specification
   description: >-
