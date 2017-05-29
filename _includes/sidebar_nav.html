@@ -4,36 +4,13 @@
   </header>
   <ul>
     <li><a href="/">Homepage</a></li>
-    <li><a href="http://101.apievangelist.com/">101</a></li>
     <li><a href="/blog/">Blog</a></li>
-    <li><a href="/partners/">Partners</a></li>
-    <li>
-      <span class="opener"><a href="/api-lifecycle/">API Lifecycle</a></span>
-      <ul>
-        {% assign projects = site.data.projects.index | sort: 'view_sort' %}
-        {% for project in projects %}
-          {% if project.category == 'Core Research' %}
-            <li><a href="{{ project.url }}">{{ project.name }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </li>
-    <li>
-      <span class="opener"<a href="/api-stack/">API Stack</a></span>
-      <ul>
-        {% assign projects = site.data.projects.index | sort: 'view_sort' %}
-        {% for project in projects %}
-          {% if project.category == 'Stack Network' %}
-            <li><a href="{{ project.url }}">{{ project.name }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </li>
-    <li><a href="/products/">Products</a></li>
-    <li><a href="/services/">Services</a></li>
-    <li><a href="/tools/">Tools</a></li>
-    <li><a href="/archive/">Archive</a></li>
+    <li><a href="#Partners">Partners</a></li>
+    <li><a href="#News">News</a></li>
+    <li><a href="#Organizations">Organizations</a></li>
+    <li><a href="#BuildingBlocks">Building Blocks</a></li>
+    <li><a href="#Tools">Tools</a></li>
     <li><a href="/about/">About</a></li>
-    <li><a href="/contact/">Contact</a></li>
+    <li><a href="http://apievangelist.com">API Evangelist</a></li>
   </ul>
 </nav>

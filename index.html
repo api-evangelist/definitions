@@ -19,27 +19,30 @@ title: API Evangelist - Definitions
 </section>
 
 <!-- Section -->
-	<section>
-		<header>
-			<h2>API Evangelist Partners</h2>
-			<p>These are my partners who invest in API Evangelist each month, helping underwrite my research, and making sure I'm able to keep monitoring the API space as I do.</p>
-		</header>
-		<div class="features">
-			{% assign partners = site.data.partners.index | sort: 'view_sort' %}
-	    {% for partner in partners %}
-	      {% if partner.type == 'Sponsor' %}
-				<article>
-					<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
-					<div class="content">
-						<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
-						<p>{{ partner.description }}</p>
-					</div>
-				</article>
-	      {% endif %}
-	    {% endfor %}
-		</div>
-	</section>
+<a name="Partners"></a>
+<section>
+	<header>
+		<h2>API Evangelist Partners</h2>
+		<p>These are my partners who invest in API Evangelist each month, helping underwrite my research, and making sure I'm able to keep monitoring the API space as I do.</p>
+	</header>
+	<div class="features">
+		{% assign partners = site.data.partners.index | sort: 'view_sort' %}
+    {% for partner in partners %}
+      {% if partner.type == 'Sponsor' %}
+			<article>
+				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
+				<div class="content">
+					<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
+					<p>{{ partner.description }}</p>
+				</div>
+			</article>
+      {% endif %}
+    {% endfor %}
+	</div>
+</section>
 
+<!-- Blog Feature -->
+<a name="BlogFeature"></a>
 {% for post in site.posts limit:1 %}
 	<section id="banner">
 		<div class="content">
@@ -55,6 +58,8 @@ title: API Evangelist - Definitions
 	</section>
 {% endfor %}
 
+<!-- News -->
+<a name="News"></a>
 {% assign news_content = site.data.news_content.index[0] %}
 {% assign news = site.data.curated.index %}
 <h2>{{ news_content.title }}</h2>
@@ -82,6 +87,7 @@ title: API Evangelist - Definitions
 <p>{{ news_content.footer }}</p>
 
 <!-- Organizations -->
+<a name="Organizations"></a>
 {% assign organization_content = site.data.organization_content.index[0] %}
 <section>
 	<header>
@@ -119,6 +125,7 @@ title: API Evangelist - Definitions
 </section>
 
 <!-- Tools -->
+<a name="Tools"></a>
 {% assign approved_tags = 'API Specification,Data Specifications,Semantics,Schema,Hypermedia, Discovery,Data Policy,Encryption,Viewers,Connectors,Clients,Proxy' %}
 {% assign tool_content = site.data.tool_content.index[0] %}
 <section>
@@ -182,6 +189,7 @@ title: API Evangelist - Definitions
 </section>
 
 <!-- Building Blocks -->
+<a name="Building Blocks"></a>
 {% assign building_block_content = site.data.building_block_content.index[0] %}
 {% assign building_blocks = site.data.building_blocks.index %}
 {% assign categorylist = '' %}
