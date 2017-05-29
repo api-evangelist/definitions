@@ -98,18 +98,22 @@ categorylist: {{ categorylist }}<br />
 			<p>{{ site.building_block_desc }}</p>
 		</header>
 		<ul style="padding: 0px 25px 0px 25px;">
-		{% for block in building_blocks %}
-			<li>
-				<span style="font-size: 18px; font-weight: bold;">{{ block.category_name }}</span>
-				<ul>
-					{% for building_block in block.building_blocks %}
-						{% if building_block.type == block %}
-						<	li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-			</li>
-		{% endfor %}
+			{% assign categoryArray = categorylist | split: "," %}
+			{% for category in categoryArray %}
+				<li>{{ category }}</li>
+				{% for block in building_blocks %}
+					<li>
+						<span style="font-size: 18px; font-weight: bold;">{{ block.category_name }}</span>
+						<ul>
+							{% for building_block in block.building_blocks %}
+								{% if building_block.type == block %}
+								<	li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</li>
+				{% endfor %}
+			{% endfor %}
 		</ul>
 		<p>{{ site.building_block_footer }}</p>
 	</div>
