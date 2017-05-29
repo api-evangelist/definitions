@@ -105,7 +105,7 @@ categorylist: {{ categorylist }}<br />
 					<ul>
 						{% for block in building_blocks %}
 							{% if block.category == category %}
-							<li><strong>{{ building_block.name }}</strong> - {{ building_block.about }}</li>
+							<li><strong>{{ block.name }}</strong> - {{ block.about }}</li>
 							{% endif %}
 						{% endfor %}
 					</ul>
