@@ -6,17 +6,15 @@ layout: default
 
 <!-- Tools -->
 <section>
+
   <header class="main">
     <h2>{{ blog_content.title }}</h2>
   </header>
-
-	<ul class="icons" style="text-align: right;">
-		<li><span class="icon fa-rss" style="width: 100px;"><span class="label">Blog</span></li>
-		<li><a href="/atom.xml" class="icon fa-rss-square" style="width: 100px;"><span class="label">RSS</span></a></li>
-	</ul>
-
+	<p align="right">
+		<span class="icon fa-rss" style="width: 100px;"><span class="label">Blog</span>
+		<a href="/atom.xml" class="icon fa-rss-square" style="width: 100px;"><span class="label">RSS</span></a>
+	</p>
   <p>{{ blog_content.header }}</p>
-
 	{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% for post in paginator.posts %}
 	 	{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
