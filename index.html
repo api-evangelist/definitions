@@ -55,7 +55,10 @@ title: API Evangelist - Definitions
 	</section>
 {% endfor %}
 
-<h4>What I Have Curated On API Definitions</h4>
+{% assign news_content = site.data.news_content.index[0] %}
+{% assign news = site.data.curated.index %}
+<h2>{{ news_content.title }}</h2>
+<p>{{ news_content.header }}</p>
 <div class="table-wrapper">
 	<table class="alt">
 		<thead>
@@ -66,7 +69,7 @@ title: API Evangelist - Definitions
 			</tr>
 		</thead>
 		<tbody>
-			{% for curated in site.data.curated %}
+			{% for curated in news %}
 			<tr>
 				<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a></td>
 				<td><span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date }}</i>)</span></td>
@@ -76,6 +79,7 @@ title: API Evangelist - Definitions
 		</tbody>
 	</tbale>
 </div>
+<p>{{ news_content.footer }}</p>
 
 {% assign building_block_content = site.data.building_block_content.index[0] %}
 {% assign building_blocks = site.data.building_blocks.index %}
