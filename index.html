@@ -129,7 +129,7 @@ title: API Evangelist - Definitions
 			{% endfor %}
 		{% endfor %}
 		{% assign tagArray = tagslist | split: "," %}
-		{% assign tagArray = tagArray | sort: 'view_sort' %}
+		{% assign tagArray = tagArray | sort: 'tag' %}
 		{% for tag in tagArray %}
 			{{ tag }}<br />
 		{% endfor %}
