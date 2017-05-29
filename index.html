@@ -81,6 +81,51 @@ title: API Evangelist - Definitions
 </div>
 <p>{{ news_content.footer }}</p>
 
+<!-- Organizations -->
+{% assign organization_content = site.data.organization_content.index[0] %}
+<section>
+	<header>
+		<h2><h3>{{ organization_content.title }}</h3></h2>
+		<p>{{ organization_content.header }}</p>
+	</header>
+	<div class="features">
+		{% assign organizations = site.data.organizations.index %}
+    {% for organization in organizations %}
+			<article>
+				<p><a href="{{ organization.url }}" target="_blank"><img src="{{ organization.image }}" width="175" style="padding: 15px;" align="center" /></a></p>
+				<div class="content">
+					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
+					<p>{{ organization.description }}</p>
+				</div>
+			</article>
+    {% endfor %}
+		<p>{{ organization_content.footer }}</p>
+	</div>
+</section>
+
+<!-- Tools -->
+{% assign tool_content = site.data.tool_content.index[0] %}
+<section>
+	<header>
+		<h2><h3>{{ tool_content.title }}</h3></h2>
+		<p>{{ tool_content.header }}</p>
+	</header>
+	<div class="features">
+		{% assign tools = site.data.tools.index %}
+		{% for tool in tools %}
+        <article>
+          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" /></a></p>
+          <div class="content">
+            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
+            <p>{{ tool.description }}</p>
+          </div>
+        </article>
+    {% endfor %}
+		<p>{{ tool_content.footer }}</p>
+	</div>
+</section>
+
+<!-- Building Blocks -->
 {% assign building_block_content = site.data.building_block_content.index[0] %}
 {% assign building_blocks = site.data.building_blocks.index %}
 {% assign categorylist = '' %}
@@ -116,27 +161,5 @@ title: API Evangelist - Definitions
 			{% endfor %}
 		</ul>
 		<p>{{ building_block_content.footer }}</p>
-	</div>
-</section>
-
-<!-- Section -->
-{% assign organization_content = site.data.organization_content.index[0] %}
-<section>
-	<header>
-		<h2><h3>{{ organization_content.title }}</h3></h2>
-		<p>{{ organization_content.header }}</p>
-	</header>
-	<div class="features">
-		{% assign organizations = site.data.organizations.index %}
-    {% for organization in organizations %}
-			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img src="{{ organization.image }}" width="175" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
-					<p>{{ organization.description }}</p>
-				</div>
-			</article>
-    {% endfor %}
-		<p>{{ organization_content.footer }}</p>
 	</div>
 </section>
