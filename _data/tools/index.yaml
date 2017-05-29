@@ -1,21 +1,3 @@
-- slug: alps--applicationlevel-profile-semantics
-  name: Application-Level Profile Semantics (ALPS)
-  description: >-
-    The purpose of Application-Level Profile Semantics (ALPS) is to document the
-    application-level semantics of a particular implementation. This is
-    accomplished by describing elements of response representations for a target
-    media type. For example identifying markup elements returned (i.e. semantic
-    HTML ala Microformats) and state transitions (i.e. HTML.A and HTML.FORM
-    elements) that advance the state of the current application.
-  url: 'http://amundsen.com/hypermedia/profiles/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/alps-logo.png
-  tags: 'Definitions,Semantics,Data Specification'
 - slug: api-blueprint
   name: API Blueprint
   description: >-
@@ -33,6 +15,32 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/bw-api-blueprint-icon.png
   tags: 'API Specification, Definitions'
+- slug: apispecconverter
+  name: API Spec Converter
+  description: >-
+    Convert API descriptions between popular formats such as OpenAPI(fka
+    Swagger), RAML, API Blueprint, WADL, etc.
+  url: 'https://github.com/lucybot/api-spec-converter'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Definitions,Converters'
+- slug: apispecconverter
+  name: API Spec Converter
+  description: >-
+    This package helps to convert between different API specifications (Postman,
+    Swagger, RAML, StopLigh
+  url: 'https://api.github.com/repos/stoplightio/api-spec-converter'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Definitions, Converters'
 - slug: apiary-blueprint-parser
   name: Apiary Blueprint Parser
   description: >-
@@ -70,32 +78,24 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/apisdotjson.png
   tags: 'Definitions,Discovery'
-- slug: apispecconverter
-  name: API Spec Converter
+- slug: alps--applicationlevel-profile-semantics
+  name: Application-Level Profile Semantics (ALPS)
   description: >-
-    Convert API descriptions between popular formats such as OpenAPI(fka
-    Swagger), RAML, API Blueprint, WADL, etc.
-  url: 'https://github.com/lucybot/api-spec-converter'
+    The purpose of Application-Level Profile Semantics (ALPS) is to document the
+    application-level semantics of a particular implementation. This is
+    accomplished by describing elements of response representations for a target
+    media type. For example identifying markup elements returned (i.e. semantic
+    HTML ala Microformats) and state transitions (i.e. HTML.A and HTML.FORM
+    elements) that advance the state of the current application.
+  url: 'http://amundsen.com/hypermedia/profiles/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions,Converters'
-- slug: apispecconverter
-  name: API Spec Converter
-  description: >-
-    This package helps to convert between different API specifications (Postman,
-    Swagger, RAML, StopLigh
-  url: 'https://api.github.com/repos/stoplightio/api-spec-converter'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Converters'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/alps-logo.png
+  tags: 'Definitions,Semantics,Data Specification'
 - slug: asset-description-metadata-schema-adms
   name: Asset Description Metadata Schema (ADMS)
   description: >-
@@ -129,17 +129,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/barrister-rpc.png
   tags: 'Definitions,API Specification,Design'
-- slug: certificatetransparencyrfcs
-  name: Google Certificate Transparency
-  description: Certificate Transparency RFC
-  url: 'https://s3.amazonaws.com/kinlane-productions/tools/ct_home_security.png'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'GitHub,Encryption,Definitions'
 - slug: chefserverschema
   name: chef-server-schema
   description: SQL Schema for the Open Source Chef Server
@@ -387,6 +376,17 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/interpol-logo.png
   tags: 'Definitions, Generator, Validator, Design'
+- slug: jsonapi
+  name: JSON API
+  description: A specification for building JSON APIs
+  url: 'http://jsonapi.org/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/json-api/json-api'
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Definitions, Hypermedia'
 - slug: json-schema
   name: JSON Schema
   description: >-
@@ -416,17 +416,19 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/frictionlessdata-logo.png
   tags: 'Definitions,Data Specification,Schema'
-- slug: jsonapi
-  name: JSON API
-  description: A specification for building JSON APIs
-  url: 'http://jsonapi.org/'
-  short_url: ''
+- slug: jsonviewer
+  name: JSON Viewer
+  description: >-
+    The most beautiful and customizable JSON/JSONP highlighter that your eyes
+    have ever seen. It is a Chrome extension for printing JSON and JSONP.
+  url: 'https://github.com/tulios/json-viewer'
+  short_url: 'https://s3.amazonaws.com/kinlane-productions/tools/tulios-json-viewer.png'
   twitter: ''
   blog: ''
-  blog_rss: ''
-  github: 'https://github.com/json-api/json-api'
+  blog_rss: 'https://github.com/tulios/json-viewer/commits/master.atom'
+  github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Hypermedia'
+  tags: 'Definitions, Viewers'
 - slug: jsonld
   name: JSON-LD
   description: >-
@@ -472,19 +474,6 @@
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
   tags: 'Definitions,JSON,Schema'
-- slug: jsonviewer
-  name: JSON Viewer
-  description: >-
-    The most beautiful and customizable JSON/JSONP highlighter that your eyes
-    have ever seen. It is a Chrome extension for printing JSON and JSONP.
-  url: 'https://github.com/tulios/json-viewer'
-  short_url: 'https://s3.amazonaws.com/kinlane-productions/tools/tulios-json-viewer.png'
-  twitter: ''
-  blog: ''
-  blog_rss: 'https://github.com/tulios/json-viewer/commits/master.atom'
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Definitions, Viewers'
 - slug: markdown-syntax-for-object-notation-mson
   name: Markdown Syntax for Object Notation (MSON)
   description: >-
@@ -580,18 +569,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
   tags: 'Clients,API Blueprint,Definitions,Generator'
-- slug: pawpostmanenvironmentimporter
-  name: Paw to Postman Environment Importer
-  description: A Paw Extension to import Postman Environments.
-  url: 'https://api.github.com/repos/luckymarmot/Paw-PostmanEnvironmentImporter'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
-  tags: 'Clients,Definitions'
 - slug: pawpostmanimporter
   name: Paw Postman Importer
   description: A Paw Extension to import Postman Collections.
@@ -604,6 +581,18 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
   tags: 'Definitions,Clients'
+- slug: pawpostmanenvironmentimporter
+  name: Paw to Postman Environment Importer
+  description: A Paw Extension to import Postman Environments.
+  url: 'https://api.github.com/repos/luckymarmot/Paw-PostmanEnvironmentImporter'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/paw-api-client.png
+  tags: 'Clients,Definitions'
 - slug: pawwadlimporter
   name: Paw WADL Importer
   description: Paw Extension to import WADL definitions.
