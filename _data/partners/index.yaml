@@ -56,6 +56,76 @@
     both worlds.
   image: 'https://s3.amazonaws.com/kinlane-productions/partners/tyk-logo.png'
   type: Sponsor
-  banner_url: >-
-    https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+  banner_url: 'https://s3.amazonaws.com/kinlane-productions/partners/tyk-logo.png'
   tags: 'API Evangelist,Definitions'
+- view_sort: E
+  name: APIMATIC
+  identifier: apimatic
+  url: 'http://apis.how/kjtj5bbuxu'
+  description: >-
+    APIMatic fills multiple gaps in the current API ecosystem. It solves SDK
+    problems of API providers, it helps App-developers in consuming APIs, and it
+    sweetly complements the services of API management providers.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apimatic-logo.png
+  type: Advisor
+  banner_url: >-
+    https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png
+  tags: API Evangelist
+- view_sort: F
+  name: API Science
+  identifier: api-science
+  url: 'http://apis.how/hobnzhnazs'
+  description: >-
+    Easily test and monitor your own APIs and the third-party APIs you rely on.
+    API Science tools can help save dev time and reduce frustration. Quickly see
+    if internal APIs pass automated continous tests, see if external APIs are
+    really down or down for just you.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  type: Partner
+  banner_url: >-
+    https://s3.amazonaws.com/kinlane-productions/api-evangelist/restlet/supported-by-restlet.png
+  tags: API Evangelist
+- view_sort: G
+  name: Codenvy
+  identifier: codenvy
+  url: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-envy-logo.jpg
+  description: >-
+    We build developer workspaces powered by Eclipse Che, the next-generation
+    Eclipse IDE. Trusted by companies and developers. Valued by anyone who loves
+    building software.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-envy-logo.jpg
+  type: Advisor
+  banner_url: >-
+    https://s3.amazonaws.com/kinlane-productions/api-evangelist/dreamfactory/dreamfactory-banner-turn-any-database-into-api.png
+  tags: API Evangelist
+- view_sort: H
+  name: Hitch
+  identifier: hitch
+  url: 'https://www.hitchhq.com/'
+  description: >-
+    We help developers, product managers and anyone interested in working with
+    APIs connect with API owners. Aditionally API owners can use Hitch to engage
+    their communities and build a vibrant API ecosystem.
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/api-evangelist/hitch/hitch-logo.png
+  type: Advisor
+  banner_url: 'https://s3.amazonaws.com/kinlane-productions/partners/tyk-logo.png'
+  tags: API Evangelist
+- view_sort: I
+  name: Open Referral
+  identifier: open-referral
+  url: 'http://apis.how/dmqygflokv'
+  description: >-
+    We develop data standards and open platforms that make it easy to share and
+    find information about community resources. The vision of Open Referral is a
+    world where everyone has access to — and the ability to effectively use —
+    information about the resources that are available in their community.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open_referral_logo.png
+  type: Partner
+  banner_url: 'https://s3.amazonaws.com/kinlane-productions/partners/tyk-logo.png'
+  tags: API Evangelist
