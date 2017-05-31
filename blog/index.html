@@ -33,23 +33,11 @@ layout: default
     {% endif %}
   {% endfor %}
 
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a href="/blog/page{{paginator.next_page}}" class="older">Older</a>
-    {% else %}
-      <span class="next">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a href="/" class="newer">Newer</a>
-      {% else %}
-        <a href="/blog/page{{paginator.previous_page}}" class="newer">Newer</a>
-      {% endif %}
-    {% else %}
-      <span class="previous">Newer</span>
-    {% endif %}
-  </div>
+	<ul class="pagination" style="text-align: center;">
+		<li style="text-align:left;"><a href="/blog/page{{paginator.previous_page}}" class="button disabled"><< Prev</a></li>
+		<li style="width: 75%"><span></span></li>
+		<li style="text-align:right;"><a href="/blog/page{{paginator.next_page}}" class="button">Next >></a></li>
+	</ul>
 
 	<p>{{ blog_content.footer }}</p>
 
