@@ -1,0 +1,23 @@
+- content_id: home-primary
+  title: 'I am Kin Lane, the API Evangelist...'
+  image: 'http://design.apievangelist.com/images/kin-lane-api-evangelist-cartoon.png'
+  content: >-
+    <p>This is my online domain where I work to understand the world of the
+    Application Programming Interfaces, also known as APIs. This new way of
+    sharing data using the web is touching almost every aspect of our
+    increasingly digital lives, providing access to the bits and bytes that make
+    our personal and professional worlds go round.</p><p>This is my research specificially into the world of API design, and how
+    API architects and developers are developing and sharing best practices when
+    it comes to crafting their APIs. I've been tracking API since it started
+    becoming a thing back in 2012, and in 2017 it has become a full fledge
+    discpline, with a wealth of services and tooling.</p><p>API Evangelist is a network of data driven projects and APIs which I
+    curate and manage as part of this ongoing research, hoping to provide easy
+    access to the moving parts of my work. Everything you see here runs on
+    Github, making everything forkable, and resuable for both humans and
+    machines.</p>
+  tags: Design
+- content_id: home-about
+  title: About This Research
+  image: 'http://design.apievangelist.com/images/api-evangelist-in-api-we-trust.png'
+  content: "<p>As I keep an eye on the space I curate news, bookmark organizations, watch interesting tools, and try to understand what definitions are being applied by leading API providers. I take everything I find and publish here as part of my research.</p><p>I then take this research, and what I've learned and publish stories on the blog, and more long form content like my industry guides, and white papers for customers. This is one way thtat I generate revenue to keep it all going.</p><p>If you'd like to see me focus more on API definitions I could use more partners investing in this area, helping me find the time to study more about what is going on. Feel free to contact me directly if you want to talk more about API definitions.</p><p>Thanks for your support!</p>"
+  tags: Design
