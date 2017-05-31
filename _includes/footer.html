@@ -1,9 +1,8 @@
 <footer>
   <p align="center">
-    {% assign partners = site.data.partners.index %}
-    {% assign partners = partners | sample %}
-    <a href="{{ partners.url }}" target="_blank">
-      <img src="{{ partners.banner_url }}" width="50%" style="padding-top: 10px;" />
+    {% assign show_partner = site.data.sponsors.index | sample %}
+    <a href="{{ show_partner.url }}" target="_blank">
+      <img src="{{ show_partner.banner_url }}" width="50%" style="padding-top: 10px;" />
     </a>
   </p>
   <p align="center">
