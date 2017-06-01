@@ -273,14 +273,15 @@ title: API Evangelist - Definitions
 
 <!-- About This Research -->
 {% assign about_content = site.data.home_content.index[1] %}
+<a name="About"></a>
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>{{ home_content.title }}</h2>
+			<h2>{{ about_content.title }}</h2>
 		</header>
-		{{ home_content.content }}
+		{{ about_content.content }}
 	</div>
 	<span class="image object">
-		<img src="{{ home_content.image }}" alt="" width="25%" />
+		<img src="{{ about_content.image }}" alt="" width="25%" />
 	</span>
 </section>
