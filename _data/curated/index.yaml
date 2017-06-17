@@ -5,6 +5,12 @@
   url: https://tune.com/blog/startups-need-api/
   domain: tune.com
   image: ""
+- curated_id: 014d80f38874841519177eab5be11ff3
+  item_date: "2013-04-14 00:00:00"
+  title: What is Innovation?
+  url: http://innovationexcellence.com/blog/2013/04/14/what-is-innovation-2/
+  domain: innovationexcellence.com
+  image: ""
 - curated_id: 8ba57a189f135c2bc0d99ae9985dcb7b
   item_date: "2015-02-17 05:49:23"
   title: apiaryio/api-blueprint - Gitter
@@ -89,12 +95,6 @@
   url: http://blog.helloreverb.com/swagger-smartbear/
   domain: blog.helloreverb.com
   image: ""
-- curated_id: c67ff3bb2939c85cf6cb1a9229ff5f8b
-  item_date: "2015-03-26 00:00:00"
-  title: Sharing Is Caring - Socialize Your Public API Blueprints
-  url: https://blog.apiary.io/2015/03/26/ApiBlueprint-button
-  domain: blog.apiary.io
-  image: ""
 - curated_id: 9fb5446e27aec94783a4abb3a5fd260a
   item_date: "2015-03-26 00:00:00"
   title: Let?s Get Swagger Right
@@ -106,6 +106,12 @@
   title: SmartBear Picks Up Swagger API Project
   url: http://www.programmableweb.com/news/smartbear-picks-swagger-api-project/2015/03/26
   domain: www.programmableweb.com
+  image: ""
+- curated_id: c67ff3bb2939c85cf6cb1a9229ff5f8b
+  item_date: "2015-03-26 00:00:00"
+  title: Sharing Is Caring - Socialize Your Public API Blueprints
+  url: https://blog.apiary.io/2015/03/26/ApiBlueprint-button
+  domain: blog.apiary.io
   image: ""
 - curated_id: d99aa4a236b9c443f089f41a26dc0e44
   item_date: "2015-03-26 11:42:55"
@@ -346,17 +352,17 @@
   url: http://apievangelist.com/2015/06/15/my-minimum-viable-definition-for-a-complete-swagger-api-definition/
   domain: apievangelist.com
   image: ""
-- curated_id: 6d884b8a2c04dde9731c18681ac74e20
-  item_date: "2015-06-17 00:00:00"
-  title: What are API Description Languages?
-  url: http://api-university.com/blog/what-are-api-description-languages/
-  domain: api-university.com
-  image: ""
 - curated_id: 858a572c1e01909312604e75e8cf01a3
   item_date: "2015-06-17 00:00:00"
   title: Schemas ? Successfully Navigating API Complexity
   url: http://quickbase.intuit.com/blog/2015/06/17/schemas-successfully-navigating-api-complexity/
   domain: quickbase.intuit.com
+  image: ""
+- curated_id: 6d884b8a2c04dde9731c18681ac74e20
+  item_date: "2015-06-17 00:00:00"
+  title: What are API Description Languages?
+  url: http://api-university.com/blog/what-are-api-description-languages/
+  domain: api-university.com
   image: ""
 - curated_id: 19863b7bd058d559c642e1c265ec5b28
   item_date: "2015-06-19 00:00:00"
@@ -522,17 +528,17 @@
   url: http://restlet.com/blog/2015/10/26/importing-and-translating-raml-api-definition/
   domain: restlet.com
   image: ""
-- curated_id: fe1f8d912f1a8c9712626a66b16cd802
-  item_date: "2015-11-05 00:00:00"
-  title: Restlet Joins the Open API Initiative at Linux Foundation
-  url: http://restlet.com/blog/2015/11/05/restlet-joins-the-open-api-initiative-at-linux-foundation/
-  domain: restlet.com
-  image: ""
 - curated_id: 8e111b3d4d5e4a7ea8b89bde0ab1359e
   item_date: "2015-11-05 00:00:00"
   title: API Economy Gets Boost With Open Spec Initiative
   url: http://www.enterprisetech.com/2015/11/05/api-economy-gets-boost-with-open-spec-initiative/
   domain: www.enterprisetech.com
+  image: ""
+- curated_id: fe1f8d912f1a8c9712626a66b16cd802
+  item_date: "2015-11-05 00:00:00"
+  title: Restlet Joins the Open API Initiative at Linux Foundation
+  url: http://restlet.com/blog/2015/11/05/restlet-joins-the-open-api-initiative-at-linux-foundation/
+  domain: restlet.com
   image: ""
 - curated_id: 30d2328c855754dae00500fa4e376dfe
   item_date: "2015-11-05 09:39:17"
@@ -801,6 +807,12 @@
   url: http://apievangelist.com/2016/02/16/concern-around-mapping-and-discussing-shadow-mobile-apis-shows-signs-of-an-imbalance/
   domain: apievangelist.com
   image: ""
+- curated_id: 0dd0386f1abbdf014d586643210c74a5
+  item_date: "2016-02-17 00:00:00"
+  title: DreamFactory 2.1 lets you put some Swagger in your custom scripting services
+  url: http://blog.dreamfactory.com/put-some-swagger-in-your-dreamfactory-custom-scripting-services
+  domain: blog.dreamfactory.com
+  image: ""
 - curated_id: ad90d9ebfb57efbc36e62e6f0fefbdb0
   item_date: "2016-02-17 09:03:38"
   title: The Ion Data Interchange Format
@@ -839,17 +851,17 @@
   url: http://apievangelist.com/2016/02/25/what-is-apisjson-and-what-is-next-for-the-api-discovery-format/
   domain: apievangelist.com
   image: ""
-- curated_id: 196dcb76edf18035966e75c992ad4527
-  item_date: "2016-02-25 00:00:00"
-  title: DreamFactory 2.1 released, includes OpenAPI spec upgrade
-  url: http://blog.dreamfactory.com/dreamfactory-2-1-release-news
-  domain: blog.dreamfactory.com
-  image: ""
 - curated_id: 13d97ba14031002468ba27e94861911a
   item_date: "2016-02-25 00:00:00"
   title: Should You Craft Your Own API Definition Format?
   url: https://dzone.com/articles/should-you-craft-your-own-api-definition-format
   domain: dzone.com
+  image: ""
+- curated_id: 196dcb76edf18035966e75c992ad4527
+  item_date: "2016-02-25 00:00:00"
+  title: DreamFactory 2.1 released, includes OpenAPI spec upgrade
+  url: http://blog.dreamfactory.com/dreamfactory-2-1-release-news
+  domain: blog.dreamfactory.com
   image: ""
 - curated_id: 12beb345aac84613ae7c1e5507a8f079
   item_date: "2016-03-01 00:00:00"
@@ -963,17 +975,17 @@
   url: https://strongloop.com/strongblog/examples-of-validations-for-loopback-models/
   domain: strongloop.com
   image: ""
-- curated_id: b5a028d4f7ae7e1074f64dd5b62205a1
-  item_date: "2016-03-29 00:00:00"
-  title: You asked, weve answered, Postman Collections!
-  url: https://developer.walgreens.com/blog/photo/postman
-  domain: developer.walgreens.com
-  image: ""
 - curated_id: 6412b4b576fa5a5942216f7a19e022fb
   item_date: "2016-03-29 00:00:00"
   title: Import and test your Swagger API definitions in DHC
   url: http://restlet.com/blog/2016/03/29/import-and-test-your-swagger-api-definitions-in-dhc/
   domain: restlet.com
+  image: ""
+- curated_id: b5a028d4f7ae7e1074f64dd5b62205a1
+  item_date: "2016-03-29 00:00:00"
+  title: You asked, weve answered, Postman Collections!
+  url: https://developer.walgreens.com/blog/photo/postman
+  domain: developer.walgreens.com
   image: ""
 - curated_id: 56d84715e6c18f66f57352f6c7ccfeae
   item_date: "2016-03-30 00:00:00"
@@ -1244,17 +1256,17 @@
   url: https://threatpost.com/unpatched-remote-code-execution-flaw-exists-in-swagger/118867/
   domain: threatpost.com
   image: ""
-- curated_id: c09ff876ae3c5e17b71940d00387bc18
-  item_date: "2016-07-01 00:00:00"
-  title: HTTP-RPC 3.0 Released [Announcement]
-  url: https://dzone.com/articles/http-rpc-30-released
-  domain: dzone.com
-  image: ""
 - curated_id: 70f8135787d3a049c41c2a94bdf89755
   item_date: "2016-07-01 00:00:00"
   title: Using Google Tag Manager to Dynamically Generate Schema/JSON-LD Tags
   url: https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags
   domain: moz.com
+  image: ""
+- curated_id: c09ff876ae3c5e17b71940d00387bc18
+  item_date: "2016-07-01 00:00:00"
+  title: HTTP-RPC 3.0 Released [Announcement]
+  url: https://dzone.com/articles/http-rpc-30-released
+  domain: dzone.com
   image: ""
 - curated_id: 3c9f85d64b21866984d6b21c26f7cbef
   item_date: "2016-07-01 00:00:00"
@@ -1476,6 +1488,12 @@
   url: https://jordwalsh.com/2016/10/10/swagger-gist-io-saving-and-versioning-swagger-definitions/
   domain: jordwalsh.com
   image: ""
+- curated_id: a00c793e8810c04d01781edeb54c1c5a
+  item_date: "2016-10-10 09:41:48"
+  title: Why machine readable documentation is key to your API?s success
+  url: https://medium.com/m/global-identity
+  domain: medium.com
+  image: ""
 - curated_id: b5d9237e6626ffc16dcff60e3262ee06
   item_date: "2016-10-11 15:55:16"
   title: OPML to JSON converter
@@ -1535,540 +1553,5 @@
   title: Why Emburse Opened Its vCard Solution to Developers
   url: http://www.programmableweb.com/news/why-emburse-opened-its-vcard-solution-to-developers/elsewhere-web/2016/11/13
   domain: www.programmableweb.com
-  image: ""
-- curated_id: b9b44fb4e342611819dc4f7b298f563e
-  item_date: "2016-12-14 00:00:00"
-  title: U.S. jury sides with Arista over Cisco in copyright battle
-  url: http://www.reuters.com/article/us-cisco-systems-arista-networks-verdict-idUSKBN1432MQ
-  domain: www.reuters.com
-  image: ""
-- curated_id: 9baf8858f6a28055a6e0ac524c597d02
-  item_date: "2016-12-15 19:50:35"
-  title: 'simeji/jid: json incremental digger'
-  url: https://github.com/simeji/jid
-  domain: github.com
-  image: ""
-- curated_id: a00c793e8810c04d01781edeb54c1c5a
-  item_date: "2016-12-19 10:10:32"
-  title: Future of APIs
-  url: https://medium.com/m/global-identity
-  domain: medium.com
-  image: ""
-- curated_id: 859db1835512cea16dbc194954cdec24
-  item_date: "2016-12-27 17:15:00"
-  title: Amazon States Language
-  url: https://states-language.net/spec.html
-  domain: states-language.net
-  image: ""
-- curated_id: 20b196b07dd44a45954017d61c3c354f
-  item_date: "2016-12-30 10:14:49"
-  title: GitHub - yarax/swagger-to-graphql
-  url: https://github.com/yarax/swagger-to-graphql
-  domain: github.com
-  image: ""
-- curated_id: 40e15d9739c2f5d13b41df2d16200d39
-  item_date: "2017-01-04 08:31:29"
-  title: 'Cisco Supports Redfish Standard: API Enhances UCS Programmability'
-  url: http://blogs.cisco.com/datacenter/cisco-supports-redfish-standard-api-enhances-ucs-programmability
-  domain: blogs.cisco.com
-  image: ""
-- curated_id: 85d1671f43baed4094b3b19b039aeacc
-  item_date: "2017-01-05 12:49:30"
-  title: Amazon Web Services
-  url: http://amazon.web.services.stack.network/
-  domain: amazon.web.services.stack.network
-  image: ""
-- curated_id: a38bc749de5b2bff2b4a85362a2a7950
-  item_date: "2017-01-05 13:07:15"
-  title: A Complete Guide to JSON-LD
-  url: https://www.searchenginejournal.com/complete-guide-json-ld/181917/
-  domain: www.searchenginejournal.com
-  image: ""
-- curated_id: 1b91d29abe0f9b5e861454342ac5c3b9
-  item_date: "2017-01-05 14:16:34"
-  title: 'Mermade/openapi_specifications: Open API Specifications'
-  url: https://github.com/Mermade/openapi_specifications
-  domain: github.com
-  image: ""
-- curated_id: b452b12dba34c2e2c738f408f56c5258
-  item_date: "2017-01-11 00:00:00"
-  title: Securely Sharing Your Swagger API Docs with DreamFactory
-  url: http://blog.dreamfactory.com/share-api-docs-securely
-  domain: blog.dreamfactory.com
-  image: ""
-- curated_id: 9f0557ffe5087e10bd463af976957919
-  item_date: "2017-01-11 00:00:00"
-  title: Getting the best Oracle API information with Swagger and a pinch of...
-  url: https://www.capgemini.com/blog/capgemini-oracle-blog/2017/01/getting-the-best-oracle-api-information-with-swagger-and-a-pinch
-  domain: www.capgemini.com
-  image: ""
-- curated_id: c34235299a443b89011bd881b5777d65
-  item_date: "2017-01-13 00:00:00"
-  title: Apps metadata for API discovery and code generation
-  url: https://docs.microsoft.com/en-us/azure/app-service-api/app-service-api-metadata
-  domain: docs.microsoft.com
-  image: ""
-- curated_id: 757d932e47405303e3a73bcf25e19767
-  item_date: "2017-01-13 14:15:05"
-  title: 'Tweet: New Blog! Securely Sharing Your Swagger API Docs with DreamFactory!  https://t.co/e1pHurMtNK
-    https://t.co/RJKqJsePd7'
-  url: https://twitter.com/dfsoftwareinc/statuses/820031440243015680
-  domain: twitter.com
-  image: ""
-- curated_id: 30112203aed0af44389995b5c8bcaa33
-  item_date: "2017-01-20 00:00:00"
-  title: JSON to XML Transformation Using DataWeave
-  url: https://dzone.com/articles/json-to-xml-transformation-using-dataweave
-  domain: dzone.com
-  image: ""
-- curated_id: 76bbf519d38fc37a555ac92b6742bf41
-  item_date: "2017-01-31 00:00:00"
-  title: "Emerging FHIR standard doesn\u2019t solve semantic interoperability"
-  url: http://www.healthdatamanagement.com/news/emerging-fhir-standard-doesnt-solve-semantic-interoperability
-  domain: www.healthdatamanagement.com
-  image: ""
-- curated_id: b66e632461d7e7dd739c5c9167cfdc22
-  item_date: "2017-01-31 00:00:00"
-  title: 'Defining Syslog: Daemons, Message Formats, and Protocols'
-  url: https://dzone.com/articles/what-is-syslog-daemons-message-formats-and-protoco
-  domain: dzone.com
-  image: ""
-- curated_id: a243be8c673c5c0e29d38c3d02879cae
-  item_date: "2017-02-02 00:00:00"
-  title: Feds back FHIR, big-time
-  url: http://healthcare3924.rssing.com/chan-62001039/all_p1.html
-  domain: healthcare3924.rssing.com
-  image: ""
-- curated_id: 2e666dc96788aff47f27aaf935ba4cfe
-  item_date: "2017-02-02 19:48:16"
-  title: WebAPI - pending.schema.org
-  url: http://pending.webschemas.org/WebAPI
-  domain: pending.webschemas.org
-  image: ""
-- curated_id: 66e132cd1ceb9b2dd523f082633c1e1c
-  item_date: "2017-02-06 00:00:00"
-  title: UNESCO Thesaurus published with Semantic Web standards  Open-Source software
-  url: http://aims.fao.org/ru/activity/blog/unesco-thesaurus-published-semantic-web-standards-and-open-source-software
-  domain: aims.fao.org
-  image: ""
-- curated_id: 263474b109ef4e74773d76bcd6db0d1b
-  item_date: "2017-02-07 00:00:00"
-  title: OData support in IIB?
-  url: http://www.mqseries.net/phpBB2/viewtopic.php
-  domain: www.mqseries.net
-  image: ""
-- curated_id: 2534994e7d8b9aa39e63b0f5f1c23660
-  item_date: "2017-02-10 00:00:00"
-  title: Capgemini Announces Open Banking Solution for PSD2
-  url: http://www.fintech.finance/01-news/capgemini-announces-open-banking-solution-for-psd2/
-  domain: www.fintech.finance
-  image: ""
-- curated_id: b85e4c231c8f2f714a679bd50e9bbe9c
-  item_date: "2017-02-10 09:41:01"
-  title: PSD2 Marks the Beginning of an Era of Secure Payment
-  url: https://www.accenture.com/us-en/insight-psd2-open-banking-security-fraud-impacts-banks
-  domain: www.accenture.com
-  image: ""
-- curated_id: a95230f3ecbcaf358a4ae048e21d1c97
-  item_date: "2017-02-10 11:30:26"
-  title: 'GoodRelations: The Professional Web Vocabulary for E-Commerce'
-  url: http://www.heppnetz.de/projects/goodrelations/
-  domain: www.heppnetz.de
-  image: ""
-- curated_id: 9662edd9ea96d0f375890decd7c0adb4
-  item_date: "2017-02-13 00:00:00"
-  title: Rest Api Modeling Language
-  url: https://www.follownews.com/hashtag/rest-api-modeling-language
-  domain: www.follownews.com
-  image: ""
-- curated_id: 07c47e3eea579223ec9d0898a4799173
-  item_date: "2017-02-15 08:00:59"
-  title: 'Tweet: Docs are up - https://t.co/CO7p6JsTWy. Your API could be covered
-    by spec driven contract tests today - no excuses! https://t.co/C0U9knvkUf'
-  url: https://twitter.com/stoplightio/statuses/831896096389623808
-  domain: twitter.com
-  image: ""
-- curated_id: 72c6d115a2196b6bb9dac33d0bb610d0
-  item_date: "2017-02-16 00:00:00"
-  title: CommonWell First to Use Argonaut Project FHIR Specifications
-  url: https://ehrintelligence.com/news/commonwell-first-to-use-argonaut-project-fhir-specifications
-  domain: ehrintelligence.com
-  image: ""
-- curated_id: d91fd4b32805370c7d396127c4df6333
-  item_date: "2017-02-16 00:00:00"
-  title: A Guide to JSON-LD for Beginners
-  url: https://moz.com/blog/json-ld-for-beginners
-  domain: moz.com
-  image: ""
-- curated_id: a54920024b57f2946ff6c9ac2510c470
-  item_date: "2017-02-16 15:22:24"
-  title: AWS Config Rules Adds AWS CloudFormation Templates and a Test Mode for Rule
-    Authoring
-  url: https://aws.amazon.com/about-aws/whats-new/2017/02/aws-config-rules-adds-aws-cloudformation-templates-and-a-test-mode-for-rule-authoring/
-  domain: aws.amazon.com
-  image: ""
-- curated_id: 0656c0416e160f84992e1bdf79b0f66d
-  item_date: "2017-02-19 00:00:00"
-  title: Writing OpenAPI (Swagger) Specification Tutorial - Part 9 - Extending the
-    OpenAPI specification
-  url: https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-9-extending-the-openapi-specification/
-  domain: apihandyman.io
-  image: ""
-- curated_id: 398a1761342d41432d5ad270d02ac0fe
-  item_date: "2017-02-23 00:00:00"
-  title: My Understanding of ArcNet Protocol
-  url: https://www.codeproject.com/Articles/1172598/My-Understanding-of-ArcNet-Protocol
-  domain: www.codeproject.com
-  image: ""
-- curated_id: 74e6134bd0409fa4e93f404d5018e241
-  item_date: "2017-02-25 09:15:55"
-  title: W3C Begins Standards Work on Web of Things to Reduce IoT Fragmentation
-  url: https://www.w3.org/blog/news/archives/6163
-  domain: www.w3.org
-  image: ""
-- curated_id: 24b84b02807585e3560380b1b6e31e53
-  item_date: "2017-03-01 09:34:09"
-  title: "Open API Initiative Announces Release of the OpenAPI Spec v3 Implementer\u2019s
-    Draft"
-  url: https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-released
-  domain: www.openapis.org
-  image: ""
-- curated_id: 740e2b53301194ce4c3d93a9a437014d
-  item_date: "2017-03-01 20:54:49"
-  title: "Lufthansa Open API \xB7 GitHub"
-  url: https://github.com/LufthansaOpenAPI
-  domain: github.com
-  image: ""
-- curated_id: 64c7432054d8bd5dc9c26a7aca20f983
-  item_date: "2017-03-02 08:18:12"
-  title: The most beautiful and customizable JSON/JSONP highlighter that your eyes
-    have ever seen
-  url: https://github.com/tulios/json-viewer
-  domain: github.com
-  image: ""
-- curated_id: 2c127d7f5a4d89540240c596e69bff60
-  item_date: "2017-03-02 11:45:07"
-  title: Building With Open Standards Will Result in IT Longevity
-  url: http://nordicapis.com/building-with-open-standards-will-result-in-it-longevity/
-  domain: nordicapis.com
-  image: ""
-- curated_id: 0dd0386f1abbdf014d586643210c74a5
-  item_date: "2017-03-03 16:39:01"
-  title: To turn up the awesomeness on your service you can create a Swagger service
-    definition for it!
-  url: http://blog.dreamfactory.com/put-some-swagger-in-your-dreamfactory-custom-scripting-services
-  domain: blog.dreamfactory.com
-  image: ""
-- curated_id: 6a4b167fbb9b7a061f3e9f5f5a452f33
-  item_date: "2017-03-04 15:59:01"
-  title: YASMIN (Yet Another jSon Message notatIoN)
-  url: https://cyberphone.github.io/doc/web/yasmin.html
-  domain: cyberphone.github.io
-  image: ""
-- curated_id: f0817724661eb8ac4da48efcf0d1cd83
-  item_date: "2017-03-05 00:00:00"
-  title: 'Testing N1QL (Part 4): Using Query Templates to Create Queries'
-  url: https://dzone.com/articles/testing-n1ql-sql-for-json-part-4
-  domain: dzone.com
-  image: ""
-- curated_id: a560d926c23dc368d27d7a0ffb1eaf56
-  item_date: "2017-03-07 13:13:34"
-  title: Autocomplete and tooltips for variables are now live!
-  url: http://blog.getpostman.com/2017/03/07/autocomplete-and-tooltips-for-variables-are-here/
-  domain: blog.getpostman.com
-  image: ""
-- curated_id: 67fb54605ec1abe096739df86a219b76
-  item_date: "2017-03-08 00:00:00"
-  title: Public Review of JSON-P Specification 1.1 is Now Open
-  url: https://www.infoq.com/news/2017/03/json-processing-public-review
-  domain: www.infoq.com
-  image: ""
-- curated_id: 64367964caff6e622484689b08932f16
-  item_date: "2017-03-09 00:00:00"
-  title: Introducing Custom Rules
-  url: http://blog.mparticle.com/custom_rules/
-  domain: blog.mparticle.com
-  image: ""
-- curated_id: 25d35bdb73f5ba15f837e824191da414
-  item_date: "2017-03-09 00:19:51"
-  title: '&quot;Web Publications&quot; is the rebranding of @w3c #PWP, and if youre
-    interested in publishing on the web, have a look!'
-  url: https://www.w3.org/TR/2017/WD-pwp-20170309/
-  domain: www.w3.org
-  image: ""
-- curated_id: 89d10c2fc38471b515a8b52d2b7706e0
-  item_date: "2017-03-10 00:00:00"
-  title: Consumer Reports Proposes Open Source Security Standard To Keep The Internet
-    Of Things From Sucking
-  url: https://www.techdirt.com/articles/20170306/06501736850/consumer-reports-proposes-open-source-security-standard-to-keep-internet-things-sucking.shtml
-  domain: www.techdirt.com
-  image: ""
-- curated_id: 3c5733f1a634c7940b870355ce9574b2
-  item_date: "2017-03-13 10:28:46"
-  title: '@readmeio: Weve got Swagger!'
-  url: http://readme.io/swagger/
-  domain: readme.io
-  image: ""
-- curated_id: c93fd3d0e7c99c56c6479679832492df
-  item_date: "2017-03-14 09:34:19"
-  title: Backup and Sync your Postman Collections on GitHub
-  url: http://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/
-  domain: blog.getpostman.com
-  image: ""
-- curated_id: b3221d1aa2826c175669d943ebcee16c
-  item_date: "2017-03-14 13:17:29"
-  title: Microsoft Flow now supports the Postman Collection format!
-  url: https://flow.microsoft.com/en-us/blog/new-updates-custom-api/
-  domain: flow.microsoft.com
-  image: ""
-- curated_id: e78f33e8050b9e00013aaa7c3eaaab82
-  item_date: "2017-03-15 09:29:52"
-  title: Five things they didnt tell you were changing in OpenAPI 3.0.0-RC0
-  url: https://mikeralphson.github.io/openapi/2017/03/15/openapi3.0.0-rc0
-  domain: mikeralphson.github.io
-  image: ""
-- curated_id: 8eda4223d184363503421208e24f1eab
-  item_date: "2017-03-16 03:00:04"
-  title: 'How Allscripts is collaborating and encouraging use of #FHIR'
-  url: http://www.allscripts.com/news-insights/blog/blog/2017/03/what-s-happening-with-fhir
-  domain: www.allscripts.com
-  image: ""
-- curated_id: e1c3ac8c2f8e027b661efd4af4dcc8ed
-  item_date: "2017-03-16 10:02:22"
-  title: FHIR is No Longer Just a Concept
-  url: https://datica.com/blog/fhir-is-no-longer-just-a-concept/
-  domain: datica.com
-  image: ""
-- curated_id: def6a4f8a95da1efebeabf7c23c9ed3b
-  item_date: "2017-03-17 16:37:55"
-  title: Protocol to Access White-Space (PAWS) Databases (RFC 7545)
-  url: https://datatracker.ietf.org/doc/rfc7545/
-  domain: datatracker.ietf.org
-  image: ""
-- curated_id: fb5357e73c4b2bebc9359c9da6d0ad6b
-  item_date: "2017-03-18 00:00:00"
-  title: 'Promote your local businesses reviews with schema.org markup '
-  url: https://webmasters.googleblog.com/2016/08/promote-your-local-businesses-reviews.html
-  domain: webmasters.googleblog.com
-  image: ""
-- curated_id: c5dfc82c58315a4667a6a9a87630c7ae
-  item_date: "2017-03-20 13:42:52"
-  title: "This could be the year for Issa\u2019s bill requiring open, standardized
-    financial data format"
-  url: https://www.fedscoop.com/year-issas-bill-requiring-open-standardized-financial-data-format/
-  domain: www.fedscoop.com
-  image: ""
-- curated_id: f6c8acfbc5bf5a5568b6a17cbf15e52e
-  item_date: "2017-03-22 00:00:00"
-  title: Access OData From Microsoft Power BI
-  url: https://dzone.com/articles/access-odata-from-microsoft-power-bi
-  domain: dzone.com
-  image: ""
-- curated_id: 2859a6444a43bfee139d4e2366a8e606
-  item_date: "2017-03-22 11:49:56"
-  title: Convert API Definitions Into Swagger, API Blueprint, and RAML within Postman
-  url: http://blog.getpostman.com/2017/02/15/new-postman-pro-integration-apimatics-api-transformer/
-  domain: blog.getpostman.com
-  image: ""
-- curated_id: 949db28d1d0535dd2297fb709c1f033c
-  item_date: "2017-04-03 00:00:00"
-  title: Schema.org Just Released New Restaurant Menu Markup
-  url: https://moz.com/blog/schema-new-restaurant-menu-markup
-  domain: moz.com
-  image: ""
-- curated_id: 9d042b5ebcde3b764404141ca3677ab7
-  item_date: "2017-04-04 00:00:00"
-  title: OpenAPI / Swagger Resource List for API Developers
-  url: https://blog.runscope.com/posts/openapi-swagger-resource-list-for-api-developers
-  domain: blog.runscope.com
-  image: ""
-- curated_id: 57cc19f822c6d027ea877788aa552e7b
-  item_date: "2017-04-05 13:10:28"
-  title: 'Best JSON Formatter and JSON Validator: Advance JSON Formatter'
-  url: http://jsonformatter.org
-  domain: jsonformatter.org
-  image: ""
-- curated_id: 4677ad8f78db500a3e1a54e1ad2e6026
-  item_date: "2017-04-06 12:07:00"
-  title: 'GitHub - refractproject/minim-alps: Minim ALPS Namespace'
-  url: https://github.com/refractproject/minim-alps
-  domain: github.com
-  image: ""
-- curated_id: d0ee98b389bc5660caf4cb6f2664e2e4
-  item_date: "2017-04-06 16:10:19"
-  title: CloudFormation Designer now supports YAML
-  url: https://aws.amazon.com/about-aws/whats-new/2017/04/aws-cloudformation-supports-yaml-in-cloudformation-designer/
-  domain: aws.amazon.com
-  image: ""
-- curated_id: e58e519f9bdc06055fca6c8863011055
-  item_date: "2017-04-07 00:00:00"
-  title: "Concepts to Integration \u2013 Metadata"
-  url: http://blog.scribesoft.com/concepts-to-integration-metadata/
-  domain: blog.scribesoft.com
-  image: ""
-- curated_id: 1743924068cd83ed98f58275203ecd8b
-  item_date: "2017-04-08 08:37:27"
-  title: Swagger, the REST Kryptonite
-  url: https://jimmybogard.com/swagger-the-rest-kryptonite/
-  domain: jimmybogard.com
-  image: ""
-- curated_id: 517bc1a863b9f84593d238a2ffca2660
-  item_date: "2017-04-12 00:00:00"
-  title: Restlet Studio Supports RAML 1.0 API Specification
-  url: https://www.programmableweb.com/news/restlet-studio-supports-raml-10-api-specification/announcement/2017/04/12
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: e9cca43bb79bed3cb1fdfd5abd09e910
-  item_date: "2017-04-12 00:00:00"
-  title: What sets RAML 1.0 apart from OAS 2.0?
-  url: https://restlet.com/company/blog/2017/04/12/raml-1-0-a-few-things-that-set-it-apart-from-oas-2/
-  domain: restlet.com
-  image: ""
-- curated_id: 94506bff1a45310341910f4fe8dde380
-  item_date: "2017-04-14 00:00:00"
-  title: "What\u2019s New in OpenAPI 3.0"
-  url: http://nordicapis.com/whats-new-in-openapi-3-0/
-  domain: nordicapis.com
-  image: ""
-- curated_id: bef514b9ec4cf02255e288b74fa049aa
-  item_date: "2017-04-14 19:09:26"
-  title: Why Your API Needs Machine-Readable Descriptions
-  url: https://apimatic.io/blog/post/why-your-api-needs-machine-readable-descriptions
-  domain: apimatic.io
-  image: ""
-- curated_id: 2380c1c1ba0446a18860c003640d1bf4
-  item_date: "2017-04-15 00:00:00"
-  title: 'Payload Transformation: JSON to Object'
-  url: https://dzone.com/articles/payload-transformation-json-to-object
-  domain: dzone.com
-  image: ""
-- curated_id: 19ec54f866bfd647b1a44a35781a6bd0
-  item_date: "2017-04-18 00:00:00"
-  title: Cinchoo - Using JSON format configuration values
-  url: https://www.codeproject.com/Articles/1019595/Cinchoo-Using-JSON-format-configuration-values
-  domain: www.codeproject.com
-  image: ""
-- curated_id: 48f178f1f9d7bea0ab31bb7eaa5a3057
-  item_date: "2017-04-18 00:00:00"
-  title: 'Payload Transformation: JSON to XML'
-  url: https://dzone.com/articles/payload-transformation-json-to-xml
-  domain: dzone.com
-  image: ""
-- curated_id: f737f941208cad9c3a8e0f8e06ccefd2
-  item_date: "2017-04-19 00:00:00"
-  title: "Microservices, APIs, and Swagger: How They Fit Together \u2013 Quantix"
-  url: https://quantixcap.wordpress.com/2017/04/19/microservices-apis-and-swagger-how-they-fit-together/
-  domain: quantixcap.wordpress.com
-  image: ""
-- curated_id: f5f52a6649d03d849af03e8a3010e46b
-  item_date: "2017-04-19 00:00:00"
-  title: 'Microservices, APIs, and Swagger: How They Fit Together'
-  url: https://dzone.com/articles/microservices-apis-and-swagger-how-they-fit-togeth
-  domain: dzone.com
-  image: ""
-- curated_id: 9450b18ff7c86784ab9c141a90247571
-  item_date: "2017-04-20 07:59:51"
-  title: MuleSoft Joins Linux Foundation Open API Initiative to Accelerate Innovation
-    in API Specifications
-  url: http://finance.yahoo.com/news/mulesoft-joins-linux-foundation-open-120100053.html
-  domain: finance.yahoo.com
-  image: ""
-- curated_id: 84ba561582d1897516069fea21404114
-  item_date: "2017-04-21 00:00:00"
-  title: 'MuleSoft Joins the OpenAPI Initiative: The End of the API Spec Wars'
-  url: http://swagger.io/mulesoft-joins-the-openapi-initiative/
-  domain: swagger.io
-  image: ""
-- curated_id: 7209f93fb00299198b0fb8eb56c24591
-  item_date: "2017-04-24 09:45:38"
-  title: 'Tweet: Share your Postman Collections with your team over the cloud. View
-    our tutorial on collaborating using Postman: https://t.co/EvLyo6UfJ7'
-  url: https://twitter.com/postmanclient/statuses/856549704712245250
-  domain: twitter.com
-  image: ""
-- curated_id: 1e45f5231c3b5c4c3adb4822a95da8a1
-  item_date: "2017-04-25 16:37:37"
-  title: "Release v3.0.0 \xB7 whitlockjc/json-refs \xB7 GitHub"
-  url: https://github.com/whitlockjc/json-refs/releases/tag/v3.0.0
-  domain: github.com
-  image: ""
-- curated_id: 1c32b5dfa011eee486e17ed9b6c84e30
-  item_date: "2017-04-26 00:00:00"
-  title: A Short History of OAI and API Specifications
-  url: https://restlet.com/company/blog/2017/04/26/a-short-history-of-oai-and-api-specifications/
-  domain: restlet.com
-  image: ""
-- curated_id: 5659761c663b9481c20020c7a1165308
-  item_date: "2017-04-27 09:34:40"
-  title: A Short History of OAI and API Specification
-  url: http://restlet.com/company/blog/2017/04/26/a-short-history-of-oai-and-api-specifications/
-  domain: restlet.com
-  image: ""
-- curated_id: 716d2b27c9eba138d6d4c54ae1eedf38
-  item_date: "2017-04-27 16:37:31"
-  title: 'Tweet: 5 Ways the OpenAPI Specification Spurs API Agility'
-  url: http://nordicapis.com/5-ways-openapi-spurs-api-agility/
-  domain: nordicapis.com
-  image: ""
-- curated_id: f58593d934ef8dd7f098ba05dd294e7b
-  item_date: "2017-04-28 00:00:00"
-  title: 'Open API and RAML: Better Together'
-  url: https://www.programmableweb.com/news/open-api-and-raml-better-together/sponsored-content/2017/04/28
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: fab0aef59a1416af41f75faf169eb478
-  item_date: "2017-04-28 00:00:06"
-  title: GeoJSON Text Sequences
-  url: http://webconcepts.info/specs/IETF/RFC/8142
-  domain: webconcepts.info
-  image: ""
-- curated_id: 93f38d91847c4d93b22d01e2a5d44ceb
-  item_date: "2017-04-28 11:27:48"
-  title: "Release OAS 3.0.0-rc1 Released! \xB7 OAI/OpenAPI-Specification \xB7 GitHub"
-  url: https://github.com/OAI/OpenAPI-Specification/releases/tag/3.0.0-rc1
-  domain: github.com
-  image: ""
-- curated_id: 22bfb039bb9092f23a0e51e2976357f8
-  item_date: "2017-04-29 00:00:00"
-  title: 'Payload Transformation: XML to Object'
-  url: https://dzone.com/articles/payload-transformation-xml-to-object
-  domain: dzone.com
-  image: ""
-- curated_id: a4ce963164cd75feb8d0b8c9f8040ff6
-  item_date: "2017-05-03 00:00:00"
-  title: 'REST API Industry Debate: OData vs GraphQL vs ORDS'
-  url: https://www.progress.com/blogs/rest-api-industry-debate-odata-vs-graphql-vs-ords
-  domain: www.progress.com
-  image: ""
-- curated_id: bb07b446ec77ce960ef6c4dc32bed896
-  item_date: "2017-05-06 00:00:00"
-  title: The HTTP API Space Is Consolidating Around OAS
-  url: https://www.infoq.com/news/2017/05/api-raml-oas
-  domain: www.infoq.com
-  image: ""
-- curated_id: 903307ac90ce46a528c75b8a38c11516
-  item_date: "2017-05-09 10:37:03"
-  title: APIMATIC Blog - APIMatic Turns 3; Announcing Support of OAS 3.0
-  url: https://apimatic.io/blog/post/api-matic-turns-3-announcing-support-of-oas-3-0
-  domain: apimatic.io
-  image: ""
-- curated_id: 91c02645b864d1ef4a6f53ee25f75e81
-  item_date: "2017-05-10 16:40:38"
-  title: 'Automatic discovery of Web API Specifications: an example-driven approach'
-  url: http://modeling-languages.com/automatic-discovery-web-api-specifications/
-  domain: modeling-languages.com
-  image: ""
-- curated_id: 24523b8627504df086cde5d9e7ba483d
-  item_date: "2017-05-11 11:35:36"
-  title: 'Tweet: AWS Schema Conversion Tool now extracts from SQL Server data warehouses!
-    https://t.co/2RMKhM9ICU https://t.co/bwLYzrSbd6'
-  url: https://twitter.com/awscloud/statuses/862737972386385920
-  domain: twitter.com
-  image: ""
-- curated_id: 2f888c6f1d94c88e300d2c0e94232ea4
-  item_date: "2017-05-12 00:00:00"
-  title: "Concepts to Integration \u2013 Standardization"
-  url: http://blog.scribesoft.com/concepts-to-integration-standardization/
-  domain: blog.scribesoft.com
   image: ""
 ...
