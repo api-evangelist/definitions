@@ -83,6 +83,7 @@ title: API Evangelist - Definitions
 <a name="News"></a>
 {% assign news_content = site.data.news_content.index[0] %}
 {% assign news = site.data.curated.index | sort:"item_date" | reverse %}
+{% assign news = news | reverse %}
 <section>
 	<header>
 		<h2>{{ news_content.title }}</h2>
@@ -99,11 +100,13 @@ title: API Evangelist - Definitions
 			</thead>
 			<tbody>
 				{% for curated in news %}
-				<tr>
-					<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
-					<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
-					<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" width="25" /></a></td>
-				</tr>
+					{% unless curated.title == '' %}
+					<tr>
+						<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
+						<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
+						<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" width="25" /></a></td>
+					</tr>
+					{% endunless %}
 				{% endfor %}
 			</tbody>
 		</table>
