@@ -100,7 +100,7 @@ layout: default
 
 <h2><strong>API Documentation</strong></h2>
 <p>{{ apijson.description }}</p>
-<p>I BROKE THIS---STILL WORKING ON - 11222333!</p>
+<p>I BROKE THIS---STILL WORKING ON - 1!</p>
 {% assign api_action_url = '' %}
 {% assign numberofapis = apijson.apis | size %}
 {% assign contents = site.data %}
@@ -126,8 +126,8 @@ layout: default
         {% assign thisname = entry[0] %}
         {% assign thisentry = entry[1] %}
         {% if thisname == thisobject %}
-          {% assign openapi_spec_json = thisentry %}
-          {% if openapi_spec_json.openapi %}
+          {% if openapi_spec_json.openapi.Swagger == '2.0' %}
+            {% assign openapi_spec_json = thisentry %}
             openapi_spec_json: {{ openapi_spec_json }}
           {% endif %}
         {% endif %}
