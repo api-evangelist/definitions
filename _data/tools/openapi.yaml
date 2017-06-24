@@ -1,9 +1,9 @@
 Swagger: "2.0"
 info:
-  title: API Evangelist Definition Tools
-  description: These are the tools included as part of my API definition research.
+  title: API Evangelist Tools
+  description: These are the tools included as part of this API research.
   version: 1.0.0
-host: apievangelist.com
+host: definitions.apievangelist.com
 basePath: /apis
 schemes:
   - http

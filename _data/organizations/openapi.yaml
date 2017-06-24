@@ -1,9 +1,9 @@
 Swagger: "2.0"
 info:
-  title: API Evangelist Definitions Organizations
+  title: API Evangelist Organizations
   description: These are the organizations I've curated as part of this research.
   version: 1.0.0
-host: apievangelist.com
+host: definitions.apievangelist.com
 basePath: /apis
 schemes:
   - http
