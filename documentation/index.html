@@ -103,6 +103,7 @@ layout: default
 <p>I BROKE THIS---STILL WORKING ON - 12345!</p>
 {% assign api_action_url = '' %}
 {% assign numberofapis = apijson.apis | size %}
+{% assign contents = site.data %}
 
 {% for api in apijson.apis %}
 
@@ -118,6 +119,16 @@ layout: default
       {% assign thisobject = this_url | replace: '/','.' %}
       {% assign thisobject = thisobject | replace: '.apis.','' %}
       thisobject: {{ thisobject}}<br />
+
+      {% for entry in contents %}
+        {% assign thisname = entry[0] %}
+        {% assign thisentry = entry[1] %}
+        HERE: {{ thisname }} == {{ thisobject }}<br />
+        {% if thisname == thisobject %}
+          {% assign api_filters = thisentry %}
+        {% endif %}
+      {% endfor %}
+
       {% assign openapi_spec_json = site.data.[thisobject] %}
       openapi_spec_json: {{ openapi_spec_json }}
     {% endif %}
