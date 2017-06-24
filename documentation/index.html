@@ -72,10 +72,8 @@ layout: default
        method: "get",
        headers: {$headers},
        success:function(response){
-
           document.getElementById($slug+'-loading').style.display = 'none';
-
-          $viewer = JSON.stringify(response, null, 2);
+          $viewer = JSON.stringify(JSON.parse(response),null,2);  
           //console.log($viewer);
           $viewer = $viewer.replace(/\\"/g, '"');
           document.getElementById($slug+'-response').value = $viewer;
