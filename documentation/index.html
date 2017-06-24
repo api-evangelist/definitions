@@ -112,7 +112,10 @@ layout: default
 
     {% if property.type == 'x-openapi' %}
       {% assign this_url = property.url %}
-      {% assign this_url = this_url | replace: {{ site. raw_url }},'' %}
+      {% assign this_url = this_url | replace: {{ site.raw_url }},'' %}
+      {% assign this_url = this_url | replace: '.json','' %}
+      {% assign this_url = this_url | replace: '-','' %}
+      {% assign thisobject = this_url | replace: '/','.' %}
       thisobject: {{ thisobject}}<br />
       {% assign openapi_spec_json = site.data[thisobject] %}
       openapi_spec_json: {{ openapi_spec_json }}
