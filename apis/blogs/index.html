@@ -10,7 +10,7 @@ tag: Blog
   "title": "{{ post.title }}",
   "date": "{{ post.date | date_to_string }}",
   "content": "{{ post.content | strip_html | escape }}",
-  "url": "{{ site.url }}{{ post.url | escape }}",
+  "url": "{{ site.url }}{{ post.url | replace: '//','\/\/' | replace: '/','\/' }}",
   "image": "{{ post.image | replace: '//','\/\/' | replace: '/','\/' }}"
   }{% if forloop.last != true %},{% endif %}{% endif %}{% endif %}{% endfor %}
 ]
