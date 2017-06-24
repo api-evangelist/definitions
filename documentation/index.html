@@ -127,7 +127,9 @@ layout: default
         {% assign thisentry = entry[1] %}
         {% if thisname == thisobject %}
           {% assign openapi_spec_json = thisentry %}
-          openapi_spec_json: {{ openapi_spec_json }}
+          {% if openapi_spec_json.openapi %}
+            openapi_spec_json: {{ openapi_spec_json }}
+          {% endif %}
         {% endif %}
       {% endfor %}
 
