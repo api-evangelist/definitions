@@ -126,7 +126,8 @@ layout: default
         {% assign thisname = entry[0] %}
         {% assign thisentry = entry[1] %}
         {% if thisname == thisobject %}
-          {% if openapi_spec_json.openapi.Swagger == '2.0' %}
+          HERE: {{ thisentry.openapi.Swagger }}<br />
+          {% if thisentry.openapi.Swagger == '2.0' %}
             {% assign openapi_spec_json = thisentry %}
             openapi_spec_json: {{ openapi_spec_json }}
           {% endif %}
