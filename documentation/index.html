@@ -100,7 +100,6 @@ layout: default
 
 <h2><strong>API Documentation</strong></h2>
 <p>{{ apijson.description }}</p>
-<p>I BROKE THIS---STILL WORKING ON - 1!</p>
 {% assign api_action_url = '' %}
 {% assign numberofapis = apijson.apis | size %}
 {% assign contents = site.data %}
@@ -120,15 +119,12 @@ layout: default
       {% assign thisobject = this_url | replace: '/','.' %}
       {% assign thisobject = thisobject | replace: '.apis.','' %}
       {% assign thisobject = thisobject | replace: '.openapi','' %}
-      thisobject: {{ thisobject}}<br />
 
       {% for entry in contents %}
         {% assign thisname = entry[0] %}
         {% assign thisentry = entry[1] %}
-        HERE: {{ thisname }} == {{ thisobject }}<br />
         {% if thisname == thisobject %}
           {% assign openapi_spec_json = thisentry.openapi %}
-          openapi_spec_json: {{ openapi_spec_json }}<br />
         {% endif %}
       {% endfor %}
 
