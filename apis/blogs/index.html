@@ -11,6 +11,6 @@ tag: Blog
   "date": "{{ post.date | date_to_string }}",
   "content": "{{ post.content | strip_html | escape }}",
   "url": "{{ site.production_url }}{{ post.url | escape }}",
-  "image": "{{ post.image }}"
+  "image": "{{ post.image | escape }}"
   }{% if forloop.last != true %},{% endif %}{% endif %}{% endif %}{% endfor %}
 ]
