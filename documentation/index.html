@@ -101,7 +101,7 @@ layout: default
 <h2><strong>API Documentation</strong></h2>
 <p>{{ apijson.description }}</p>
 <p>I BROKE THIS---STILL WORKING ON - 12345!</p>
-{% assign api_action_url = '' %}
+
 {% assign numberofapis = apijson.apis | size %}
 
 {% for api in apijson.apis %}
@@ -110,17 +110,7 @@ layout: default
 
   {% for property in api.properties %}
 
-    {% if property.type == 'x-openapi' %}
-      {% assign this_url = property.url %}
-      {% assign this_url = this_url | replace: {{ site.raw_url }},'' %}
-      {% assign this_url = this_url | replace: '.json','' %}
-      {% assign this_url = this_url | replace: '-','' %}
-      {% assign thisobject = this_url | replace: '/','.' %}
-      {% assign thisobject = this_url | replace: '.apis.','' %}
-      thisobject: {{ thisobject}}<br />
-      {% assign openapi_spec_json = site.data[thisobject] %}
-      openapi_spec_json: {{ openapi_spec_json }}
-    {% endif %}
+    {{ property }}<br />
 
   {% endfor %}
 
