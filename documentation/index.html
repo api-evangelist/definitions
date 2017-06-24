@@ -125,11 +125,8 @@ layout: default
         {% assign thisentry = entry[1] %}
         HERE: {{ thisname }} == {{ thisobject }}<br />
         {% if thisname == thisobject %}
-          {% assign api_filters = thisentry %}
+          {% assign openapi_spec_json = thisentry %}
         {% endif %}
-      {% endfor %}
-
-      {% assign openapi_spec_json = site.data.[thisobject] %}
       openapi_spec_json: {{ openapi_spec_json }}
     {% endif %}
 
