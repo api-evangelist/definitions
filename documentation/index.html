@@ -112,19 +112,19 @@ layout: default
   {% for property in api.properties %}
 
     {% if property.type == 'x-openapi' %}
-    
+
       {% assign this_url = property.url %}
       {% assign this_url = this_url | replace: site.raw_url,'' %}
       {% assign this_url = this_url | replace: '.json','' %}
       {% assign this_url = this_url | replace: '-','' %}
       {% assign thisobject = this_url | replace: '/','.' %}
       {% assign thisobject = thisobject | replace: '.apis.','' %}
+      {% assign thisobject = thisobject | replace: '.openapi','' %}
       thisobject: {{ thisobject}}<br />
 
       {% for entry in contents %}
         {% assign thisname = entry[0] %}
         {% assign thisentry = entry[1] %}
-        HERE: {{ thisname }} == {{ thisobject }}<br />
         {% if thisname == thisobject %}
           {% assign openapi_spec_json = thisentry %}
           openapi_spec_json: {{ openapi_spec_json }}
