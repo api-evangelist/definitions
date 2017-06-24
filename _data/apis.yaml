@@ -1,54 +1,68 @@
-name: API Evangelist
-description: These are my APIs for my API industry research, studying over 70 areas along an API life cycle.
+name: API Evangelist - Definitions
+description: This is my research into API definitions, as part of API Evangelist industry monitoring.
 image: http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 tags:
   - API
-  - Integrations
-created: "2017-05-09"
-modified: "2017-05-09"
-url: https://apievangelist.com/apis.json
+  - Definitions
+  - Specifications
+created: "2017-06-24"
+modified: "2017-06-24"
+url: https://definitions.apievangelist.com/apis.json
 specificationVersion: "0.14"
 apis:
-  - name: Products API
-    description: This is my simple API for managing my products.
-    image: http://apievangelist.com/images/product-square.png
-    humanURL: http://apievangelist.com/
-    baseURL: http://apievangelist.com/
+  - name: Blog API
+    description: This is my simple API for accessing blog posts as part of this research.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png
+    humanURL: http://definitions.apievangelist.com/
+    baseURL: http://definitions.apievangelist.com/
     tags:
       - API Evangelist
-      - Products
+      - Blog
     properties:
       - type: x-openapi
-        url: http://apievangelist.com/apis/products/openapi.json
-  - name: Services API
-    description: This is my simple API for managing my services.
-    image: http://apievangelist.com/images/services-square.png
-    humanURL: http://apievangelist.com/
-    baseURL: http://apievangelist.com/
+        url: http://definitions.apievangelist.com/apis/blogs/openapi.json
+  - name: Curated API
+    description: This is my simple API accessing stories I've curated as part of this research.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-news-icon.png
+    humanURL: http://definitions.apievangelist.com/
+    baseURL: http://definitions.apievangelist.com/
     tags:
       - API Evangelist
-      - Services
+      - Curated
+      - News
     properties:
       - type: x-openapi
-        url: http://apievangelist.com/apis/services/openapi.json
-  - name: Partners API
-    description: This is my simple API for managing my partners across the sites.
-    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-partner.png
-    humanURL: http://apievangelist.com/
-    baseURL: http://apievangelist.com/
+        url: http://definitions.apievangelist.com/apis/curated/openapi.json
+  - name: Organizations API
+    description: This is my simple API for accessing the organizations that are part of this research.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-organization.jpg
+    humanURL: http://definitions.apievangelist.com/
+    baseURL: http://definitions.apievangelist.com/
     tags:
       - API Evangelist
-      - Partners
+      - Organizations
     properties:
       - type: x-openapi
-        url: http://apievangelist.com/apis/partners/openapi.json
+        url: http://definitions.apievangelist.com/apis/organizations/openapi.json
+  - name: Tools API
+    description: This is my simple API for accessing the tools that are part of this research.
+    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-tools.png
+    humanURL: http://definitions.apievangelist.com/
+    baseURL: http://definitions.apievangelist.com/
+    tags:
+      - API Evangelist
+      - Tools
+      - Open Source
+    properties:
+      - type: x-openapi
+        url: http://definitions.apievangelist.com/apis/tools/openapi.json
 x-common:
   - type: x-support
-    url: https://github.com/kinlane/api-evangelist/issues
+    url: https://github.com/api-evangelist/definitions/issues
   - type: x-documentation
-    url: http://apievangelist.com/documentation/
+    url: http://definitions.apievangelist.com/documentation/
   - type: x-github-repo
-    url: https://github.com/kinlane/api-evangelist
+    url: https://github.com/api-evangelist/definitions
 include: []
 maintainers:
   - FN: Kin Lane

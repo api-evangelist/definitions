@@ -1,0 +1,6 @@
+---
+layout: none
+title: Blog
+tag: Blog
+---
+{% assign publish_json = site.posts | json | replace: '=>', ':' %}{{ publish_json }}
