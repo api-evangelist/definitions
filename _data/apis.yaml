@@ -16,7 +16,6 @@ apis:
     humanURL: http://definitions.apievangelist.com/
     baseURL: http://definitions.apievangelist.com/
     tags:
-      - API Evangelist
       - Blog
     properties:
       - type: x-openapi
@@ -27,9 +26,7 @@ apis:
     humanURL: http://definitions.apievangelist.com/
     baseURL: http://definitions.apievangelist.com/
     tags:
-      - API Evangelist
       - Curated
-      - News
     properties:
       - type: x-openapi
         url: http://definitions.apievangelist.com/apis/curated/openapi.json
@@ -39,7 +36,6 @@ apis:
     humanURL: http://definitions.apievangelist.com/
     baseURL: http://definitions.apievangelist.com/
     tags:
-      - API Evangelist
       - Organizations
     properties:
       - type: x-openapi
@@ -50,9 +46,7 @@ apis:
     humanURL: http://definitions.apievangelist.com/
     baseURL: http://definitions.apievangelist.com/
     tags:
-      - API Evangelist
       - Tools
-      - Open Source
     properties:
       - type: x-openapi
         url: http://definitions.apievangelist.com/apis/tools/openapi.json

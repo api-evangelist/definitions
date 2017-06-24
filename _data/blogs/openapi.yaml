@@ -10,7 +10,7 @@ schemes:
 produces:
   - application/json
 paths:
-  /blog/:
+  /blogs/:
     get:
       summary: Get Blog Posts
       description: Returns all the blog posts in this research.
