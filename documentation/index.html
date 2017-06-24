@@ -118,7 +118,7 @@ layout: default
       {% assign thisobject = this_url | replace: '/','.' %}
       {% assign thisobject = thisobject | replace: '.apis.','' %}
       thisobject: {{ thisobject}}<br />
-      {% assign openapi_spec_json = site.data[thisobject] %}
+      {% assign openapi_spec_json = site.data.[thisobject] %}
       openapi_spec_json: {{ openapi_spec_json }}
     {% endif %}
 
