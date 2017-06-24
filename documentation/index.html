@@ -100,7 +100,7 @@ layout: default
 
 <h2><strong>API Documentation</strong></h2>
 <p>{{ apijson.description }}</p>
-{% assign api_action_url = '' %}
+
 {% assign numberofapis = apijson.apis | size %}
 {% assign contents = site.data %}
 
@@ -363,7 +363,8 @@ layout: default
     {% endif %}
 
     {% endfor %}
-
+  </table>
+  
   <h3>{{ api.name }} Schema</h3>
   <table width="95%" border="0" style="margin-left: 15px;">
   {% assign taglist = '' %}
