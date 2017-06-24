@@ -1,7 +1,7 @@
 Swagger: "2.0"
 info:
-  title: API Evangelist Products
-  description: These are the products offered by the API Evangelist
+  title: API Evangelist Definition Tools
+  description: These are the tools included as part of my API definition research.
   version: 1.0.0
 host: apievangelist.com
 basePath: /apis
@@ -12,47 +12,49 @@ produces:
 consumes:
   - application/json
 paths:
-  /products/:
+  /tools/:
     get:
-      summary: Get Products
-      description: Returns all the products.
+      summary: Get Tools
+      description: Returns all the tools included in this research.
       responses:
         200:
           description: Successful Response
           schema:
             type: array
             items:
-              $ref: '#/definitions/products'
+              $ref: '#/definitions/tool'
       tags:
-        - Integrations
-        - API
+        - Tools
 definitions:
-  product:
+  tool:
     properties:
-      view_sort:
-        description: A letter to sort in the UI.
+      slug:
+        description: A unique slug to identify the tool.
         type: string
       name:
-        description: The name of the product.
-        type: string
-      identifier:
-        description: A unique identiefer for the product.
-        type: string
-      url:
-        description: A URL to find more information about product.
+        description: The name of the tool.
         type: string
       description:
-        description: A descripton of the product.
+        description: The description for the tool.
+        type: string
+      url:
+        description: A URL to find more information about tool.
+        type: string
+      short_url:
+        description: A shortened url for the tool website.
+        type: string
+      twitter:
+        description: The twitter account for the tool.
+        type: string
+      blog:
+        description: The url of the blog for the tool.
+        type: integer
+      blog_rss:
+        description: The blog feed for the tool.
         type: string
       image:
-        description: An image representation for a product.
+        description: An image, logo, or icon for the tool.
         type: string
-      imagewidth:
-        description: An image width for the product.
-        type: integer
-      category:
-        description: A category for the product.
-        type: string
-      brand:
-        description: A brand associated with the product.
+      tags:
+        description: Tags for the tools.
         type: string

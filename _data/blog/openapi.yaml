@@ -9,10 +9,8 @@ schemes:
   - http
 produces:
   - application/json
-consumes:
-  - application/json
 paths:
-  /products/:
+  /blog/:
     get:
       summary: Get Blog Posts
       description: Returns all the blog posts in this research.
@@ -25,34 +23,21 @@ paths:
               $ref: '#/definitions/blog'
       tags:
         - Blog
-        - API
 definitions:
-  product:
+  blog:
     properties:
-      view_sort:
-        description: A letter to sort in the UI.
+      title:
+        description: The title of the blog post.
         type: string
-      name:
-        description: The name of the product.
+      date:
+        description: The date for the blog post.
         type: string
-      identifier:
-        description: A unique identiefer for the product.
+      content:
+        description: The content of the blog post.
         type: string
       url:
-        description: A URL to find more information about product.
-        type: string
-      description:
-        description: A descripton of the product.
+        description: The URL for the blog post.
         type: string
       image:
-        description: An image representation for a product.
-        type: string
-      imagewidth:
-        description: An image width for the product.
-        type: integer
-      category:
-        description: A category for the product.
-        type: string
-      brand:
-        description: A brand associated with the product.
+        description: An image for the blog post
         type: string

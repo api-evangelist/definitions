@@ -1,6 +1,6 @@
 Swagger: "2.0"
 info:
-  title: API Evangelist Curated
+  title: API Evangelist Definitions Curated
   description: These are the items I have curated as part of my monitoring of the API space.
   version: 1.0.0
 host: definitions.apievangelist.com
@@ -25,11 +25,8 @@ paths:
               $ref: '#/definitions/curated'
       tags:
         - Curated
-        - News
-        - Links
-        - API
 definitions:
-  product:
+  curated:
     properties:
       curated_id:
         description: The uniqud id for the curated item.
