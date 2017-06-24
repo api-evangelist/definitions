@@ -125,6 +125,7 @@ layout: default
       {% for entry in contents %}
         {% assign thisname = entry[0] %}
         {% assign thisentry = entry[1] %}
+        HERE: {{ thisname }} == {{ thisobject }}<br />
         {% if thisname == thisobject %}
           HERE: {{ thisentry.openapi.Swagger }}<br />
           {% if thisentry.openapi.Swagger == '2.0' %}
