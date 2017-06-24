@@ -9,7 +9,7 @@ tag: Blog
   {
   "title": "{{ post.title }}",
   "date": "{{ post.date | date_to_string }}",
-  "content": "{{ post.content | escape }}",
+  "content": "{{ post.content | strip_html }}",
   "url": "{{ site.production_url }}{{ post.url }}",
   "image": "{{ post.image }}"
   }{% if forloop.last != true %},{% endif %}{% endif %}{% endif %}{% endfor %}
