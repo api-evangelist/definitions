@@ -214,13 +214,13 @@ layout: default
               {% assign slug = path[0] | replace: '/','' %}
 
               <tr>
-                <td style="padding-left: 20px; font-size: 14px;">{{ summary }}</td>
-                <td style="font-size: 14px;">{{ path[0] }}</td>
-                <td align="center" style="padding: 1px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
+                <td width="35%" style="padding-left: 20px; font-size: 14px;">{{ summary }}</td>
+                <td width="35%" style="font-size: 14px;">{{ path[0] }}</td>
+                <td width="10%" align="center" style="padding: 1px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
                   {{ verb }}
                 </td>
-                <td style="width: 25px;"></td>
-                <td><button type="button" class="btn btn-default" onclick="showme('{{ slug }}-row'); return false;">Try</button></tr>
+                <td width="10%" style="width: 25px;"></td>
+                <td width="10%"><button type="button" class="btn btn-default" onclick="showme('{{ slug }}-row'); return false;">Try</button></tr>
               </tr>
               <tr id="{{ slug }}-row" style="display: none;">
                 <td colspan="5" style="padding: 15px;">
