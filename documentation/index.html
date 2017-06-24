@@ -73,7 +73,7 @@ layout: default
        headers: {$headers},
        success:function(response){
           document.getElementById($slug+'-loading').style.display = 'none';
-          $viewer = JSON.stringify(JSON.parse(response),null,2);  
+          $viewer = JSON.stringify(JSON.parse(response),null,2);
           //console.log($viewer);
           $viewer = $viewer.replace(/\\"/g, '"');
           document.getElementById($slug+'-response').value = $viewer;
@@ -366,8 +366,6 @@ layout: default
 
     {% endfor %}
   </table>
-
-  <h3>Schema</h3>
   <table width="95%" border="0" style="margin-left: 15px;">
   {% assign taglist = '' %}
   {% for definition in openapi_spec_json.definitions %}
