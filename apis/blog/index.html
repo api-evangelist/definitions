@@ -3,5 +3,14 @@ layout: none
 title: Blog
 tag: Blog
 ---
-{{ site.posts }}<br />
-{% assign publish_json = site.posts | json | replace: '=>', ':' %}{{ publish_json }}
+[
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% for post in site.posts %}{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}{% if post.title != null %}{% if posttime < nowunix %}
+  {
+  "title": "{{ post.title }}",
+  "date": "{{ post.date | date_to_string }}",
+  "content": "{{ post.content | escape }}",
+  "url": "{{ site.production_url }}{{ post.url }}",
+  "image": "{{ post.image }}"
+  }{% if forloop.last != true %},{% endif %}{% endif %}{% endif %}{% endfor %}
+]
