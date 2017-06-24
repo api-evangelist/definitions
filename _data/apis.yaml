@@ -20,6 +20,8 @@ apis:
     properties:
       - type: x-openapi
         url: http://definitions.apievangelist.com/apis/blogs/openapi.json
+      - type: x-atom
+        url: http://definitions.apievangelist.com/feeds/blogs/atom.xml
   - name: Curated API
     description: This is my simple API accessing stories I've curated as part of this research.
     image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-news-icon.png
@@ -30,6 +32,8 @@ apis:
     properties:
       - type: x-openapi
         url: http://definitions.apievangelist.com/apis/curated/openapi.json
+      - type: x-atom
+        url: http://definitions.apievangelist.com/feeds/news/atom.xml          
   - name: Organizations API
     description: This is my simple API for accessing the organizations that are part of this research.
     image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-organization.jpg
