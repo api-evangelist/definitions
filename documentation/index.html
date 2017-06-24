@@ -169,9 +169,9 @@ layout: default
       {% assign api_host = openapi_spec_json.host %}
       {% assign api_base = openapi_spec_json.basePath %}
 
-      <tr>
+      <!--<tr>
         <td align="center" colspan="5" style="padding: 10px;"><strong>base url:</strong> http://{{ api_host }}{{ api_base }}</td>
-      </tr>
+      </tr>-->
 
       <tr>
         <td colspan="5" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
@@ -215,7 +215,7 @@ layout: default
 
               <tr>
                 <td width="35%" style="padding-left: 20px; font-size: 14px;">{{ summary }}</td>
-                <td width="35%" style="font-size: 14px;">{{ path[0] }}</td>
+                <td width="35%" style="font-size: 14px;">http://{{ api_host }}{{ api_base }}{{ path[0] }}</td>
                 <td width="10%" align="center" style="padding: 1px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
                   {{ verb }}
                 </td>
