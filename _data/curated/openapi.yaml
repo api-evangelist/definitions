@@ -1,9 +1,9 @@
 Swagger: "2.0"
 info:
-  title: API Evangelist Products
-  description: These are the products offered by the API Evangelist
+  title: API Evangelist Curated
+  description: These are the items I have curated as part of my monitoring of the API space.
   version: 1.0.0
-host: apievangelist.com
+host: definitions.apievangelist.com
 basePath: /apis
 schemes:
   - http
@@ -12,47 +12,40 @@ produces:
 consumes:
   - application/json
 paths:
-  /products/:
+  /curated/:
     get:
-      summary: Get Products
-      description: Returns all the products.
+      summary: Get Curated
+      description: Returns all the curated items.
       responses:
         200:
           description: Successful Response
           schema:
             type: array
             items:
-              $ref: '#/definitions/products'
+              $ref: '#/definitions/curated'
       tags:
-        - Integrations
+        - Curated
+        - News
+        - Links
         - API
 definitions:
   product:
     properties:
-      view_sort:
-        description: A letter to sort in the UI.
+      curated_id:
+        description: The uniqud id for the curated item.
         type: string
-      name:
-        description: The name of the product.
+      item_date:
+        description: The data the item was curated.
         type: string
-      identifier:
-        description: A unique identiefer for the product.
+      title:
+        description: The title for the curated item.
         type: string
       url:
-        description: A URL to find more information about product.
+        description: A URL for the curated item.
         type: string
-      description:
-        description: A descripton of the product.
+      domain:
+        description: The domain for the curated item.
         type: string
       image:
-        description: An image representation for a product.
-        type: string
-      imagewidth:
-        description: An image width for the product.
-        type: integer
-      category:
-        description: A category for the product.
-        type: string
-      brand:
-        description: A brand associated with the product.
+        description: An image or screenshot for the curated item.
         type: string
