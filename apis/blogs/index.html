@@ -7,4 +7,4 @@ tag: Blog
 {% for post in site.posts %}
   {% assign blog = blog | push: post %}
 {% endfor %}
-{% assign show_json = blog | json | replace: '=>', ':' %}{{ show_json | strip_newlines | strip_html }}
+{% assign show_json = blog | json | replace: '=>', ':' %}{% assign show_json = show_json | strip_newlines | strip_html %}{{ show_json}}
