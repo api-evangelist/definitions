@@ -5,11 +5,8 @@ tag: Blog
 ---
 {% assign blog = "title|data|content|url|image" | split: "|" %}
 {% for post in site.posts %}
-  {% assign blog[forloop.index0].title = post.title %}
-  {% assign blog[forloop.index0].date = post.date %}
-  {% assign blog[forloop.index0].content = post.content %}
-  {% assign blog[forloop.index0].url = post.url %}
-  {% assign blog[forloop.index0].image = post.image %}
+  {% assign item = post.title | append: post.date | append: post.content | append: post.url | append: post.image | split: "|" %}
+  {% assign blog = blog | concat:item %}
 {% endfor %}
 
 {{ blog }}
