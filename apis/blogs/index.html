@@ -3,9 +3,9 @@ layout: none
 title: Blog
 tag: Blog
 ---
-{% assign blog = '' %}
+{% assign blog = "title|data|content|url|image" | split: "|" %}
 {% for post in site.posts %}
-  {% assign blog[forloop.index0].name = post.title %}
+  {% assign blog[forloop.index0].title = post.title %}
   {% assign blog[forloop.index0].date = post.date %}
   {% assign blog[forloop.index0].content = post.content %}
   {% assign blog[forloop.index0].url = post.url %}
