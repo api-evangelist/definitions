@@ -31,7 +31,7 @@ apis:
       - News
     properties:
       - type: x-openapi
-        url: http://definitions.apievangelist.com/apis/news/openapi.json
+        url: http://definitions.apievangelist.com/apis/curated/openapi.json
       - type: x-atom
         url: http://definitions.apievangelist.com/feeds/news/atom.xml
   - name: Organizations API
