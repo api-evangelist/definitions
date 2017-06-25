@@ -6,10 +6,10 @@ tag: Blog
 {% assign blog = '' | split: '' %}
 {% for post in site.posts %}
   {% assign item = '' | split: '' %}
-  {% assign item[forloop.index0].title = post.title %}
-  {% assign item[forloop.index0].date = post.date %}
-  {% assign item[forloop.index0].url = post.url %}
-  {% assign item[forloop.index0].image = post.image %}
+  {% assign item.title = post.title %}
+  {% assign item.date = post.date %}
+  {% assign item.url = post.url %}
+  {% assign item.image = post.image %}
   {% assign blog = blog | push: item %}
 {% endfor %}
 {% assign show_json = blog | json | replace: '=>', ':' %}{{ show_json }}
