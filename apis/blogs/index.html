@@ -6,5 +6,5 @@ tag: Blog
 {% assign blog = '' | split: '' %}
 {% for post in site.posts %}
   {% assign this_json = post | json %}
-  {{ this_json }}
+  {{ this_json | strip_html }}
 {% endfor %}
