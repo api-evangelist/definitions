@@ -1,6 +1,14 @@
 ---
 layout: none
-title: Building Blocks
-tag: Building Blocks
+title: Blog
+tag: Blog
 ---
-{% assign publish_json = site.data.building_blocks.index | json | replace: '=>', ':' %}{{ publish_json }}
+[{% for post in site.posts %}
+  {
+  "title": "{{ post.title }}",
+  "date": "{{ post.date | date_to_string }}",
+  "body": "{{ post.content | replace: '"','' | replace: "'","\'" | strip_html | escape | newline_to_br | strip_newlines }}",
+  "url": "{{ site.url }}",
+  "image": "{{ post.image }}"
+  }{% if forloop.last != true %},{% endif %}{% endfor %}
+]
