@@ -12,7 +12,7 @@ produces:
 consumes:
   - application/json
 paths:
-  /partners/:
+  /building-blocks/:
     get:
       summary: Get Building Blocks
       description: Returns all the building blocks for this research.
