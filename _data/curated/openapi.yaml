@@ -1,6 +1,6 @@
 Swagger: "2.0"
 info:
-  title: API Evangelist Curated
+  title: API Evangelist News
   description: These are the items I have curated as part of this research.
   version: 1.0.0
 host: definitions.apievangelist.com
@@ -12,21 +12,21 @@ produces:
 consumes:
   - application/json
 paths:
-  /curated/:
+  /news/:
     get:
-      summary: Get Curated
-      description: Returns all the curated items.
+      summary: Get News
+      description: Returns all the news items.
       responses:
         200:
           description: Successful Response
           schema:
             type: array
             items:
-              $ref: '#/definitions/curated'
+              $ref: '#/definitions/news'
       tags:
         - Curated
 definitions:
-  curated:
+  news:
     properties:
       curated_id:
         description: The uniqud id for the curated item.

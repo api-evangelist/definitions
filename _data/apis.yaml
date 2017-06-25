@@ -22,16 +22,16 @@ apis:
         url: http://definitions.apievangelist.com/apis/blogs/openapi.json
       - type: x-atom
         url: http://definitions.apievangelist.com/feeds/blogs/atom.xml
-  - name: Curated API
-    description: This is my simple API accessing stories I've curated as part of this research.
+  - name: News API
+    description: This is my simple API for accessing news stories I've curated as part of this research.
     image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-news-icon.png
     humanURL: http://definitions.apievangelist.com/
     baseURL: http://definitions.apievangelist.com/
     tags:
-      - Curated
+      - News
     properties:
       - type: x-openapi
-        url: http://definitions.apievangelist.com/apis/curated/openapi.json
+        url: http://definitions.apievangelist.com/apis/news/openapi.json
       - type: x-atom
         url: http://definitions.apievangelist.com/feeds/news/atom.xml
   - name: Organizations API
