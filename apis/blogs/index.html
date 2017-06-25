@@ -3,10 +3,10 @@ layout: none
 title: Blog
 tag: Blog
 ---
-{% assign blog = "title|data|content|url|image" | split: "|" %}
+{% assign blog = '' | split: '' %}
 {% for post in site.posts %}
   {% assign item = post.title | append: post.date | append: '|' | append: '|' | append: post.content | append: '|' | append: '|' | append: post.url | append: '|' | append: post.image | split: "|" %}
-  {% assign all = blog | concat:item %}
+  {% assign blog = blog | concat: item %}
 {% endfor %}
 
 all: {{ all }}
