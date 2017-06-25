@@ -7,7 +7,7 @@ tag: Blog
 {% capture newLine %}{% endcapture %}{
   "title": "{{ post.title }}",{% capture newLine %}{% endcapture %}
   "date": "{{ post.date | date_to_string }}",{% capture newLine %}{% endcapture %}
-  "content": "{{ post.content | replace: "'","\'" | strip_html | escape | url_escape }}",{% capture newLine %}{% endcapture %}
+  "content": "{{ post.content | replace: "'","\'" | strip_html | escape | url_escape | newline_to_br }}",{% capture newLine %}{% endcapture %}
   "url": "{{ site.url | replace: '/','\/' }}{{ post.url | replace: '/','\/' }}",{% capture newLine %}{% endcapture %}
   "image": "{{ post.image | replace: '/','\/' }}"{% capture newLine %}{% endcapture %}
   }{% if forloop.last != true %},{% endif %}{% endfor %}{% capture newLine %}{% endcapture %}
