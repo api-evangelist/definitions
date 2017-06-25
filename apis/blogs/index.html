@@ -5,7 +5,7 @@ tag: Blog
 ---
 {% assign blog = "title|data|content|url|image" | split: "|" %}
 {% for post in site.posts %}
-  {% assign item = post.title | append: post.date | append: post.content | append: post.url | append: post.image | split: "|" %}
+  {% assign item = post.title | append: post.date | append: '|' | append: '|' | append: post.content | append: '|' | append: '|' | append: post.url | append: '|' | append: post.image | split: "|" %}
   {% assign blog = blog | concat:item %}
 {% endfor %}
 
