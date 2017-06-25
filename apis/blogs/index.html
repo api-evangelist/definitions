@@ -3,11 +3,5 @@ layout: none
 title: Blog
 tag: Blog
 ---
-{% assign blog = '' | split: '' %}
-{% for post in site.posts %}
-  {% assign item = post.title | append: post.date | append: '|' | append: '|' | append: '|' | append: post.url | append: '|' | append: post.image | split: "|" %}
-  item: {{ item }}<br />
-  {% assign blog = blog | push: item %}
-{% endfor %}
-
-show all blog 2: {{ blog }}
+{% assign blog = '' | split: '' %}{% for post in site.posts %}{% assign item = post.title | append: post.date | append: '|' | append: '|' | append: '|' | append: post.url | append: '|' | append: post.image | split: "|" %}{% assign blog = blog | push: item %}{% endfor %}
+{% assign show_json = blog | json | replace: '=>', ':' %}{{ show_json }}
