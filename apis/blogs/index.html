@@ -5,11 +5,6 @@ tag: Blog
 ---
 {% assign blog = '' | split: '' %}
 {% for post in site.posts %}
-  {% assign item = '' | split: '' %}
-  {% assign item.title = post.title %}
-  {% assign item.date = post.date %}
-  {% assign item.url = post.url %}
-  {% assign item.image = post.image %}
-  {% assign blog = blog | push: item %}
+  {% assign blog = blog | push: post %}
 {% endfor %}
 {% assign show_json = blog | json | replace: '=>', ':' %}{{ show_json }}
