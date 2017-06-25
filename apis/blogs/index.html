@@ -7,7 +7,7 @@ tag: Blog
 {% for post in site.posts %}
   {% assign item = post.title | append: post.date | append: '|' | append: '|' | append: '|' | append: post.url | append: '|' | append: post.image | split: "|" %}
   item: {{ item }}<br />
-  {% assign blog = blog | concat: item %}
+  {% assign blog = blog | push: item %}
 {% endfor %}
 
-show all blog 1: {{ blog }}
+show all blog 2: {{ blog }}
