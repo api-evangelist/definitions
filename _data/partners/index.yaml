@@ -22,7 +22,7 @@
     https://s3.amazonaws.com/kinlane-productions/runscope/logo-runscope-color.png
   type: Sponsor
   banner_url: >-
-    https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png
+    https://s3.amazonaws.com/kinlane-productions/runscope/runscope-200ok.png
   tags: 'API Evangelist,Definitions'
 - view_sort: D
   name: Restlet
@@ -35,19 +35,6 @@
   type: Sponsor
   banner_url: >-
     https://s3.amazonaws.com/kinlane-productions/api-evangelist/restlet/supported-by-restlet.png
-  tags: 'API Evangelist,Definitions'
-- view_sort: E
-  name: Dreamfactory
-  identifier: dreamfactory
-  url: 'http://apis.how/bgdteovduo'
-  description: >-
-    DreamFactory Software develops and markets a technology that enables
-    developers to connect modern mobile applications to enterprise back-end
-    infrastructure in the cloud.
-  image: 'https://s3.amazonaws.com/kinlane-productions/partners/dreamfactory-logo.png'
-  type: Sponsor
-  banner_url: >-
-    https://s3.amazonaws.com/kinlane-productions/api-evangelist/dreamfactory/dreamfactory-banner-turn-any-database-into-api.png
   tags: 'API Evangelist,Definitions'
 - view_sort: C
   name: Tyk

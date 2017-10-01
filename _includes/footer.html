@@ -1,9 +1,36 @@
 <footer>
   <p align="center">
     {% assign partners = site.data.sponsors.index %}
-    {% assign partners = partners | sample %}
-    <a href="{{ partners.url }}" target="_blank">
-      <img src="{{ partners.banner_url }}" width="50%" style="padding-top: 10px; border: 1px solid #000;"" />
+
+    {% assign banner_list = '' %}
+    {% for partner in partners %}
+			{% assign banner = partner.banner_url %}
+			{% if banner_list contains banner %}
+			{% else %}
+				{% if banner_list != '' %}
+					{% assign banner_list = banner_list | append:',' %}
+				{% endif %}
+				{% assign banner_list = banner_list | append: banner %}
+			{% endif %}
+		{% endfor %}
+		{% assign bannerArray = banner_list | split: "," %}
+    {% assign partners = bannerArray | sample %}
+
+    <!-- hardcode link, so sample works--->
+    {% if partners == 'https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png' %}
+      {% assign partner_link = 'http://apis.how/ake3nxbapm' %}
+    {% endif %}
+    {% if partners == 'https://s3.amazonaws.com/kinlane-productions/runscope/runscope-200ok.png' %}
+      {% assign partner_link = 'http://apis.how/8nlsropidv' %}
+    {% endif %}
+    {% if partners == 'https://s3.amazonaws.com/kinlane-productions/api-evangelist/restlet/supported-by-restlet.png' %}
+      {% assign partner_link = 'http://apis.how/5ytnitnakm' %}
+    {% endif %}
+    {% if partners == 'https://s3.amazonaws.com/kinlane-productions/tyk/tyk_banner_motion-468x60.gif' %}
+      {% assign partner_link = 'http://apis.how/FrX5R2' %}
+    {% endif %}
+    <a href="{{ partner_link }}" target="_blank">
+      <img src="{{ partners }}" width="75%" style="padding-top: 10px; border: 0px solid ###;" />
     </a>
   </p>
   <p align="center">
