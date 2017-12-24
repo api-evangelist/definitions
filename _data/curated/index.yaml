@@ -798,12 +798,6 @@
   url: http://www.computerweekly.com/news/450299011/Rapid7-discloses-remote-code-execution-flaw-in-Swagger
   domain: www.computerweekly.com
   image: ""
-- curated_id: 3c9f85d64b21866984d6b21c26f7cbef
-  item_date: "2016-07-01 00:00:00"
-  title: What are your thoughts on FHIR?
-  url: https://www.reddit.com/r/healthIT/comments/4qs5w4/what_are_your_thoughts_on_fhir/t1_d4vntfg
-  domain: www.reddit.com
-  image: ""
 - curated_id: c09ff876ae3c5e17b71940d00387bc18
   item_date: "2016-07-01 00:00:00"
   title: HTTP-RPC 3.0 Released [Announcement]
@@ -815,6 +809,12 @@
   title: Using Google Tag Manager to Dynamically Generate Schema/JSON-LD Tags
   url: https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags
   domain: moz.com
+  image: ""
+- curated_id: 3c9f85d64b21866984d6b21c26f7cbef
+  item_date: "2016-07-01 00:00:00"
+  title: What are your thoughts on FHIR?
+  url: https://www.reddit.com/r/healthIT/comments/4qs5w4/what_are_your_thoughts_on_fhir/t1_d4vntfg
+  domain: www.reddit.com
   image: ""
 - curated_id: 3c0b9203d6b1c4712f09fc6994114ab4
   item_date: "2016-07-03 00:00:00"
@@ -2305,6 +2305,24 @@
   title: JSON Schema Markdown Tool
   url: https://medium.com/p/3a58e57c0bde
   domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16030ec56e0:302fd3:9e976e77
+  item_date: "2017-12-06 17:57:10"
+  title: "Xero\u2019s OpenAPI story"
+  url: https://medium.com/p/3a3dd2bf2626
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_1603627bf78:d77e81:7157a206
+  item_date: "2017-12-07 14:39:08"
+  title: Launching an Instance from a Launch Template
+  url: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-templates.html
+  domain: docs.aws.amazon.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_16036078e3e:d84c6b:3c0bb656
+  item_date: "2017-12-08 02:01:01"
+  title: MuleSoft With OpenAPI Specification
+  url: https://dzone.com/articles/1809513
+  domain: dzone.com
   image: ""
 - curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1603b1af7d5:7ede91:e66afc8b
   item_date: "2017-12-09 02:45:02"
