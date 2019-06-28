@@ -448,3 +448,453 @@
     apis: []
     links: []
     tools: []
+- category_name: Formats
+  building_blocks:
+  - building_block_id: "2216"
+    building_block_category_id: "309"
+    name: Web Concepts
+    about: APIs are built on the web, and there are numerous web concepts in play
+      that should be considered as part of the API design process.
+    category_id: "309"
+    category: Formats
+    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
+      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
+      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
+      descriptions, and a variety of media types for common definitions.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1894"
+    building_block_category_id: "309"
+    name: Media Types
+    about: A media type (also MIME type and content type) is a two-part identifier
+      for file formats and format contents transmitted on the Internet. The Internet
+      Assigned Numbers Authority (IANA) is the official authority for the standardization
+      and publication of these classifications.
+    category_id: "309"
+    category: Formats
+    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
+      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
+      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
+      descriptions, and a variety of media types for common definitions.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1000"
+    building_block_category_id: "309"
+    name: Specification
+    about: The root specification for the API definition format, providing a base
+      set of rules for all services and tools that employ the spec.
+    category_id: "309"
+    category: Formats
+    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
+      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
+      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
+      descriptions, and a variety of media types for common definitions.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+    image_width: "1"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "990"
+    building_block_category_id: "309"
+    name: Schema
+    about: 'A representation of data model, used as part of an API request, or response,
+      usually in JSON, but increasingly YAML, and Markdown are also used. '
+    category_id: "309"
+    category: Formats
+    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
+      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
+      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
+      descriptions, and a variety of media types for common definitions.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+    image_width: "100"
+    sort_order: "4"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+- category_name: Tooling
+  building_blocks:
+  - building_block_id: "988"
+    building_block_category_id: "165"
+    name: Generator
+    about: Generating an API definition format from an existing system or platform,
+      outputting the portable machine readable format.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-generate.png
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "989"
+    building_block_category_id: "165"
+    name: Parser
+    about: Parses a machine readable API definition and makes ready for use in specific
+      language, structure, or platform.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-parse.png
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "991"
+    building_block_category_id: "165"
+    name: Validator
+    about: Validates an API definition against its formal specification and schema,
+      producing a valid or invalid response, with as much detail as possible.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-valid.png
+    image_width: "100"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "987"
+    building_block_category_id: "165"
+    name: Converter
+    about: The conversion of an API definition from one format into another, allowing
+      designers to share API definitions in any format.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-conversion.png
+    image_width: "100"
+    sort_order: "4"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "994"
+    building_block_category_id: "165"
+    name: Command-Line
+    about: The usage of machine readable API definitions at the command line.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+    image_width: "100"
+    sort_order: "5"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "995"
+    building_block_category_id: "165"
+    name: Powershell
+    about: The usage of machine readable API definitions via the powershell interface.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+    image_width: "100"
+    sort_order: "6"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "997"
+    building_block_category_id: "165"
+    name: Aggregator
+    about: Aggregation of APIs using a machine readable API definition format.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-arrow-aggregate.png
+    image_width: "100"
+    sort_order: "7"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1604"
+    building_block_category_id: "165"
+    name: Translator
+    about: Being able to translate an API definition format from one format to another,
+      either manually or automatically.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: ""
+    image_width: "100"
+    sort_order: "8"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1745"
+    building_block_category_id: "165"
+    name: Merging
+    about: Tooling or other APIs that provide for the merging of common API definition
+      formats, allowing the granularity of what elements get merged, or do not get
+      merged. Ideally, this is an API, as well as simple web-based or desktop tooling
+      for API providers and consumers.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: ""
+    image_width: "100"
+    sort_order: "9"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1746"
+    building_block_category_id: "165"
+    name: Diff
+    about: Providing side by side comparison of two API definitions, programmatically
+      and visually helping identify between two API definitions. This allows for API
+      architects, designers, and consumers to understand the completeness of two definitions,
+      in relation to each other.
+    category_id: "165"
+    category: Tooling
+    category_about: Tooling for working with API definitions, allowing them to be
+      more easily worked with throughout the API lifecycle--providing some common
+      tooling patterns across formats.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+    category_hex: '#6CBE45'
+    image: ""
+    image_width: "100"
+    sort_order: "10"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+- category_name: Environment
+  building_blocks:
+  - building_block_id: "1001"
+    building_block_category_id: "310"
+    name: Editors
+    about: API definition editor, allowing for the creation, import, and export of
+      API definition formats, providing a simple, IDE like API editing experience.
+    category_id: "310"
+    category: Environment
+    category_about: The environment where API definitions are worked with, whether
+      existing IDEs, cloud services, or possibly no environment at all in text editors.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1002"
+    building_block_category_id: "310"
+    name: IDE Plugin
+    about: Providing integration with existing integrated development environments
+      (IDE), giving developers API discovery, documentation, and integration tooling
+      within the IDE.
+    category_id: "310"
+    category: Environment
+    category_about: The environment where API definitions are worked with, whether
+      existing IDEs, cloud services, or possibly no environment at all in text editors.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "1004"
+    building_block_category_id: "310"
+    name: Forms
+    about: Dynamically generating an HTML form from an API definition, allow for the
+      structure, and handling to be driven by an API definition.
+    category_id: "310"
+    category: Environment
+    category_about: The environment where API definitions are worked with, whether
+      existing IDEs, cloud services, or possibly no environment at all in text editors.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png
+    image_width: "100"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "2217"
+    building_block_category_id: "310"
+    name: GIthub
+    about: Allowing for the import, publishing, and syncing of API definitions and
+      schemas to Github for forking, and management using the social coding platform.
+    category_id: "310"
+    category: Environment
+    category_about: The environment where API definitions are worked with, whether
+      existing IDEs, cloud services, or possibly no environment at all in text editors.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "4"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+- category_name: Backend
+  building_blocks:
+  - building_block_id: "1008"
+    building_block_category_id: "311"
+    name: Database
+    about: Tooling that generates an API definition format from a database connection,
+      allowing for API integration with common database formats
+    category_id: "311"
+    category: Backend
+    category_about: The behind the scenes infrastructure that is often used to define
+      how APIs will be designed by providing auto-generation features using popular
+      API definition formats.
+    category_image: ~
+    category_hex: ~
+    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-database-new.png
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "2220"
+    building_block_category_id: "311"
+    name: Files
+    about: Mount file stores and generate API definitions and schemas from the file
+      store structure.
+    category_id: "311"
+    category: Backend
+    category_about: The behind the scenes infrastructure that is often used to define
+      how APIs will be designed by providing auto-generation features using popular
+      API definition formats.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+- category_name: Other
+  building_blocks:
+  - building_block_id: "1744"
+    building_block_category_id: "312"
+    name: Attribution
+    about: Where did the API definition originate? Is there a source where all or
+      part of the API design came from? Providing design, or operational attribution,
+      done via one of the API definitions.
+    category_id: "312"
+    category: Other
+    category_about: The linking available within API definition files, allowing for
+      the referencing of key elements of the API lifecycle.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "1"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "2219"
+    building_block_category_id: "312"
+    name: Annotation
+    about: Allowing for the annotation of API definitions, schemas, as part of the
+      API life cycle.
+    category_id: "312"
+    category: Other
+    category_about: The linking available within API definition files, allowing for
+      the referencing of key elements of the API lifecycle.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "2"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+  - building_block_id: "2218"
+    building_block_category_id: "312"
+    name: Proxy
+    about: Allowing for the proxying of API requests and responses using tools like
+      Charles Proxy, or Prism from Stoplight, and generating of API definitions and
+      schemas from the traffic.
+    category_id: "312"
+    category: Other
+    category_about: The linking available within API definition files, allowing for
+      the referencing of key elements of the API lifecycle.
+    category_image: ~
+    category_hex: ~
+    image: ""
+    image_width: "100"
+    sort_order: "3"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
