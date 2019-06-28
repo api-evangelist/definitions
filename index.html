@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API Evangelist - Definitions
+title: API Evangelist - Design
 ---
 
 <!-- Main -->
@@ -10,48 +10,25 @@ title: API Evangelist - Definitions
 		<header>
 			<h2>{{ home_content.title }}</h2>
 		</header>
-		<img src="{{ home_content.image }}" alt="" width="45%" align="right" />
+		<img src="{{ home_content.image }}" alt="API Evangelist" align="right" width="250" style="padding: 15px;" />
 		{{ home_content.content }}
 	</div>
 </section>
 
 <!-- Partners -->
-<a name="Partners"></a>
 <section>
 	<div class="features">
-		{% assign partners = site.data.partners.index | sort: 'view_sort' %}
-    {% for partner in partners %}
-      {% if partner.type == 'Sponsor' %}
-			<article>
-				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
-					<p>{{ partner.description }}</p>
-				</div>
-			</article>
-      {% endif %}
-    {% endfor %}
+	  {% assign partners = site.data.partners.index | sort: 'view_sort' %}
+	  {% for partner in partners %}
+	    {% if partner.type == 'Sponsor' %}
+	    <article>
+	      <div class="content">
+	        <p align="center"><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px; border: 1px solid #000;" /></a></p>
+	      </div>
+	    </article>
+	    {% endif %}
+	  {% endfor %}
 	</div>
-</section>
-
-<!-- Guide -->
-<a name="Guide"></a>
-<section id="banner">
-	<div class="content">
-		<header>
-			<h2>API Definition Industry Guide</h2>
-		</header>
-	  <p>I keep an eye on over 70 areas of the API sector, trying to better understand how API providers are getting things done, and what services and tooling they are using, while also keeping my perspective as an API consumer--observing everything from the outside-in. The most important area of my research is <a href="http://definitions.apievangelist.com">API definitions</a>--where I pay attention to the specifications, schema, scopes, and other building blocks of the API universe.&nbsp;</p>
-	  <p>The way my research works&nbsp;is that I keep an eye on the world of APIs through monitoring the social media, blogs, Github, and other channels of companies, organizations, institutions, and agencies doing interesting things with APIs. I curate information as I discover&nbsp;and learn across the API sector, then I craft stories for my blog(s). Eventually, all of this ends up being published <a href="http://apievangelist.com/blog/">to the main API Evangelist blog</a>, as well as <a href="http://apievangelist.com/">the 70+ individual areas of my research from definition to deprecation</a>.&nbsp;</p>
-	  <p>I am versioning and managing all of my API industry guides using the Github repositories in which I publish each of my research areas, so you can comment on the API definition guide, and <a href="https://github.com/api-evangelist/definitions/issues">submit suggestions for future editions using the Github issues for the project.</a>&nbsp;My goal with this new edition of the API Evangelist API definition guide is to make it a community guide to the world of API definitions, schema, scopes.</p>
-		<ul class="actions" style="text-align: center;">
-			<li><a href="https://gum.co/Wlwnk" class="button big" target="_blank">Purchase Guide</a></li>
-		</ul>
-
-	</div>
-	<span class="image object">
-		<a href="https://gum.co/Wlwnk" target="_blank"><img src="/images/api-definitions-2017-03.png" alt="" width="25%" /></a>
-	</span>
 </section>
 
 <!-- Blog Feature -->
@@ -60,7 +37,7 @@ title: API Evangelist - Definitions
 	<section id="banner">
 		<div class="content">
 			<header>
-				<h2>Latest From Blog on API Definitions: {{ post.title }}</h2>
+				<h2>Latest From Blog on API Design: {{ post.title }}</h2>
 				<p><em>{{ post.date | date_to_string }}</em></p>
 			</header>
 			{{ post.content }}
@@ -74,7 +51,8 @@ title: API Evangelist - Definitions
 <!-- News -->
 <a name="News"></a>
 {% assign news_content = site.data.news_content.index[0] %}
-{% assign news = site.data.curated.index | sort:"item_date" | reverse %}
+{% assign news = site.data.curated.index %}
+{% assign news = news | sort: 'item_date' | reverse %}
 <section>
 	<header>
 		<h2>{{ news_content.title }}</h2>
@@ -122,12 +100,12 @@ title: API Evangelist - Definitions
 		{% assign organizations = site.data.organizations.index %}
     {% for organization in organizations %}
 			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.image }}" width="175" align="center" /></a></p>
+				<p><a href="{{ organization.website }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.logo }}" width="175" align="center" /></a></p>
 				<div class="content">
-					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
-					<p>{{ organization.description }}</p>
+					<h3><a href="{{ organization.website }}" target="_blank">{{ organization.name }}</a></h3>
+					<p>{{ organization.summary }}</p>
 					<ul class="icons">
-						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+						<li><a href="{{ organization.website }}" class="icon fa-home"><span class="label">Home</span></a></li>
 						{% if organization.twitter != '' %}
 						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						{% endif %}
@@ -144,18 +122,18 @@ title: API Evangelist - Definitions
 				</div>
 			</article>
     {% endfor %}
-		<p>{{ organization_content.footer }}</p>
 		<center>
 			<ul class="actions" style="text-align: center;">
-				<li><a href="/organizations/" class="button big">See All Organizaitons</a></li>
+				<li><a href="/organizations/" class="button big">See All Organizations</a></li>
 			</ul>
 		</center>
+		<p>{{ organization_content.footer }}</p>
 	</div>
 </section>
 
 <!-- Tools -->
 <a name="Tools"></a>
-{% assign approved_tags = 'API Specification,Data Specifications,Semantics,Schema,Hypermedia, Discovery,Data Policy,Encryption,Viewers,Connectors,Clients,Proxy' %}
+{% assign approved_tags = 'API Specification,Generator,Validator,API Design Guide,Data Specification,Design Editor,Design Notebook,Hypermedia,IDE,Semantics,gRPC' %}
 {% assign tool_content = site.data.tool_content.index[0] %}
 <section>
 	<header>
@@ -165,34 +143,31 @@ title: API Evangelist - Definitions
 		{% assign tools = site.data.tools.index %}
 		{% assign tagslist = '' %}
 		{% for tool in tools %}
-			{% assign tags = tool.tags %}
-			{% assign tagArray = tags | split: "," %}
-			{% for tag in tagArray %}
-				{% assign tag = tag | strip %}
-				{% if approved_tags contains tag %}
-					{% if tagslist contains tag %}
-					{% else %}
-						{% if tagslist != '' %}
-							{% assign tagslist = tagslist | append:',' %}
-						{% endif %}
-						{% assign tagslist = tagslist | append: tag %}
+			{% for tag in tool.tags %}
+				{% if tagslist contains tag %}
+				{% else %}
+					{% if tagslist != '' %}
+						{% assign tagslist = tagslist | append:',' %}
 					{% endif %}
+					{% assign tagslist = tagslist | append: tag %}
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
+
 		{% assign tagArray = tagslist | split: "," %}
 		{% assign tagArray = tagArray | sort: %}
 
 		{% for tag in tagArray %}
-			<h3>{{ tag }} ,</h3>
+			{% assign tag = tag | replace: '"','' | replace: '[','' | replace: ']','' %}
+			<h3>{{ tag }}</h3>
 			<div class="features">
 				{% for tool in tools %}
 					{% if tool.tags contains tag %}
 		        <article>
-		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.image }}" width="150" style="padding: 15px;" align="center" valign="top" /></a></p>
+		          <p><a href="{{ tool.url }}" target="_blank"><img src="{{ tool.logo }}" width="150" style="padding: 15px;" align="center" valign="top" /></a></p>
 		          <div class="content">
 		            <h3><a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a></h3>
-		            <p>{{ tool.description }}</p>
+		            <p>{{ tool.details }}</p>
 								<ul class="icons">
 									<li><a href="{{ tool.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
 									{% if tool.twitter != '' %}
@@ -224,17 +199,6 @@ title: API Evangelist - Definitions
 <a name="BuildingBlocks"></a>
 {% assign building_block_content = site.data.building_block_content.index[0] %}
 {% assign building_blocks = site.data.building_blocks.index %}
-{% assign categorylist = '' %}
-{% for block in building_blocks %}
-	{% assign category = block.category %}
-	{% if categorylist contains category %}
-	{% else %}
-		{% if categorylist != '' %}
-			{% assign categorylist = categorylist | append:',' %}
-		{% endif %}
-		{% assign categorylist = categorylist | append: category %}
-	{% endif %}
-{% endfor %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -242,14 +206,13 @@ title: API Evangelist - Definitions
 			<p>{{ building_block_content.header }}</p>
 		</header>
 		<ul style="padding: 0px 25px 0px 25px;">
-			{% assign categoryArray = categorylist | split: "," %}
-			{% for category in categoryArray %}
+			{% for category in building_blocks %}
 				<li>
-					<span style="font-size: 18px; font-weight: bold;">{{ category }}</span>
+					<span style="font-size: 18px; font-weight: bold;">{{ category.category_name }}</span>
 					<ul style="margin-top: 10px;">
-						{% for block in building_blocks %}
-							{% if block.category == category %}
-							<li><strong>{{ block.name }}</strong> - {{ block.description }}</li>
+						{% for block in category.building_blocks %}
+							{% if block.category == category.category_name %}
+							<li><strong>{{ block.name }}</strong> - {{ block.about }}</li>
 							{% endif %}
 						{% endfor %}
 					</ul>
@@ -276,6 +239,22 @@ title: API Evangelist - Definitions
 		{{ about_content.content }}
 	</div>
 	<span class="image object">
-		<img src="{{ about_content.image }}" alt="" width="25%" />
+		<img src="{{ about_content.image }}" alt="" width="5%" style="padding: 15px;" />
 	</span>
+</section>
+
+<!-- Partners -->
+<section>
+	<div class="features">
+	  {% assign partners = site.data.partners.index | sort: 'view_sort' %}
+	  {% for partner in partners %}
+	    {% if partner.type == 'Sponsor' %}
+	    <article>
+	      <div class="content">
+	        <p align="center"><a href="{{ partner.url }}" target="_blank"><img src="{{ partner.image }}" width="75%" style="padding: 15px; border: 1px solid #000;" /></a></p>
+	      </div>
+	    </article>
+	    {% endif %}
+	  {% endfor %}
+	</div>
 </section>
