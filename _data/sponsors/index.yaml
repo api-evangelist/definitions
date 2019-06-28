@@ -1,20 +1,19 @@
 
 - view_sort: A
-  name: Uptrends
-  identifier: uptrends
-  url:  https://www.uptrends.com/solutions/api-monitoring
-  description: Uptrends is the ultimate monitoring tool to stay in control of the uptime, performance, and functionality of your websites, APIs, and servers.
-  image: https://s3.amazonaws.com/kinlane-productions/uptrends/apievangelist-uptrends.png
+  name: Postman
+  identifier: postman
+  url: https://www.getpostman.com/
+  description: Manage all of your organization's APIs in Postman, with the industry's most complete API development environment.
+  image: https://apievangelist.com/images/postman-logo.png
   type: Sponsor
-  banner_url: https://s3.amazonaws.com/kinlane-productions/uptrends/apievangelist-uptrends.png
-  tags: 'API Monitoring'
+  banner_url: https://apievangelist.com/images/banner.png
+  tags: 'Development'
 - view_sort: B
-  name: 3Scale
-  identifier: 3scale
-  url: http://apis.how/ake3nxbapm
-  description: 3scale makes it easy to open, secure, distribute, control and monetize APIs, that is built with performance, customer control and excellent time-to-value in
-    mind.
-  image: https://s3.amazonaws.com/kinlane-productions/partners/3scale-red-hat-logo.png
+  name: Tyk
+  identifier: tyk
+  url: https://tyk.io/
+  description: Tyk is an open source API Gateway that is fast, scalable and modern.
+  image: https://apievangelist.com/images/tyk-logo.png
   type: Sponsor
-  banner_url: https://s3.amazonaws.com/kinlane-productions/streamdata/streamdata-horizontal-2.png
-  tags: 'API Evangelist,Management'
+  banner_url: https://apievangelist.com/images/banner.png
+  tags: 'API Management'
